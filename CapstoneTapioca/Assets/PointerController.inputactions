@@ -1,0 +1,46 @@
+{
+    "version": 1,
+    "name": "PointerController",
+    "maps": [
+        {
+            "name": "Click",
+            "id": "d67ff6c1-1d7b-4021-a9e5-c34d5dc0f044",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "48fa87f7-ad41-4a7b-9730-f5304a95191d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3fcbc0a5-b033-410a-9e9e-e02c99f6d130",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "12377a06-c3da-43f5-8b38-a172f473b882",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

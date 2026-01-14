@@ -1,0 +1,1 @@
+sorry my dialogue hasn't been implemented either (actually idk if its been written yet) :((((
