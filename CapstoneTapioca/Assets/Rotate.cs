@@ -12,14 +12,14 @@ public class Rotate : MonoBehaviour
 
     int PossibleRots = 1;
 
-    //ManagePipes gameManager;
+    ManagePipes managePipes;
 
-    //private void Awake()
-    //{
-    //    gameManager = GameObject.Find("ManagePipes").GetComponent<ManagePipes>();
-    //}
+    private void Awake()
+    {
+        managePipes = GameObject.Find("ManagePipes").GetComponent<ManagePipes>();
+    }
 
-    // Start is called before the first frame update
+    //Start is called before the first frame update
     void Start()
     {
         PossibleRots = correctRotation.Length;
@@ -31,7 +31,7 @@ public class Rotate : MonoBehaviour
             if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1])
             {
                 isPlaced = true;
-                //gameManager.correctMove();
+                managePipes.correctMove();
             }
         }
         else
@@ -39,7 +39,7 @@ public class Rotate : MonoBehaviour
             if (transform.eulerAngles.z == correctRotation[0])
             {
                 isPlaced = true;
-                //gameManager.correctMove();
+                managePipes.correctMove();
             }
         }
         
@@ -53,12 +53,12 @@ public class Rotate : MonoBehaviour
             if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1] && isPlaced == false)
             {
                 isPlaced = true;
-                //gameManager.correctMove();
+                managePipes.correctMove();
             }
             else if (isPlaced == true)
             {
                 isPlaced = false;
-                //gameManager.wrongMove();
+                managePipes.wrongMove();
             }
         }
         else
@@ -66,12 +66,12 @@ public class Rotate : MonoBehaviour
             if (transform.eulerAngles.z == correctRotation[0] && isPlaced == false)
             {
                 isPlaced = true;
-                //gameManager.correctMove();
+                managePipes.correctMove();
             }
             else if (isPlaced == true)
             {
                 isPlaced = false;
-                //gameManager.wrongMove();
+                managePipes.wrongMove();
             }
         }
     }

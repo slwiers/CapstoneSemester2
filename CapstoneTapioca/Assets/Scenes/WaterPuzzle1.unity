@@ -2318,7 +2318,7 @@ GameObject:
   - component: {fileID: 1832853512}
   - component: {fileID: 1832853511}
   m_Layer: 0
-  m_Name: Game Manager
+  m_Name: ManagePipes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
