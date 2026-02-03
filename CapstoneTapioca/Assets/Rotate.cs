@@ -42,7 +42,12 @@ public class Rotate : MonoBehaviour
                 managePipes.correctMove();
             }
         }
-        
+
+        if (PossibleRots > 3)
+        {
+                isPlaced = true;
+                managePipes.correctMove();
+        }
     }
 
     private void OnMouseDown()
@@ -73,6 +78,11 @@ public class Rotate : MonoBehaviour
                 isPlaced = false;
                 managePipes.wrongMove();
             }
+        }
+        if(PossibleRots > 3)
+        {
+                isPlaced = true;
+                managePipes.correctMove();
         }
     }
 }

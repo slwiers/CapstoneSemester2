@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ACRoom8.unity
     guid: 5de66ea471b733845ad0fc3f1d5e0b04
+  - enabled: 1
+    path: Assets/Scenes/WaterPuzzle1.unity
+    guid: 2ee62e406c6d5cd41b6534373ee6d95c
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0326319b33f47834f965bce45c712fad, type: 2}
