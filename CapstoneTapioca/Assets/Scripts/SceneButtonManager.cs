@@ -15,7 +15,7 @@ public class SceneButtonManager : MonoBehaviour
     public void GoToCafeScene()       => LoadSceneSafe("CafeteriaRoom6");
     public void GoToCourtyardScene()  => LoadSceneSafe("CourtyardRoom4");
     public void GoToDamScene()        => LoadSceneSafe("DamBeachRoom3");
-    public void GoToGameplayScene()   => LoadSceneSafe("Gameplay");
+    public void GoToGameplayScene()   => LoadSceneSafe("WaterPuzzle1");
 
    
     void LoadSceneSafe(string sceneName)
