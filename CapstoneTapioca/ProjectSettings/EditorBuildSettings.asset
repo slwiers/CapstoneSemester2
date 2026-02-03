@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WaterPuzzle1.unity
     guid: 2ee62e406c6d5cd41b6534373ee6d95c
+  - enabled: 0
+    path: Assets/LevelGenerator/Generator.unity
+    guid: 15459e7cd063e1647b368d258ecace7b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 0326319b33f47834f965bce45c712fad, type: 2}
