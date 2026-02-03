@@ -1135,6 +1135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: End Pipe
       objectReference: {fileID: 0}
+    - target: {fileID: 8059549041046020056, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8315293954869606005, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.5
