@@ -819,7 +819,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491204210}
         m_TargetAssemblyTypeName: SceneButtonManager, Assembly-CSharp
-        m_MethodName: GoToCourtyardScene
+        m_MethodName: GoToServerScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7354,7 +7354,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 491204210}
         m_TargetAssemblyTypeName: SceneButtonManager, Assembly-CSharp
-        m_MethodName: GoToSecurityScene
+        m_MethodName: GoToCourtyardScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
