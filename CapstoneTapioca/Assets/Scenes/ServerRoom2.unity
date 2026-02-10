@@ -121187,6 +121187,66 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 4741c575609c6db41bce1407ebc31fee, type: 3}
     inkKey: pose
     inkValue: 9
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 56d1802392003e54cbbc8b2654726aa6, type: 3}
+    inkKey: pose
+    inkValue: 10
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: dcc0074583b6ca74b840d4e50204a6f4, type: 3}
+    inkKey: pose
+    inkValue: 11
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 2a79176b1d600b547a21dd5e571bcd70, type: 3}
+    inkKey: pose
+    inkValue: 12
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 8d3b7b99c9350554f94ef8d970cd0398, type: 3}
+    inkKey: pose
+    inkValue: 13
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: bb76a96b01a0e624fbc38dbf7bac29dc, type: 3}
+    inkKey: pose
+    inkValue: 14
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 4b5cbf3aebf2f17489d52bba3f49dcf4, type: 3}
+    inkKey: pose
+    inkValue: 15
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 7f83cb91bb759e84f878bde768ebb3e7, type: 3}
+    inkKey: pose
+    inkValue: 16
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 82c6f3087be1376438df96669fb3d123, type: 3}
+    inkKey: pose
+    inkValue: 17
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 33389dda0dc38744bbc3780bdf61f3a1, type: 3}
+    inkKey: pose
+    inkValue: 18
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: f35a77aceb1aa3646b1c99556e72ba24, type: 3}
+    inkKey: pose
+    inkValue: 19
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 4f0365a8a1c981e44aff38ad38fe8744, type: 3}
+    inkKey: pose
+    inkValue: 20
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: b4eed05261e73884ab66a0c67b6c1b42, type: 3}
+    inkKey: pose
+    inkValue: 21
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: c909fbfe86aa43a4db92017f1e660313, type: 3}
+    inkKey: pose
+    inkValue: 22
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 1fac059d128021a419823b9bc61e7dc2, type: 3}
+    inkKey: pose
+    inkValue: 23
+  - unityTag: pose
+    sprite: {fileID: 21300000, guid: 2ed4dd365f60f2149aa47814e406c6c6, type: 3}
+    inkKey: pose
+    inkValue: 24
   dialoguePanel: {fileID: 185368956}
   dialoguetext: {fileID: 702646338}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
