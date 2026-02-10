@@ -1,12 +1,12 @@
-sorry my dialogue hasn't been implemented yet :( #V9pose:111
-*okay #pose:1
+sorry my dialogue hasn't been implemented yet :( #pose: 5
+*okay #pose: 3
 ->Okay 
-*alright I guess #V1pose:1
+*alright I guess #pose: 2
 ->alright
 
 ===Okay===
-okay #V1pose:1
+okay #pose:4
 ->END
 ===alright===
-bruh #V2pose:6
+bruh #pose:6
 ->END
