@@ -17326,7 +17326,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1534811975
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21046,7 +21046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc16702cd54a7c44ae683e1a13c85bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: bc3ed3c5b70a90149849572bcf51b811, type: 3}
+  CharacterName: Vale
   activateTarget: {fileID: 1932226729}
   setActive: 1
   onClicked:

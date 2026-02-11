@@ -8,14 +8,15 @@ using UnityEngine.Events;
 public class DialogueTrigger : MonoBehaviour, IPointerClickHandler
 {
 
-    [Header("Ink JSON")]
-    [SerializeField] private TextAsset inkJSON;
+    [Header("Character")]
+    [SerializeField] private string CharacterName;
 
     [Header("Activation (optional)")]
     [Tooltip("Optional GameObject to enable/disable when this trigger is clicked")]
     [SerializeField] private GameObject activateTarget;
     [SerializeField] private bool setActive = true;
     [SerializeField] private UnityEvent onClicked; // assign custom reactions in the Inspector
+
 
     private Camera _mainCamera;
 
@@ -28,7 +29,7 @@ public class DialogueTrigger : MonoBehaviour, IPointerClickHandler
         // - if a story is playing -> advance it
         // - else -> start the provided ink story
         var dm = DialogueManager.GetInstance();
-        if (dm != null) dm.HandleClick(inkJSON);
+        if (dm != null) dm.HandleClick(CharacterName);
 
         if (activateTarget != null) {
             activateTarget.SetActive(setActive);

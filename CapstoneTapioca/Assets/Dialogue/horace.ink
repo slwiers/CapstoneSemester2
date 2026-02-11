@@ -1,3 +1,5 @@
+=== horus===
+
 One second. #pose:2n
 ...
 Just a second.
@@ -11,7 +13,7 @@ Just one more...
 -> Branch3123
 * ...
 -> Branch3136
-=== Branch311 ===
+=Branch311
 Scrolling Blip Blop. #pose:3h
 Watching blips.
 You know? #pose:1h
@@ -28,7 +30,7 @@ Make it quick though, I've got a tight schedule.
 -> Branch3115
 *Nothing really.
 -> Branch3119
-=== Branch3123 ===
+=Branch3123
 Wow! #pose:3a
 Rude.
 The world doesn't revolve around you, you know? #pose:2a
@@ -45,7 +47,7 @@ Just a few more and I'll get to it. I promise!
 ->Branch3128
 *Blip Blop sounds pretty cool.
 ->Branch3132
-=== Branch3124 ===
+=Branch3124
 Oh! #pose:3n
 Right. #pose:3s
 I'm supposed to be waiting to tell people when it's time to go home from work here.
@@ -57,7 +59,7 @@ Blip Blop just happened to be the perfect solution! #pose:1h
 ->Branch3126
 *Looks like everyone went home already.
 ->Branch3127
-=== Branch3125 ===
+=Branch3125
 Oh, not that long. #pose:1n
 Or...wait...
 What day is it? #pose:1a
@@ -74,7 +76,7 @@ Look, I'll show you an example!
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3126 ===
+=Branch3126
 No, no everything's fine! #pose:3a
 I remember everything just fine!
 I just lose track of time sometimes when I'm on Blip Blop. #pose:2sh
@@ -91,7 +93,7 @@ Here, I'll show you how I do it. #pose:2n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3127 ===
+=Branch3127
 What?! #pose:3a
 That's impossible.
 I'm always on time. #pose:2a
@@ -108,7 +110,7 @@ Here, I'll just show you right now. #pose:2n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3128 ===
+=Branch3128
 This is actually the last time though! #pose:3a
 I promise! #pose:2s
 I have to watch all of these Blip Blops or I'll never catch up!
@@ -120,7 +122,7 @@ Getting to the end is extremely important!
 ->Branch3130
 *What's at the end?
 ->Branch3131
-=== Branch3129 ===
+=Branch3129
 Because then you're the ultimate Blip Blopper! #pose:3h
 Everyone aspires to be the ultimate Blip Blopper! 
 A few people have done it and I'll be the next! #pose:2n
@@ -137,7 +139,7 @@ Actually, now that I think about it, I've gotta get back to it!
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3130 ===
+=Branch3130
 Trust in the lovely people online! #pose:2sh
 They all say it's possible! #pose:3h
 That means I can succeed! 
@@ -153,7 +155,7 @@ Here! We can even start now! #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3131 ===
+=Branch3131
 Fame! #pose:1n
 Fortune! #pose:2n
 Good things! #pose:1n
@@ -170,7 +172,7 @@ I've actually gotta do that now, if you don't mind...
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3132 ===
+=Branch3132
 Oh it is! #pose:1n
 And the CEO even said that they definitely don't sell your data! #pose:2n
 I trust that guy 100%!
@@ -182,7 +184,7 @@ But back to Blip Blop... #pose:1sh
 ->Branch3134
 *Can you do anything else on Blip Blop?
 ->Branch3135
-=== Branch3133 ===
+=Branch3133
 He said he definitely isn't though! #pose:3a
 What use does my data have anyways?!
 Everyone on Blip Blop says that the CEO can go ahead and take their data and that they don't care. #pose:3s
@@ -199,7 +201,7 @@ So if you'll excuse me,I have to get back to scrolling... #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3134 ===
+=Branch3134
 Anything you can imagine! #pose:3h
 Comedy! #pose:2h
 Travel! #pose:1h
@@ -216,7 +218,7 @@ Like right now. I've gotta get back to it!
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3135 ===
+=Branch3135
 So much! #pose:3h
 My favorite is the store though! #pose:2h
 I watch these people do ads about the most marvelous things!
@@ -232,7 +234,7 @@ Here! You can try if you want! #pose:1h
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3136 ===
+=Branch3136
 A few more... #pose:1n
 Oh! Look! #pose:1h
 A storytime!
@@ -249,7 +251,7 @@ People are fighting like crazy in the comments! #pose:2h
 ->Branch3141
 *What else does this Blip Blop have to offer?
 ->Branch3145
-=== Branch3137 ===
+=Branch3137
 If it was invasive, then why would somebody post their entire life story on the internet?! #pose:2a
 Nobody told them to! #pose:1a
 Look, this person always has wild stories that make people fight in the comments. #pose:2n
@@ -261,7 +263,7 @@ It's crazy! #pose:1n
 ->Branch3139
 *I'm so intrigued by this person.
 ->Branch3140
-=== Branch3138 ===
+=Branch3138
 Of course it is! #pose:3a
 Everyone knows that everything online is true!
 That person just has a crazy life! #pose:2a
@@ -278,7 +280,7 @@ Like this! #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3139 ===
+=Branch3139 
 You would be right! #pose:2h
 Every niche thing that you could think of is at your fingertips. #pose:1n
 And there's always someone that is 100% reliable on the other end to tell you about it.
@@ -295,7 +297,7 @@ That's why I've gotta get back to it. #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3140 === 
+=Branch3140 
 Well I've got good news for you! #pose:3h
 There's millions more where that came from!
 Millions of people and hours of content just like that! #pose:2h
@@ -312,7 +314,7 @@ Especially because I've gotta start back up now.
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3141 ===
+= Branch3141
 Turns out the person that posted it is... #pose:1n
 Self centered!
 It was always the plan of their best friend to run off on the day of the wedding! #pose:2h
@@ -324,7 +326,7 @@ Doesn't recycle! #pose:3h
 ->Branch3143
 *Well, I've definitely had my taste of Blip Blop for the day.
 ->Branch3144
-=== Branch3142 ===
+=Branch3142
 I know right! #pose:2h
 I love getting swooped up in the drama. #pose:2sh
 There's so much of it too.
@@ -341,7 +343,7 @@ Bingo! Check this out! #pose:2h
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3143 ===
+=Branch3143
 What?! #pose:3a
 I can totally see it happening! #pose:2n
 It happened in that Blip Blop thread!
@@ -357,7 +359,7 @@ Here, I'll just show you what I mean. #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3144 ===
+=Branch3144
 What?! #pose:3a
 Are you kidding?! 
 You've just had a small taste! #pose:3h
@@ -374,7 +376,7 @@ Here! Join me!
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3145 ===
+=Branch3145
 Many things! #pose:2h
 Wanna learn how to cook? Blip Blop's got you. #pose:1h
 Want to find new music? Blip Blop's still got you! #pose:1n
@@ -386,7 +388,7 @@ You'll never guess! #pose:2h
 ->Branch3147
 *Now we're talking! Sign me up!
 ->Branch3148
-=== Branch3146 ===
+=Branch3146
 No, actually. Blip Blop doesn't have dating app features. #pose:1s
 I'm sure they'll steal it from some other site eventually though. #pose:1n
 If you really wanna talk to someone though, there's tons of people in the comments. 
@@ -402,7 +404,7 @@ Go ahead! Scroll yourself. #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3147 ===
+= Branch3147
 It doesn't have you there, but there's plenty else to do! #pose:1n
 Eventually I'm going to move on from scrolling to creating blips myself! #pose:2n
 I'll be Blip Blop famous and then I'll have horses and fancy cars like all the other Blip Bloppers! #pose:2h
@@ -418,7 +420,7 @@ You could even watch with me now that you're here! #pose:1h
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3148 ===
+=Branch3148
 Sign you up you say?! #pose:1n
 I'm on it! #pose:1h
 We can make you a profile now!
@@ -434,7 +436,7 @@ I'll show you the wonders of Blip Blop!
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch312 ===
+=Branch312
 Exactly! #pose:2n
 Sorry, but you aren't exactly the most entertaining, so I'm just going to get back to it. #pose:1n
 I'm waiting for my buddy to come by to tell me when I should tell the workers to go home.
@@ -446,7 +448,7 @@ And things start to get blurry when I'm not watching Blip Blop. #pose:1n
 ->Branch3111
 *So...Blip Blop gave you a health condition?
 ->Branch3113
-=== Branch3115 ===
+=Branch3115
 Hi. #pose:1n
 Is that all?
 While we were standing here 1.5 million new Blips were posted. 
@@ -458,7 +460,7 @@ Speaking of which, it's 3.2 million now. #pose:1n
 ->Branch3117
 *How do you watch 3.2 million blips every ten seconds?
 ->Branch3118
-=== Branch3116 ===
+=Branch3116
 I don't. #pose:1n
 I don't even know what's been going on lately if I'm being honest. #pose:1sh
 I just see people out of the corner of my eye every now and then.
@@ -474,7 +476,7 @@ Oh, no wait, look at this! Now this is something!
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3117 ===
+=Branch3117
 Exactly! #pose:1h
 I scroll at 10,000 blips per second. #pose:2sh
 That's 10,000 bps if you're on Blip Blop.
@@ -491,7 +493,7 @@ This will be perfect practice at my top speed! #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3118 ===
+=Branch3118
 Easy! #pose:1n
 You don't! #pose:1h
 That's part of the challenge!
@@ -507,7 +509,7 @@ I've gotta get back to it! #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3119 ===
+=Branch3119
 Just here to waste my precious Blip Blop time, huh? #pose:2a
 Well do it somewhere else! #pose:3a
 Unless that nothing means watching blips with me. #pose:2sh
@@ -519,7 +521,7 @@ It's the ultimate form of bonding. #pose:1h
 ->Branch3121
 *Eh, why not!
 ->Branch3122
-=== Branch3120 ===
+= Branch3120
 Exactly. #pose:1n
 I've gotta keep up with all of the blips that get posted.
 What way to do it than with someone else?
@@ -536,7 +538,7 @@ I've got too many blips to watch for that. Like this one! Look at this! #pose:1h
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3121 ===
+= Branch3121
 WHAT?! #pose:2a
 How could you not be a fan of Blip Blop?! #pose:3a
 You can watch people do funny dances! #pose:2n
@@ -552,7 +554,7 @@ Look at all the blips at your fingertips! #pose:2n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3122 ===
+= Branch3122
 ... #pose:1a
 Hm. This guy's pretty stupid.
 ...
@@ -571,7 +573,7 @@ You know what, I think we need more Blip Blop.
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch313 ===
+=Branch313
 I don't know what to tell you. #pose:1n
 It's like they say on Blip Blop:
 If you don't catch the audiences attention in less than three seconds, they don't care! #pose:1h
@@ -587,7 +589,7 @@ I just need to keep going.
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3111 ===
+= Branch3111
 What?! #pose:2a
 That can't be true. #pose:2s
 I mean, you're here.
@@ -604,7 +606,7 @@ Oh! Look at this one! #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch3113 ===
+= Branch3113
 Surely! #pose:1n
 Well, not just one, but that's not the point. 
 Everything's the best on Blip Blop. #pose:1h
@@ -620,7 +622,7 @@ Just one more and I'll be motivated. #pose:1n
 ->Branch3112
 *Put the dang Blip Blop down!!!
 ->Branch3114
-=== Branch314 ===
+= Branch314
 Problem?! #pose:3a
 I don't have a problem! #pose:2a
 I can pay attention just fine!
@@ -634,7 +636,7 @@ I CAN'T TAKE IT! #pose:3a
 ... #pose:1s
 Oh... #pose:2s
 ->Branch315
-=== Branch3112 ===
+= Branch3112
 Performative? #pose:2a
 Nobody's performing anything. #pose:1a
 It's all AI generated! #pose:1n
@@ -647,7 +649,7 @@ This is the longest conversation I've had in... #pose:2s
 Since Blip Blop! #pose:1n
 ... #pose:1s
 ->Branch315
-=== Branch3114 ===
+= Branch3114
 Jeez. Okay. #pose:1s
 I don't know what you want from me, but it's getting in the way of my scrolling time! #pose:1a
 Which is all of the time! #pose:2a
@@ -660,7 +662,7 @@ Ha... #pose:1s
 ...
 ...
 ->Branch315
-=== Branch315 ===
+= Branch315
 Okay, okay. #pose:2s
 Maybe I shouldn't spend as much time on Blip Blop but it's not like it's that bad, right? #pose:1n
 Right?
