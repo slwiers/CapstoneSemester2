@@ -273,7 +273,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc16702cd54a7c44ae683e1a13c85bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: 19d1b467ed7af6140b591484a49d4c5c, type: 3}
+  CharacterName: art
   activateTarget: {fileID: 56205432}
   setActive: 1
   onClicked:
@@ -8575,7 +8575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc16702cd54a7c44ae683e1a13c85bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: 19d1b467ed7af6140b591484a49d4c5c, type: 3}
+  CharacterName: 
   activateTarget: {fileID: 1703927146}
   setActive: 1
   onClicked:
