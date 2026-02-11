@@ -1,3 +1,4 @@
+=== Vale ===
 #vale:blue
 GRAHHH! #pose:1 #face:4
 You have made a terrible mistake... #face:1
@@ -13,7 +14,7 @@ GRAHHH!
 * Watery?
 -> Branch2131
 
-=== Branch2118 ===
+= Branch2118 
 AHHH! #face:2 #pose:2
 You're scarier than me!
 You've gotta teach me a thing or two about that!
@@ -27,7 +28,7 @@ Are you a monster too? #face:1
 ->Branch2123
 *I don't think they meant literally...
 ->Branch2127
-=== Branch2127 ===
+= Branch2127 
 Oh... #pose:3 #face:2
 They didn't...? #face:5 #pose:2
 I mean, I guess that's fine. #face:1
@@ -44,7 +45,7 @@ I hope there's photos of younger me out there!
 ->Branch2129
 *I'm not a cool human either, sorry.
 ->Branch2130
-=== Branch2130 ===
+= Branch2130 
 What?! #pose:2 #face:4
 I'm sure you are! #face:2
 You may not have photos, but you're talking here with me! #face:5
@@ -69,7 +70,7 @@ I don't know, I kinda suck at my job now.
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2129 ===
+= Branch2129
 Was it that obvious? #pose:3 #face:5
 I'm water. #pose:1 #face:3
 I'm supposed to be the thing that keeps you alive.
@@ -94,7 +95,7 @@ It's who I am! #pose:1, #face:1
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2128 ===
+= Branch2128
 Yeah! #face:5 #pose:1
 When I used to be a beach! #face:1
 That was when I was really happy!
@@ -120,7 +121,7 @@ People would just dive right into me and then get sick!
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2123 ===
+= Branch2123
 AHHH! #pose:2 #face:4
 Not again! #face:2
 You really know your stuff, don't you?
@@ -137,7 +138,7 @@ Hey, quick question, you're not an evil monster, right? #face:1
 ->Branch2125
 *Yes! I'm incredible evil!
 ->Branch2126
-=== Branch2126 ===
+= Branch2126
 You're funny. #pose:1 #face:1
 I've never heard an evil person tell me they're evil.
 Honestly, I don't even know why I asked the question in the first place. #pose:3 #face:5
@@ -163,7 +164,7 @@ A lousy, unscary monster.
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2125===
+= Branch2125
 To say hi? #face:5 #pose:3
 Nothing else? #face:2
 You don't want to use me to cool down your system? #pose:2
@@ -189,7 +190,7 @@ I want things to go back to how they used to be...
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2124 ===
+= Branch2124
 Oh, good! #pose:1 #face:1
 I know a lot of evil humans.
 See, they built that datacenter and the dam to keep me in when I got too dirty.
@@ -215,7 +216,7 @@ I'm not really sure what to do.
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2119
+= Branch2119
 You're pretty convincing. #pose:2 #face:1
 Darn!#face:2
 I was hoping to find someone like me. #face:3
@@ -232,7 +233,7 @@ I just need some advice.
 ->Branch2121
 *Well, maybe I could pretend to be a human monster.
 ->Branch2122
-===Branch2122 ===
+=Branch2122
 Hm... #pose:3 #face:5
 I don't think that's how it works. #pose:2
 Good effort though. #face:1
@@ -254,7 +255,7 @@ And I can't even do monster things right.
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch2121 ===
+=Branch2121
 I don't know. #face:5 #pose:3
 I think I just think I need advice. #pose:2 #face:2
 Really, I'm just trying to figure out how to get back to the beach that I once was.
@@ -279,7 +280,7 @@ And I'm not worth the trouble... #face:2
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2120 ===
+= Branch2120
 Well, it's pretty obvious that I've never been a monster before. #face:5 #pose:3
 I mean, I've been a monster for a long time, but I haven't seen anyone really so I don't think that counts.
 I just don't know how to scare people or do monster-y things.
@@ -304,7 +305,7 @@ There's not much you can do sometimes.
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2131 ===
+= Branch2131
 I couldn't think of a third thing. #pose:3 #face:5
 And I am made of water. #pose:1 #face:1
 Or at least mostly now... #face:2
@@ -318,7 +319,7 @@ Can you...think of anything else?
 ->Branch2138
 *Creatively watery?
 ->Branch2139
-===Branch2139===
+=Branch2139
 Oh... #face:2 #pose:1
 Um...
 That's the best you can think of? #pose:3
@@ -336,7 +337,7 @@ Clear!
 ->Branch2136
 *You're...evil?
 ->Branch2137
-===Branch2138===
+=Branch2138
 How obvious! #face:4 #pose:1
 I can't believe I didn't think of that!
 You must be some kind of genius!
@@ -353,7 +354,7 @@ Clear!
 ->Branch2136
 *You're...evil?
 ->Branch2137
-===Branch2132===
+=Branch2132
 Petrifying! #face:4 #pose:1
 Like you're frozen in place!
 I like it!
@@ -370,7 +371,7 @@ Clear!
 ->Branch2136
 *You're...evil?
 ->Branch2137
-===Branch2137===
+=Branch2137
 Was I not good enough? #face:5 #pose:2
 Agh! #pose:1 #face:4
 Not again!
@@ -396,7 +397,7 @@ I can't do anything right!
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch2136===
+=Branch2136
 Maybe not. #pose:1 #face:1
 I think it would just make me sad honestly. #face:3
 I liked being a beach.
@@ -421,7 +422,7 @@ Maybe that's why everyone left in the first place.
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch2135===
+=Branch2135
 Yes! #face:4 #pose:1
 I wasn't always a monster, you know.
 That was a long time ago though.
@@ -446,7 +447,7 @@ I can't even do one or the other. #face:1
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch211 ===
+= Branch211
 Yes! Yes! #face:4 #pose:1
 Plead for your life!
 I am the most fearsome...!
@@ -461,7 +462,7 @@ You're human!
 ->Branch2110
 *I'm a HUMAN???
 ->Branch2114
-===Branch2114===
+=Branch2114
 YOU ARE? #face:4 #pose:1
 AH!
 Just kidding. #face:1
@@ -477,7 +478,7 @@ You don't suck do you?
 ->Branch2116
 *How long did you say you've been here?
 ->Branch2117
-===Branch2117 ===
+=Branch2117
 Oh...uh...a long time. #face:3
 It's actually quite nice to have some company.
 I don't know what happened out there...
@@ -502,7 +503,7 @@ Everything just sucks! #face:4
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch2116===
+=Branch2116
 Unsure, huh? #face:1 #pose:1
 Well I guess I'll find out if you leave like everyone else did. 
 After they turned me into this horrible monster! #face:4
@@ -527,7 +528,7 @@ Well... #face:3
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch2115===
+=Branch2115
 That's good enough for me! #face:1 #pose:1
 I always like to give people a chance.
 I guess my problem is giving people too many chances.
@@ -553,7 +554,7 @@ I can't really do my job well anymore either way...
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch2110===
+=Branch2110
 I haven't seen one of you around for... #face:5 #pose:3
 Well, forever. #pose:1 #face:1
 I can't say I miss them though.
@@ -571,7 +572,7 @@ Clearly, I'm not what I used to be because of them.
 ->Branch2112
 *What did you used to be like?
 ->Branch2113
-===Branch2113===
+=Branch2113
 I dream about it every day. #face:5 #pose:2
 Maybe there's someone out there that remembers me like I used to be...
 ...but I haven't seen anyone else in so long. #face:3
@@ -595,7 +596,7 @@ And now I'm a monster. A horrible one that isn't even that scary.
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch2112 ===
+=Branch2112
 You aren't? #face:5 #pose:3
 Phew! #face:1 #pose:1
 I was a bit worried that you were.
@@ -619,7 +620,7 @@ I just wish I could be one or the other because this sucks! #face:4
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch2111 ===
+= Branch2111
 That big old datacenter, that's what! #face:4 #pose:1
 Do you know what that AI stuff does to water like me? #pose:2
 Well, actually, you can probably tell already. #face:1
@@ -642,7 +643,7 @@ Forever... #face:3
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch212 ===
+= Branch212
 Well, for one, you're not a rat. #face:5 #pose:3
 I already noticed that! #face:1 #pose:1
 I'm good at noticing.
@@ -660,7 +661,7 @@ I thought that you were just one of those really big ones, long story short.
 ->Branch216
 *I'm not a big rat!
 ->Branch218
-===Branch216===
+=Branch216
 Well, I mean... #face:5 #pose:3
 I didn't really bestow them upon myself. #pose:2
 I didn't want to be this way.
@@ -683,7 +684,7 @@ I can't even scare rats!
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-===Branch218===
+=Branch218
 I know that now! #face:1 #pose:1
 Can I be honest? #pose:3
 I'm not really that scary of a monster. #pose:1
@@ -707,7 +708,7 @@ I'm a nobody!
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch213 ===
+=Branch213
 Well... #face:5 #pose:3
 I wasn't always this way. #face:1 #pose:1
 See, it was years and years and years ago.
@@ -731,7 +732,7 @@ I'm not really doing a good job at it though. #face:3
 ->Branch217
 *What are you talking about? You're doing a great job being a scary monster!
 ->Branch219
-=== Branch217 ===
+=Branch217
 I kinda don't wanna be scary though... #face:5 #pose:3
 I want people to enjoy being around me again.#face:1 #pose:1
 It SUCKS scaring rats! #face:4
@@ -747,7 +748,7 @@ If you could find where the water goes through the datacenter, then maybe you co
 I could be filtered and maybe we could even destroy the dam! #face:1 #pose1
 You could enjoy my beach again!
 ->Branch215
-=== Branch219 ===
+=Branch219
 Agh! Darn! #pose:1 #face:1
 Now I just feel bad.
 I don't want anyone to be scared of me! #face:4
@@ -763,7 +764,7 @@ That is, if you can find where my water flows through the datacenter.
 Maybe if you reroute it...
 I could show you my beach like it used to be! #pose:1
 ->Branch215
-=== Branch214 ===
+=Branch214
 You'd do that? #face:4 #pose:1
 Really?!
 Nobody's ever offered that to me before... #face:5 #pose:2
@@ -779,11 +780,19 @@ You'll need to reroute my water to filter me.#pose:1
 There's a few places you can do this, but if you can find them all, you might even be able to destroy the dam! #face:1
 I could be clean and you can enjoy my beach again!
 -> Branch215
-=== Branch215 ===
+=Branch215
 What do you say human? #face:1 #pose:1
 Here.
 Take this walkie-talkie so that I can communicate with you in the places I can't reach.
 It's a bit broken so you may need to readjust it every now and then.
+But as long as you keep me on the line, I can help! #face:5
+Okay. #face:1
+That should be all.
+Run along now!
+We've got water to clean!
+-> END
+
+ need to readjust it every now and then.
 But as long as you keep me on the line, I can help! #face:5
 Okay. #face:1
 That should be all.

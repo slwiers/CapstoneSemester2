@@ -47,7 +47,7 @@ public class DialogueManager : MonoBehaviour
     public void SetChoicesContainer(Transform t) { choicesContainer = t as RectTransform; }
 
     private Story currentStory;
-    private TextAsset currentInkJSON; // remember which ink file started the story
+    //private TextAsset currentInkJSON; // remember which ink file started the story
 
     private bool dialogueIsPlaying;
     
@@ -87,7 +87,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     // public entrypoint: handle pointer clicks from triggers
-    public void HandleClick(TextAsset inkJSON)
+    public void HandleClick(string CharacterName)
     {
         // If a story is currently playing, advance it instead of restarting
         if (dialogueIsPlaying)
@@ -96,18 +96,22 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // otherwise start the provided story (guard null)
-        if (inkJSON != null)
+        if(GlobalDialogueManager.currentStory == null)
         {
-            EnterDialogueMode(inkJSON);
+            GlobalDialogueManager.CreateStory();
         }
+
+        currentStory = GlobalDialogueManager.currentStory;
+        GlobalDialogueManager.JumpToCharacter(CharacterName);
+
+
+        EnterDialogueMode();
+        
     }
 
-    public void EnterDialogueMode(TextAsset inkJSON)
+    public void EnterDialogueMode()
     {
-        if (inkJSON == null) return;
-        currentInkJSON = inkJSON;
-        currentStory = new Story(inkJSON.text);
+        
         dialogueIsPlaying = true;
         if (dialoguePanel != null) dialoguePanel.SetActive(true);
 
@@ -125,7 +129,7 @@ public class DialogueManager : MonoBehaviour
         dialoguetext.text = "";
         RemoveChildren();
         currentStory = null;
-        currentInkJSON = null;
+        //currentInkJSON = null;
 
         roomCycle1.SetActive(true);
         roomCycle2.SetActive(true);
