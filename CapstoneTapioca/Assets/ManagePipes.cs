@@ -11,7 +11,7 @@ public class ManagePipes : MonoBehaviour
     [SerializeField]
     int totalPipes = 0;
 
-    int correctedPipes = 0;
+    public int correctedPipes = 0;
 
     public float delayTime = 5f; //amount of time the timer is going to wait (change this in engine if you need to change it)
     public GameObject YouWin; //the text to appear upon winning

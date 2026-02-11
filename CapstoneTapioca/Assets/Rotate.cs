@@ -26,7 +26,12 @@ public class Rotate : MonoBehaviour
         int rand = Random.Range(0, rotations.Length);
         transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
 
-        if(PossibleRots > 1)
+        if (PossibleRots > 3)
+        {
+            isPlaced = true;
+            managePipes.correctMove();
+        }
+        else if (PossibleRots > 1)
         {
             if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1])
             {
@@ -42,20 +47,19 @@ public class Rotate : MonoBehaviour
                 managePipes.correctMove();
             }
         }
-
-        if (PossibleRots > 3)
-        {
-                isPlaced = true;
-                managePipes.correctMove();
-        }
     }
 
     private void OnMouseDown()
     {
         transform.Rotate(new Vector3(0, 0, 90));
-        if (PossibleRots > 1)
+        if (PossibleRots > 3)
         {
-            if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1] && isPlaced == false)
+            isPlaced = true;
+            managePipes.correctMove();
+        }
+        else if (PossibleRots > 1)
+        {
+            if ((transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1]) && isPlaced == false)
             {
                 isPlaced = true;
                 managePipes.correctMove();
@@ -78,11 +82,6 @@ public class Rotate : MonoBehaviour
                 isPlaced = false;
                 managePipes.wrongMove();
             }
-        }
-        if(PossibleRots > 3)
-        {
-                isPlaced = true;
-                managePipes.correctMove();
         }
     }
 }
