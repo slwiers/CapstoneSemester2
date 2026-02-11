@@ -3973,7 +3973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc16702cd54a7c44ae683e1a13c85bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: ca96b45d7f674e947a5fd8409108af2c, type: 3}
+  CharacterName: Horace
   activateTarget: {fileID: 933194817}
   setActive: 1
   onClicked:
@@ -5805,7 +5805,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Horus
+  m_text: Horace
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d83258548d1596042b7ffce612c9519c, type: 2}
   m_sharedMaterial: {fileID: 8164582305060085040, guid: d83258548d1596042b7ffce612c9519c, type: 2}
