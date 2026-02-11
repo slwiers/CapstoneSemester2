@@ -54,6 +54,9 @@ public class DialogueManager : MonoBehaviour
     
     private static DialogueManager instance;
 
+    public GameObject roomCycle1;
+    public GameObject roomCycle2;
+
 
     private void Awake()
     {
@@ -108,6 +111,9 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = true;
         if (dialoguePanel != null) dialoguePanel.SetActive(true);
 
+        roomCycle1.SetActive(false);
+        roomCycle2.SetActive(false);
+
         // show the first line (require a click to advance to each subsequent line)
         ShowNextLine();
     }
@@ -120,6 +126,9 @@ public class DialogueManager : MonoBehaviour
         RemoveChildren();
         currentStory = null;
         currentInkJSON = null;
+
+        roomCycle1.SetActive(true);
+        roomCycle2.SetActive(true);
     }
 
     // made public so other classes (e.g. triggers) can advance the story

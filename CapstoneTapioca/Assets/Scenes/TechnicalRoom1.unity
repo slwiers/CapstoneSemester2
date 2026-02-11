@@ -323,7 +323,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 7.723961, y: -0.99296474}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -334,7 +334,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 25.507326, y: 33}
+  m_Size: {x: 95.05109, y: 43.113754}
   m_EdgeRadius: 0
 --- !u!212 &56205436
 SpriteRenderer:
@@ -2010,7 +2010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding:
     m_Left: 0
-    m_Right: 0
+    m_Right: -550
     m_Top: 0
     m_Bottom: 100
   m_ChildAlignment: 4
@@ -9306,6 +9306,8 @@ MonoBehaviour:
   choicesContainer: {fileID: 356629011}
   choiceLocalOffset: {x: 10, y: 10}
   choiceSpacing: 0
+  roomCycle1: {fileID: 326401551}
+  roomCycle2: {fileID: 2137165614}
 --- !u!114 &1808394863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10213,7 +10215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.9607843}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
