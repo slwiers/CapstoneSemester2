@@ -4890,7 +4890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbc16702cd54a7c44ae683e1a13c85bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inkJSON: {fileID: 4900000, guid: 19d1b467ed7af6140b591484a49d4c5c, type: 3}
+  CharacterName: Davey
   activateTarget: {fileID: 781699777}
   setActive: 1
   onClicked:
@@ -7639,7 +7639,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 221519310}
         m_TargetAssemblyTypeName: SceneButtonManager, Assembly-CSharp
-        m_MethodName: GoToCafeScene
+        m_MethodName: GoToSecurityScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10506,7 +10506,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 221519310}
         m_TargetAssemblyTypeName: SceneButtonManager, Assembly-CSharp
-        m_MethodName: GoToCourtyardScene
+        m_MethodName: GoToDamScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
