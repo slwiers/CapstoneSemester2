@@ -729,3 +729,413 @@ All you have to do is work together with me to solve some riddles.
 Apparently it's a kind of workout for your brain.
 If you'd want to make our brains buff together... #pose:2h
 -> END
+
+
+
+
+
+=== HoracePuzzle1 ===
+Hey there!
+Let me just say, I had a lot of fun with you and those riddles.
+I've never been off of Blip Blop for that long before.
+And look!
+I'm having a conversation with you without watching blips!
+
+*So what have you been doing while I was gone?
+-> Branch3_2_2
+*That's a good start at least.
+-> Branch3_2_15
+*Hopefully this doesn't end up being a lost cause...
+-> Branch3_2_19
+
+= Branch3_2_2
+Oh...uh...
+You know, I was thinking...
+If I never get to watch Blip Blop again after this...
+I may as well get in a few blips while I can, you know?
+Just some for the road and then I'll be done!
+
+*No more Blip Blop! No excuses!
+-> Branch3_2_3
+*I guess, but I thought the goal was to not be on Blip Blop anymore.
+-> Branch3_2_13
+*I don't blame you, honestly.
+-> Branch3_2_14
+
+= Branch3_2_15
+Well...
+I did watch a few blips in between...
+And by a few I may mean a few million blips...
+Wait! Before you say anything!
+It is working, I swear!
+I took a wistful look around earlier!
+
+*I guess we just have to keep going then. We'll turn that few million into a zero!
+-> Branch3_2_16
+*A wistful look around is proof of what exactly?
+-> Branch3_2_17
+*No way! A wistful look around?! Golly gee! It really is working!
+-> Branch3_2_18
+
+= Branch3_2_19
+No! No! It won't!
+I promise!
+I may have took one or two looks at Blip Blop while you were gone, but that's less than every second of my day.
+Listen, all good things take time.
+I actually came up with that phrase, you know?
+Back in the olden days.
+But that's just like right now!
+
+*Okay...I'll take your word for it.
+-> Branch3_2_20
+*So how many blips did you say you watched while I was gone?
+-> Branch3_2_21
+*So a lost cause that'll take forever to find you're a lost cause then?
+-> Branch3_2_22
+
+= Branch3_2_3
+Calm down! Calm down!
+I'm working on it!
+I thought that's what the point of all of this was!
+I used to be patient.
+Now, I'm being patient with myself while big things are changing.
+I saw that in a self help blip.
+I'll try my best though.
+Don't worry though, it is working.
+-> Branch3_2_4
+
+= Branch3_2_4
+I feel my old self returning again...
+Calm, aware, good posture!
+We have to keep going.
+
+*What happens if you just go back to Blip Blop again after when I leave?
+-> Branch3_2_5
+*You're right. I can see you trying, even if you kinda suck at it.
+-> Branch3_2_11
+*Do we have to?
+-> Branch3_2_12
+
+= Branch3_2_13
+That is still the goal!
+Goals aren't just solved in one swing.
+They take time!
+That's why we're setting small goals to work up to big ones.
+It's less daunting that way.
+I learned that from a productivity blip.
+We're still a few posts away from the big one.
+But I swear we're making it there!
+You may not see it, but I do!
+-> Branch3_2_4
+
+= Branch3_2_14
+Right?
+I'll remember these last few the most.
+That's why they matter so much.
+Blip Blop has been by my side through some rough moments.
+Like that one time that somebody bumped into me and I dropped my phone.
+I lost Blip Blop for seven seconds!
+It was horrible...
+But that's in the past now.
+No more being overly attached to Blip Blop!
+-> Branch3_2_4
+
+= Branch3_2_16
+That's the spirit!
+You know...I've never had anyone believe in me like this before.
+Nobody really even talked to me because I was always on Blip Blop.
+Then I would wonder why I was so lonely...
+Thank you for just coming back.
+Sometimes you just need someone like that.
+Or at least that what this person said in their how to make friends blip.
+Anyways...
+-> Branch3_2_4
+
+= Branch3_2_17
+That I'm not on Blip Blop as much!
+I don't think you understand.
+Blip Blop has been my whole life for...
+...what day is it?
+Oh nevermind.
+A while. I've haven't taken a look around in that long also.
+It may not mean much to you, but it does to me.
+-> Branch3_2_4
+
+= Branch3_2_18
+You're overdoing it a bit.
+But it is something to celebrate.
+Just not...that much.
+Unless you were being sarcastic.
+Were you being sarcastic?
+Oh! Nevermind!
+That's besides the point.
+-> Branch3_2_4
+
+= Branch3_2_20
+You can use it if you want, just give me credit.
+Anyways, point is, I'll get there.
+You don't have to be there the whole time.
+But you being here definitely helps if you've got time to spare!
+My brain feels stronger, full of muscles and wrinkles! I hope yours does too!
+Better yet...
+-> Branch3_2_4
+
+= Branch3_2_21
+I mean, hey we weren't talking numbers or anything, but...
+Uh...maybe a few million?
+That's fine though because that's a few million less than before!
+Because before I didn't even stop!
+I am getting better though, if you're worried about that.
+I don't know if you were, but if it means anything...
+-> Branch3_2_4
+
+= Branch3_2_22
+No!
+I'm not a lost cause!
+If you're trying to motivate me, this is a great way to do it.
+I'm gonna prove you wrong.
+Just you wait.
+In fact...
+-> Branch3_2_4
+
+= Branch3_2_5
+I won't.
+If I do you can laugh in my face and tell me 'I told you so!' if I do.
+Deal?
+-> Branch3_2_5_2
+
+= Branch3_2_5_2
+So.
+Should we continue?
+I have the next round of riddles ready just for us!
+->END
+
+= Branch3_2_11
+Ouch, but also...thanks?
+I'll keep trying.
+I know I'll be happier if I do!
+-> Branch3_2_5_2
+
+= Branch3_2_12
+Yes!
+It's life and death!
+Well, maybe not that serious, but still.
+-> Branch3_2_5_2
+
+=== HoracePuzzle1After ===
+Woah...
+I feel...different.
+I still have the itch to go back to Blip Blop.
+But I have more of an itch to just...sit around.
+Be bored, you know?
+I'm more...relaxed.
+One more time should do the trick for sure.
+Come back in a bit and I'll be ready again.
+I need some time to explore this...
+-> END
+
+
+
+
+
+=== HoracePuzzle2 ===
+...
+...
+...
+Oh!
+Sorry!
+I was just doing a bit of reflecting.
+
+*Reflecting?
+-> Branch3_3_1
+*Not scrolling Blip Blop?
+-> Branch3_3_15
+*So does this mean the riddles worked?
+-> Branch3_3_19
+
+= Branch3_3_1
+I figured I'd take a step away from Blip Blop for a bit.
+I've still done a bit of scrolling, but I just think of scrolling all day and...
+What a waste of time!
+There's so much to do.
+So much that I missed.
+Sure, I still need to cut out that few hours before bed that I'm watching blips, but...
+The rest of my day feels...
+...free.
+
+*So no more riddles?
+-> Branch3_3_2
+*That's great news!
+-> Branch3_3_13
+*Honestly, I thought you'd fail.
+-> Branch3_3_14
+
+= Branch3_3_15
+Well...
+A bit, but a million seems like...a lot now.
+I've watched a tasteful few every now and then.
+It's only when I feel a little bit bored, but otherwise...
+I feel like I have so much time now!
+I can't believe I would spend all day scrolling!
+Everything around here is so...beautiful.
+How could I miss all of this?
+
+*Beautiful? It's an abandoned datacenter. It's actually kinda gross.
+-> Branch3_3_16
+*Now you just have to get rid of Blip Blop for good!
+-> Branch3_3_17
+*You seem...different.
+-> Branch3_3_18
+
+= Branch3_3_19
+Oh, they are working.
+A few more would do the trick for good.
+I'll go from thinking about Blip Blop every now and then to not at all.
+Since you left, I've thought about it...
+Scrolled a bit...
+Watched a few blips...
+But it doesn't entertain me anymore.
+To be honest, I didn't think this would work so fast.
+
+*Why's that?
+-> Branch3_3_20
+*What can I say? I'm pretty dang good at this helping people thing.
+-> Branch3_3_21
+*Good, now I can watch Blip Blop.
+-> Branch3_3_22
+
+= Branch3_3_2
+Not exactly...
+One more round would do the trick for good.
+Who knows, I may even forget about Blip Blop altogether.
+I hope so.
+Not that I want to forget that it's bad, that is.
+I just don't want any reason to go back.
+-> Branch3_3_3
+
+= Branch3_3_3
+I enjoyed my life like this before.
+Now I don't know why I even left.
+
+*Did it have anything to do with the people that worked here?
+-> Branch3_3_4
+*Well, at least you remember what it feels like to be yourself now.
+-> Branch3_3_11
+*Maybe you'll say the same about Blip Blop someday.
+-> Branch3_3_12
+
+= Branch3_3_13
+It really is.
+I'm like a new person.
+I mean, I remember what I used to be like, but...
+I forgot how good it feels to just take a breath from all of that information.
+You lose track of so much time.
+It's been years and I never even realized!
+I don't remember how I even got into this stuff at this point.
+-> Branch3_3_3
+
+= Branch3_3_14
+Well, if it's means anything to you...
+Letting you down kept me motivated to do this.
+You've spent so much time with me for nothing in return.
+It felt...wrong to fail you after all of this.
+I don't regret it though.
+I feel great!
+It also got me thinking...
+-> Branch3_3_3
+
+= Branch3_3_16
+There's beauty in the little things.
+The way the light hits the glass.
+The things people left behind.
+The things that still live here still surviving.
+I used to notice stuff like that all the time.
+I just can't help but think...
+-> Branch3_3_3
+
+= Branch3_3_17
+That's the next step.
+One more push and it will all be over.
+I lost a few years in the process, but at least it'll be over.
+It's exciting, you know.
+Feeling like normal.
+But it's also sad.
+-> Branch3_3_3
+
+= Branch3_3_18
+I hope I do.
+That means it's working.
+All of the work that you and me have done.
+This is the old me...and I guess the new me too.
+Or at least I hope it will be.
+It's weird...
+-> Branch3_3_3
+
+= Branch3_3_20
+I don't know.
+I think it's because it takes everyone else so long.
+But I'm the time that needs to keep on ticking.
+I guess I have to be flexible.
+I've gotta keep going or else everything just passes you by.
+You know, funnily enough...
+-> Branch3_3_3
+
+= Branch3_3_21
+I'd say you are.
+I couldn't stop thinking about you whenever I thought about Blip Blop.
+I didn't want to let you down.
+I also thought about my old self.
+They'd be upset with me too.
+You know...
+-> Branch3_3_3
+
+= Branch3_3_22
+That wouldn't be a good idea.
+Trust me, I know.
+That thing does nothing but steal your time.
+I wouldn't want the same thing to happen to you.
+Especially with how much you've helped me.
+For me...
+-> Branch3_3_3
+
+= Branch3_3_4
+Maybe...
+They were the reason I got ahold of this phone in the first place.
+Someone must've mentioned Blip Blop or it might've already been installed...
+Who knows.
+It's a bit of a mystery.
+-> Branch3_3_5
+
+=  Branch3_3_5
+...
+Okay.
+I think it's time.
+This is the last one.
+Are you ready?
+
+-> END
+
+= Branch3_3_11
+Yeah.
+I won't ever forget it.
+I don't think I'll ever truly forget Blip Blop either.
+I lost so much time...
+I'll never go back after this.
+-> Branch3_3_5
+
+= Branch3_3_12
+I don't think I will.
+Blip Blop was great while it lasted.
+But I value time more.
+Blip Blop stole my time and I'll never get it back.
+So I don't think I'll ever wonder why I left Blip Blop. I already know just fine.
+-> Branch3_3_5
+
+
+
+
+
+
+
+
+
