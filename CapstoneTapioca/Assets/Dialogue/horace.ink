@@ -734,6 +734,19 @@ If you'd want to make our brains buff together... #pose:2h
 
 
 
+=== HoracePuzzle1Solved ===
+Wow!
+You're good at this!
+And I haven't even looked at Blip Blop once!
+I think I need a bit of a break for now, but come back and we'll do another round!
+I'll only watch a few blips...
+I promise!
+-> END
+
+
+
+
+
 === HoracePuzzle1 ===
 Hey there!
 Let me just say, I had a lot of fun with you and those riddles.
@@ -922,7 +935,7 @@ It's life and death!
 Well, maybe not that serious, but still.
 -> Branch3_2_5_2
 
-=== HoracePuzzle1After ===
+=== HoracePuzzle2Solved ===
 Woah...
 I feel...different.
 I still have the itch to go back to Blip Blop.
@@ -1134,6 +1147,41 @@ So I don't think I'll ever wonder why I left Blip Blop. I already know just fine
 
 
 
+
+=== HoracePuzzle3Solved ===
+...
+...
+...
+I can't believe it.
+You did it.
+We did it.
+I feel like myself again.
+No interest in Blip Blop.
+Calm.
+Most of all, I just want to take things slow.
+I don't know how to thank you.
+Nobody's ever stuck around like this for me.
+I don't blame them, but it means a lot.
+I don't even know what to say in a way that'll mean anything.
+I guess I'll just leave it at thank you.
+If you ever want to come back, feel free.
+I'm always open to letting the time pass with someone else.
+I'll be waiting.
+No time waited is too long for you.
+Goodbye, friend.
+-> END
+
+=== HoracePuzzleSaved ===
+...
+...
+...
+You've returned.
+Good.
+Sit with me for a while.
+...
+...
+...
+-> END
 
 
 
