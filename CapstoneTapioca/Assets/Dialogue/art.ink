@@ -1,3 +1,4 @@
+===art===
 sorry my dialogue hasn't been implemented yet :( #pose: 5
 *okay #pose: 3
 ->Okay 

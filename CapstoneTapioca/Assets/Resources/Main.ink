@@ -1,5 +1,8 @@
 INCLUDE Variables.ink
 INCLUDE Vale.ink
-INCLUDE horace.ink
+INCLUDE Horace.ink
+INCLUDE Foxes.ink
+INCLUDE Klay.ink
+INCLUDE Davey.ink
 
--> horus
+-> Horace

@@ -1357,13 +1357,3 @@ Stay a while and enjoy my waters!
 
 
 
-
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,6 @@
 INCLUDE Variables.ink
 INCLUDE Vale.ink
-INCLUDE horace.ink
+INCLUDE Horace.ink
+INCLUDE Klay.ink
 
--> horus
+->Klay
