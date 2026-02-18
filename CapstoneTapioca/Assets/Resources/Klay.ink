@@ -1180,6 +1180,38 @@ Maybe you'll be around to see it someday...
 We could even put something of yours up...!
 -> Branch5_10_10
 
+= Branch5_10_12
+You'd be surprised who comes around once the word spreads far enough...!
+Did you really think you were the first human to visit...?
+That's not the point though...
+The point is...this place could be a gallery...!
+No more gray walls and collapsing roof beams...!
+It'll be covered in art from all over..! Maybe you could even put something up...!
+-> Branch5_10_10
+
+= Branch5_10_14
+I figured you may want to start your own gallery...!
+I think I have a few ideas...
+That's thanks to you of course....
+Actually, I did have something already made for you...
+You know, since I didn't know if you'd be sticking around for me to turn this place into one...
+-> Branch5_10_7
+
+= Branch5_10_15
+Trust me, I'll remember this forever...especially when I'm making my very own gallery here...!
+Of course I am...!
+I can do what I enjoy again...!
+That's just as priceless as a friend like you...
+-> Branch5_10_10
+
+= Branch5_10_16
+I'm completely happy with that too...
+I don't think I could've done that forever...
+...
+If not before, then definitely it is now...!
+I'm glad I'm not a sad little blob anymore.
+-> Branch5_10_10
+
 
 
 
