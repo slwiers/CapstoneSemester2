@@ -372,11 +372,11 @@ Let me just...
 ...
 There!
 
-Did it work?
+*Did it work?
 -> Branch5_2_11
-Hey...wait a minute...did you call me short...?
+*Hey...wait a minute...did you call me short...?
 -> Branch5_2_12
-Well that definitely did...something.
+*Well that definitely did...something.
 -> Branch5_2_13
 
 = Branch5_2_2
@@ -1074,11 +1074,11 @@ Oh...!
 I know...!
 What would you like me to draw...?
 
-A picture of you and I together!
+*A picture of you and I together!
 -> Branch5_10_2
-Something colorful...with birds!
+*Something colorful...with birds!
 -> Branch5_10_5
-You choose! I trust the artist!
+*You choose! I trust the artist!
 -> Branch5_10_6
 
 = Branch5_10_8
