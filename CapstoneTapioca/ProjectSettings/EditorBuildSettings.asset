@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f4f4a78f46e0f6946af4cf8ab0919fc9
+  - enabled: 1
     path: Assets/Scenes/TechnicalRoom1.unity
     guid: 050a8198ccd4ac346ac69b3fefbfb477
   - enabled: 1
@@ -32,7 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ACRoom8.unity
     guid: 5de66ea471b733845ad0fc3f1d5e0b04
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WaterPuzzleZ.unity
     guid: 2ee62e406c6d5cd41b6534373ee6d95c
   - enabled: 0
