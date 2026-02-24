@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f4f4a78f46e0f6946af4cf8ab0919fc9
+  - enabled: 1
     path: Assets/Scenes/TechnicalRoom1.unity
     guid: 050a8198ccd4ac346ac69b3fefbfb477
   - enabled: 1
@@ -33,6 +36,18 @@ EditorBuildSettings:
     path: Assets/Scenes/ACRoom8.unity
     guid: 5de66ea471b733845ad0fc3f1d5e0b04
   - enabled: 1
+    path: Assets/Scenes/WaterPuzzle1.unity
+    guid: c59861cd11d467c4682707c59d092457
+  - enabled: 1
+    path: Assets/Scenes/WaterPuzzle2.unity
+    guid: 5e86f0e564d6c4e41b7578fbd236f1fb
+  - enabled: 1
+    path: Assets/Scenes/WaterPuzzle3.unity
+    guid: 1560faa19f47563488ffbe0238d8367b
+  - enabled: 1
+    path: Assets/Scenes/ClockPuzzle1.unity
+    guid: d3e3a979ab9e3f04d85fbedeb17b4b9e
+  - enabled: 0
     path: Assets/Scenes/WaterPuzzleZ.unity
     guid: 2ee62e406c6d5cd41b6534373ee6d95c
   - enabled: 0
