@@ -1,8 +1,5 @@
 === Vale ===
 {playedMinigameVale1:-> ValePuzzle1}
-{playedMinigameVale2:-> ValePuzzle2}
-{playedMinigameVale3:-> ValePuzzle3}
-{savedVale:-> ValePuzzleSaved}
 
 #vale:blue
 GRAHHH! #pose:1 #face:4
@@ -839,6 +836,7 @@ We've got water to clean! #valepuzzle1
 
 
 === ValePuzzle1 ===
+{playedMinigameVale2:-> ValePuzzle2}
 Woah!
 I feel better already!
 I feel...flowy.
@@ -1031,6 +1029,7 @@ Maybe I could be a part off that...
 
 
 === ValePuzzle2 ===
+{playedMinigameVale3:-> ValePuzzle3}
 I feel...
 AMAZING!
 There's still a bit of gunk in me, but we're almost there.
@@ -1078,6 +1077,7 @@ I wish you luck, human! #valepuzzle3
 
 
 === ValePuzzle3 ===
+{savedVale:-> ValePuzzleSaved}
 I can't believe it...
 I'm clean!
 The dam is gone!
@@ -1323,6 +1323,7 @@ Now we can just kick back and relax.
 
 
 === ValePuzzleSaved ===
+{savedVale:-> ValePuzzleSaved}
 Hey! Come to stick around?
 I've got plenty of time!
 Stay a while and enjoy my waters!
