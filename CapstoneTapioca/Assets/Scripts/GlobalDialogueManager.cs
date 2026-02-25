@@ -20,7 +20,7 @@ public static class GlobalDialogueManager
     {
         if (currentStory != null)
         {
-            currentStory.ChoosePathString(pathname);
+            currentStory.ChoosePathString(pathname, false);
         }
     }
 }

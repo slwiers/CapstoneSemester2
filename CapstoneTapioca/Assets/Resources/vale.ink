@@ -1,4 +1,9 @@
 === Vale ===
+{playedMinigameVale1:-> ValePuzzle1}
+{playedMinigameVale2:-> ValePuzzle2}
+{playedMinigameVale3:-> ValePuzzle3}
+{savedVale:-> ValePuzzleSaved}
+
 #vale:blue
 GRAHHH! #pose:1 #face:4
 You have made a terrible mistake... #face:1
@@ -825,8 +830,9 @@ But as long as you keep me on the line, I can help! #face:5
 Okay. #face:1
 That should be all.
 Run along now!
-We've got water to clean!
--> END
+~ playedMinigameVale1 = true
+We've got water to clean! #valepuzzle1
+-> ValePuzzle1
 
 
 
@@ -900,8 +906,9 @@ It's too late now.
 ...
 Sorry to be all doom and gloom.
 Everything is working.
-So let's get back to it!
--> END
+~ playedMinigameVale2 = true
+So let's get back to it! #valepuzzle2
+-> ValePuzzle2
 
 = Branch2_2_4
 I know.
@@ -918,8 +925,9 @@ Everything will be fine.
 -> Branch2_2_5
 
 = Branch2_2_5
-Let's get back to it!
--> END
+~ playedMinigameVale2 = true
+So let's get back to it! #valepuzzle2
+-> ValePuzzle2
 
 = Branch2_2_6
 It is, huh?
@@ -1043,24 +1051,27 @@ You're amazing, human!
 Ha!
 Yes you are!
 Just a little bit more to go!
-Keep it up!
-->END
+~ playedMinigameVale3 = true
+Keep it up! #valepuzzle3
+-> ValePuzzle3
 
 = Branch2_3_3
 I couldn't have done it without you!
 You know, even though I still look like a monster, I feel...
 ...more fine with it.
 Maybe I'll go back to normal, but if I don't...
-I think it will all be okay.
--> END
+~ playedMinigameVale3 = true
+I think it will all be okay. #valepuzzle3
+-> ValePuzzle3
 
 = Branch2_3_4
 Keep doing what you're doing!
 Everything is working as it should.
 Just one more push and I should be clean for good!
 And that dam will be out of the way!
-I wish you luck, human!
--> END
+~ playedMinigameVale3 = true
+I wish you luck, human! #valepuzzle3
+-> ValePuzzle3
 
 
 
@@ -1295,6 +1306,7 @@ For now though, I think we just need to relax and enjoy our victory.
 
 = Branch2_4_6
 Until next time, my friend.
+~ savedVale = true
 GRAHHH!!!
 -> END
 
@@ -1305,30 +1317,6 @@ You saved me and I could never forget that.
 You're the reason I don't think I'll ever feel alone anymore.
 Now we can just kick back and relax.
 -> Branch2_4_6
-
-
-
-
-
-=== ValePuzzleWaiting ===
-Oh hey!
-Did you need something or are you just here to chat?
-
-*I just wanted to say hi.
--> Branch2_5_2
-*Nevermind.
--> Branch2_5_3
-
-= Branch2_5_2
-It's always a pleasure to have someone stop by!
-I guess I should say hi back, huh?
-...
-Hi!
--> END
-
-= Branch2_5_3
-Oh, alrighty.
--> END
 
 
 

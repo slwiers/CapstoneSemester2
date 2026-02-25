@@ -47821,7 +47821,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.26070485, g: 0.5251367, b: 0.7509433, a: 1}
+  m_Color: {r: 0.45283026, g: 0.7504904, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 800
   m_SpotAngle: 30
@@ -61981,7 +61981,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -5,6 +5,7 @@ using TMPro;
 using Ink.Runtime;
 using UnityEngine.EventSystems;
 using UnityEngine.UI; // added for Button/Text
+using UnityEngine.SceneManagement;
 
 
 public class DialogueManager : MonoBehaviour
@@ -205,6 +206,23 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
+
+                if (tags.Count > 0)
+                {
+                    if (tags[0] == "valepuzzle1")
+                    {
+                        SceneManager.LoadScene("WaterPuzzle1");
+                    }
+                    if (tags[0] == "valepuzzle2")
+                    {
+                        SceneManager.LoadScene("WaterPuzzle2");
+                    }
+                    if (tags[0] == "valepuzzle3")
+                    {
+                        SceneManager.LoadScene("WaterPuzzle3");
+                    }
+                }
+
                 // New behavior: look for tags of form "key:value" or "key=value"
                 foreach (var t in tags)
                 {

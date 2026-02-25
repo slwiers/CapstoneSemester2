@@ -51,7 +51,7 @@ public class ManagePipes : MonoBehaviour
     {
         yield return new WaitForSeconds(delayTime); //starts the timer
         {
-            SceneManager.LoadScene("WaterRoom7"); //loads the next scene
+            SceneManager.LoadScene("DamBeachRoom3"); //loads the next scene
         }
     }
 }
