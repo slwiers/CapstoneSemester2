@@ -1,4 +1,5 @@
 ===Horace===
+{playedMinigameHorace1:-> HoracePuzzle1Solved}
 
 One second. #pose:2n
 ...
@@ -726,9 +727,10 @@ Hey, now that you're here maybe you could help? #pose:1n
 I saw this idea in a blip.
 Turns out, I think we have all of the materials to do it together. #pose:2n
 All you have to do is work together with me to solve some riddles.
-Apparently it's a kind of workout for your brain.
-If you'd want to make our brains buff together... #pose:2h
--> END
+Apparently it's a kind of workout for your brain. #pose:2h
+~ playedMinigameHorace1 = true
+If you'd want to make our brains buff together... #horacepuzzle1
+-> HoracePuzzle1Solved
 
 
 
