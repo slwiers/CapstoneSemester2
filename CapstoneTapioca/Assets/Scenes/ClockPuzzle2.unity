@@ -307,8 +307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HourHand: {fileID: 73988264}
   MinuteHand: {fileID: 657066481}
-  correctHour: 270
-  correctMinute: 180
+  correctHour: 90
+  correctMinute: 300
   delayTime: 5
   YouWin: {fileID: 597215842}
 --- !u!1 &345720387
@@ -2521,17 +2521,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'The shorter hand, to the east it lay
+  m_text: 'Use a number line and you''ll be fine
 
-    The longer hand points south
-    in dismay
+    The hour hand starts at ____
 
-    In spite of loves pleads and wishes
+    The
+    time reads as numbers ascending
 
-    It is time for Breakin''
-    Dishes
+    Count your fingers and that''s the ending
 
-    What time is it?'
+    What
+    time is it?
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d83258548d1596042b7ffce612c9519c, type: 2}
   m_sharedMaterial: {fileID: 8164582305060085040, guid: d83258548d1596042b7ffce612c9519c, type: 2}

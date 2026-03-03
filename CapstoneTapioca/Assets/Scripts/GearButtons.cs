@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 public class GearButtons : MonoBehaviour
 {
     public GameObject HourHand;
-    int hourAngle = 0;
+    //int hourAngle = 0;
     public GameObject MinuteHand;
+    public float correctHour;
+    public float correctMinute;
+
     float[] rotations = { 0, -30, -60, -90, -120, -150, 180, 150, 120, 90, 60, 30 };
     public float delayTime = 5f; //amount of time the timer is going to wait (change this in engine if you need to change it)
     public GameObject YouWin; //the text to appear upon winning
@@ -98,7 +101,7 @@ public class GearButtons : MonoBehaviour
         Debug.Log("Minute Hand z");
         Debug.Log(Mathf.Round( MinuteHand.transform.localEulerAngles.z));
 
-        if (HourHand.transform.localEulerAngles.z == 270f && MinuteHand.transform.localEulerAngles.z == 180f)
+        if (HourHand.transform.localEulerAngles.z == correctHour && MinuteHand.transform.localEulerAngles.z == correctMinute)
         {
             Debug.Log("you win");
             HourHand.SetActive(false);
