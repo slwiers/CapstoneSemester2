@@ -1,5 +1,5 @@
 ===Horace===
-{playedMinigameHorace1:-> HoracePuzzle1Solved}
+{playedMinigameHorace1:-> HoracePuzzle1}
 
 One second. #pose:2n
 ...
@@ -730,26 +730,27 @@ All you have to do is work together with me to solve some riddles.
 Apparently it's a kind of workout for your brain. #pose:2h
 ~ playedMinigameHorace1 = true
 If you'd want to make our brains buff together... #horacepuzzle1
--> HoracePuzzle1Solved
+-> HoracePuzzle1
 
 
 
 
 
-=== HoracePuzzle1Solved ===
-Wow!
-You're good at this!
-And I haven't even looked at Blip Blop once!
-I think I need a bit of a break for now, but come back and we'll do another round!
-I'll only watch a few blips...
-I promise!
--> END
+// === HoracePuzzle1Solved ===
+// Wow!
+// You're good at this!
+// And I haven't even looked at Blip Blop once!
+// I think I need a bit of a break for now, but come back and we'll do another round!
+// I'll only watch a few blips...
+// I promise!
+// -> END
 
 
 
 
 
 === HoracePuzzle1 ===
+{playedMinigameHorace2:-> HoracePuzzle2}
 Hey there!
 Let me just say, I had a lot of fun with you and those riddles.
 I've never been off of Blip Blop for that long before.
@@ -922,8 +923,9 @@ Deal?
 = Branch3_2_5_2
 So.
 Should we continue?
-I have the next round of riddles ready just for us!
-->END
+~ playedMinigameHorace2 = true
+I have the next round of riddles ready just for us! #horacepuzzle2
+->HoracePuzzle2
 
 = Branch3_2_11
 Ouch, but also...thanks?
@@ -937,23 +939,24 @@ It's life and death!
 Well, maybe not that serious, but still.
 -> Branch3_2_5_2
 
-=== HoracePuzzle2Solved ===
-Woah...
-I feel...different.
-I still have the itch to go back to Blip Blop.
-But I have more of an itch to just...sit around.
-Be bored, you know?
-I'm more...relaxed.
-One more time should do the trick for sure.
-Come back in a bit and I'll be ready again.
-I need some time to explore this...
--> END
+// === HoracePuzzle2Solved ===
+// Woah...
+// I feel...different.
+// I still have the itch to go back to Blip Blop.
+// But I have more of an itch to just...sit around.
+// Be bored, you know?
+// I'm more...relaxed.
+// One more time should do the trick for sure.
+// Come back in a bit and I'll be ready again.
+// I need some time to explore this...
+// -> END
 
 
 
 
 
 === HoracePuzzle2 ===
+{playedMinigameHorace3:-> HoracePuzzle3Solved}
 ...
 ...
 ...
@@ -1126,9 +1129,10 @@ It's a bit of a mystery.
 Okay.
 I think it's time.
 This is the last one.
-Are you ready?
+~ playedMinigameHorace3 = true
+Are you ready? #horacepuzzle3
 
--> END
+-> HoracePuzzle3Solved
 
 = Branch3_3_11
 Yeah.
@@ -1151,6 +1155,7 @@ So I don't think I'll ever wonder why I left Blip Blop. I already know just fine
 
 
 === HoracePuzzle3Solved ===
+{savedHorace:-> HoracePuzzleSaved}
 ...
 ...
 ...
@@ -1170,6 +1175,7 @@ If you ever want to come back, feel free.
 I'm always open to letting the time pass with someone else.
 I'll be waiting.
 No time waited is too long for you.
+~ savedHorace = true
 Goodbye, friend.
 -> END
 

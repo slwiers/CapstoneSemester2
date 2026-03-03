@@ -226,6 +226,16 @@ public class DialogueManager : MonoBehaviour
                         Debug.Log("Scene Loaded");
                         SceneManager.LoadScene("ClockPuzzle1");
                     }
+                    if (tags[0] == "horacepuzzle2")
+                    {
+                        Debug.Log("Scene Loaded");
+                        SceneManager.LoadScene("ClockPuzzle2");
+                    }
+                    if (tags[0] == "horacepuzzle3")
+                    {
+                        Debug.Log("Scene Loaded");
+                        SceneManager.LoadScene("ClockPuzzle3");
+                    }
                 }
 
                 // New behavior: look for tags of form "key:value" or "key=value"
