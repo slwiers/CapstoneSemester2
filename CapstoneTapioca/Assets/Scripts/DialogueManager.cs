@@ -59,7 +59,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject roomCycle2;
 
     [SerializeField] private float typingSpeed = 0.04f;
-    private Coroutine displyLineCororoute;
+    private Coroutine displyLineCororoutine;
 
     private void Awake()
     {
@@ -106,7 +106,6 @@ public class DialogueManager : MonoBehaviour
 
         currentStory = GlobalDialogueManager.currentStory;
         GlobalDialogueManager.JumpToCharacter(CharacterName);
-
 
         EnterDialogueMode();
         
@@ -162,12 +161,12 @@ public class DialogueManager : MonoBehaviour
 
             // string line = currentStory.Continue().Trim();
             //dialoguetext.text = line;
-            if (displyLineCororoute != null)
+            if (displyLineCororoutine != null)
             {
-                StopCoroutine(displyLineCororoute);
+                StopCoroutine(displyLineCororoutine);
             }
 
-            displyLineCororoute = StartCoroutine(DisplayLine(currentStory.Continue().Trim()));
+            displyLineCororoutine = StartCoroutine(DisplayLine(currentStory.Continue().Trim()));
 
             
 
@@ -200,11 +199,11 @@ public class DialogueManager : MonoBehaviour
 
         foreach (char letter in line.ToCharArray())
         {
-            //if (Input.GetButton("Click"))
-            //{
-            //    dialoguetext.text = line;
-            //    break;
-            //}
+            if (Input.GetButton("Click"))
+            {
+                dialoguetext.text = line;
+                break;
+            }
 
             dialoguetext.text += letter;
             yield return new WaitForSeconds(typingSpeed);
