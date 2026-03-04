@@ -17959,7 +17959,6 @@ GameObject:
   - component: {fileID: 1549404472}
   - component: {fileID: 1549404471}
   - component: {fileID: 1549404474}
-  - component: {fileID: 1549404475}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -18081,19 +18080,7 @@ MonoBehaviour:
   choiceSpacing: 0
   roomCycle1: {fileID: 692795791}
   roomCycle2: {fileID: 29626436}
---- !u!114 &1549404475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1549404470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ce0d8573e1b2ff42af74cb80f3e5ece, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  key: 27
+  typingSpeed: 0.04
 --- !u!1 &1566041401
 GameObject:
   m_ObjectHideFlags: 0
