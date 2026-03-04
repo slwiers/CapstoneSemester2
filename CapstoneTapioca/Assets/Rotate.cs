@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.PlasticSCM.Editor.WebApi;
 using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
-    float[] rotations = { 0, 90, 180, 270 };
+    int [] rotations = { 0, 1, 2,3 };
 
     public float[] correctRotation;
     [SerializeField]
@@ -13,6 +14,7 @@ public class Rotate : MonoBehaviour
     int PossibleRots = 1;
 
     ManagePipes managePipes;
+    int currentRotation = 0;
 
     private void Awake()
     {
@@ -24,8 +26,9 @@ public class Rotate : MonoBehaviour
     {
         PossibleRots = correctRotation.Length;
         int rand = Random.Range(0, rotations.Length);
-        transform.eulerAngles = new Vector3(0, 0, rotations[rand]);
-
+        currentRotation = rand;
+        transform.eulerAngles = new Vector3(0, 0, rotations[currentRotation] *90);
+        //checkRotation();
         if (PossibleRots > 3)
         {
             isPlaced = true;
@@ -33,7 +36,7 @@ public class Rotate : MonoBehaviour
         }
         else if (PossibleRots > 1)
         {
-            if (transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1])
+            if (currentRotation == correctRotation[0] || currentRotation == correctRotation[1])
             {
                 isPlaced = true;
                 managePipes.correctMove();
@@ -41,7 +44,7 @@ public class Rotate : MonoBehaviour
         }
         else
         {
-            if (transform.eulerAngles.z == correctRotation[0])
+            if (currentRotation == correctRotation[0])
             {
                 isPlaced = true;
                 managePipes.correctMove();
@@ -49,9 +52,16 @@ public class Rotate : MonoBehaviour
         }
     }
 
+    void checkRotation()
+    {
+        Debug.Log("Check Rotation");
+    }
+
     private void OnMouseDown()
     {
-        transform.Rotate(new Vector3(0, 0, 90));
+        currentRotation = (currentRotation + 1) % 4;
+        transform.eulerAngles = new Vector3(0, 0, rotations[currentRotation] * 90);
+        Debug.Log("transform.eulerAngles " + transform.eulerAngles);
         if (PossibleRots > 3)
         {
             isPlaced = true;
@@ -59,7 +69,7 @@ public class Rotate : MonoBehaviour
         }
         else if (PossibleRots > 1)
         {
-            if ((transform.eulerAngles.z == correctRotation[0] || transform.eulerAngles.z == correctRotation[1]) && isPlaced == false)
+            if ((currentRotation == correctRotation[0] || currentRotation == correctRotation[1]) && isPlaced == false)
             {
                 isPlaced = true;
                 managePipes.correctMove();
@@ -72,7 +82,7 @@ public class Rotate : MonoBehaviour
         }
         else
         {
-            if (transform.eulerAngles.z == correctRotation[0] && isPlaced == false)
+            if (currentRotation == correctRotation[0] && isPlaced == false)
             {
                 isPlaced = true;
                 managePipes.correctMove();
