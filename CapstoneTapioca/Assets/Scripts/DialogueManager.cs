@@ -61,6 +61,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private float typingSpeed = 0.04f;
     private Coroutine displyLineCororoutine;
 
+    public GameObject objectToTurnOff;
+
     private void Awake()
     {
         if (instance != null)
@@ -263,6 +265,16 @@ public class DialogueManager : MonoBehaviour
                     {
                         Debug.Log("Scene Loaded");
                         SceneManager.LoadScene("ClockPuzzle3");
+                    }
+                    if (tags[0] == "introtrans")
+                    {
+                        Debug.Log("Scene Loaded");
+                        SceneManager.LoadScene("CafeteriaRoom6");
+                    }
+                    if (tags[0] == "TurnOff")
+                    {
+                        Debug.Log("ObjectOff");
+                        objectToTurnOff.SetActive(false);
                     }
                 }
 
