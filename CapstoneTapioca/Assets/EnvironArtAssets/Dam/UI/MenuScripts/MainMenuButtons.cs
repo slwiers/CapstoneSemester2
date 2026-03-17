@@ -7,7 +7,7 @@ public class MainMenuButtons : MonoBehaviour
 {
     public void SceneChange()
     {
-        SceneManager.LoadScene("CafeteriaRoom6");
+        SceneManager.LoadScene("IntroScene");
     }
 
     public void QuitGame()

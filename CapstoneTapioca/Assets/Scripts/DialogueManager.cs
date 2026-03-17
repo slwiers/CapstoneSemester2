@@ -58,6 +58,10 @@ public class DialogueManager : MonoBehaviour
     public GameObject roomCycle1;
     public GameObject roomCycle2;
 
+    [SerializeField] private float typingSpeed = 0.04f;
+    private Coroutine displyLineCororoutine;
+
+    public GameObject objectToTurnOff;
 
     private void Awake()
     {
@@ -104,7 +108,6 @@ public class DialogueManager : MonoBehaviour
 
         currentStory = GlobalDialogueManager.currentStory;
         GlobalDialogueManager.JumpToCharacter(CharacterName);
-
 
         EnterDialogueMode();
         
@@ -157,8 +160,17 @@ public class DialogueManager : MonoBehaviour
         // If there's more content, show the next line (single Continue call)
         if (currentStory.canContinue)
         {
-            string line = currentStory.Continue().Trim();
-            dialoguetext.text = line;
+
+            // string line = currentStory.Continue().Trim();
+            //dialoguetext.text = line;
+            if (displyLineCororoutine != null)
+            {
+                StopCoroutine(displyLineCororoutine);
+            }
+
+            displyLineCororoutine = StartCoroutine(DisplayLine(currentStory.Continue().Trim()));
+
+            
 
             // Apply any tag-driven sprite changes produced by this line/story state
             ApplyTagsAndChangeSprites(currentStory.currentTags);
@@ -181,6 +193,24 @@ public class DialogueManager : MonoBehaviour
 
         // Nothing to show and no choices -> end
         ExitDialogueMode();
+    }
+
+    private IEnumerator DisplayLine(string line)
+    {
+        dialoguetext.text = "";
+
+        foreach (char letter in line.ToCharArray())
+        {
+            if (Input.GetButton("Click"))
+            {
+                dialoguetext.text = line;
+                break;
+            }
+
+            dialoguetext.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
     }
 
     // Applies sprite changes for any tags present in the current Ink story state.
@@ -235,6 +265,16 @@ public class DialogueManager : MonoBehaviour
                     {
                         Debug.Log("Scene Loaded");
                         SceneManager.LoadScene("ClockPuzzle3");
+                    }
+                    if (tags[0] == "introtrans")
+                    {
+                        Debug.Log("Scene Loaded");
+                        SceneManager.LoadScene("CafeteriaRoom6");
+                    }
+                    if (tags[0] == "TurnOff")
+                    {
+                        Debug.Log("ObjectOff");
+                        objectToTurnOff.SetActive(false);
                     }
                 }
 
@@ -296,27 +336,28 @@ public class DialogueManager : MonoBehaviour
     // build and show choice buttons for current choices
     void CreateChoices()
     {
-        if (buttonPrefab == null || choicesContainer == null)
-        {
-            Debug.LogWarning("Button prefab or choices container not assigned in DialogueManager.");
-            return;
-        }
+            if (buttonPrefab == null || choicesContainer == null)
+            {
+                Debug.LogWarning("Button prefab or choices container not assigned in DialogueManager.");
+                return;
+            }
 
-        // detect if container has any layout groups — if so, layout will handle spacing
-        bool hasLayout = choicesContainer.GetComponent<VerticalLayoutGroup>() != null
-                         || choicesContainer.GetComponent<HorizontalLayoutGroup>() != null
-                         || choicesContainer.GetComponent<GridLayoutGroup>() != null;
+            // detect if container has any layout groups — if so, layout will handle spacing
+            bool hasLayout = choicesContainer.GetComponent<VerticalLayoutGroup>() != null
+                             || choicesContainer.GetComponent<HorizontalLayoutGroup>() != null
+                             || choicesContainer.GetComponent<GridLayoutGroup>() != null;
 
-        for (int i = 0; i < currentStory.currentChoices.Count; i++)
-        {
-            Choice choice = currentStory.currentChoices[i];
-            Button button = CreateChoiceView(choice.text.Trim(), i, hasLayout);
-            if (button == null) continue;
-            int choiceIndex = choice.index; // capture for closure
-            button.onClick.AddListener(delegate {
-                OnClickChoiceButton(choiceIndex);
-            });
-        }
+            for (int i = 0; i < currentStory.currentChoices.Count; i++)
+            {
+                Choice choice = currentStory.currentChoices[i];
+                Button button = CreateChoiceView(choice.text.Trim(), i, hasLayout);
+                if (button == null) continue;
+                int choiceIndex = choice.index; // capture for closure
+                button.onClick.AddListener(delegate
+                {
+                    OnClickChoiceButton(choiceIndex);
+                });
+            }
     }
 
     // Destroys all the children of the choicesContainer
