@@ -729,7 +729,8 @@ Turns out, I think we have all of the materials to do it together. #pose:2n
 All you have to do is work together with me to solve some riddles.
 Apparently it's a kind of workout for your brain. #pose:2h
 ~ playedMinigameHorace1 = true
-If you'd want to make our brains buff together... #horacepuzzle1
+If you'd want to make our brains buff together...
+ #horacepuzzle1
 -> HoracePuzzle1
 
 
@@ -924,7 +925,8 @@ Deal?
 So.
 Should we continue?
 ~ playedMinigameHorace2 = true
-I have the next round of riddles ready just for us! #horacepuzzle2
+I have the next round of riddles ready just for us!
+ #horacepuzzle2
 ->HoracePuzzle2
 
 = Branch3_2_11
@@ -1130,7 +1132,8 @@ Okay.
 I think it's time.
 This is the last one.
 ~ playedMinigameHorace3 = true
-Are you ready? #horacepuzzle3
+Are you ready?
+ #horacepuzzle3
 
 -> HoracePuzzle3Solved
 

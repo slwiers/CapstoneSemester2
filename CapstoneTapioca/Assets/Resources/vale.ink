@@ -828,7 +828,8 @@ Okay. #face:1
 That should be all.
 Run along now!
 ~ playedMinigameVale1 = true
-We've got water to clean! #valepuzzle1
+We've got water to clean!
+ #valepuzzle1
 -> ValePuzzle1
 
 
@@ -905,7 +906,8 @@ It's too late now.
 Sorry to be all doom and gloom.
 Everything is working.
 ~ playedMinigameVale2 = true
-So let's get back to it! #valepuzzle2
+So let's get back to it!
+ #valepuzzle2
 -> ValePuzzle2
 
 = Branch2_2_4
@@ -1051,7 +1053,8 @@ Ha!
 Yes you are!
 Just a little bit more to go!
 ~ playedMinigameVale3 = true
-Keep it up! #valepuzzle3
+Keep it up!
+ #valepuzzle3
 -> ValePuzzle3
 
 = Branch2_3_3
@@ -1069,7 +1072,8 @@ Everything is working as it should.
 Just one more push and I should be clean for good!
 And that dam will be out of the way!
 ~ playedMinigameVale3 = true
-I wish you luck, human! #valepuzzle3
+I wish you luck, human!
+ #valepuzzle3
 -> ValePuzzle3
 
 
