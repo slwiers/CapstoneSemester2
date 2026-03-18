@@ -1,7 +1,7 @@
 === Vale ===
 {playedMinigameVale1:-> ValePuzzle1}
 
-#vale:blue
+ #TurnOff #vale:blue
 GRAHHH! #pose:1 #face:4
 You have made a terrible mistake... #face:1
 You've entered the domain of the great and mighty...!
@@ -9,30 +9,30 @@ The horrifying and terrible...!
 The...watery...? #face:5 #pose:3
 VALE!!! #face:4 #pose:1
 GRAHHH!
-*Wait! Don't hurt me!
+*Wait! Don't hurt me! #TurnOn
 -> Branch2_1_1
-*GRAHHH!!!
+*GRAHHH!!! #TurnOn
 -> Branch2_1_18
-*Watery?
+*Watery? #TurnOn
 -> Branch2_1_31
 
 = Branch2_1_18 
-AHHH! #face:2 #pose:2
+AHHH! #TurnOff #face:2 #pose:2
 You're scarier than me!
 You've gotta teach me a thing or two about that!
 Us monsters need help too sometimes!
 I think...
 Someone told me that humans are monsters once.
 Are you a monster too? #face:1
-*Not quite.
+*Not quite. #TurnOn
 -> Branch2_1_19
-*Yes I am...GRAHHH!
+*Yes I am...GRAHHH! #TurnOn
 -> Branch2_1_23
-*I don't think they meant literally...
+*I don't think they meant literally... #TurnOn
 -> Branch2_1_27
 
 = Branch2_1_27 
-Oh... #pose:3 #face:2
+Oh...  #TurnOff #pose:3 #face:2
 They didn't...? #face:5 #pose:2
 I mean, I guess that's fine. #face:1
 Humans are still super cool.
@@ -42,15 +42,15 @@ You...abandon stuff.
 Oh! #pose:1
 Not to mention photos!
 I hope there's photos of younger me out there!
-*Younger you?
+*Younger you? #TurnOn
 -> Branch2_1_28
-*This seems quite personal to you.
+*This seems quite personal to you. #TurnOn
 -> Branch2_1_29
-*I'm not a cool human either, sorry.
+*I'm not a cool human either, sorry. #TurnOn
 -> Branch2_1_30
 
 = Branch2_1_30 
-What?! #pose:2 #face:4
+What?! #TurnOff #pose:2 #face:4
 I'm sure you are! #face:2
 You may not have photos, but you're talking here with me! #face:5
 You don't seem like you want anything crazy from me either. #face:1
@@ -68,15 +68,15 @@ You could've been sitting by me all day.
 Instead I have to try and be a monster.
 Or something like that.
 I don't know, I kinda suck at my job now.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_29
-Was it that obvious? #pose:3 #face:5
+Was it that obvious? #TurnOff #pose:3 #face:5
 I'm water. #pose:1 #face:3
 I'm supposed to be the thing that keeps you alive.
 Something you can swim in. #pose:2, #face:5
@@ -94,15 +94,15 @@ I don't know why anyone would want to come near me anyways.
 But clearly I'm not doing that great of a job.
 So yeah, it's pretty personal.
 It's who I am! #pose:1, #face:1
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_28
-Yeah! #face:5 #pose:1
+Yeah! #TurnOff #face:5 #pose:1
 When I used to be a beach! #face:1
 That was when I was really happy!
 People loved being around me and I loved being around them!
@@ -121,15 +121,15 @@ I'm just big and scary now!
 There's not even anyone around to scare if I'm gonna be a monster!
 Even then I wouldn't be scary enough to keep anyone away from me!
 People would just dive right into me and then get sick! 
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_23
-AHHH! #pose:2 #face:4
+AHHH! #TurnOff #pose:2 #face:4
 Not again! #face:2
 You really know your stuff, don't you?
 I've never met another monster before.
@@ -139,15 +139,15 @@ I've been kinda lonely out here trapped behind this dam.
 I don't really even see non-monster people. 
 ...
 Hey, quick question, you're not an evil monster, right? #face:1
-*Evil? Never heard of it.
+*Evil? Never heard of it. #TurnOn
 -> Branch2_1_24
-*Nope, just here to say hi.
+*Nope, just here to say hi. #TurnOn
 -> Branch2_1_25
-*Yes! I'm incredible evil!
+*Yes! I'm incredible evil! #TurnOn
 -> Branch2_1_26
 
 = Branch2_1_26
-You're funny. #pose:1 #face:1
+You're funny. #TurnOff #pose:1 #face:1
 I've never heard an evil person tell me they're evil.
 Honestly, I don't even know why I asked the question in the first place. #pose:3 #face:5
 You seem like a good human. I like you. #pose:2 #face:1
@@ -166,15 +166,15 @@ They blocked me off with that dam because I got so dirty.
 And now I'm here.
 Horrible dirty water.
 A lousy, unscary monster.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_25
-To say hi? #face:5 #pose:3
+To say hi? #TurnOff #face:5 #pose:3
 Nothing else? #face:2
 You don't want to use me to cool down your system? #pose:2
 Or to block me off because I'm dirty?
@@ -193,15 +193,15 @@ Keep being scary? #face:5
 I'm not good at that. I'm a no good monster.#face:2
 I want things to go back to how they used to be...
 ...but I don't think that's possible either.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_24
-Oh, good! #pose:1 #face:1
+Oh, good! #TurnOff #pose:1 #face:1
 I know a lot of evil humans.
 See, they built that datacenter and the dam to keep me in when I got too dirty.
 People used to swim on my beach and drink my water, but because of them, I couldn't anymore.
@@ -220,15 +220,15 @@ I mean, you're a human and you scared me more than I have anything here.
 To be fair, there isn't much to scare around here, but still.
 It's just hard. #face:2
 I'm not really sure what to do.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_19
-You're pretty convincing. #pose:2 #face:1
+You're pretty convincing. #TurnOff #pose:2 #face:1
 Darn!#face:2
 I was hoping to find someone like me. #face:3
 Monsters are hard  to come by around here!
@@ -238,15 +238,15 @@ I've been trapped here for a while.
 ...
 I don't know.
 I just need some advice.
-*What kind of advice?
+*What kind of advice? #TurnOn
 -> Branch2_1_20
-*You're in luck, I'm great at advice!
+*You're in luck, I'm great at advice! #TurnOn
 -> Branch2_1_21
-*Well, maybe I could pretend to be a human monster.
+*Well, maybe I could pretend to be a human monster. #TurnOn
 -> Branch2_1_22
 
 = Branch2_1_22
-Hm... #pose:3 #face:5
+Hm... #TurnOff #pose:3 #face:5
 I don't think that's how it works. #pose:2
 Good effort though. #face:1
 Nobody's put any effort into me for a while. #pose:1
@@ -261,15 +261,15 @@ Now there isn't even anyone around to appreciate water.
 There's no clean version of me around anymore.
 I'm just a monster that they hid back here.
 And I can't even do monster things right.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_21
-I don't know. #face:5 #pose:3
+I don't know. #TurnOff #face:5 #pose:3
 I think I just think I need advice. #pose:2 #face:2
 Really, I'm just trying to figure out how to get back to the beach that I once was.
 That dam has kept me trapped in here for so long. #face:3
@@ -287,15 +287,15 @@ I'm a mess all around!
 Maybe you should just go.
 I'm a failure.
 And I'm not worth the trouble... #face:2
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_20
-Well, it's pretty obvious that I've never been a monster before. #face:5 #pose:3
+Well, it's pretty obvious that I've never been a monster before. #TurnOff #face:5 #pose:3
 I mean, I've been a monster for a long time, but I haven't seen anyone really so I don't think that counts.
 I just don't know how to scare people or do monster-y things.
 Like... #pose:2
@@ -313,30 +313,30 @@ Sorry. #pose:2 #face:2
 Being water can get...
 ...complicated.
 There's not much you can do sometimes.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_31
-I couldn't think of a third thing. #pose:3 #face:5
+I couldn't think of a third thing. #TurnOff #pose:3 #face:5
 And I am made of water. #pose:1 #face:1
 Or at least mostly now... #face:2
 I don't know, I said I was a monster, not that I was creative.
 Although I guess those two things aren't mutually exclusive.
 Anyways! Don't judge me until you can think of anything else. #face:1
 Can you...think of anything else?
-*Petrifying?
+*Petrifying? #TurnOn
 -> Branch2_1_32
-*Monstrous?
+*Monstrous? #TurnOn
 -> Branch2_1_38
-*Creatively watery?
+*Creatively watery? #TurnOn
 -> Branch2_1_39
 
 = Branch2_1_39
-Oh... #face:2 #pose:1
+Oh... #TurnOff #face:2 #pose:1
 Um...
 That's the best you can think of? #pose:3
 Maybe I'll just stick to what I have. #pose:1
@@ -347,15 +347,15 @@ It used to be stuff like...
 Elegant!#face:4
 Flowing!
 Clear!
-*Used to be?
+*Used to be? #TurnOn
 -> Branch2_1_35
-*I could come up with some of those too.
+*I could come up with some of those too. #TurnOn
 -> Branch2_1_36
-*You're...evil?
+*You're...evil? #TurnOn
 -> Branch2_1_37
 
 = Branch2_1_38
-How obvious! #face:4 #pose:1
+How obvious! #TurnOff #face:4 #pose:1
 I can't believe I didn't think of that!
 You must be some kind of genius!
 I'll add it to the list!
@@ -365,15 +365,15 @@ It used to be stuff like...
 Elegant! #face:4
 Flowing!
 Clear!
-*Used to be?
+*Used to be? #TurnOn
 -> Branch2_1_35
-*I could come up with some of those too.
+*I could come up with some of those too. #TurnOn
 -> Branch2_1_36
-*You're...evil?
+*You're...evil? #TurnOn
 -> Branch2_1_37
 
 = Branch2_1_32
-Petrifying! #face:4 #pose:1
+Petrifying! #TurnOff #face:4 #pose:1
 Like you're frozen in place!
 I like it!
 I'll add it to the list!
@@ -383,15 +383,15 @@ It used to be stuff like...
 Elegant! #face:4
 Flowing!
 Clear!
-*Used to be?
+*Used to be? #TurnOn
 -> Branch2_1_35
-*I could come up with some of those too.
+*I could come up with some of those too. #TurnOn
 -> Branch2_1_36
-*You're...evil?
+*You're...evil? #TurnOn
 -> Branch2_1_37
 
 = Branch2_1_37
-Was I not good enough? #face:5 #pose:2
+Was I not good enough? #TurnOff #face:5 #pose:2
 Agh! #pose:1 #face:4
 Not again!
 I guess I'm trying to be more scary than evil, but clearly I'm missing something!
@@ -410,15 +410,15 @@ Fearsome!
 Oh, who am I kidding?
 You're still here and you're clearly not scared.
 I can't do anything right!
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_36
-Maybe not. #pose:1 #face:1
+Maybe not. #TurnOff #pose:1 #face:1
 I think it would just make me sad honestly. #face:3
 I liked being a beach.
 Now I can't go back to that life.
@@ -436,15 +436,15 @@ No pun intended.
 I can't really seem to be good enough for anything nowadays.
 Maybe that's why everyone left in the first place.
 (Sigh) #face:3
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_35
-Yes! #face:4 #pose:1
+Yes! #TurnOff #face:4 #pose:1
 I wasn't always a monster, you know.
 That was a long time ago though.
 I miss it a lot... #face:5 #pose:2
@@ -462,15 +462,15 @@ I've gotta be my own lifeguard now!#face:4
 The only problem with that is that I'm not good at being a lifeguard.
 I still want to be the same beach I used to be.
 I can't even do one or the other. #face:1
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_1
-Yes! Yes! #face:4 #pose:1
+Yes! Yes! #TurnOff #face:4 #pose:1
 Plead for your life!
 I am the most fearsome...!
 The most petrifying...!
@@ -478,15 +478,15 @@ The most-
 Wait a minute! #face:5 #pose:3
 You're not a rat! #face:1 #pose:1
 You're human!
-*Why would I be a rat?
+*Why would I be a rat? #TurnOn
 -> Branch2_1_2
-*It appears so.
+*It appears so. #TurnOn
 -> Branch2_1_10
-*I'm a HUMAN???
+*I'm a HUMAN??? #TurnOn
 -> Branch2_1_14
 
 = Branch2_1_14
-YOU ARE? #face:4 #pose:1
+YOU ARE? #TurnOff #face:4 #pose:1
 AH!
 Just kidding. #face:1
 You're funny.
@@ -495,15 +495,15 @@ Oh well, it's better than hanging out with rats.
 Actually, I don't know which is better.
 Both kinda suck.
 You don't suck do you?
-*I hope not.
+*I hope not. #TurnOn
 -> Branch2_1_15
-*Maybe?
+*Maybe? #TurnOn
 -> Branch2_1_16
-*How long did you say you've been here?
+*How long did you say you've been here? #TurnOn
 -> Branch2_1_17
 
 = Branch2_1_17
-Oh...uh...a long time. #face:3
+Oh...uh...a long time. #TurnOff #face:3
 It's actually quite nice to have some company.
 I don't know what happened out there...
 ...you know, with the dam and all... #face:5
@@ -521,15 +521,15 @@ Can I be honest? #face:1
 I'm not really too happy here.
 Stuck in one place, not at all scary, dirty.
 Everything just sucks! #face:4
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_16
-Unsure, huh? #face:1 #pose:1
+Unsure, huh? #TurnOff #face:1 #pose:1
 Well I guess I'll find out if you leave like everyone else did. 
 After they turned me into this horrible monster! #face:4
 But you won't do that right?
@@ -547,15 +547,15 @@ It can't be!
 You are!
 Well... #face:3
 ...sorry to let you down, but as I've already said, I'm not good for much.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_15
-That's good enough for me! #face:1 #pose:1
+That's good enough for me! #TurnOff #face:1 #pose:1
 I always like to give people a chance.
 I guess my problem is giving people too many chances.
 I used to be a clear and clean beach. #face:3
@@ -574,15 +574,15 @@ I may not be clean and I may not be scary, but maybe there's something I could d
 Maybe...
 Probably not...
 I can't really do my job well anymore either way...
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_10
-I haven't seen one of you around for... #face:5 #pose:3
+I haven't seen one of you around for... #TurnOff #face:5 #pose:3
 Well, forever. #pose:1 #face:1
 I can't say I miss them though.
 I didn't really like their company all too much.
@@ -593,15 +593,15 @@ I'm sure you could tell that by just wandering around here for a bit.
 You know, they turned me into this big ugly monster that I am now.
 I'm supposed to be clean and nice to drink and swim in.
 Clearly, I'm not what I used to be because of them.
-*What happened?
+*What happened? #TurnOn
 -> Branch2_1_11
-*Good thing I'm not one of those types of humans.
+*Good thing I'm not one of those types of humans. #TurnOn
 -> Branch2_1_12
-*What did you used to be like?
+*What did you used to be like? #TurnOn
 -> Branch2_1_13
 
 = Branch2_1_13
-I dream about it every day. #face:5 #pose:2
+I dream about it every day. #TurnOff #face:5 #pose:2
 Maybe there's someone out there that remembers me like I used to be...
 ...but I haven't seen anyone else in so long. #face:3
 I was a beach.
@@ -618,15 +618,15 @@ Nobody was happy with me anymore. #face:3
 Nobody wanted to drink me.
 Then they dammed me off and left me.
 And now I'm a monster. A horrible one that isn't even that scary.
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_12
-You aren't? #face:5 #pose:3
+You aren't? #TurnOff #face:5 #pose:3
 Phew! #face:1 #pose:1
 I was a bit worried that you were.
 All they do is destroy me and then laugh. #face:5
@@ -643,15 +643,15 @@ Even if they came back, I'm not clean water and they wouldn't even be scared of 
 I'm just stuck in the middle of two sides.
 And I'm not able to swing either way.
 I just wish I could be one or the other because this sucks! #face:4
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_11
-That big old datacenter, that's what! #face:4 #pose:1
+That big old datacenter, that's what! #TurnOff #face:4 #pose:1
 Do you know what that AI stuff does to water like me? #pose:2
 Well, actually, you can probably tell already. #face:1
 But in case you can't, it turns me into disgusting, undrinkable garbage! #face:4
@@ -667,15 +667,15 @@ Nobody enjoys me, but nobody is scared of me. #face:3
 So now I'm just nothing! #face:4
 I'm just sitting here stuck as a goopy mess because of this dam!
 Forever... #face:3
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_2
-Well, for one, you're not a rat. #face:5 #pose:3
+Well, for one, you're not a rat. #TurnOff #face:5 #pose:3
 I already noticed that! #face:1 #pose:1
 I'm good at noticing.
 Secondly!
@@ -686,15 +686,15 @@ You know, great, scary, terrifying.
 Rats get scared easily so they're good practice...a bit... #face:5
 Though...I kinda feel bad after the fact... #face:3
 I thought that you were just one of those really big ones, long story short.
-*So...why are you scaring rats?
+*So...why are you scaring rats? #TurnOn
 -> Branch2_1_3
-*Bestowed upon yourself?
+*Bestowed upon yourself? #TurnOn
 -> Branch2_1_6
-*I'm not a big rat!
+*I'm not a big rat! #TurnOn
 -> Branch2_1_8
 
 = Branch2_1_6
-Well, I mean... #face:5 #pose:3
+Well, I mean... #TurnOff #face:5 #pose:3
 I didn't really bestow them upon myself. #pose:2
 I didn't want to be this way.
 I used to be a beach. #face:1
@@ -710,15 +710,15 @@ I was just water to them.
 Now I'll be stuck as a horrible monster forever! #face:4
 And I even suck at that!
 I can't even scare rats!
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_8
-I know that now! #face:1 #pose:1
+I know that now! #TurnOff #face:1 #pose:1
 Can I be honest? #pose:3
 I'm not really that scary of a monster. #pose:1
 I'm not supposed to be a monster at all actually.
@@ -735,15 +735,15 @@ I can't even do my job!
 You weren't scared at all!
 And these rats definitely aren't.
 I'm a nobody!
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_3
-Well... #face:5 #pose:3
+Well... #TurnOff #face:5 #pose:3
 I wasn't always this way. #face:1 #pose:1
 See, it was years and years and years ago.
 I used to be nice, fresh beach water.
@@ -760,15 +760,15 @@ It's been so long since I've been clean... #face:2
 Now, I'm a horrifying, terrifying, big watery monster! #face:4
 It's just been so long that I figured I'd embrace it.
 I'm not really doing a good job at it though. #face:3
-*Is there any way I can help you get back to your normal self?
+*Is there any way I can help you get back to your normal self? #TurnOn
 -> Branch2_1_4
-*I'm sure there's a way to make you scarier.
+*I'm sure there's a way to make you scarier. #TurnOn
 -> Branch2_1_7
-*What are you talking about? You're doing a great job being a scary monster!
+*What are you talking about? You're doing a great job being a scary monster! #TurnOn
 -> Branch2_1_9
 
 = Branch2_1_7
-I kinda don't wanna be scary though... #face:5 #pose:3
+I kinda don't wanna be scary though... #TurnOff #face:5 #pose:3
 I want people to enjoy being around me again.#face:1 #pose:1
 It SUCKS scaring rats! #face:4
 I can't even go anywhere like I used to!
@@ -785,7 +785,7 @@ You could enjoy my beach again!
 -> Branch2_1_5
 
 = Branch2_1_9
-Agh! Darn! #pose:1 #face:1
+Agh! Darn! #TurnOff #pose:1 #face:1
 Now I just feel bad.
 I don't want anyone to be scared of me! #face:4
 I'm not supposed to be scary!
@@ -802,7 +802,7 @@ I could show you my beach like it used to be! #pose:1
 -> Branch2_1_5
 
 = Branch2_1_4
-You'd do that? #face:4 #pose:1
+You'd do that? #TurnOff #face:4 #pose:1
 Really?!
 Nobody's ever offered that to me before... #face:5 #pose:2
 Let alone even talk to me.
@@ -819,7 +819,7 @@ I could be clean and you can enjoy my beach again!
 -> Branch2_1_5
 
 = Branch2_1_5
-What do you say human? #face:1 #pose:1
+What do you say human? #TurnOff #face:1 #pose:1
 Here.
 Take this walkie-talkie so that I can communicate with you in the places I can't reach.
 It's a bit broken so you may need to readjust it every now and then.
@@ -838,7 +838,7 @@ We've got water to clean!
 
 === ValePuzzle1 ===
 {playedMinigameVale2:-> ValePuzzle2}
-Woah!
+Woah! #TurnOff
 I feel better already!
 I feel...flowy.
 Cleaner!
@@ -848,54 +848,54 @@ Hey, I was thinking...
 ...why do think people would pollute me?
 Did I do something wrong?
 
-*People sometimes just do things without caring what happens.
+*People sometimes just do things without caring what happens. #TurnOn
 -> Branch2_2_2
-*Even if you did, they shouldn't have polluted you.
+*Even if you did, they shouldn't have polluted you. #TurnOn
 -> Branch2_2_9
-*Probably.
+*Probably. #TurnOn
 -> Branch2_2_13
 
 = Branch2_2_2
-That makes no sense though.
+That makes no sense though. #TurnOff
 They could see me getting dirtier and dirtier.
 I tried to ask them to help after I gave so much to them.
 I just don't understand.
 
-*What did they tell you that you'd be doing?
+*What did they tell you that you'd be doing? #TurnOn
 -> Branch2_2_3
-*We'll get you cleaned up, don't worry.
+*We'll get you cleaned up, don't worry. #TurnOn
 -> Branch2_2_4
-*I don't either. But that's okay sometimes.
+*I don't either. But that's okay sometimes. #TurnOn
 -> Branch2_2_6
 
 = Branch2_2_9
-I guess.
+I guess. #TurnOff
 I just wish I knew.
 Maybe I could make something right.
 I feel like it's my fault that I became a monster like this.
 
-*You didn't pollute yourself though.
+*You didn't pollute yourself though. #TurnOn
 -> Branch2_2_10
-*What would you need to make right?
+*What would you need to make right? #TurnOn
 -> Branch2_2_11
-*It's okay now. You'll be clean soon.
+*It's okay now. You'll be clean soon. #TurnOn
 -> Branch2_2_12
 
 = Branch2_2_13
-Oh...
+Oh... #TurnOff
 I guess I was too much, huh?
 If I didn't give so much of myself away then maybe this wouldn't have happened.
 Maybe I wouldn't have gotten turned into a horrible monster...
 
-*You gave yourself away?
+*You gave yourself away? #TurnOn
 -> Branch2_2_14
-*You're not that horrible.
+*You're not that horrible. #TurnOn
 -> Branch2_2_15
-*I don't think that's true.
+*I don't think that's true. #TurnOn
 -> Branch2_2_16
 
 = Branch2_2_3
-Making things cooler.
+Making things cooler. #TurnOff
 Being revolutionary.
 Helping people.
 Clearly I didn't do any of those things.
@@ -911,7 +911,7 @@ So let's get back to it!
 -> ValePuzzle2
 
 = Branch2_2_4
-I know.
+I know. #TurnOff
 I just wish I could understand.
 You're right though.
 I'm going to be squeaky clean soon!
@@ -930,7 +930,7 @@ So let's get back to it! #valepuzzle2
 -> ValePuzzle2
 
 = Branch2_2_6
-It is, huh?
+It is, huh? #TurnOff
 I mean, it has been a while.
 I just don't want it to happen again.
 Maybe understanding why might help.
@@ -942,15 +942,15 @@ I am going to be happy!
 -> Branch2_2_7
 
 = Branch2_2_7
-Okay.
+Okay. #TurnOff
 -> Branch2_2_8
 
 = Branch2_2_8
-We've got this, human!
+We've got this, human! #TurnOff
 -> Branch2_2_5
 
 = Branch2_2_10
-I didn't.
+I didn't. #TurnOff
 But, like I said, maybe I did something to make them do it to me.
 I mean, why else would they block me off?
 ...
@@ -963,7 +963,7 @@ Maybe I could be a beach again!
 ->Branch2_2_7
 
 = Branch2_2_11
-I don't know.
+I don't know. #TurnOff
 The world?
 I just wanted to make people happy, but now there's not even anyone around to make happy.
 (Sigh)
@@ -976,7 +976,7 @@ Maybe I won't make the entire world right, but maybe I could make some people ha
 -> Branch2_2_7
 
 = Branch2_2_12
-I know, but what if when I get clean I don't change?
+I know, but what if when I get clean I don't change? #TurnOff
 What if I'm still a monster?
 ...
 I guess I'm not that good of a monster.
@@ -989,7 +989,7 @@ No more of this monster business!
 -> Branch2_2_7
 
 = Branch2_2_14
-Yeah!
+Yeah! #TurnOff
 I was told this whole thing would help everyone.
 But it just ended up doing the opposite.
 Now everyone's gone, I'm trapped here, and the world is dead!
@@ -1000,12 +1000,12 @@ No!
 -> Branch2_2_17
 
 = Branch2_2_17
-You know what?
+You know what? #TurnOff
 We are going to turn everything around!
 -> Branch2_2_8
 
 = Branch2_2_15
-Well, I look horrible.
+Well, I look horrible. #TurnOff
 I'm bad at being a monster.
 I'm all gross and polluted.
 I'd say that's pretty horrible.
@@ -1016,7 +1016,7 @@ Hm...
 -> Branch2_2_17
 
 = Branch2_2_16
-Hm.
+Hm. #TurnOff
 If you say so.
 It's just hard to believe it.
 I've been alone for so long that it's easy to just think it's me that's the problem.
@@ -1032,7 +1032,7 @@ Maybe I could be a part off that...
 
 === ValePuzzle2 ===
 {playedMinigameVale3:-> ValePuzzle3}
-I feel...
+I feel... #TurnOff
 AMAZING!
 There's still a bit of gunk in me, but we're almost there.
 I'm starting to feel normal again.
@@ -1041,15 +1041,15 @@ And look!
 The dam is starting to break down too!
 You're amazing, human!
 
-*I know I am!
+*I know I am! #TurnOn
 -> Branch2_3_2
-*I'm glad to see everything is working!
+*I'm glad to see everything is working! #TurnOn
 -> Branch2_3_3
-*What now?
+*What now? #TurnOn
 -> Branch2_3_4
 
 = Branch2_3_2
-Ha!
+Ha! #TurnOff
 Yes you are!
 Just a little bit more to go!
 ~ playedMinigameVale3 = true
@@ -1058,7 +1058,7 @@ Keep it up!
 -> ValePuzzle3
 
 = Branch2_3_3
-I couldn't have done it without you!
+I couldn't have done it without you! #TurnOff
 You know, even though I still look like a monster, I feel...
 ...more fine with it.
 Maybe I'll go back to normal, but if I don't...
@@ -1067,7 +1067,7 @@ I think it will all be okay. #valepuzzle3
 -> ValePuzzle3
 
 = Branch2_3_4
-Keep doing what you're doing!
+Keep doing what you're doing! #TurnOff
 Everything is working as it should.
 Just one more push and I should be clean for good!
 And that dam will be out of the way!
@@ -1082,20 +1082,20 @@ I wish you luck, human!
 
 === ValePuzzle3 ===
 {savedVale:-> ValePuzzleSaved}
-I can't believe it...
+I can't believe it... #TurnOff
 I'm clean!
 The dam is gone!
 I didn't think this would ever happen.
 
-*You're still a monster though.
+*You're still a monster though. #TurnOn
 -> Branch2_4_2
-*I'm glad I could help!
+*I'm glad I could help! #TurnOn
 -> Branch2_4_10
-*What are you gonna do now?
+*What are you gonna do now? #TurnOn
 -> Branch2_4_14
 
 = Branch2_4_2
-You know, I think I'm okay with that.
+You know, I think I'm okay with that. #TurnOff
 The pollution may have changed me in some ways...
 ...but I'm still here like I always have been.
 I may have been stretched thin in the past.
@@ -1104,15 +1104,15 @@ Used too much and then tossed to the side...
 ...got told I would be used for something great.
 But this time things will be different.
 
-*You're gonna be a beach?
+*You're gonna be a beach? #TurnOn
 -> Branch2_4_3
-*You're gonna make people happy?
+*You're gonna make people happy? #TurnOn
 -> Branch2_4_8
-*You're gonna get revenge?
+*You're gonna get revenge? #TurnOn
 -> Branch2_4_9
 
 = Branch2_4_10
-I can't say I know why you're doing this, but I appreciate it.
+I can't say I know why you're doing this, but I appreciate it. #TurnOff
 This place needs a lot of help.
 And now I think I can help out too.
 Maybe not here exactly, but I think there's a lot of potential beyond here.
@@ -1121,15 +1121,15 @@ I could be ground water, surface water...
 It wouldn't be the same, but boy would it make me happy to see other people enjoying me again.
 What about you? What are you gonna do now that little old me doesn't need any help?
 
-*Hang out on your beach, obviously!
+*Hang out on your beach, obviously! #TurnOn
 -> Branch2_4_11
-*Probably keep helping people...or monsters...like you.
+*Probably keep helping people...or monsters...like you. #TurnOn
 -> Branch2_4_12
-*Absolutely nothing.
+*Absolutely nothing. #TurnOn
 -> Branch2_4_13
 
 = Branch2_4_14
-Honestly...
+Honestly... #TurnOff
 I don't know.
 There's so many possibilities.
 I'm free now that the dam is gone.
@@ -1138,15 +1138,15 @@ Be whatever kind of water I want.
 But I think...
 I'm gonna start with being a beach again.
 
-*As long as I'm invited!
+*As long as I'm invited! #TurnOn
 -> Branch2_4_15
-*What about after that?
+*What about after that? #TurnOn
 -> Branch2_4_17
-*Whatever, do what you want.
+*Whatever, do what you want. #TurnOn
 -> Branch2_4_18
 
 = Branch2_4_3
-You know it.
+You know it. #TurnOff
 Maybe I'll even be an ocean, like I always dreamed of.
 You better tell people to visit me!
 I'll be waiting for people to enjoy me like they used to!
@@ -1159,15 +1159,15 @@ So again, thank you, human.
 -> Branch2_4_4
 
 = Branch2_4_4
-And feel free to stop by me any time.
+And feel free to stop by me any time. #TurnOff
 
-*What happens if you get polluted again?
+*What happens if you get polluted again? #TurnOn
 -> Branch2_4_5
-*I will!
+*I will! #TurnOn
 -> Branch2_4_7
 
 = Branch2_4_8
-Absolutely.
+Absolutely. #TurnOff
 It's the only thing I ever wanted.
 Who said monsters couldn't put a smile on people's faces?
 I used to think that just meant scaring people away because of how toxic I was.
@@ -1181,7 +1181,7 @@ I won't forget this.
 -> Branch2_4_4
 
 = Branch2_4_9
-Ha!
+Ha! #TurnOff
 No.
 I don't think there's anyone left to get revenge on.
 They're long gone now.
@@ -1195,7 +1195,7 @@ So...uh...thanks!
 -> Branch2_4_4
 
 = Branch2_4_11
-REALLY?
+REALLY? #TurnOff
 You'd want to do that?
 It would be an honor!
 I'll make sure everything is perfect for you, don't you worry!
@@ -1208,13 +1208,13 @@ I know it probably doesn't mean much to you, but to me it's the world.
 So, thank you.
 And again, feel free to stop by any time!
 
-*What happens if you get polluted again?
+*What happens if you get polluted again? #TurnOn
 -> Branch2_4_5
-*I will!
+*I will! #TurnOn
 -> Branch2_4_7
 
 = Branch2_4_12
-That sounds awesome!
+That sounds awesome! #TurnOff
 I've heard rumors of other people around the datacenter.
 I'll have to explore now that I can go wherever I want.
 I'm not gonna be alone anymore.
@@ -1226,13 +1226,13 @@ I feel like just saying thank you isn't good enough.
 Still though...
 Thank you.
 
-*What happens if you get polluted again?
+*What happens if you get polluted again? #TurnOn
 -> Branch2_4_5
-*I will!
+*I will! #TurnOn
 -> Branch2_4_7
 
 = Branch2_4_13
-Sounds...
+Sounds... #TurnOff
 ...boring.
 But I can't blame you.
 Nothing sounds really nice right now.
@@ -1244,13 +1244,13 @@ Not before I thank you though.
 So, uh, thank you.
 I couldn't have done this without you.
 
-*What happens if you get polluted again?
+*What happens if you get polluted again? #TurnOn
 -> Branch2_4_5
-*I will!
+*I will! #TurnOn
 -> Branch2_4_7
 
 = Branch2_4_15
-Of course you would be!
+Of course you would be! #TurnOff
 Everyone is!
 It's a celebration!
 We need more celebrations around here.
@@ -1264,15 +1264,15 @@ But anyways.
 -> Branch2_4_16
 
 = Branch2_4_16
-Feel free to stop by again. You're always welcome.
+Feel free to stop by again. You're always welcome. #TurnOff
 
-*What happens if you get polluted again?
+*What happens if you get polluted again? #TurnOn
 -> Branch2_4_5
-*I will!
+*I will! #TurnOn
 -> Branch2_4_7
 
 = Branch2_4_17
-After that?
+After that? #TurnOff
 I haven't really thought that far ahead.
 I mean, I have a little.
 I don't know though.
@@ -1287,7 +1287,7 @@ So, uh, thanks!
 -> Branch2_4_16
 
 = Branch2_4_18
-I guess you don't really need to care, huh?
+I guess you don't really need to care, huh? #TurnOff
 Not anymore at least.
 Everything's all fixed so I guess you can forget about everything now,
 Good for you, but I know I can't.
@@ -1301,7 +1301,7 @@ Regardless, I still wanted to thank you.
 -> Branch2_4_4
 
 = Branch2_4_5
-I can go where I want now!
+I can go where I want now! #TurnOff
 I should be able to fix things whenever I need to.
 If you ever want to lend a hand again though...
 ...I wouldn't be opposed.
@@ -1309,13 +1309,13 @@ For now though, I think we just need to relax and enjoy our victory.
 -> Branch2_4_6
 
 = Branch2_4_6
-Until next time, my friend.
+Until next time, my friend. #TurnOff
 ~ savedVale = true
 GRAHHH!!!
 -> END
 
 = Branch2_4_7
-Good.
+Good. #TurnOff
 Even if I get hundreds of people on my beach, I'll still miss you when you're not around.
 You saved me and I could never forget that.
 You're the reason I don't think I'll ever feel alone anymore.
@@ -1328,7 +1328,7 @@ Now we can just kick back and relax.
 
 === ValePuzzleSaved ===
 {savedVale:-> ValePuzzleSaved}
-Hey! Come to stick around?
+Hey! Come to stick around? #TurnOff
 I've got plenty of time!
 Stay a while and enjoy my waters!
 -> END

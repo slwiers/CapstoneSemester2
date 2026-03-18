@@ -286,6 +286,11 @@ public class DialogueManager : MonoBehaviour
                         Debug.Log("ObjectOff");
                         objectToTurnOff.SetActive(false);
                     }
+                    if (tags[0] == "TurnOn")
+                    {
+                        Debug.Log("ObjectOn");
+                        objectToTurnOff.SetActive(true);
+                    }
                 }
 
 

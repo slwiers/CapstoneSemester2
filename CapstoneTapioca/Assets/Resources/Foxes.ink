@@ -1,5 +1,5 @@
 ===Foxes===
-(Yankee) Halt!
+(Yankee) Halt! #TurnOff
 (Rawl) Stop right there!
 (Yankee) This is private property!
 (Yankee) You're not supposed to be here.
@@ -7,15 +7,15 @@
 (Rawl) Are you stealing from us?
 (Yankee) You wouldn't want to be caught stealing from us, would you?
 
-*No! Never! I was just walking by!
+*No! Never! I was just walking by! #TurnOn
 -> Branch4_1_1
-*I LOVE stealing, actually.
+*I LOVE stealing, actually. #TurnOn
 -> Branch4_1_2
-*What am I stealing, exactly?
+*What am I stealing, exactly? #TurnOn
 -> Branch4_1_3
 
 = Branch4_1_1
-(Rawl) That's what they all say!
+(Rawl) That's what they all say! #TurnOff
 (Yankee) You can't talk your way out of this one, bud!
 (Rawl) What do we do with them, Yankee?
 (Rawl) We should send them to the mines!
@@ -30,7 +30,7 @@
 -> Branch4_1_4
 
 = Branch4_1_2
-(Rawl) No!
+(Rawl) No! #TurnOff
 (Yankee) It can't be!
 (Rawl) You know what we do with robbers around here, Yankee?
 (Yankee) Oh, I know what we do with robbers around here Rawl.
@@ -41,7 +41,7 @@
 -> Branch4_1_4
 
 = Branch4_1_3
-(Rawl) You're the one stealing!
+(Rawl) You're the one stealing! #TurnOff
 (Rawl) I think you already know.
 (Yankee) Money!
 (Rawl) Yeah! Money!
@@ -56,24 +56,24 @@
 -> Branch4_1_4
 
 = Branch4_1_4
-(Rawl) Seize them!
+(Rawl) Seize them! #TurnOff
 -> Branch4_1_5
 
 = Branch4_1_5
-(Yankee) Welcome to your new home.
+(Yankee) Welcome to your new home. #TurnOff
 (Rawl) We call it...
 (Rawl) The Matrix!
 (Yankee) The Matrix!
 
-*I feel like I've heard of this before.
+*I feel like I've heard of this before. #TurnOn
 -> Branch4_1_6
-*Why am I here?
+*Why am I here? #TurnOn
 -> Branch4_1_20
-*What is this place?
+*What is this place? #TurnOn
 -> Branch4_1_33
 
 = Branch4_1_6
-(Rawl) No you haven't! This is our domain!
+(Rawl) No you haven't! This is our domain! #TurnOff
 (Yankee) You're in our world now.
 (Yankee) And we're gonna put you to work!
 (Rawl) We're gonna make you mine!
@@ -86,15 +86,15 @@
 (Yankee) You've got that right, Rawl.
 (Yankee) Now! Listen up!
 
-*I'm listening!
+*I'm listening! #TurnOn
 -> Branch4_1_7
-*I'm definitely not listening.
+*I'm definitely not listening. #TurnOn
 -> Branch4_1_12
-*Wait! I didn't do anything!
+*Wait! I didn't do anything! #TurnOn
 -> Branch4_1_16
 
 = Branch4_1_20
-(Yankee) Because you've committed great crimes.
+(Yankee) Because you've committed great crimes. #TurnOff
 (Rawl) Crimes!
 (Yankee) You insult fox-kind by trying to steal from us.
 (Yankee) A fox without riches is just a fox with a pickaxe.
@@ -102,15 +102,15 @@
 (Rawl) We're gonna be something someday!
 (Rawl) We're gonna be rich!
 
-*Why do you want to be rich so bad?
+*Why do you want to be rich so bad? #TurnOn
 -> Branch4_1_21
-*Maybe you shouldn't define your value with money.
+*Maybe you shouldn't define your value with money. #TurnOn
 -> Branch4_1_25
-*I don't care what you do, just let me out! This is kidnapping!
+*I don't care what you do, just let me out! This is kidnapping! #TurnOn
 -> Branch4_1_29
 
 = Branch4_1_33
-(Rawl) The mine!
+(Rawl) The mine! #TurnOff
 (Yankee) This is where we make our money.
 (Yankee) This is our life's work.
 (Rawl) We dedicate our lives to the mines!
@@ -118,15 +118,15 @@
 (Rawl) It's the only way to repay us!
 (Rawl) You'll be like us!
 
-*I don't think I want to be like you.
+*I don't think I want to be like you. #TurnOn
 -> Branch4_1_34
-*How long did you say you guys have been here?
+*How long did you say you guys have been here? #TurnOn
 -> Branch4_1_38
-*I still don't know what I'm repaying you for.
+*I still don't know what I'm repaying you for. #TurnOn
 -> Branch4_1_42
 
 = Branch4_1_7
-(Yankee) Good! You're gonna mine!
+(Yankee) Good! You're gonna mine! #TurnOff
 (Rawl) You're gonna mine so much!
 (Yankee) And you're gonna mine until we're RICH!
 (Yankee) And then when we get rich, you'll make us even more rich!
@@ -138,15 +138,15 @@
 (Rawl) Everyone knows you can only forgive people once you're rich.
 (Yankee) That's what I always say.
 
-*I don't think anyone says that.
+*I don't think anyone says that. #TurnOn
 -> Branch4_1_8
-*So what exactly do I do?
+*So what exactly do I do? #TurnOn
 -> Branch4_1_10
-*Honestly I don't care. See you guys.
+*Honestly I don't care. See you guys. #TurnOn
 -> Branch4_1_11
 
 = Branch4_1_12
-(Yankee) Well you better start, bud!
+(Yankee) Well you better start, bud! #TurnOff
 (Yankee) There's work to be done.
 (Rawl) So much work!
 (Yankee) You're going to mine for us.
@@ -158,15 +158,15 @@
 (Rawl) You're unextremely doomed!
 (Yankee) Exactly.
 
-*So what am I mining for?
+*So what am I mining for? #TurnOn
 -> Branch4_1_13
-*What do you want to be rich for?
+*What do you want to be rich for? #TurnOn
 -> Branch4_1_14
-*Why can't you just do it yourselves?
+*Why can't you just do it yourselves? #TurnOn
 -> Branch4_1_15
 
 = Branch4_1_16
-(Rawl) Too late!
+(Rawl) Too late! #TurnOff
 (Rawl) We've already decided that you have!
 (Yankee) Your time to make your case is over.
 (Rawl) It never existed in the first place!
@@ -175,15 +175,15 @@
 (Rawl) The fortune that you didn't steal, but we're going to make that you would've stolen if we did have it!
 (Yankee) Exactly.
 
-*So I'm guilty no matter what and have to mine something I never stole?
+*So I'm guilty no matter what and have to mine something I never stole? #TurnOn
 -> Branch4_1_17
-*I don't follow.
+*I don't follow. #TurnOn
 -> Branch4_1_18
-*I'm not doing that.
+*I'm not doing that. #TurnOn
 -> Branch4_1_19
 
 = Branch4_1_21
-(Yankee) Pay attention, bud!
+(Yankee) Pay attention, bud! #TurnOff
 (Rawl) Yeah! Pay attention!
 (Yankee) If we aren't rich, then we're nothing.
 (Rawl) We're miners!
@@ -198,15 +198,15 @@
 (Rawl) With us!
 (Rawl) Because we're gonna put you to work!
 
-*You guys are kinda mean.
+*You guys are kinda mean. #TurnOn
 -> Branch4_1_22
-*I think you're misusing some of this advice.
+*I think you're misusing some of this advice. #TurnOn
 -> Branch4_1_23
-*I already have a life. Let me go!
+*I already have a life. Let me go! #TurnOn
 -> Branch4_1_24
 
 = Branch4_1_25
-(Yankee) What?!
+(Yankee) What?! #TurnOff
 (Rawl) Clearly you've never had money before!
 (Yankee) You must be crazy.
 (Rawl) Only a crazy person wouldn't see the value of money!
@@ -221,15 +221,15 @@
 (Yankee) You won't be like this when we're rich though.
 (Rawl) Yeah! We'll be powerful then!
 
-*I don't think money gives you power anymore. Look outside.
+*I don't think money gives you power anymore. Look outside. #TurnOn
 -> Branch4_1_26
-*I am taking you seriously though.
+*I am taking you seriously though. #TurnOn
 -> Branch4_1_27
-*Whatever, you people are crazy.
+*Whatever, you people are crazy. #TurnOn
 -> Branch4_1_28
 
 = Branch4_1_29
-(Yankee) Kidnapping?
+(Yankee) Kidnapping? #TurnOff
 (Rawl) We would never kidnap anyone!
 (Yankee) That's illegal.
 (Rawl) Yeah! That's illegal!
@@ -244,15 +244,15 @@
 (Rawl) For us and the world!
 (Yankee) Exactly.
 
-*I don't care if it's illegal, it's morally wrong!
+*I don't care if it's illegal, it's morally wrong! #TurnOn
 -> Branch4_1_30
-*What about me? What do I win?
+*What about me? What do I win? #TurnOn
 -> Branch4_1_31
-*This just seems like unpaid labor.
+*This just seems like unpaid labor. #TurnOn
 -> Branch4_1_32
 
 = Branch4_1_34
-(Yankee) Why's that?
+(Yankee) Why's that? #TurnOff
 (Rawl) We're awesome!
 (Yankee) We have it all figured out.
 (Rawl) Yeah!
@@ -267,15 +267,15 @@
 (Yankee) You're a human. You know human technology.
 (Rawl) So maybe you'll get somewhere!
 
-*What are you going to do after you're rich?
+*What are you going to do after you're rich? #TurnOn
 -> Branch4_1_35
-*I don't know about this kind of technology...
+*I don't know about this kind of technology... #TurnOn
 -> Branch4_1_36
-*If you haven't gotten anywhere, how will I?
+*If you haven't gotten anywhere, how will I? #TurnOn
 -> Branch4_1_37
 
 = Branch4_1_38
-(Rawl) Why does that matter?!
+(Rawl) Why does that matter?! #TurnOff
 (Rawl) Do you think we're crazy or something?!
 (Yankee) We're not crazy.
 (Yankee) And we've only been here for a really long time.
@@ -290,15 +290,15 @@
 (Rawl) Don't even worry about it!
 (Yankee) We're very experienced.
 
-*All I'm hearing is that you're crazy.
+*All I'm hearing is that you're crazy. #TurnOn
 -> Branch4_1_39
-*I feel like I'm more worried now.
+*I feel like I'm more worried now. #TurnOn
 -> Branch4_1_40
-*So that means that someone less experienced like me wouldn't be as efficient, right?
+*So that means that someone less experienced like me wouldn't be as efficient, right? #TurnOn
 -> Branch4_1_41
 
 =  Branch4_1_42
-(Rawl) Theft!
+(Rawl) Theft! #TurnOff
 (Yankee) Robbery.
 (Rawl) Crime!
 (Yankee) You've done it all.
@@ -313,15 +313,15 @@
 (Rawl) It's completely fair!
 (Rawl) Everyone ends up being awesome!
 
-*Being awesome has no value to me.
+*Being awesome has no value to me. #TurnOn
 -> Branch4_1_43
-*So are you actually paying me for this or...?
+*So are you actually paying me for this or...? #TurnOn
 -> Branch4_1_44
-*I feel like this isn't a good tradeoff.
+*I feel like this isn't a good tradeoff. #TurnOn
 -> Branch4_1_45
 
 =  Branch4_1_8
-(Rawl) We don't care!
+(Rawl) We don't care! #TurnOff
 (Yankee) You're not here to judge us.
 (Rawl) You're here to mine!
 (Yankee) Now get to work.
@@ -332,28 +332,28 @@
 ->END
 
 = Branch4_1_10
-(Yankee) Were you not paying attention?
+(Yankee) Were you not paying attention? #TurnOff
 (Rawl) You mine!
 (Yankee) You got that?
 (Yankee) Nevermind. I don't care, get to work!
 -> Branch4_1_9
 
 = Branch4_1_11
-(Rawl) Hey!
+(Rawl) Hey! #TurnOff
 (Yankee) Where do you think you're going?
 (Rawl) You aren't going anywhere!
 (Rawl) Except the mines!
 -> Branch4_1_9
 
 = Branch4_1_13
-(Rawl) Cryptocurrency!
+(Rawl) Cryptocurrency! #TurnOff
 (Yankee) The most valuable form of money.
 (Yankee) More than gold and diamonds.
 (Rawl) It's easy! Here, look!
 -> Branch4_1_9
 
 = Branch4_1_14
-(Rawl) Having money!
+(Rawl) Having money! #TurnOff
 (Yankee) Money makes the world go round.
 (Yankee) We're nobody if we don't have money.
 (Rawl) And we're not gonna be nobody anymore!
@@ -361,14 +361,14 @@
 -> Branch4_1_9
 
 = Branch4_1_15
-(Yankee) We have.
+(Yankee) We have. #TurnOff
 (Yankee) Now that we have you though, we don't need to do it ourselves.
 (Rawl) Yeah!
 (Rawl) You're gonna do all the work right now!
 -> Branch4_1_9
 
 = Branch4_1_17
-(Rawl) Yeah!
+(Rawl) Yeah! #TurnOff
 (Rawl) We make the rules around here!
 (Rawl) (Hey Yankee do you think we're being a bit unfair?)
 (Yankee) (Definitely not. I think people used to do this all the time.)
@@ -378,7 +378,7 @@
 -> Branch4_1_9
 
 = Branch4_1_18
-(Yankee) Humans never did follow, did they?
+(Yankee) Humans never did follow, did they? #TurnOff
 (Rawl) Nope! Never!
 (Rawl) Good thing we're completely rational and reasonable!
 (Yankee) I know right.
@@ -388,7 +388,7 @@
 -> Branch4_1_9
 
 = Branch4_1_19
-(Rawl) Yes you are!
+(Rawl) Yes you are! #TurnOff
 (Rawl) You can't stop us!
 (Yankee) You'll never escape here.
 (Yankee) This world knows how much you mine for us.
@@ -398,7 +398,7 @@
 -> Branch4_1_9
 
 = Branch4_1_22
-(Rawl) Mean?!
+(Rawl) Mean?! #TurnOff
 (Yankee) You rob us and then call us mean?
 (Yankee) We're just delivering justice.
 (Rawl) Yeah! Like cowboys!
@@ -408,7 +408,7 @@
 -> Branch4_1_9
 
 = Branch4_1_23
-(Yankee) Misusing advice?
+(Yankee) Misusing advice? #TurnOff
 (Rawl) We would never!
 (Yankee) We're only applying it.
 (Yankee) That's what it's for isn't it?
@@ -418,7 +418,7 @@
 -> Branch4_1_9
 
 = Branch4_1_24
-(Rawl) A life of crime!
+(Rawl) A life of crime! #TurnOff
 (Yankee) If we let you go, you'll just try and steal from us again.
 (Yankee) And we wouldn't want that, would we.
 (Rawl) No!
@@ -427,7 +427,7 @@
 -> Branch4_1_9
 
 = Branch4_1_26
-(Yankee) We have looked outside.
+(Yankee) We have looked outside. #TurnOff
 (Rawl) Yeah! They let us outside once!
 (Rawl) There was money everywhere!
 (Yankee) The CEO of this place took it all and nobody would stop talking about him.
@@ -437,7 +437,7 @@
 -> Branch4_1_9
 
 = Branch4_1_27
-(Rawl) Ha!
+(Rawl) Ha! #TurnOff
 (Yankee) You're only saying that because you've gotta work!
 (Rawl) Yeah! No worming you way out of this one, pal!
 (Yankee) We don't even have any money.
@@ -447,7 +447,7 @@
 -> Branch4_1_9
 
 = Branch4_1_28
-(Rawl) Crazy?!
+(Rawl) Crazy?! #TurnOff
 (Yankee) I think you're the crazy one, bud.
 (Yankee) I thought you humans were the ones who made money in the first place.
 (Rawl) You don't even get it!
@@ -456,7 +456,7 @@
 -> Branch4_1_9
 
 = Branch4_1_30
-(Yankee) Nothing's morally wrong here.
+(Yankee) Nothing's morally wrong here. #TurnOff
 (Rawl) You are though!
 (Rawl) You tried to steal from us!
 (Yankee) It would be morally wrong to let you go.
@@ -465,7 +465,7 @@
 -> Branch4_1_9
 
 = Branch4_1_31
-(Yankee) A reforming of your morals.
+(Yankee) A reforming of your morals. #TurnOff
 (Rawl) An unseen reward!
 (Rawl) That's the most valuable kind of win!
 (Yankee) Aside from money of course.
@@ -474,7 +474,7 @@
 -> Branch4_1_9
 
 = Branch4_1_32
-(Yankee) What do you mean?
+(Yankee) What do you mean? #TurnOff
 (Rawl) We're getting paid!
 (Yankee) You just aren't.
 (Yankee) You're getting paid in experience.
@@ -484,7 +484,7 @@
 -> Branch4_1_9
 
 = Branch4_1_35
-(Rawl) Lots of things!
+(Rawl) Lots of things! #TurnOff
 (Yankee) So much.
 (Rawl) You don't get to know that though!
 (Yankee) You need to get to work before we tell you that.
@@ -494,7 +494,7 @@
 -> Branch4_1_9
 
 = Branch4_1_36
-(Rawl) What?!
+(Rawl) What?! #TurnOff
 (Yankee) All humans do.
 (Yankee) You made it.
 (Rawl) You can't lie to us!
@@ -503,7 +503,7 @@
 -> Branch4_1_9
 
 = Branch4_1_37
-(Rawl) Humans always figure it out!
+(Rawl) Humans always figure it out! #TurnOff
 (Yankee) I thought you were all about advancement or something like that.
 (Rawl) Yeah! It's in your blood!
 (Yankee) I was told that humans have a magic touch.
@@ -513,7 +513,7 @@
 -> Branch4_1_9
 
 = Branch4_1_39
-(Yankee) Maybe you're crazy.
+(Yankee) Maybe you're crazy. #TurnOff
 (Rawl) Yeah!
 (Rawl) I bet you don't even care about money!
 (Rawl) Just imagine.
@@ -526,7 +526,7 @@
 -> Branch4_1_9
 
 = Branch4_1_40
-(Yankee) Don't worry. All you have to do is make us money.
+(Yankee) Don't worry. All you have to do is make us money. #TurnOff
 (Rawl) Yeah! We want money!
 (Yankee) We're gonna be rich someday.
 (Yankee) You should never worry about future rich people.
@@ -537,7 +537,7 @@
 -> Branch4_1_9
 
 = Branch4_1_41
-(Yankee) Nope.
+(Yankee) Nope. #TurnOff
 (Rawl) Ever heard of having fresh eyes on things?
 (Yankee) You're gonna make us so much money.
 (Rawl) You'll mine until you're rich with your fresh eyes!
@@ -547,7 +547,7 @@
 -> Branch4_1_9
 
 = Branch4_1_43
-(Yankee) Clearly you have no class.
+(Yankee) Clearly you have no class. #TurnOff
 (Rawl) Yeah! Everyone knows that being awesome is the highest status out there!
 (Rawl) A status that only money can get you!
 (Yankee) You may not care about being awesome, but we do.
@@ -557,7 +557,7 @@
 -> Branch4_1_9
 
 = Branch4_1_44
-(Yankee) No.
+(Yankee) No. #TurnOff
 (Yankee) We're getting paid.
 (Rawl) You get paid in feeling good!
 (Yankee) It's just as good as money, like we said.
@@ -567,7 +567,7 @@
 -> Branch4_1_9
 
 = Branch4_1_45
-(Yankee) Well if it isn't, then oh well.
+(Yankee) Well if it isn't, then oh well. #TurnOff
 (Rawl) We'll know for next time!
 (Rawl) Which there won't be because we'll be rich by then!
 (Yankee) Don't worry, experience is always worth a lot too.
@@ -582,59 +582,59 @@
 
 
 === FoxesPuzzle1 ===
-(Rawl) Yes! Yes! Yes!
+(Rawl) Yes! Yes! Yes! #TurnOff
 (Rawl) Look at the numbers go up, Yankee!
 (Yankee) We're getting richer and richer.
 (Yankee) All part of the plan.
 
-*So will you tell me now what you plan to do with all of this money?
+*So will you tell me now what you plan to do with all of this money? #TurnOn
 -> Branch4_2_2
-*This stuff I'm mining seems kinda sketchy...
+*This stuff I'm mining seems kinda sketchy... #TurnOn
 -> Branch4_2_7
-*Good, you didn't notice that I already took some for myself.
+*Good, you didn't notice that I already took some for myself. #TurnOn
 -> Branch4_2_11
 
 = Branch4_2_2
-(Yankee) Well...uh...
+(Yankee) Well...uh... #TurnOff
 (Rawl) Be rich and cool!
 (Rawl) That's what you do with money!
 (Yankee) Yeah. What Rawl said.
 
-*You sound unsure.
+*You sound unsure. #TurnOn
 -> Branch4_2_3
-*Maybe I should rephrase: what are you going to spend it on?
+*Maybe I should rephrase: what are you going to spend it on? #TurnOn
 -> Branch4_2_5
-*Do you even know what money is?
+*Do you even know what money is? #TurnOn
 -> Branch4_2_6
 
 = Branch4_2_7
-(Rawl) No! It couldn't be!
+(Rawl) No! It couldn't be! #TurnOff
 (Yankee) This guy whispered to us once that there's a secret way to make a ton of money.
 (Yankee) He showed us the mines and we've been here ever since.
 (Rawl) We just have to keep digging!
 
-*Sounds like you're just making money for this random guy and not yourselves.
+*Sounds like you're just making money for this random guy and not yourselves. #TurnOn
 -> Branch4_2_8
-*Yeah that's super sketchy.
+*Yeah that's super sketchy. #TurnOn
 -> Branch4_2_9
-*I didn't know you guys could get even more delusional.
+*I didn't know you guys could get even more delusional. #TurnOn
 -> Branch4_2_10
 
 = Branch4_2_11
-(Rawl) No! Robbed again!
+(Rawl) No! Robbed again! #TurnOff
 (Yankee) You're supposed to be working off your crimes, not doing more of them.
 (Rawl) Yeah! That's counterproductive!
 (Rawl) We're gonna make you work extra hard now!
 
-*So what happens when I steal that too?
+*So what happens when I steal that too? #TurnOn
 -> Branch4_2_12
-*Maybe I'm just meant to be a criminal.
+*Maybe I'm just meant to be a criminal. #TurnOn
 -> Branch4_2_13
-*Fine! You can have it back.
+*Fine! You can have it back. #TurnOn
 -> Branch4_2_14
 
 = Branch4_2_3
-(Yankee) No we totally know what we're gonna do with it.
+(Yankee) No we totally know what we're gonna do with it. #TurnOff
 (Rawl) Yeah! Because we already told you!
 (Yankee) Yeah. We already told you.
 (Rawl) Don't you worry human!
@@ -649,13 +649,13 @@
 -> Branch4_2_4
 
 = Branch4_2_4
-(Rawl) Hey! Human!
+(Rawl) Hey! Human! #TurnOff
 (Rawl) What are you still standing here for?
 (Rawl) Get back to work!
 -> END
 
 = Branch4_2_5
-(Yankee) Spend it?
+(Yankee) Spend it? #TurnOff
 (Yankee) Why would we do that?
 (Rawl) Yeah!
 (Rawl) The point of money is to have it and look awesome!
@@ -672,7 +672,7 @@
 -> Branch4_2_4
 
 = Branch4_2_6
-(Rawl) Of course we do!
+(Rawl) Of course we do! #TurnOff
 (Yankee) It's those pieces of paper with the funny looking people on them.
 (Rawl) Or shiny coins!
 (Yankee) But our money is all digital.
@@ -689,7 +689,7 @@
 -> Branch4_2_4
 
 = Branch4_2_8
-(Yankee) What?!
+(Yankee) What?! #TurnOff
 (Yankee) That's not true.
 (Yankee) The number went up, so it's working.
 (Rawl) Yeah! It's working just fine!
@@ -706,7 +706,7 @@
 -> Branch4_2_4
 
 = Branch4_2_9
-(Yankee) You don't get to tell us what's sketchy.
+(Yankee) You don't get to tell us what's sketchy. #TurnOff
 (Rawl) Yeah! You tried to rob us!
 (Yankee) Now that I think of it, where did that human go?
 (Rawl) Hm...I don't know.
@@ -722,7 +722,7 @@
 -> Branch4_2_4
 
 = Branch4_2_10
-(Yankee) Delusional?
+(Yankee) Delusional? #TurnOff
 (Rawl) Do we look delusional?
 (Yankee) You can call us crazy all you want, but it's not gonna help.
 (Rawl) Yeah! You can call us crazy all you want once you're done mining!
@@ -739,7 +739,7 @@
 -> Branch4_2_4
 
 = Branch4_2_12
-(Rawl) No!
+(Rawl) No! #TurnOff
 (Rawl) You're really bad at this working off your crimes thing.
 (Yankee) We'll change that.
 (Rawl) Yeah! The human that told us where to mine said that he had a son that he sent to the mines!
@@ -756,7 +756,7 @@
 -> Branch4_2_4
 
 = Branch4_2_13
-(Rawl) No!
+(Rawl) No! #TurnOff
 (Rawl) You must resist!
 (Yankee) We believe in you.
 (Yankee) You can be a good person.
@@ -773,7 +773,7 @@
 -> Branch4_2_4
 
 = Branch4_2_14
-(Yankee) See, it's working already.
+(Yankee) See, it's working already. #TurnOff
 (Rawl) You learned responsibility!
 (Rawl) That's great!
 (Yankee) See, cryptocurrency teaches you so much.
@@ -794,7 +794,7 @@
 
 
 === FoxesPuzzle2 ===
-(Yankee) Uh...
+(Yankee) Uh... #TurnOff
 (Yankee) Rawl?
 (Yankee) The number still isn't going up.
 (Rawl) What?!
@@ -805,15 +805,15 @@
 (Rawl) When did you get here human?
 (Yankee) You didn't hear any of that...right?
 
-*I heard everything.
+*I heard everything. #TurnOn
 -> Branch4_3_2
-*Nope! Nothing here!
+*Nope! Nothing here! #TurnOn
 -> Branch4_3_4
-*Who me?
+*Who me? #TurnOn
 -> Branch4_3_5
 
 = Branch4_3_2
-(Rawl) Oh...yikes...
+(Rawl) Oh...yikes... #TurnOff
 (Yankee) Pretend you didn't, bud.
 (Yankee) Everything's fine.
 (Rawl) Yeah! It's all going to plan!
@@ -827,7 +827,7 @@
 -> END
 
 = Branch4_3_4
-(Rawl) Phew!
+(Rawl) Phew! #TurnOff
 (Yankee) Good.
 (Yankee) It's personal business, bud.
 (Rawl) Our ears only!
@@ -837,7 +837,7 @@
 -> Branch4_3_3
 
 = Branch4_3_5
-(Yankee) Don't play stupid.
+(Yankee) Don't play stupid. #TurnOff
 (Rawl) Are you lying?
 (Yankee) They must be.
 (Yankee) I guess it doesn't matter.
@@ -851,34 +851,34 @@
 
 
 === FoxesPuzzle3 ===
-(Yankee) I can't believe it...
+(Yankee) I can't believe it... #TurnOff
 (Yankee) We still have nothing...
 (Rawl) How is this possible?!
 (Rawl) We mined every last bit of cryptocurrency in the mine!
 
-*You expected cryptocurrency to be worth anything of all things? In the apocalypse?
+*You expected cryptocurrency to be worth anything of all things? In the apocalypse? #TurnOn
 -> Branch4_4_2
-*You mean what I mined?
+*You mean what I mined? #TurnOn
 -> Branch4_4_7
-*So am I free to go now or...?
+*So am I free to go now or...? #TurnOn
 -> Branch4_4_11
 
 = Branch4_4_2
-(Yankee) Well...
+(Yankee) Well... #TurnOff
 (Rawl) Yeah...
 (Yankee) This is our life's work.
 (Yankee) Now it's gone and we have nothing.
 (Rawl) What are we gonna do now?
 
-*Have you tried doing something that is actually rewarding? Not monetarily?
+*Have you tried doing something that is actually rewarding? Not monetarily? #TurnOn
 -> Branch4_4_3
-*Clearly this meant a lot to you. Maybe there's something else that you care about just as much?
+*Clearly this meant a lot to you. Maybe there's something else that you care about just as much? #TurnOn
 -> Branch4_4_5
-*Maybe find a new mine? Maybe there's one around here that's actually worth something.
+*Maybe find a new mine? Maybe there's one around here that's actually worth something. #TurnOn
 -> Branch4_4_6
 
 = Branch4_4_7
-(Yankee) Credit where credit is due...
+(Yankee) Credit where credit is due... #TurnOff
 (Rawl) Yeah, you did do a lot of work.
 (Rawl) Thanks for the help, pal.
 (Yankee) Maybe it wasn't the best idea though, Rawl.
@@ -892,15 +892,15 @@
 (Yankee) I don't know what we could do to fix any of this.
 (Yankee) Our mine and our money...
 
-*Maybe now you can spend your time taking care of the place you've been destroying for so long.
+*Maybe now you can spend your time taking care of the place you've been destroying for so long. #TurnOn
 -> Branch4_4_8
-*I don't think you can fully fix any of it. It's gone now.
+*I don't think you can fully fix any of it. It's gone now. #TurnOn
 -> Branch4_4_9
-*Maybe it's time to find something different. Less destructive and something you actually care about.
+*Maybe it's time to find something different. Less destructive and something you actually care about. #TurnOn
 -> Branch4_4_10
 
 = Branch4_4_11
-(Yankee) I guess.
+(Yankee) I guess. #TurnOff
 (Yankee) Thank you for your help.
 (Rawl) Maybe it wasn't the best idea to kidnap you.
 (Rawl) But hey, you can't do crime when there's nothing to steal.
@@ -911,15 +911,15 @@
 (Yankee) It's trashed!
 (Rawl) Oh...
 
-*Yankee's right. This place is...kinda sad now.
+*Yankee's right. This place is...kinda sad now. #TurnOn
 -> Branch4_4_12
-*What are you guys gonna do now?
+*What are you guys gonna do now? #TurnOn
 -> Branch4_4_13
-*Hey, the real robbers are the friends we made along the way.
+*Hey, the real robbers are the friends we made along the way. #TurnOn
 -> Branch4_4_14
 
 = Branch4_4_3
-(Yankee) Rewarding in a different way?
+(Yankee) Rewarding in a different way? #TurnOff
 (Rawl) I thought money was the only kind of reward that you could get...
 (Rawl) You're telling me there's more?!
 (Yankee) Maybe we could do something else with digging.
@@ -959,12 +959,12 @@
 -> Branch4_4_4
 
 = Branch4_4_4
-(Yankee) Well...we'll see you around, bud.
+(Yankee) Well...we'll see you around, bud. #TurnOff
 (Rawl) Bye!
 -> END
 
 = Branch4_4_5
-(Yankee) Yeah...
+(Yankee) Yeah... #TurnOff
 (Yankee) Remember when we used to car about the mine before it was a mine?
 (Rawl) When it was a cave?
 (Rawl) Yeah! We cared about each other then too.
@@ -1003,7 +1003,7 @@
 -> Branch4_4_4
 
 = Branch4_4_6
-(Yankee) We actually used to live here, you know.
+(Yankee) We actually used to live here, you know. #TurnOff
 (Rawl) Yeah! Until we started to dig up everything!
 (Rawl) Maybe we shouldn't have done that now that I think about it...
 (Yankee) Yeah, this place used to be really pretty.
@@ -1043,7 +1043,7 @@
 -> Branch4_4_4
 
 = Branch4_4_8
-(Yankee) Yeah...
+(Yankee) Yeah... #TurnOff
 (Yankee) It's only right.
 (Rawl) Yankee...?
 (Rawl) I think we messed up...like a lot...
@@ -1074,7 +1074,7 @@
 -> Branch4_4_4
 
 = Branch4_4_9
-(Yankee) You're right, human...
+(Yankee) You're right, human... #TurnOff
 (Yankee) ...it is.
 (Rawl) So we really can't do anything?
 (Rawl) Our mine is like this forever?!
@@ -1106,7 +1106,7 @@
 -> Branch4_4_4
 
 = Branch4_4_10
-(Rawl) Something we care about?!
+(Rawl) Something we care about?! #TurnOff
 (Rawl) We've only ever cared about money before!
 (Rawl) And I guess each other and our cave...
 (Yankee) I think we need to look for something new, Rawl.
@@ -1138,7 +1138,7 @@
 -> Branch4_4_4
 
 = Branch4_4_12
-(Rawl) Yeah...
+(Rawl) Yeah... #TurnOff
 (Rawl) What do we do about it?
 (Yankee) I don't think we can do much, but we can at least try to fix it up.
 (Yankee) I could try and find some lights and a way to bring back other parts of the cave that went away.
@@ -1173,7 +1173,7 @@
 -> Branch4_4_4
 
 = Branch4_4_13
-(Yankee) I think it's time to get out of the mines.
+(Yankee) I think it's time to get out of the mines. #TurnOff
 (Yankee) What do you say, Rawl?
 (Yankee) We could fix this place up as best we can and then go out and explore!
 (Rawl) Explore?!
@@ -1208,7 +1208,7 @@
 -> Branch4_4_4
 
 = Branch4_4_14
-(Rawl) Wait!
+(Rawl) Wait! #TurnOff
 (Rawl) We're friends?!
 (Yankee) If they say so.
 (Rawl) Yes! Yes! Yes!
@@ -1247,7 +1247,7 @@
 
 
 === FoxesPuzzleSaved ===
-(Yankee) Hey there, bud!
+(Yankee) Hey there, bud! #TurnOff
 (Rawl) We're busy fixing up this place!
 (Rawl) But we promise! Future adventures await!
 (Yankee) Now that you're here though...
