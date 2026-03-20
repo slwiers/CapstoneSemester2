@@ -880,8 +880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bca9152103fbc4e839e720b22860ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 165709873}
-  slider: {fileID: 1733523655}
+  loadingScreen: {fileID: 0}
+  slider: {fileID: 0}
 --- !u!1 &30755305
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,7 +2625,7 @@ RectTransform:
   m_GameObject: {fileID: 165709873}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
+  m_LocalScale: {x: 0.4166666, y: 0.4166666, z: 0.4166666}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1733523656}
@@ -2634,7 +2634,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00030517578, y: 0.000061035156}
+  m_AnchoredPosition: {x: 0.00030008954, y: 0.000050862625}
   m_SizeDelta: {x: 1950, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165709875
@@ -7755,8 +7755,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bca9152103fbc4e839e720b22860ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 165709873}
-  slider: {fileID: 1733523655}
+  loadingScreen: {fileID: 0}
+  slider: {fileID: 0}
 --- !u!1 &696073367
 GameObject:
   m_ObjectHideFlags: 0
@@ -25175,8 +25175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bca9152103fbc4e839e720b22860ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
-  slider: {fileID: 0}
+  loadingScreen: {fileID: 165709873}
+  slider: {fileID: 1733523655}
 --- !u!224 &2085341619
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25193,7 +25193,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 960, y: 540}
+  m_AnchoredPosition: {x: 960.0004, y: 540.0002}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2091455790
