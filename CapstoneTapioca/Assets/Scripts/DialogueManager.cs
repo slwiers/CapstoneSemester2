@@ -355,20 +355,20 @@ public class DialogueManager : MonoBehaviour
                 StartCoroutine(LoadAsynchronously(sceneIndex));
             }
 
-        IEnumerator LoadAsynchronously(int sceneIndex)
-            {
-                AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+    IEnumerator LoadAsynchronously(int sceneIndex)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
 
-                loadingScreen.SetActive(true);
+        loadingScreen.SetActive(true);
 
-                while (!operation.isDone)
-            {
-                float progress = Mathf.Clamp01(operation.progress / .9f);
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+            slider.value = progress;
+            yield return null;
 
-                slider.value = progress;
-
-                yield return null;
-            }
+        }
+   
     }
 
     // build and show choice buttons for current choices
