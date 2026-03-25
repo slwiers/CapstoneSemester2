@@ -12,6 +12,7 @@ TagManager:
   - face3
   - face4
   - face5
+  - Loading
   layers:
   - Default
   - TransparentFX

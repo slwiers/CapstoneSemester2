@@ -63,6 +63,9 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject objectToTurnOff;
 
+    public GameObject loadingScreen;
+    public Slider slider;
+
     private void Awake()
     {
         if (instance != null)
@@ -241,42 +244,56 @@ public class DialogueManager : MonoBehaviour
                 {
                     if (tags[0] == "valepuzzle1")
                     {
-                        SceneManager.LoadScene("WaterPuzzle1");
+                        LoadLevel(10);
+                        //SceneManager.LoadScene("WaterPuzzle1");
                     }
                     if (tags[0] == "valepuzzle2")
                     {
-                        SceneManager.LoadScene("WaterPuzzle2");
+                        LoadLevel(11);
+                        //SceneManager.LoadScene("WaterPuzzle2");
                     }
                     if (tags[0] == "valepuzzle3")
                     {
-                        SceneManager.LoadScene("WaterPuzzle3");
+                        LoadLevel(12);
+                        //SceneManager.LoadScene("WaterPuzzle3");
                     }
                     if (tags[0] == "horacepuzzle1")
                     {
+                        LoadLevel(13);
                         Debug.Log("Scene Loaded");
-                        SceneManager.LoadScene("ClockPuzzle1");
+                        //SceneManager.LoadScene("ClockPuzzle1");
                     }
                     if (tags[0] == "horacepuzzle2")
                     {
+                        LoadLevel(14);
                         Debug.Log("Scene Loaded");
-                        SceneManager.LoadScene("ClockPuzzle2");
+                        //SceneManager.LoadScene("ClockPuzzle2");
                     }
                     if (tags[0] == "horacepuzzle3")
                     {
+                        LoadLevel(15);
                         Debug.Log("Scene Loaded");
-                        SceneManager.LoadScene("ClockPuzzle3");
+                        //SceneManager.LoadScene("ClockPuzzle3");
                     }
                     if (tags[0] == "introtrans")
                     {
+                        LoadLevel(6);
                         Debug.Log("Scene Loaded");
-                        SceneManager.LoadScene("CafeteriaRoom6");
+                        //SceneManager.LoadScene("CafeteriaRoom6");
                     }
                     if (tags[0] == "TurnOff")
                     {
                         Debug.Log("ObjectOff");
                         objectToTurnOff.SetActive(false);
                     }
+                    if (tags[0] == "TurnOn")
+                    {
+                        Debug.Log("ObjectOn");
+                        objectToTurnOff.SetActive(true);
+                    }
                 }
+
+
 
                 // New behavior: look for tags of form "key:value" or "key=value"
                 foreach (var t in tags)
@@ -331,6 +348,27 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
+    }
+
+         public void LoadLevel(int sceneIndex)
+            {
+                StartCoroutine(LoadAsynchronously(sceneIndex));
+            }
+
+    IEnumerator LoadAsynchronously(int sceneIndex)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+
+        loadingScreen.SetActive(true);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+            slider.value = progress;
+            yield return null;
+
+        }
+   
     }
 
     // build and show choice buttons for current choices

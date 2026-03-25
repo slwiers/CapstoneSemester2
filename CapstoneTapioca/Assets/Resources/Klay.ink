@@ -1,6 +1,6 @@
 ===Klay===
 
-Oh...uh...hi!
+Oh...uh...hi! #TurnOff
 Down here...!
 Sorry...I'm a bit...
 ...small.
@@ -8,15 +8,15 @@ At least nowadays I am.
 I hope you don't hurt your neck looking down at me for so long.
 You might as well spare yourself the pain and head out now.
 
-*Wait! Who are you?
+*Wait! Who are you? #TurnOn
 -> Branch5_1_1
-*I have strong neck muscles, don't worry about it.
+*I have strong neck muscles, don't worry about it. #TurnOn
 -> Branch5_1_9
-*Your eagerness for me to leave makes it less fun to actually do it.
+*Your eagerness for me to leave makes it less fun to actually do it. #TurnOn
 -> Branch5_1_13
 
 = Branch5_1_1
-Me?
+Me? #TurnOff
 Oh...uh...
 I'm Klay...!
 ...
@@ -25,15 +25,15 @@ You're...staying...um...
 Ah! You're a human!
 You must want a sculpture!
 
-*A sculpture? What for?
+*A sculpture? What for? #TurnOn
 -> Branch5_1_2
-*Yeah! That's exactly what I wanted!
+*Yeah! That's exactly what I wanted! #TurnOn
 -> Branch5_1_5
-*Not really.
+*Not really. #TurnOn
 -> Branch5_1_7
 
 = Branch5_1_9
-Oh...uh...
+Oh...uh... #TurnOff
 ...really?
 Uh...I guess you can talk to me if you want...
 I probably won't be too fun though...
@@ -42,15 +42,15 @@ You should've come a little sooner hahaha...
 Back when I used to be bigger...
 I mean I can try...you're welcome to stick around! I'm just saying...
 
-*You used to be bigger...?
+*You used to be bigger...? #TurnOn
 -> Branch5_1_10
-*Did you just suddenly become not fun or something?
+*Did you just suddenly become not fun or something? #TurnOn
 -> Branch5_1_11
-*Yeah...you are kinda boring...
+*Yeah...you are kinda boring... #TurnOn
 -> Branch5_1_12
 
 = Branch5_1_13
-Oh...sorry...
+Oh...sorry... #TurnOff
 Or...? Not sorry...?
 I don't know anymore...
 Trust me, I used to be a lot more fun than this.
@@ -60,15 +60,15 @@ Only chatting with me when they want something.
 I mean...not that I won't...give you...something?
 What did you want exactly?
 
-*Oh, I was just saying hi.
+*Oh, I was just saying hi. #TurnOn
 -> Branch5_1_14
-*You used to talk with other humans?
+*You used to talk with other humans? #TurnOn
 -> Branch5_1_15
-*To mess with you for the most part.
+*To mess with you for the most part. #TurnOn
 -> Branch5_1_16
 
 = Branch5_1_2
-Your machine...!
+Your machine...! #TurnOff
 All of the humans used to want sculptures and stuff like that from me.
 Then they'd put it into their machine and it would make more...!
 More art! Without me...
@@ -88,15 +88,15 @@ I guess nobody needs that anymore, huh?
 -> Branch5_1_2_2
 
 = Branch5_1_2_2
-*That's not true.
+*That's not true. #TurnOn
 -> Branch5_1_3
-*Maybe we can put you back together somehow.
+*Maybe we can put you back together somehow. #TurnOn
 -> Branch5_1_6
-*Probably.
+*Probably. #TurnOn
 -> Branch5_1_8
 
 = Branch5_1_5
-Okay...!
+Okay...! #TurnOff
 Uh...one second...!
 ...
 ...
@@ -117,7 +117,7 @@ I was all of their ideas...the food for their machine to make more copies of me.
 -> Branch5_1_2_2
 
 = Branch5_1_7
-Oh...
+Oh... #TurnOff
 I thought that's what you humans liked.
 You know...for your machine...?
 To make more art...?
@@ -138,7 +138,7 @@ I'm useless.
 -> Branch5_1_2_2
 
 = Branch5_1_10
-Yeah...!
+Yeah...! #TurnOff
 I know I'm just a blob of clay now, but I used to be taller that you...!
 Back when I had ideas!
 Then that machine came along...
@@ -158,7 +158,7 @@ I wouldn't be so useless now...
 -> Branch5_1_2_2
 
 = Branch5_1_11
-No...
+No... #TurnOff
 It was...slow...
 I would come up with an idea...
 Make a sculpture out of it...out of me...
@@ -178,7 +178,7 @@ And now I'm useless.
 -> Branch5_1_2_2
 
 = Branch5_1_12
-...
+... #TurnOff
 Thanks...?
 Trust me...
 I wish I wasn't so boring.
@@ -198,7 +198,7 @@ Useless...
 -> Branch5_1_2_2
 
 = Branch5_1_14
-Oh...um...hi...?
+Oh...um...hi...? #TurnOff
 ...
 You really are like them, huh...?
 You know, I haven't seen a human around since their machine was still on.
@@ -217,7 +217,7 @@ I'm useless.
 -> Branch5_1_2_2
 
 = Branch5_1_15
-Yeah...
+Yeah... #TurnOff
 Can't say I'm too big of a fan...no offense...
 The ones that worked here at least are the reason I'm like this...
 Small...no more ideas...an uncreative blob...
@@ -236,7 +236,7 @@ And now I'm useless.
 -> Branch5_1_2_2
 
 = Branch5_1_16
-Oh...
+Oh... #TurnOff
 Again...I may not really be that fun...
 I used to be able to act, you know.
 I could've at least acted believably if you wanted to prank me...
@@ -255,7 +255,7 @@ Maybe you'd have better luck with someone less...
 -> Branch5_1_2_2
 
 = Branch5_1_3
-I mean...it is though...
+I mean...it is though... #TurnOff
 But...I guess there may be a way to fix it...
 A way to make me bigger and get some ideas for my art again...!
 There are probably chunks of me laying around here...
@@ -272,11 +272,11 @@ Anyways...!
 -> Branch5_1_4
 
 = Branch5_1_4
-I'll...see you around...!
+I'll...see you around...! #TurnOff
 ->END
 
 = Branch5_1_6
-Put me back together...?
+Put me back together...? #TurnOff
 You really want to do that...?
 I wouldn't want to be a bother...
 But if you're offering...
@@ -292,7 +292,7 @@ It's been a while since someone actually talked with me.
 -> Branch5_1_4
 
 = Branch5_1_8
-Oh...uh...thanks...
+Oh...uh...thanks... #TurnOff
 Hey...
 ...if you want to be around someone more fun to talk to...
 ...you could always help me find some pieces of myself.
@@ -312,20 +312,20 @@ It's not like I can get any smaller...!
 
 
 === KlayPuzzle1 ===
-You actually found a piece?!
+You actually found a piece?! #TurnOff
 I didn't think you'd even come back!
 This is...
 ...thank you.
 
-*Do you feel any better?
+*Do you feel any better? #TurnOn
 -> Branch5_2_1
-*No problem.
+*No problem. #TurnOn
 -> Branch5_2_6
-*So why can't you do this yourself again?
+*So why can't you do this yourself again? #TurnOn
 -> Branch5_2_10
 
 = Branch5_2_1
-Hm...lets find out...!
+Hm...lets find out...! #TurnOff
 ...
 ...
 ...
@@ -336,15 +336,15 @@ Or start learning an instrument!
 I bet I'll be back to having a head full of ideas in no time if we keep this up...!
 This is so exciting...!
 
-*Well...what are you waiting for? What are you thinking about?
+*Well...what are you waiting for? What are you thinking about? #TurnOn
 -> Branch5_2_2
-*So these ideas are just for art stuff then...?
+*So these ideas are just for art stuff then...? #TurnOn
 -> Branch5_2_4
-*Just don't lose that piece this time.
+*Just don't lose that piece this time. #TurnOn
 -> Branch5_2_5
 
 = Branch5_2_6
-Let's see here...
+Let's see here... #TurnOff
 There...!
 ...
 ...
@@ -354,15 +354,15 @@ It actually worked...!
 I feel...different!
 I haven't felt like this in so long...
 
-*How does it feel?
+*How does it feel? #TurnOn
 -> Branch5_2_7
-*Wait...you didn't know if it would work or not...?
+*Wait...you didn't know if it would work or not...? #TurnOn
 -> Branch5_2_8
-*Great! Because it's machine time for you!
+*Great! Because it's machine time for you! #TurnOn
 -> Branch5_2_9
 
 = Branch5_2_10
-I've always been too small.
+I've always been too small. #TurnOff
 It's like an ant trying to climb a tree.
 Or...I guess you trying to reach the top shelf...?
 And plus, my eyesight isn't good.
@@ -372,15 +372,15 @@ Let me just...
 ...
 There!
 
-*Did it work?
+*Did it work? #TurnOn
 -> Branch5_2_11
-*Hey...wait a minute...did you call me short...?
+*Hey...wait a minute...did you call me short...? #TurnOn
 -> Branch5_2_12
-*Well that definitely did...something.
+*Well that definitely did...something. #TurnOn
 -> Branch5_2_13
 
 = Branch5_2_2
-Hm...
+Hm... #TurnOff
 Birds.
 Colorful ones...
 Or...black ones against a colorful sky.
@@ -392,12 +392,12 @@ Everything!
 -> Branch5_2_3
 
 = Branch5_2_3
-Thank you, human. Keep it up...!
+Thank you, human. Keep it up...! #TurnOff
 If you find any more pieces of me, please bring them back!
 -> END
 
 = Branch5_2_4
-Yeah...!
+Yeah...! #TurnOff
 It's...who I am...!
 Maybe you don't know the feeling to be fair...
 I didn't think I'd ever know how it felt to lose myself, but here I am...
@@ -409,7 +409,7 @@ I hope I'm right...
 -> Branch5_2_3
 
 = Branch5_2_5
-I won't!
+I won't! #TurnOff
 I'll never be giving myself away again!
 At least I won't on purpose.
 Those humans...they promised me a lot...
@@ -421,7 +421,7 @@ That's...my word...
 -> Branch5_2_3
 
 = Branch5_2_7
-Like...
+Like... #TurnOff
 I woke up from a long nap...
 And I'm remembering all of the things I need to do...!
 Not chores, but...fun things...
@@ -434,7 +434,7 @@ I'll be...
 -> Branch5_2_3
 
 = Branch5_2_8
-I mean...
+I mean... #TurnOff
 It was a bit of an experiment, but I was pretty sure it would work.
 If your guts were spun in a laundry machine and then given back to you...
 ...you'd be pretty hesitant to if they would be working or not too.
@@ -447,7 +447,7 @@ I'll be able to do art again soon...!
 -> Branch5_2_3
 
 = Branch5_2_9
-...!
+...! #TurnOff
 Oh...!
 You're joking...right?
 Right...?
@@ -460,7 +460,7 @@ And...I wouldn't be able to do this without you...
 -> Branch5_2_3
 
 = Branch5_2_11
-...!
+...! #TurnOff
 It...
 It worked...!
 Woah...!
@@ -473,7 +473,7 @@ Draw, write, sculpt...!
 -> Branch5_2_3
 
 = Branch5_2_12
-You are what you are!
+You are what you are! #TurnOff
 And what I am right now...
 I feel...like a new person...
 I forgot what it felt like...
@@ -485,7 +485,7 @@ I could actually...
 -> Branch5_2_3
 
 = Branch5_2_13
-Hey...!
+Hey...! #TurnOff
 Small steps are still steps...!
 Woah...
 Why did I ever give this up to anyone...?
@@ -503,34 +503,34 @@ Oh! This is great...!
 
 
 === KlayPuzzle2 ===
-Another piece...?
+Another piece...? #TurnOff
 You're pretty good at this...!
 Better than the last guy...
 He just talked to me and then walked away...never to be seen again...
 What an odd fellow...
 
-*So how does this one feel...?
+*So how does this one feel...? #TurnOn
 -> Branch5_3_1
-*Anything to help out!
+*Anything to help out! #TurnOn
 -> Branch5_3_3
-*Yeah that definitely won't be me...
+*Yeah that definitely won't be me... #TurnOn
 -> Branch5_3_4
 
 = Branch5_3_1
-It feels like...
+It feels like... #TurnOff
 I'm remembering techniques...
 How to mix colors...muscle memory...stuff like that...
 Obviously I've still got a long way to go, but it still feels great already...!
 -> Branch5_3_2
 
 = Branch5_3_2
-Well, I won't keep you here while I ramble...
+Well, I won't keep you here while I ramble... #TurnOff
 I'd rather you be keeping your eyes peeled for me...!
 See you soon...!
 -> END
 
 = Branch5_3_3
-Aw...you're so nice...
+Aw...you're so nice... #TurnOff
 I haven't met anyone like you in a while...
 Anyone who cares...I mean...
 I appreciate it...
@@ -538,7 +538,7 @@ And I hope you know I'm feeling even better now...
 -> Branch5_3_2
 
 = Branch5_3_4
-Glad to hear it...!
+Glad to hear it...! #TurnOff
 Wait a minute...
 Ah...! As long as you're helping out a bit, I don't care what you do...!
 Unless it's being tearing stuff down, being rude to people, or making everything generally worse.
@@ -550,21 +550,21 @@ Hahaha...! that's not you though...!
 
 
 === KlayPuzzle3 ===
-You're back, which can only mean one thing...!
+You're back, which can only mean one thing...! #TurnOff
 Hey...I was just wondering...
 Why are you doing all of this...?
 You don't need to...
 But you still are, so I was just curious...
 
-*Because it's the right thing to do. I like helping.
+*Because it's the right thing to do. I like helping. #TurnOn
 -> Branch5_4_1
-*Because I want to see your art of course...!
+*Because I want to see your art of course...! #TurnOn
 -> Branch5_4_3
-*Oh, me? I have to do this that's why.
+*Oh, me? I have to do this that's why. #TurnOn
 -> Branch5_4_4
 
 = Branch5_4_1
-Huh...
+Huh... #TurnOff
 Really...?
 That's great...!
 You didn't do any of this, but it still is nice...
@@ -573,7 +573,7 @@ Hm. I feel...
 -> Branch5_4_2
 
 = Branch5_4_2
-...hopeful...?
+...hopeful...? #TurnOff
 Ah...! Maybe I could use this for something...!
 A sculpture maybe...!
 Ah...! You better get out of here before I start burying you in ideas...!
@@ -581,7 +581,7 @@ I'll be here if you need me...!
 -> END
 
 = Branch5_4_3
-My art...?
+My art...? #TurnOff
 You're doing this for me...just because...?
 Huh, you are quite odd, human...
 I love that...
@@ -589,7 +589,7 @@ You're enjoyment of others and their skills makes me feel...
 -> Branch5_4_2
 
 = Branch5_4_4
-Have to?
+Have to? #TurnOff
 Are you on a secret mission or something...?
 Is it your duty or something...?
 Hm...how odd...very mysterious...
@@ -602,7 +602,7 @@ Funnily enough I feel a bit inspired...maybe even...
 
 
 === KlayPuzzle4 ===
-Already...?
+Already...? #TurnOff
 That one was quicker than the last...!
 I didn't even finish writing down all of my ideas...!
 Oh...! While you're here maybe you can listen to them...!
@@ -611,28 +611,28 @@ A portrait of an old man, highlighting what he's seen in such a long life...
 A cat! In a tiny, yet comical hat...
 Or...a landscape....one that's green and colorful like the olden days. A little reminder of the past...
 
-*The old man sounds thought provoking.
+*The old man sounds thought provoking. #TurnOn
 -> Branch5_5_1
-*Cat in little hat. Now.
+*Cat in little hat. Now. #TurnOn
 -> Branch5_5_3
-*A landscape would be nice. I forgot what everything used to look like when it's green.
+*A landscape would be nice. I forgot what everything used to look like when it's green. #TurnOn
 -> Branch5_5_4
 
 = Branch5_5_1
-Yes...!
+Yes...! #TurnOff
 Someone wise...
 Someone who's lived...
 Someone who has grown from rock to clay to clay old man...
 -> Branch5_5_2
 
 = Branch5_5_2
-Ah...! You're a genius...!
+Ah...! You're a genius...! #TurnOff
 Okay...! I've gotta get back to it...!
 These ideas aren't going to write themselves down...!
 ->END
 
 = Branch5_5_3
-I like how you think...!
+I like how you think...! #TurnOff
 Now to decide what kind of hat...
 A top hat...
 A jester hat...
@@ -640,7 +640,7 @@ A strawberry shaped hat...
 -> Branch5_5_2
 
 = Branch5_5_4
-Ah...yes...!
+Ah...yes...! #TurnOff
 Wildflowers...
 Oak trees with deer resting under them...
 Clear rivers flowing through open fields...
@@ -651,7 +651,7 @@ Clear rivers flowing through open fields...
 
 
 === KlayPuzzle5 ===
-Over halfway done, human...!
+Over halfway done, human...! #TurnOff
 You know, I was thinking a bit...
 I'm starting to remember making art before the machine.
 Before the machine, I would just regrow parts of myself when I'd make art...
@@ -659,15 +659,15 @@ I would draw until my hand was no more, but it would always be back the next day
 But when I started making art for the machine...I just got smaller and smaller...
 Why do you think that is...?
 
-*Maybe because before it was for yourself.
+*Maybe because before it was for yourself. #TurnOn
 -> Branch5_6_1
-*Maybe subconsciously you saw no use anymore. The machine did it all for you.
+*Maybe subconsciously you saw no use anymore. The machine did it all for you. #TurnOn
 -> Branch5_6_6
-*I don't know the ins and outs of giant clay monsters.
+*I don't know the ins and outs of giant clay monsters. #TurnOn
 -> Branch5_6_10
 
 = Branch5_6_1
-For myself...
+For myself... #TurnOff
 I did have a lot more fun when it wasn't a job...
 It wasn't just for me though...
 I made stuff for other people to enjoy.
@@ -675,15 +675,15 @@ I wanted to see them happy.
 Which...I guess is also for me...
 Hm...
 
-*How did you get into making stuff for the machine?
+*How did you get into making stuff for the machine? #TurnOn
 -> Branch5_6_2
-*For yourself or others, the machine was clearly taking from you.
+*For yourself or others, the machine was clearly taking from you. #TurnOn
 -> Branch5_6_4
-*I guess we'll never know.
+*I guess we'll never know. #TurnOn
 -> Branch5_6_5
 
 = Branch5_6_6
-I was pretty conscious of that honestly...
+I was pretty conscious of that honestly... #TurnOff
 But maybe you're right.
 Maybe it was just me hitting a brick wall.
 No clay pun intended.
@@ -691,15 +691,15 @@ I don't know if you're a creative person, human...
 But have you ever felt like everyone's telling you it's pointless...
 At least until they can do something with it...?
 
-*All the time.
+*All the time. #TurnOn
 -> Branch5_6_7
-*No, but I'm pretty sure that's just a greedy human thing.
+*No, but I'm pretty sure that's just a greedy human thing. #TurnOn
 -> Branch5_6_8
-*Maybe...so can I do something with your art...?
+*Maybe...so can I do something with your art...? #TurnOn
 -> Branch5_6_9
 
 = Branch5_6_10
-Maybe not....
+Maybe not.... #TurnOff
 I don't know...
 Maybe I'm not special around here for this, but I just keep asking myself why...
 This place feels like it just...
@@ -707,15 +707,15 @@ This place feels like it just...
 I'd heard from rumors others here before, but I realized they were true too late...
 Before I knew it, it had taken from me...
 
-*I think you may be right about this place.
+*I think you may be right about this place. #TurnOn
 -> Branch5_6_11
-*How could you have known?
+*How could you have known? #TurnOn
 -> Branch5_6_12
-*Yeah that was kinda stupid of you.
+*Yeah that was kinda stupid of you. #TurnOn
 -> Branch5_6_13
 
 = Branch5_6_2
-I used to just regularly make art for the company.
+I used to just regularly make art for the company. #TurnOff
 Graphic design.
 I actually have a degree in graphic design.
 I would make them advertisements and graphics for their website.
@@ -733,7 +733,7 @@ You know the rest from there, but it's embarrassing to think about now...
 -> Branch5_6_3
 
 = Branch5_6_3
-Wow! Sorry...!
+Wow! Sorry...! #TurnOff
 I'm probably distracting you from whatever it is you're actually doing around here.
 I'll be here still if you need me...!
 Or if you have more pieces...!
@@ -741,7 +741,7 @@ I'll...quit bothering you for now...!
 -> END
 
 = Branch5_6_4
-Yeah I guess.
+Yeah I guess. #TurnOff
 I should've seen it coming though.
 I got so used to putting myself into my art.
 I was happy to make stuff for other people.
@@ -760,7 +760,7 @@ And I trust you. you're helping me...!
 -> Branch5_6_3
 
 = Branch5_6_5
-Maybe...
+Maybe... #TurnOff
 Can't I just admit that I want to know...?
 I know I might never, but still...
 I want to know so it doesn't happen again...
@@ -779,7 +779,7 @@ I think...I think I trust you...!
 -> Branch5_6_3
 
 = Branch5_6_7
-Phew!
+Phew! #TurnOff
 So you get it then...?
 Maybe even just in general...?
 I feel like they made everyone around here feel like that.
@@ -798,7 +798,7 @@ I'm not a human though, so I guess that's up to you then, huh...?
 -> Branch5_6_3
 
 = Branch5_6_8
-Oh...
+Oh... #TurnOff
 Well at least we know the cause, huh...?
 And that means you're not a greedy human, right...?
 I mean, it would be kinda pointless to do all of this just to turn me into a blob again.
@@ -817,7 +817,7 @@ Maybe that's just...asking for help though...?
 -> Branch5_6_3
 
 = Branch5_6_9
-I can't tell if you're joking or weren't paying attention.
+I can't tell if you're joking or weren't paying attention. #TurnOff
 Look...
 You've helped me this much and I trust you.
 Everyone always used to tell me...
@@ -836,7 +836,7 @@ So, do we have a deal...?
 -> Branch5_6_3
 
 = Branch5_6_11
-You're telling me...
+You're telling me... #TurnOff
 You know the funny thing about things that only take...?
 They're doomed to crumble apart just like this old building.
 We're lucky that a few people like us are still around.
@@ -855,7 +855,7 @@ Like us...
 -> Branch5_6_3
 
 = Branch5_6_12
-I don't know.
+I don't know. #TurnOff
 It's easier to say after the fact.
 You have more clarity.
 But I understand...
@@ -874,7 +874,7 @@ Or not...? I don't know...
 -> Branch5_6_3
 
 = Branch5_6_13
-I know.
+I know. #TurnOff
 I get too excited when people are interested sometimes...
 I've tried to tone it down, but...art just makes me happy.
 I guess I've had nobody to be excited about this stuff around...
@@ -898,18 +898,18 @@ Please...?
 
 
 === KlayPuzzle6 ===
-I'm doing some research, human...
+I'm doing some research, human... #TurnOff
 What do you think the meaning of life is...?
 
-*To do things you enjoy and be around people you love.
+*To do things you enjoy and be around people you love. #TurnOn
 -> Branch5_7_1
-*To make something that people will remember forever.
+*To make something that people will remember forever. #TurnOn
 -> Branch5_7_3
-*To eventually die I guess.
+*To eventually die I guess. #TurnOn
 -> Branch5_7_4
 
 = Branch5_7_1
-Oh...!
+Oh...! #TurnOff
 What a nice answer...!
 I thought you were gonna say to eventually die or something like that...!
 Well, you've been here long enough so you must have fulfilled some of that, right...?
@@ -917,13 +917,13 @@ Maybe I'll try that out sometime...
 -> Branch5_7_2
 
 = Branch5_7_2
-I always thought the point of everything was to make art, but clearly there's a lot more out there...
+I always thought the point of everything was to make art, but clearly there's a lot more out there... #TurnOff
 You've given me a lot to think about.
 Oh...and we're almost there, so keep finding those pieces of mine...!
 -> END
 
 = Branch5_7_3
-Hm...
+Hm... #TurnOff
 I do that a bit, don't I...?
 Maybe we have a lot more in common than I thought...
 Maybe making is also more than just something physical though...
@@ -931,7 +931,7 @@ Maybe it's anything memorable...making experiences...making a legacy...
 -> Branch5_7_2
 
 = Branch5_7_4
-Interesting...
+Interesting... #TurnOff
 How morbid...
 You must live like nothing matters...
 Or like everything matters...
@@ -943,7 +943,7 @@ I can't tell if that's sad or hopeful that maybe you'll live life to the fullest
 
 
 === KlayPuzzle7 ===
-I'm...almost back...
+I'm...almost back... #TurnOff
 I feel like I could explode I have so much on my mind...!
 I guess I could start, but I don't want to fall apart before I can put myself back together again...
 I'll just have to wait for now.
@@ -952,15 +952,15 @@ It always does...!
 Tell me...
 ...what is you favorite kind of art...?
 
-*Probably the visual arts.
+*Probably the visual arts. #TurnOn
 -> Branch5_8_1
-*Music is pretty cool.
+*Music is pretty cool. #TurnOn
 -> Branch5_8_3
-*Out of everything, I love theater.
+*Out of everything, I love theater. #TurnOn
 -> Branch5_8_4
 
 = Branch5_8_1
-Hey...!
+Hey...! #TurnOff #TurnOff
 Are you trying to get on my good side or what...!
 There's so much to do with the visual arts...!
 Sculpture, drawing, graphic design, glassblowing...!
@@ -971,14 +971,14 @@ Something always has me coming back to the visual arts though.
 -> Branch5_8_2
 
 = Branch5_8_2
-And now that a wave of ideas has been stifled thanks to you...
+And now that a wave of ideas has been stifled thanks to you... #TurnOff
 I can get back to thinking about it again...!
 Or...word vomiting in my journal about everything I want to do...
 Either or...!
 -> END
 
 = Branch5_8_3
-Oh yeah...!
+Oh yeah...! #TurnOff
 I'm not a big musician, but I dabble...!
 It's so fun to create something that sounds pretty...
 There's something so magical about it...
@@ -989,7 +989,7 @@ Ah...! Nevermind...! I just love music...!
 -> Branch5_8_2
 
 = Branch5_8_4
-Oh...! Of course...!
+Oh...! Of course...! #TurnOff
 Acting...!
 Props...!
 Set design...!
@@ -1004,32 +1004,32 @@ I can't argue with that though...theater is definitely impressive...
 
 
 === KlayPuzzle8 ===
-I don't know how you did it, but...
+I don't know how you did it, but... #TurnOff
 ...I only have one more piece missing...!
 It's funny because I stopped thinking about what I was going to make for a second...
 And then I got this idea...
 What if I turned this place into a gallery...?
 A museum even...? Just for art...?
 
-*That sounds awesome!
+*That sounds awesome! #TurnOn
 -> Branch5_9_1
-*That sounds like a lot of art for just you to make, but I believe in you.
+*That sounds like a lot of art for just you to make, but I believe in you. #TurnOn
 -> Branch5_9_4
-*Eh, it's been done before.
+*Eh, it's been done before. #TurnOn
 -> Branch5_9_5
 
 = Branch5_9_1
-Really...?
+Really...? #TurnOff
 You think so...?
 Oh, I'm so glad...!
 -> Branch5_9_2
 
 = Branch5_9_2
-I thought you were going to think it was stupid...
+I thought you were going to think it was stupid... #TurnOff
 -> Branch5_9_3
 
 = Branch5_9_3
-Ah...!
+Ah...! #TurnOff
 Now I'm not only gonna have art ideas, but I'm gonna have gallery ideas too...!
 This is quite the conundrum...!
 Ah...! I'd leave before I start to talk your ear off about this...!
@@ -1037,13 +1037,13 @@ I'm so excited...!
 ->END
 
 = Branch5_9_4
-I'll come up with something for that...!
+I'll come up with something for that...! #TurnOff
 Whatever it is, I'm going to make sure everything around here looks amazing...!
 And I'm glad you believe in me...
 -> Branch5_9_2
 
 = Branch5_9_5
-I'll just have to make the best gallery then...!
+I'll just have to make the best gallery then...! #TurnOff
 It's not like there's any competition anymore anyways...
 I have a lot to think about I guess...!
 How to make the best gallery with no other galleries around...hm...
@@ -1054,63 +1054,63 @@ How to make the best gallery with no other galleries around...hm...
 
 
 === KlayPuzzle9 ===
-You...you did it!
+You...you did it! #TurnOff
 I'm...an artist again...I'm me...
 I'm...
 Klay...!
 Nice to finally meet you...
 
-*It's nice to meet you too!
+*It's nice to meet you too! #TurnOn
 -> Branch5_10_1
-*This is amazing! What are you gonna do now?
+*This is amazing! What are you gonna do now? #TurnOn
 -> Branch5_10_8
-*I already knew you before, but hi I guess.
+*I already knew you before, but hi I guess. #TurnOn
 -> Branch5_10_13
 
 = Branch5_10_1
-Aw...!
+Aw...! #TurnOff
 I don't even know what to say...!
 Oh...!
 I know...!
 What would you like me to draw...?
 
-*A picture of you and I together!
+*A picture of you and I together! #TurnOn
 -> Branch5_10_2
-*Something colorful...with birds!
+*Something colorful...with birds! #TurnOn
 -> Branch5_10_5
-*You choose! I trust the artist!
+*You choose! I trust the artist! #TurnOn
 -> Branch5_10_6
 
 = Branch5_10_8
-Oh...! So much...!
+Oh...! So much...! #TurnOff
 I can see this right here as the entryway...
 The cafeteria would be a great grand hall...
 Those gardens are going to be perfect for a reflection area...
 Oh! And we'll tear down those long hallways and hang up paintings from everyone who visits...!
 
-*I see...your gallery!
+*I see...your gallery! #TurnOn
 -> Branch5_10_9
-*A really nice mansion...?
+*A really nice mansion...? #TurnOn
 -> Branch5_10_11
-*Everyone who visits? Who's visiting this old place?
+*Everyone who visits? Who's visiting this old place? #TurnOn
 -> Branch5_10_12
 
 = Branch5_10_13
-Oh...! Come on...!
+Oh...! Come on...! #TurnOff
 I haven't had fun like this in a long while...!
 Let me have my moment...!
 After all, I can't take too long here...
 I've got art to get back to...!
 
-*What are you going to make first?
+*What are you going to make first? #TurnOn
 -> Branch5_10_14
-*You seem happier. I'm glad.
+*You seem happier. I'm glad. #TurnOn
 -> Branch5_10_15
-*Is art literally all you think about?
+*Is art literally all you think about? #TurnOn
 -> Branch5_10_16
 
 = Branch5_10_2
-What a great idea...!
+What a great idea...! #TurnOff
 Alright here I go...
 Stay still...
 Okay now tilt your head a bit...
@@ -1118,12 +1118,12 @@ Let me get a closer look...
 -> Branch5_10_3
 
 = Branch5_10_3
-And...
+And... #TurnOff
 Done...!
 -> Branch5_10_4
 
 = Branch5_10_4
-I hope you like it...!
+I hope you like it...! #TurnOff
 You can keep it...
 It's a thanks from me to you...
 It's hard to find people like you, but I'm glad I did...
@@ -1133,7 +1133,7 @@ See you, friend!
 -> END
 
 = Branch5_10_5
-You know exactly what I like...!
+You know exactly what I like...! #TurnOff
 Alright here I go...
 Hm...more orange or more yellow...?
 I think I'm going to go with crows...crows are cool...
@@ -1141,7 +1141,7 @@ Just a few more...
 -> Branch5_10_3
 
 = Branch5_10_6
-Really?!
+Really?! #TurnOff
 Okay...! I won't let you down...!
 Alright here I go...
 Yeah...some of these...
@@ -1152,13 +1152,13 @@ Done...!
 -> Branch5_10_7
 
 = Branch5_10_7
-It's this building...before it started to get dull...
+It's this building...before it started to get dull... #TurnOff
 What we can make it again...!
 At least we'll make something better...!
 -> Branch5_10_4
 
 = Branch5_10_9
-Exactly...!
+Exactly...! #TurnOff
 I'll have to get to know everyone around here!
 Maybe there are some fellow artists...
 ...or aspiring ones even...!
@@ -1167,12 +1167,12 @@ Oh..! That would be lovely, wouldn't it...?
 -> Branch5_10_10
 
 = Branch5_10_10
-Oh...! Also, as promised...!
+Oh...! Also, as promised...! #TurnOff
 I made something for you...!
 -> Branch5_10_7
 
 = Branch5_10_11
-No...! A museum...! A gallery...!
+No...! A museum...! A gallery...! #TurnOff
 Made up of everyone's art...not just mine...!
 It would really liven everything up, wouldn't it...?
 It would make a great community gathering place...! I can see it already...!
@@ -1181,7 +1181,7 @@ We could even put something of yours up...!
 -> Branch5_10_10
 
 = Branch5_10_12
-You'd be surprised who comes around once the word spreads far enough...!
+You'd be surprised who comes around once the word spreads far enough...! #TurnOff
 Did you really think you were the first human to visit...?
 That's not the point though...
 The point is...this place could be a gallery...!
@@ -1190,7 +1190,7 @@ It'll be covered in art from all over..! Maybe you could even put something up..
 -> Branch5_10_10
 
 = Branch5_10_14
-I figured you may want to start your own gallery...!
+I figured you may want to start your own gallery...! #TurnOff
 I think I have a few ideas...
 That's thanks to you of course....
 Actually, I did have something already made for you...
@@ -1198,14 +1198,14 @@ You know, since I didn't know if you'd be sticking around for me to turn this pl
 -> Branch5_10_7
 
 = Branch5_10_15
-Trust me, I'll remember this forever...especially when I'm making my very own gallery here...!
+Trust me, I'll remember this forever...especially when I'm making my very own gallery here...! #TurnOff
 Of course I am...!
 I can do what I enjoy again...!
 That's just as priceless as a friend like you...
 -> Branch5_10_10
 
 = Branch5_10_16
-I'm completely happy with that too...
+I'm completely happy with that too... #TurnOff
 I don't think I could've done that forever...
 ...
 If not before, then definitely it is now...!
