@@ -62,6 +62,7 @@ public class DialogueManager : MonoBehaviour
     private Coroutine displyLineCororoutine;
 
     public GameObject objectToTurnOff;
+    public GameObject objectToTurnOff2;
 
     public GameObject loadingScreen;
     public Slider slider;
@@ -69,6 +70,8 @@ public class DialogueManager : MonoBehaviour
     public ClayPieceManagement pieceManagement;
 
     public LevelLoader levelLoader;
+
+    public WinCondition winCondition;
 
     private void Awake()
     {
@@ -249,6 +252,7 @@ public class DialogueManager : MonoBehaviour
                     if (tags[0] == "valepuzzle1")
                     {
                         levelLoader.LoadLevel(10);
+                        Debug.Log("LevelLoading");
 
                     }
                     if (tags[0] == "valepuzzle2")
@@ -414,6 +418,35 @@ public class DialogueManager : MonoBehaviour
                         ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
                         instance.killDPlant = true;
 
+                    }
+                    if(tags[0] == "WakeyWakey")
+                    {
+                        objectToTurnOff2.SetActive(true);
+                    }
+                    if (tags[0] == "saved1")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC1 = true;
+                    }
+                    if (tags[0] == "saved2")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC2 = true;
+                    }
+                    if (tags[0] == "saved3")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC3 = true;
+                    }
+                    if (tags[0] == "saved4")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC4 = true;
+                    }
+                    if (tags[0] == "saved5")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC5 = true;
                     }
 
                 }

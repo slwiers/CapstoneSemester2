@@ -682,6 +682,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1927736458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &98417694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 98417696}
+  - component: {fileID: 98417695}
+  m_Layer: 0
+  m_Name: WinCondition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &98417695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98417694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024372499528a47449a6787411f2f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savedNPC1: 0
+  savedNPC2: 0
+  savedNPC3: 0
+  savedNPC4: 0
+  savedNPC5: 0
+--- !u!4 &98417696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98417694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1748.3999, y: 46.999954, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &125547017
 GameObject:
   m_ObjectHideFlags: 0
@@ -1689,6 +1738,8 @@ MonoBehaviour:
   killClayPiece8: 0
   triggerClayPiece9: 0
   killClayPiece9: 0
+  triggerDPlant: 0
+  killDPlant: 0
 --- !u!4 &377252395
 Transform:
   m_ObjectHideFlags: 0
@@ -2858,7 +2909,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &726444499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6927,9 +6978,12 @@ MonoBehaviour:
   roomCycle2: {fileID: 414437886}
   typingSpeed: 0.04
   objectToTurnOff: {fileID: 0}
+  objectToTurnOff2: {fileID: 0}
   loadingScreen: {fileID: 1800126623}
   slider: {fileID: 415422799}
   pieceManagement: {fileID: 377252394}
+  levelLoader: {fileID: 0}
+  winCondition: {fileID: 0}
 --- !u!114 &1812616735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8182,3 +8236,4 @@ SceneRoots:
   - {fileID: 2077253729}
   - {fileID: 677006036}
   - {fileID: 142279123}
+  - {fileID: 98417696}

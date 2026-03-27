@@ -1157,7 +1157,7 @@ It's hard to find people like you, but I'm glad I did...
 If you ever want more art, you know where to find me...!
 I'd make unlimited art just for you...!
 ~ savedKlay = true
-See you, friend!
+See you, friend! #saved5
 -> END
 
 = Branch5_10_5

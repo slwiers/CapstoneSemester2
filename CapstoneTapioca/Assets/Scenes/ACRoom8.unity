@@ -354,7 +354,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &115214867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,6 +1392,55 @@ RectTransform:
   m_AnchoredPosition: {x: 960, y: 540}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &320766202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320766204}
+  - component: {fileID: 320766203}
+  m_Layer: 0
+  m_Name: WinCondition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &320766203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320766202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024372499528a47449a6787411f2f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  savedNPC1: 0
+  savedNPC2: 0
+  savedNPC3: 0
+  savedNPC4: 0
+  savedNPC5: 0
+--- !u!4 &320766204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320766202}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1748.3999, y: 46.999954, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321922416
 GameObject:
   m_ObjectHideFlags: 0
@@ -8055,9 +8104,12 @@ MonoBehaviour:
   roomCycle2: {fileID: 1587218997}
   typingSpeed: 0.04
   objectToTurnOff: {fileID: 0}
+  objectToTurnOff2: {fileID: 0}
   loadingScreen: {fileID: 1022653021}
   slider: {fileID: 0}
   pieceManagement: {fileID: 985300419}
+  levelLoader: {fileID: 0}
+  winCondition: {fileID: 0}
 --- !u!114 &1184751974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14806,3 +14858,4 @@ SceneRoots:
   - {fileID: 1184751975}
   - {fileID: 893919927}
   - {fileID: 1170176945}
+  - {fileID: 320766204}
