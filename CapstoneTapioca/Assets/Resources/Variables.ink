@@ -18,6 +18,17 @@ VAR playedMinigameKlay7 = false
 VAR playedMinigameKlay8 = false
 VAR playedMinigameKlay9 = false
 
+VAR varKlayWaiting1 = false
+VAR varKlayWaiting2 = false
+VAR varKlayWaiting3 = false
+VAR varKlayWaiting4 = false
+VAR varKlayWaiting5 = false
+VAR varKlayWaiting6 = false
+VAR varKlayWaiting7 = false
+VAR varKlayWaiting8 = false
+VAR varKlayWaiting9 = false
+VAR savedKlay = false
+
 
 VAR playedMinigameFoxes = false
 VAR playedMinigameDavey = false

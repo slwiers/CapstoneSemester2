@@ -10,3 +10,7 @@ INCLUDE ClayPieceGet2.ink
 INCLUDE ClayPieceGet3.ink
 INCLUDE ClayPieceGet4.ink
 INCLUDE ClayPieceGet5.ink
+INCLUDE ClayPieceGet6.ink
+INCLUDE ClayPieceGet7.ink
+INCLUDE ClayPieceGet8.ink
+INCLUDE ClayPieceGet9.ink

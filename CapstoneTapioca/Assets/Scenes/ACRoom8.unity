@@ -6240,7 +6240,7 @@ GameObject:
   - component: {fileID: 931987167}
   - component: {fileID: 931987168}
   m_Layer: 0
-  m_Name: ClayTrigger
+  m_Name: ClayTrigger1
   m_TagString: Clay
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7846,7 +7846,7 @@ MonoBehaviour:
   roomCycle1: {fileID: 1394276597}
   roomCycle2: {fileID: 1587218997}
   typingSpeed: 0.04
-  objectToTurnOff: {fileID: 716219045}
+  objectToTurnOff: {fileID: 0}
   loadingScreen: {fileID: 1022653021}
   slider: {fileID: 0}
   pieceManagement: {fileID: 985300419}
