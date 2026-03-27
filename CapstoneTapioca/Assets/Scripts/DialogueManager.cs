@@ -247,10 +247,68 @@ public class DialogueManager : MonoBehaviour
             else
             {
 
-                if (tags.Count > 0)
+                
+
+
+
+                // New behavior: look for tags of form "key:value" or "key=value"
+                foreach (var t in tags)
+                {
+                    if (string.IsNullOrEmpty(t)) continue;
+                    string[] parts = t.Split(new char[] { ':', '=' }, 2);
+                    if (parts.Length == 0) continue;
+                    if (parts[0] != pair.inkKey) continue;
+                    if (string.IsNullOrEmpty(pair.inkValue))
+                    {
+                        mappingMatches = true; // key matched, value wildcard
+                        break;
+                    }
+                    if (parts.Length == 2 && parts[1] == pair.inkValue)
+                    {
+                        mappingMatches = true;
+                        break;
+                    }
+                }
+            }
+
+            if (!mappingMatches) continue;
+
+            GameObject[] gos;
+            try
+            {
+                gos = GameObject.FindGameObjectsWithTag(pair.unityTag);
+            }
+            catch
+            {
+                // If the tag does not exist in Unity's tag manager, skip it
+                Debug.LogWarning($"DialogueManager: Unity tag '{pair.unityTag}' not found when applying sprite.");
+                continue;
+            }
+
+            foreach (var go in gos)
+            {
+                if (go == null) continue;
+                // 2D sprite renderer
+                var sr = go.GetComponent<SpriteRenderer>();
+                if (sr != null)
+                {
+                    sr.sprite = pair.sprite;
+                    continue;
+                }
+
+                // UI Image (for Canvas-based objects)
+                var img = go.GetComponent<UnityEngine.UI.Image>();
+                if (img != null)
+                {
+                    img.sprite = pair.sprite;
+                }
+            }
+        }
+        if (tags.Count > 0)
                 {
                     if (tags[0] == "valepuzzle1")
                     {
+                        Debug.Log(tags[0]);
                         levelLoader.LoadLevel(10);
                         Debug.Log("LevelLoading");
 
@@ -450,62 +508,6 @@ public class DialogueManager : MonoBehaviour
                     }
 
                 }
-
-
-
-                // New behavior: look for tags of form "key:value" or "key=value"
-                foreach (var t in tags)
-                {
-                    if (string.IsNullOrEmpty(t)) continue;
-                    string[] parts = t.Split(new char[] { ':', '=' }, 2);
-                    if (parts.Length == 0) continue;
-                    if (parts[0] != pair.inkKey) continue;
-                    if (string.IsNullOrEmpty(pair.inkValue))
-                    {
-                        mappingMatches = true; // key matched, value wildcard
-                        break;
-                    }
-                    if (parts.Length == 2 && parts[1] == pair.inkValue)
-                    {
-                        mappingMatches = true;
-                        break;
-                    }
-                }
-            }
-
-            if (!mappingMatches) continue;
-
-            GameObject[] gos;
-            try
-            {
-                gos = GameObject.FindGameObjectsWithTag(pair.unityTag);
-            }
-            catch
-            {
-                // If the tag does not exist in Unity's tag manager, skip it
-                Debug.LogWarning($"DialogueManager: Unity tag '{pair.unityTag}' not found when applying sprite.");
-                continue;
-            }
-
-            foreach (var go in gos)
-            {
-                if (go == null) continue;
-                // 2D sprite renderer
-                var sr = go.GetComponent<SpriteRenderer>();
-                if (sr != null)
-                {
-                    sr.sprite = pair.sprite;
-                    continue;
-                }
-
-                // UI Image (for Canvas-based objects)
-                var img = go.GetComponent<UnityEngine.UI.Image>();
-                if (img != null)
-                {
-                    img.sprite = pair.sprite;
-                }
-            }
-        }
     }
 
     // build and show choice buttons for current choices

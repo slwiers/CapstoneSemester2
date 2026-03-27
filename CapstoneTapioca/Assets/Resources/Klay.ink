@@ -3,7 +3,7 @@
 {varKlayWaiting1:-> KlayWaiting1}
 Oh...uh...hi! #TurnOff
 Down here...!
-Sorry...I'm a bit...
+Sorry...I'm a bit... #V1pose:2
 ...small.
 At least nowadays I am.
 I hope you don't hurt your neck looking down at me for so long.
