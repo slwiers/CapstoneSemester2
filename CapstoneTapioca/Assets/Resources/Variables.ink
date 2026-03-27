@@ -31,4 +31,6 @@ VAR savedKlay = false
 
 
 VAR playedMinigameFoxes = false
-VAR playedMinigameDavey = false
+
+VAR playedMinigameDavey1 = false
+VAR varDaveyWaiting = false

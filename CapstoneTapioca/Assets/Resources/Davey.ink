@@ -1,4 +1,6 @@
 ===Davey===
+{playedMinigameDavey1:-> DaveyPuzzle1}
+{varDaveyWaiting:-> DaveyWaiting}
 Oh hello! #TurnOff
 Just a moment my L0V3, we have company!
 Sorry about that!
@@ -752,7 +754,8 @@ I'm just a bit too nervous to venture out yet.
 If you find it, just let me know.
 I'll...just be around.
 I need a bit of time to think.
-If I'll be able to get that...
+~ varDaveyWaiting = true
+If I'll be able to get that... #DPlant
 -> END
 
 
@@ -1157,7 +1160,10 @@ The sadness might be heavy, but giving it some air makes it so much lighter.
 Goodbye, human.
 -> END
 
-
+=== DaveyWaiting ===
+{playedMinigameDavey1:-> DaveyPuzzle1}
+I wonder what the plant will look like now...
+->END
 
 
 

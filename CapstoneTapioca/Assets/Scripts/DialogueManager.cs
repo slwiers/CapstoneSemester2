@@ -68,6 +68,8 @@ public class DialogueManager : MonoBehaviour
 
     public ClayPieceManagement pieceManagement;
 
+    public LevelLoader levelLoader;
+
     private void Awake()
     {
         if (instance != null)
@@ -246,42 +248,42 @@ public class DialogueManager : MonoBehaviour
                 {
                     if (tags[0] == "valepuzzle1")
                     {
-                        LoadLevel(10);
-                        //SceneManager.LoadScene("WaterPuzzle1");
+                        levelLoader.LoadLevel(10);
+
                     }
                     if (tags[0] == "valepuzzle2")
                     {
-                        LoadLevel(11);
-                        //SceneManager.LoadScene("WaterPuzzle2");
+                        levelLoader.LoadLevel(11);
+
                     }
                     if (tags[0] == "valepuzzle3")
                     {
-                        LoadLevel(12);
-                        //SceneManager.LoadScene("WaterPuzzle3");
+                        levelLoader.LoadLevel(12);
+
                     }
                     if (tags[0] == "horacepuzzle1")
                     {
-                        LoadLevel(13);
+                        levelLoader.LoadLevel(13);
                         Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("ClockPuzzle1");
+
                     }
                     if (tags[0] == "horacepuzzle2")
                     {
-                        LoadLevel(14);
+                        levelLoader.LoadLevel(14);
                         Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("ClockPuzzle2");
+
                     }
                     if (tags[0] == "horacepuzzle3")
                     {
-                        LoadLevel(15);
+                        levelLoader.LoadLevel(15);
                         Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("ClockPuzzle3");
+
                     }
                     if (tags[0] == "introtrans")
                     {
-                        LoadLevel(6);
+                        levelLoader.LoadLevel(6);
                         Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("CafeteriaRoom6");
+
                     }
                     if (tags[0] == "TurnOff")
                     {
@@ -401,6 +403,18 @@ public class DialogueManager : MonoBehaviour
                         instance.killClayPiece9 = true;
 
                     }
+                    if (tags[0] == "DPlant")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerDPlant = true;
+
+                    }
+                    if (tags[0] == "ByeByePlant")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killDPlant = true;
+
+                    }
 
                 }
 
@@ -459,27 +473,6 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-    }
-
-         public void LoadLevel(int sceneIndex)
-            {
-                StartCoroutine(LoadAsynchronously(sceneIndex));
-            }
-
-    IEnumerator LoadAsynchronously(int sceneIndex)
-    {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
-
-        loadingScreen.SetActive(true);
-
-        while (!operation.isDone)
-        {
-            float progress = Mathf.Clamp01(operation.progress / .9f);
-            slider.value = progress;
-            yield return null;
-
-        }
-   
     }
 
     // build and show choice buttons for current choices

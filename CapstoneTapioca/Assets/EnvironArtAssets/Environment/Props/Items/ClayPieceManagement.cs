@@ -34,6 +34,9 @@ public class ClayPieceManagement : MonoBehaviour
     public bool triggerClayPiece9 = false;
     public bool killClayPiece9 = false;
 
+    public bool triggerDPlant = false;
+    public bool killDPlant = false;
+
 
     private DialogueManager dialogueManager;
 
@@ -169,6 +172,26 @@ public class ClayPieceManagement : MonoBehaviour
                 clayTrigger.SetActive(false);
                 triggerClayPiece9 = false;
                 killClayPiece9 = false;
+            }
+
+        }
+
+
+        if (killDPlant == true)
+        {
+            if (!instance.dialogueIsPlaying)
+            {
+                GameObject parentObject = GameObject.Find("PlantTrigger");
+                Transform childTransform = parentObject.transform.Find("DPlant");
+
+                if (childTransform)
+                {
+                    childTransform.gameObject.SetActive(false);
+                    triggerDPlant = false;
+                    killDPlant = false;
+                }
+                //    GameObject clayTrigger = GameObject.FindGameObjectWithTag("Clay");
+                //clayTrigger.SetActive(false);
             }
 
         }
