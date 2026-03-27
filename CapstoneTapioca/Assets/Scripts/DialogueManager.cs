@@ -47,10 +47,10 @@ public class DialogueManager : MonoBehaviour
     // You can call SetChoicesContainer(Transform) at runtime to change where buttons spawn.
     public void SetChoicesContainer(Transform t) { choicesContainer = t as RectTransform; }
 
-    private Story currentStory;
+    public Story currentStory;
     //private TextAsset currentInkJSON; // remember which ink file started the story
 
-    private bool dialogueIsPlaying;
+    public bool dialogueIsPlaying;
     
     
     private static DialogueManager instance;
@@ -65,6 +65,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject loadingScreen;
     public Slider slider;
+
+    public ClayPieceManagement pieceManagement;
 
     private void Awake()
     {
@@ -129,7 +131,7 @@ public class DialogueManager : MonoBehaviour
         ShowNextLine();
     }
 
-    private void ExitDialogueMode()
+    public void ExitDialogueMode()
     {
         dialogueIsPlaying = false;
         dialoguePanel?.SetActive(false);
@@ -283,14 +285,123 @@ public class DialogueManager : MonoBehaviour
                     }
                     if (tags[0] == "TurnOff")
                     {
-                        Debug.Log("ObjectOff");
+
                         objectToTurnOff.SetActive(false);
                     }
                     if (tags[0] == "TurnOn")
                     {
-                        Debug.Log("ObjectOn");
+
                         objectToTurnOff.SetActive(true);
                     }
+                    if (tags[0] == "ClayPiece1")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece1 = true;
+
+                    }
+                    if (tags[0] == "ByeBye")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece1 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece2")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece2 = true;
+
+                    }
+                    if (tags[0] == "ByeBye2")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece2 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece3")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece3 = true;
+
+                    }
+                    if (tags[0] == "ByeBye3")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece3 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece4")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece4 = true;
+
+                    }
+                    if (tags[0] == "ByeBye4")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece4 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece5")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece5 = true;
+
+                    }
+                    if (tags[0] == "ByeBye5")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece5 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece6")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece6 = true;
+
+                    }
+                    if (tags[0] == "ByeBye6")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece6 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece7")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece7 = true;
+
+                    }
+                    if (tags[0] == "ByeBye7")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece7 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece8")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece8 = true;
+
+                    }
+                    if (tags[0] == "ByeBye8")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece8 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece9")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece9 = true;
+
+                    }
+                    if (tags[0] == "ByeBye9")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece9 = true;
+
+                    }
+
                 }
 
 

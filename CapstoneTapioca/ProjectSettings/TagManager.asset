@@ -13,6 +13,7 @@ TagManager:
   - face4
   - face5
   - Loading
+  - Clay
   layers:
   - Default
   - TransparentFX

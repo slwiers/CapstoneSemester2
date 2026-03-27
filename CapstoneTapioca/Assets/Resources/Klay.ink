@@ -1,4 +1,5 @@
 ===Klay===
+{playedMinigameKlay1:-> KlayPuzzle1}
 
 Oh...uh...hi! #TurnOff
 Down here...!
@@ -272,7 +273,7 @@ Anyways...!
 -> Branch5_1_4
 
 = Branch5_1_4
-I'll...see you around...! #TurnOff
+I'll...see you around...! #ClayPiece1 #TurnOff
 ->END
 
 = Branch5_1_6
@@ -312,6 +313,8 @@ It's not like I can get any smaller...!
 
 
 === KlayPuzzle1 ===
+{playedMinigameKlay2:-> KlayPuzzle2}
+
 You actually found a piece?! #TurnOff
 I didn't think you'd even come back!
 This is...
@@ -393,7 +396,7 @@ Everything!
 
 = Branch5_2_3
 Thank you, human. Keep it up...! #TurnOff
-If you find any more pieces of me, please bring them back!
+If you find any more pieces of me, please bring them back! #ClayPiece2
 -> END
 
 = Branch5_2_4
@@ -503,6 +506,8 @@ Oh! This is great...!
 
 
 === KlayPuzzle2 ===
+{playedMinigameKlay3:-> KlayPuzzle3}
+
 Another piece...? #TurnOff
 You're pretty good at this...!
 Better than the last guy...
@@ -526,7 +531,7 @@ Obviously I've still got a long way to go, but it still feels great already...!
 = Branch5_3_2
 Well, I won't keep you here while I ramble... #TurnOff
 I'd rather you be keeping your eyes peeled for me...!
-See you soon...!
+See you soon...! #ClayPiece3
 -> END
 
 = Branch5_3_3
@@ -550,6 +555,7 @@ Hahaha...! that's not you though...!
 
 
 === KlayPuzzle3 ===
+{playedMinigameKlay4:-> KlayPuzzle4}
 You're back, which can only mean one thing...! #TurnOff
 Hey...I was just wondering...
 Why are you doing all of this...?
@@ -577,7 +583,7 @@ Hm. I feel...
 Ah...! Maybe I could use this for something...!
 A sculpture maybe...!
 Ah...! You better get out of here before I start burying you in ideas...!
-I'll be here if you need me...!
+I'll be here if you need me...! #ClayPiece4
 -> END
 
 = Branch5_4_3
@@ -602,6 +608,7 @@ Funnily enough I feel a bit inspired...maybe even...
 
 
 === KlayPuzzle4 ===
+{playedMinigameKlay5:-> KlayPuzzle5}
 Already...? #TurnOff
 That one was quicker than the last...!
 I didn't even finish writing down all of my ideas...!
@@ -628,7 +635,7 @@ Someone who has grown from rock to clay to clay old man...
 = Branch5_5_2
 Ah...! You're a genius...! #TurnOff
 Okay...! I've gotta get back to it...!
-These ideas aren't going to write themselves down...!
+These ideas aren't going to write themselves down...! #ClayPiece5
 ->END
 
 = Branch5_5_3

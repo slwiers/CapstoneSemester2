@@ -5,3 +5,8 @@ INCLUDE Foxes.ink
 INCLUDE Klay.ink
 INCLUDE Davey.ink
 INCLUDE Intro.ink
+INCLUDE ClayPieceGet.ink
+INCLUDE ClayPieceGet2.ink
+INCLUDE ClayPieceGet3.ink
+INCLUDE ClayPieceGet4.ink
+INCLUDE ClayPieceGet5.ink
