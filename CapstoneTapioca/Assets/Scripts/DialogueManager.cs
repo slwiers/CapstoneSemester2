@@ -12,19 +12,18 @@ public class DialogueManager : MonoBehaviour
 {
     [System.Serializable]
     public class TagSpritePair {
-        [Tooltip("Unity tag of GameObjects to update (this must be a valid Unity Tag)")]
-        public string unityTag;
 
         [Tooltip("Sprite to assign to GameObjects with the matching Unity tag")]
         public Sprite sprite;
+        public bool isFace;
 
         [Header("Ink tag matching (optional)")]
         [Tooltip("If empty, legacy behavior: the Ink tag must equal the Unity tag string. Otherwise, this is the 'key' part of an Ink tag in the form 'key:value' or 'key=value'.")]
         public string inkKey;
 
-        [Tooltip("If set, the Ink tag's value must equal this. Leave empty to match any value for the key.")]
-        public string inkValue;
     }
+    [SerializeField] private SpriteRenderer characterSpriteRenderer;
+    [SerializeField] private SpriteRenderer faceSpriteRenderer;
 
     [Header("Tag -> Sprite mapping (change GameObject sprites by tag)")]
     [Tooltip("List of mappings. You can use either the legacy mode (leave 'inkKey' empty and use the Unity tag as the Ink tag), or set 'inkKey' (and optionally 'inkValue') to match Ink tags like 'character:happy'.")]
@@ -234,7 +233,6 @@ public class DialogueManager : MonoBehaviour
         foreach (var pair in tagSpritePairs)
         {
             if (pair == null) continue;
-            if (string.IsNullOrEmpty(pair.unityTag) || pair.sprite == null) continue;
 
             // Determine if this mapping matches any of the current Ink tags.
             bool mappingMatches = false;
@@ -242,67 +240,25 @@ public class DialogueManager : MonoBehaviour
             if (string.IsNullOrEmpty(pair.inkKey))
             {
                 // Legacy behavior: an Ink tag must exactly equal the unityTag string
-                if (tags.Contains(pair.unityTag)) mappingMatches = true;
+                mappingMatches = true;
             }
             else
             {
 
-                
-
-
-
                 // New behavior: look for tags of form "key:value" or "key=value"
                 foreach (var t in tags)
                 {
-                    if (string.IsNullOrEmpty(t)) continue;
-                    string[] parts = t.Split(new char[] { ':', '=' }, 2);
-                    if (parts.Length == 0) continue;
-                    if (parts[0] != pair.inkKey) continue;
-                    if (string.IsNullOrEmpty(pair.inkValue))
-                    {
-                        mappingMatches = true; // key matched, value wildcard
-                        break;
-                    }
-                    if (parts.Length == 2 && parts[1] == pair.inkValue)
-                    {
-                        mappingMatches = true;
-                        break;
-                    }
+                    if (t != pair.inkKey) continue;
+                    mappingMatches = true; // key matched, value wildcard
+                    break;
                 }
             }
 
             if (!mappingMatches) continue;
 
-            GameObject[] gos;
-            try
-            {
-                gos = GameObject.FindGameObjectsWithTag(pair.unityTag);
-            }
-            catch
-            {
-                // If the tag does not exist in Unity's tag manager, skip it
-                Debug.LogWarning($"DialogueManager: Unity tag '{pair.unityTag}' not found when applying sprite.");
-                continue;
-            }
-
-            foreach (var go in gos)
-            {
-                if (go == null) continue;
-                // 2D sprite renderer
-                var sr = go.GetComponent<SpriteRenderer>();
-                if (sr != null)
-                {
-                    sr.sprite = pair.sprite;
-                    continue;
-                }
-
-                // UI Image (for Canvas-based objects)
-                var img = go.GetComponent<UnityEngine.UI.Image>();
-                if (img != null)
-                {
-                    img.sprite = pair.sprite;
-                }
-            }
+            SpriteRenderer animatedSpriteRenderer = pair.isFace? faceSpriteRenderer:characterSpriteRenderer;
+            animatedSpriteRenderer.sprite = pair.sprite;
+            
         }
         if (tags.Count > 0)
                 {
