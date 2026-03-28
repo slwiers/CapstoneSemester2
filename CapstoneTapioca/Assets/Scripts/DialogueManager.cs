@@ -264,9 +264,8 @@ public class DialogueManager : MonoBehaviour
                 {
                     if (tags[0] == "valepuzzle1")
                     {
-                        Debug.Log(tags[0]);
+
                         levelLoader.LoadLevel(10);
-                        Debug.Log("LevelLoading");
 
                     }
                     if (tags[0] == "valepuzzle2")
@@ -441,26 +440,31 @@ public class DialogueManager : MonoBehaviour
                     {
                         WinCondition instance = FindAnyObjectByType<WinCondition>();
                         instance.savedNPC1 = true;
+                        Debug.Log("Saved Character 1");
                     }
                     if (tags[0] == "saved2")
                     {
                         WinCondition instance = FindAnyObjectByType<WinCondition>();
                         instance.savedNPC2 = true;
+                        Debug.Log("Saved Character 2");
                     }
                     if (tags[0] == "saved3")
                     {
                         WinCondition instance = FindAnyObjectByType<WinCondition>();
                         instance.savedNPC3 = true;
+                        Debug.Log("Saved Character 3");
                     }
                     if (tags[0] == "saved4")
                     {
                         WinCondition instance = FindAnyObjectByType<WinCondition>();
                         instance.savedNPC4 = true;
+                        Debug.Log("Saved Character 4");
                     }
                     if (tags[0] == "saved5")
                     {
                         WinCondition instance = FindAnyObjectByType<WinCondition>();
                         instance.savedNPC5 = true;
+                        Debug.Log("Saved Character 5");
                     }
 
                 }

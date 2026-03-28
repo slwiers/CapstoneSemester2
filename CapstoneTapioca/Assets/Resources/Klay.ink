@@ -1,9 +1,9 @@
 ===Klay===
 {playedMinigameKlay1:-> KlayPuzzle1}
 {varKlayWaiting1:-> KlayWaiting1}
-Oh...uh...hi! #TurnOff
+Oh...uh...hi! #TurnOff #NeutralV1
 Down here...!
-Sorry...I'm a bit... #V1pose2
+Sorry...I'm a bit...
 ...small.
 At least nowadays I am.
 I hope you don't hurt your neck looking down at me for so long.

@@ -10792,11 +10792,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterSpriteRenderer: {fileID: 56205436}
-  faceSpriteRenderer: {fileID: 0}
+  faceSpriteRenderer: {fileID: 56205436}
   tagSpritePairs:
-  - sprite: {fileID: 0}
+  - sprite: {fileID: 21300000, guid: a8e4d8d7275b0054aa3fa3200b6909c7, type: 3}
     isFace: 0
-    inkKey: 
+    inkKey: NeutralV1
   dialoguePanel: {fileID: 1989870194}
   dialoguetext: {fileID: 1156142702}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
@@ -10808,12 +10808,12 @@ MonoBehaviour:
   roomCycle2: {fileID: 2137165614}
   typingSpeed: 0.04
   objectToTurnOff: {fileID: 1574575799}
-  objectToTurnOff2: {fileID: 0}
+  objectToTurnOff2: {fileID: 1574575799}
   loadingScreen: {fileID: 1251107248}
   slider: {fileID: 1369498991}
   pieceManagement: {fileID: 291670665}
-  levelLoader: {fileID: 0}
-  winCondition: {fileID: 0}
+  levelLoader: {fileID: 1548807509}
+  winCondition: {fileID: 1174335449}
 --- !u!114 &1661459156
 MonoBehaviour:
   m_ObjectHideFlags: 0

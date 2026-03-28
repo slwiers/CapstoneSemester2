@@ -15,17 +15,9 @@ public class ClayPieceGet : MonoBehaviour
 
         if (instance.triggerClayPiece1 == true)
         {
-            if (GameObject.Find("ClayTrigger1"))
-            {
-                GameObject clayTrigger = transform.GetChild(0).gameObject;
-                clayTrigger.SetActive(true);
-
-                if (instance.triggerClayPiece1 == true && GameObject.Find("PlantTrigger"))
-                {
-                    gameObject.SetActive(false);
-
-                }
-            }
+            GameObject parentObject = GameObject.Find("ClayTrigger1");
+            Transform childTransform = parentObject.transform.Find("ClayPiece1");
+            childTransform.gameObject.SetActive(true);
 
         }
 
@@ -38,19 +30,12 @@ public class ClayPieceGet : MonoBehaviour
             }
         }
 
-        if (instance.triggerClayPiece3 == true)
+        if (instance.triggerClayPiece3 == true && currentSceneIndex == 8)
         {
-            
-            if (GameObject.Find("ClayTrigger3"))
-            {
-                GameObject clayTrigger = transform.GetChild(0).gameObject;
-                clayTrigger.SetActive(true);
 
-                if (instance.triggerClayPiece3 == true && GameObject.Find("ClayTrigger9"))
-                {
-                    gameObject.SetActive(false);
-                }
-            }
+            GameObject parentObject = GameObject.Find("ClayTrigger3");
+            Transform childTransform = parentObject.transform.Find("ClayPiece3");
+            childTransform.gameObject.SetActive(true);
 
         }
 
@@ -104,16 +89,7 @@ public class ClayPieceGet : MonoBehaviour
         {
             GameObject parentObject = GameObject.Find("ClayTrigger9");
             Transform childTransform = parentObject.transform.Find("ClayPiece9");
-
-            if (childTransform)
-            {
-                childTransform.gameObject.SetActive(true);
-
-                //if (instance.triggerClayPiece3 == true && GameObject.Find("ClayTrigger3"))
-                //{
-                //    gameObject.SetActive(false);
-                //}
-            }
+            childTransform.gameObject.SetActive(true);
 
         }
 
@@ -121,16 +97,7 @@ public class ClayPieceGet : MonoBehaviour
         {
             GameObject parentObject = GameObject.Find("PlantTrigger");
             Transform childTransform = parentObject.transform.Find("DPlant");
-
-            if (childTransform)
-            {
-                childTransform.gameObject.SetActive(true);
-
-                //if (instance.triggerClayPiece3 == true && GameObject.Find("ClayTrigger3"))
-                //{
-                //    gameObject.SetActive(false);
-                //}
-            }
+            childTransform.gameObject.SetActive(true);
 
         }
 

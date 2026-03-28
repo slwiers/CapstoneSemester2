@@ -72,15 +72,16 @@ public class ClayPieceManagement : MonoBehaviour
         
 
         if (killClayPiece2 == true)
-            {
+           {
 
            if (!instance.dialogueIsPlaying)
            {
+              
               GameObject clayTrigger = GameObject.FindGameObjectWithTag("Clay");
               clayTrigger.SetActive(false);
               triggerClayPiece2 = false;
               killClayPiece2 = false;
-
+             
            }
 
         }
@@ -90,10 +91,16 @@ public class ClayPieceManagement : MonoBehaviour
         {
             if (!instance.dialogueIsPlaying)
             {
-                GameObject clayTrigger = GameObject.FindGameObjectWithTag("Clay");
-                clayTrigger.SetActive(false);
-                triggerClayPiece3 = false;
-                killClayPiece3 = false;
+                GameObject parentObject = GameObject.Find("ClayTrigger3");
+                Transform childTransform = parentObject.transform.Find("ClayPiece3");
+
+                if (childTransform)
+                {
+                    childTransform.gameObject.SetActive(false);
+                    triggerClayPiece3 = false;
+                    killClayPiece3 = false;
+                }
+
             }
 
         }
@@ -190,8 +197,7 @@ public class ClayPieceManagement : MonoBehaviour
                     triggerDPlant = false;
                     killDPlant = false;
                 }
-                //    GameObject clayTrigger = GameObject.FindGameObjectWithTag("Clay");
-                //clayTrigger.SetActive(false);
+
             }
 
         }

@@ -3212,507 +3212,384 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 351a28c3ce00b3b46b9a3b0cf8923b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterSpriteRenderer: {fileID: 781699781}
+  faceSpriteRenderer: {fileID: 781699781}
   tagSpritePairs:
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: a8e4d8d7275b0054aa3fa3200b6909c7, type: 3}
+  - sprite: {fileID: 21300000, guid: a8e4d8d7275b0054aa3fa3200b6909c7, type: 3}
+    isFace: 0
     inkKey: V1pose
-    inkValue: 1
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: f1ec1b38492410b4080889459d6fbbfe, type: 3}
+  - sprite: {fileID: 21300000, guid: f1ec1b38492410b4080889459d6fbbfe, type: 3}
+    isFace: 0
     inkKey: V1pose
-    inkValue: 2
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c6b15f7651df4814cb2983ead2090069, type: 3}
+  - sprite: {fileID: 21300000, guid: c6b15f7651df4814cb2983ead2090069, type: 3}
+    isFace: 0
     inkKey: V1pose
-    inkValue: 3
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c2866d9bf686b0b4b8ad35c04402f588, type: 3}
+  - sprite: {fileID: 21300000, guid: c2866d9bf686b0b4b8ad35c04402f588, type: 3}
+    isFace: 0
     inkKey: V1pose
-    inkValue: 4
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 59be932e47f05ae46b7d786806941163, type: 3}
+  - sprite: {fileID: 21300000, guid: 59be932e47f05ae46b7d786806941163, type: 3}
+    isFace: 0
     inkKey: V1pose
-    inkValue: 5
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 5e70a107ab10af343b306effe29d6fd1, type: 3}
+  - sprite: {fileID: 21300000, guid: 5e70a107ab10af343b306effe29d6fd1, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 6
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 939b5201d46f2a04984f7e3492d2b4c5, type: 3}
+  - sprite: {fileID: 21300000, guid: 939b5201d46f2a04984f7e3492d2b4c5, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 7
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 57fdb7b2d0c5fd1499e89cb4466aa6cf, type: 3}
+  - sprite: {fileID: 21300000, guid: 57fdb7b2d0c5fd1499e89cb4466aa6cf, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 8
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: cad550b9a6575c14ca2bcfd0743250ca, type: 3}
+  - sprite: {fileID: 21300000, guid: cad550b9a6575c14ca2bcfd0743250ca, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 9
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 706475dd92b2b87429c5ef4d02c83451, type: 3}
+  - sprite: {fileID: 21300000, guid: 706475dd92b2b87429c5ef4d02c83451, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 10
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 0616d431e6bf47c459263349c8ce516c, type: 3}
+  - sprite: {fileID: 21300000, guid: 0616d431e6bf47c459263349c8ce516c, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 11
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: e76f9691bf1652e44a249a76904d3d8e, type: 3}
+  - sprite: {fileID: 21300000, guid: e76f9691bf1652e44a249a76904d3d8e, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 12
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 677dbb0f099b59042a88734148c753c0, type: 3}
+  - sprite: {fileID: 21300000, guid: 677dbb0f099b59042a88734148c753c0, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 13
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 81f09efb7ccaf5f49b5a6bf77c8cbe1c, type: 3}
+  - sprite: {fileID: 21300000, guid: 81f09efb7ccaf5f49b5a6bf77c8cbe1c, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 14
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: aa66d15aa8335b24e86c5b229a48b6a8, type: 3}
+  - sprite: {fileID: 21300000, guid: aa66d15aa8335b24e86c5b229a48b6a8, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 15
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d8211a7c51d5106448e23b5742e45ed2, type: 3}
+  - sprite: {fileID: 21300000, guid: d8211a7c51d5106448e23b5742e45ed2, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 16
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: e09e647c66be6d54a9560a0e4bcc4b56, type: 3}
+  - sprite: {fileID: 21300000, guid: e09e647c66be6d54a9560a0e4bcc4b56, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 17
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 0abd4f4adcb305a4c93050680477fb70, type: 3}
+  - sprite: {fileID: 21300000, guid: 0abd4f4adcb305a4c93050680477fb70, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 18
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 08864051796800f47ad89049474806cc, type: 3}
+  - sprite: {fileID: 21300000, guid: 08864051796800f47ad89049474806cc, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 19
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c2ec21869ae0e4f47aa509bb876f888e, type: 3}
+  - sprite: {fileID: 21300000, guid: c2ec21869ae0e4f47aa509bb876f888e, type: 3}
+    isFace: 0
     inkKey: V2pose
-    inkValue: 20
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 1071c1c9ea8269f44881df9d12e76fd2, type: 3}
+  - sprite: {fileID: 21300000, guid: 1071c1c9ea8269f44881df9d12e76fd2, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 21
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 70aca265d9987774d99e27d05bb89ddc, type: 3}
+  - sprite: {fileID: 21300000, guid: 70aca265d9987774d99e27d05bb89ddc, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 22
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b79669ccc01658e4d9b81202ea63b125, type: 3}
+  - sprite: {fileID: 21300000, guid: b79669ccc01658e4d9b81202ea63b125, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 23
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 8812c49b1ad638d459bf044df1047403, type: 3}
+  - sprite: {fileID: 21300000, guid: 8812c49b1ad638d459bf044df1047403, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 24
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 6b06fe1938a0e6343b87f3fce12144fb, type: 3}
+  - sprite: {fileID: 21300000, guid: 6b06fe1938a0e6343b87f3fce12144fb, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 25
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 7d03e2e4e412845478f837ff6a190455, type: 3}
+  - sprite: {fileID: 21300000, guid: 7d03e2e4e412845478f837ff6a190455, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 26
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: ba56a19133f389c4abb70c5f81c54916, type: 3}
+  - sprite: {fileID: 21300000, guid: ba56a19133f389c4abb70c5f81c54916, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 27
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 5ab6646fbbbeedd44b954c0d91fb8772, type: 3}
+  - sprite: {fileID: 21300000, guid: 5ab6646fbbbeedd44b954c0d91fb8772, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 28
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 24a79854432efd149abdd2ba90a6bb9e, type: 3}
+  - sprite: {fileID: 21300000, guid: 24a79854432efd149abdd2ba90a6bb9e, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 29
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 80bae090ed137504f91c5be3990b55f2, type: 3}
+  - sprite: {fileID: 21300000, guid: 80bae090ed137504f91c5be3990b55f2, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 30
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d9b605922a41f0b428baeaf16727d855, type: 3}
+  - sprite: {fileID: 21300000, guid: d9b605922a41f0b428baeaf16727d855, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 31
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: fd3f0d6e7842bc546ade06e7a77c3dfb, type: 3}
+  - sprite: {fileID: 21300000, guid: fd3f0d6e7842bc546ade06e7a77c3dfb, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 32
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: afa72fbeed9b3d4428ba1f59a0ebcf78, type: 3}
+  - sprite: {fileID: 21300000, guid: afa72fbeed9b3d4428ba1f59a0ebcf78, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 33
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 3b8d9916e04495e43b159d5fa217a010, type: 3}
+  - sprite: {fileID: 21300000, guid: 3b8d9916e04495e43b159d5fa217a010, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 34
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 36b5ccf6445f974479842f212ab9875a, type: 3}
+  - sprite: {fileID: 21300000, guid: 36b5ccf6445f974479842f212ab9875a, type: 3}
+    isFace: 0
     inkKey: V3pose
-    inkValue: 35
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: db72b66bc5cab9e4292d62643186ccae, type: 3}
+  - sprite: {fileID: 21300000, guid: db72b66bc5cab9e4292d62643186ccae, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 36
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 0ce8f7628e9fc424484b6ebef69e5353, type: 3}
+  - sprite: {fileID: 21300000, guid: 0ce8f7628e9fc424484b6ebef69e5353, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 37
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 568b31e5f82651241822b0da62e54fae, type: 3}
+  - sprite: {fileID: 21300000, guid: 568b31e5f82651241822b0da62e54fae, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 38
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 957c386e9cdb4e4448c411dfc133611c, type: 3}
+  - sprite: {fileID: 21300000, guid: 957c386e9cdb4e4448c411dfc133611c, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 39
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 6501bb6a76431854aa97217ee2c53e49, type: 3}
+  - sprite: {fileID: 21300000, guid: 6501bb6a76431854aa97217ee2c53e49, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 40
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d13717063d6f4d348bd67530f0ffce1c, type: 3}
+  - sprite: {fileID: 21300000, guid: d13717063d6f4d348bd67530f0ffce1c, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 41
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 55d6e2c08611eef4c83e1e61beeb805d, type: 3}
+  - sprite: {fileID: 21300000, guid: 55d6e2c08611eef4c83e1e61beeb805d, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 42
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 16d47f2dd0b86f847aaf44546bfe4358, type: 3}
+  - sprite: {fileID: 21300000, guid: 16d47f2dd0b86f847aaf44546bfe4358, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 43
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d02c8dfa6ae5c104fba055b81cfc6014, type: 3}
+  - sprite: {fileID: 21300000, guid: d02c8dfa6ae5c104fba055b81cfc6014, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 44
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 9e795cf3c7a19064eb393472b6231ad3, type: 3}
+  - sprite: {fileID: 21300000, guid: 9e795cf3c7a19064eb393472b6231ad3, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 45
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 38f90e86b63c1f643be87fd52f428903, type: 3}
+  - sprite: {fileID: 21300000, guid: 38f90e86b63c1f643be87fd52f428903, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 46
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c721e89eb57f497429a24cde1c04ad35, type: 3}
+  - sprite: {fileID: 21300000, guid: c721e89eb57f497429a24cde1c04ad35, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 47
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b1bdeae72f3549b479190af0ed0d8f47, type: 3}
+  - sprite: {fileID: 21300000, guid: b1bdeae72f3549b479190af0ed0d8f47, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 48
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 51200882980d9dc479fd6b0083f1a8cc, type: 3}
+  - sprite: {fileID: 21300000, guid: 51200882980d9dc479fd6b0083f1a8cc, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 49
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b3cd637b9e02fcd4b9b5461f1aa69960, type: 3}
+  - sprite: {fileID: 21300000, guid: b3cd637b9e02fcd4b9b5461f1aa69960, type: 3}
+    isFace: 0
     inkKey: V4pose
-    inkValue: 50
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d8fd20797006b79449b9b7cf78c51c9d, type: 3}
+  - sprite: {fileID: 21300000, guid: d8fd20797006b79449b9b7cf78c51c9d, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 51
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 8219822a882f0204b9fe7eb77df154e2, type: 3}
+  - sprite: {fileID: 21300000, guid: 8219822a882f0204b9fe7eb77df154e2, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 52
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b2309ac4d2ce16e478234d30595160ca, type: 3}
+  - sprite: {fileID: 21300000, guid: b2309ac4d2ce16e478234d30595160ca, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 53
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 3e677502e7fd53e46889d66f841af278, type: 3}
+  - sprite: {fileID: 21300000, guid: 3e677502e7fd53e46889d66f841af278, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 54
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: a0b51bcdab5a9d14fa77f3c668a6306f, type: 3}
+  - sprite: {fileID: 21300000, guid: a0b51bcdab5a9d14fa77f3c668a6306f, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 55
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d25d194d0a62a3d4e81673f6da6716c0, type: 3}
+  - sprite: {fileID: 21300000, guid: d25d194d0a62a3d4e81673f6da6716c0, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 56
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 61f915dfd735c95458cb434dc5650fb4, type: 3}
+  - sprite: {fileID: 21300000, guid: 61f915dfd735c95458cb434dc5650fb4, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 57
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 8da29ee154dbd0c48a1db5983d85fbfc, type: 3}
+  - sprite: {fileID: 21300000, guid: 8da29ee154dbd0c48a1db5983d85fbfc, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 58
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 0b930540b695e8a4aacb9786590b310d, type: 3}
+  - sprite: {fileID: 21300000, guid: 0b930540b695e8a4aacb9786590b310d, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 59
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c8d34579b019f3c4fb60a559ca886c5b, type: 3}
+  - sprite: {fileID: 21300000, guid: c8d34579b019f3c4fb60a559ca886c5b, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 60
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: ae1f7a2f85777854abf0150c8775039e, type: 3}
+  - sprite: {fileID: 21300000, guid: ae1f7a2f85777854abf0150c8775039e, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 61
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: f46dcb57349654a4cb00b3ad42387345, type: 3}
+  - sprite: {fileID: 21300000, guid: f46dcb57349654a4cb00b3ad42387345, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 62
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b4249b20366d0024283765fc4de6be87, type: 3}
+  - sprite: {fileID: 21300000, guid: b4249b20366d0024283765fc4de6be87, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 63
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 9b22a227cd0e61542af2dd751d5bfe63, type: 3}
+  - sprite: {fileID: 21300000, guid: 9b22a227cd0e61542af2dd751d5bfe63, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 64
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 796654bbee6362a4fbf3efb9ccf55903, type: 3}
+  - sprite: {fileID: 21300000, guid: 796654bbee6362a4fbf3efb9ccf55903, type: 3}
+    isFace: 0
     inkKey: V5pose
-    inkValue: 65
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 15755c4aa156dce4894c0bca0d2a7773, type: 3}
+  - sprite: {fileID: 21300000, guid: 15755c4aa156dce4894c0bca0d2a7773, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 66
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 1ceed61a927f0c84490f8ced344d6342, type: 3}
+  - sprite: {fileID: 21300000, guid: 1ceed61a927f0c84490f8ced344d6342, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 67
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: cdfe6b282ee22714fa42d469d3055951, type: 3}
+  - sprite: {fileID: 21300000, guid: cdfe6b282ee22714fa42d469d3055951, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 68
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b9801e943f50b6c44b05cf372dd29d76, type: 3}
+  - sprite: {fileID: 21300000, guid: b9801e943f50b6c44b05cf372dd29d76, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 69
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: e406c1fbe2f7a914fba046f9b70b6f6b, type: 3}
+  - sprite: {fileID: 21300000, guid: e406c1fbe2f7a914fba046f9b70b6f6b, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 70
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b5359bf4e4eb302498465b5d929dd5f3, type: 3}
+  - sprite: {fileID: 21300000, guid: b5359bf4e4eb302498465b5d929dd5f3, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 71
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 1428750df8630ed468ea5dc812a9ddee, type: 3}
+  - sprite: {fileID: 21300000, guid: 1428750df8630ed468ea5dc812a9ddee, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 72
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: adb0ff2459720274c8b14a0c5153957b, type: 3}
+  - sprite: {fileID: 21300000, guid: adb0ff2459720274c8b14a0c5153957b, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 73
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 43acb9b41d655af4eae03230cf7613f9, type: 3}
+  - sprite: {fileID: 21300000, guid: 43acb9b41d655af4eae03230cf7613f9, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 74
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 060af92260b20834c96ba6e2e81043d7, type: 3}
+  - sprite: {fileID: 21300000, guid: 060af92260b20834c96ba6e2e81043d7, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 75
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 0fa65bb8dbf561b4297f3320f2d7ceab, type: 3}
+  - sprite: {fileID: 21300000, guid: 0fa65bb8dbf561b4297f3320f2d7ceab, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 76
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 062ee03631d00e54fa4f51ba9fc1ea08, type: 3}
+  - sprite: {fileID: 21300000, guid: 062ee03631d00e54fa4f51ba9fc1ea08, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 77
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 58dae55275fb147478a40fe71e16a1d9, type: 3}
+  - sprite: {fileID: 21300000, guid: 58dae55275fb147478a40fe71e16a1d9, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 78
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 36aab434a3303ef45bfa0ca0fa5ec45c, type: 3}
+  - sprite: {fileID: 21300000, guid: 36aab434a3303ef45bfa0ca0fa5ec45c, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 79
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 131fd2d5c1121584b9b45259632c0189, type: 3}
+  - sprite: {fileID: 21300000, guid: 131fd2d5c1121584b9b45259632c0189, type: 3}
+    isFace: 0
     inkKey: V6pose
-    inkValue: 80
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 42e5d54dac7a8e742811ad63392fac3b, type: 3}
+  - sprite: {fileID: 21300000, guid: 42e5d54dac7a8e742811ad63392fac3b, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 81
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 2d5a887562a217f4eb3909b724d2b066, type: 3}
+  - sprite: {fileID: 21300000, guid: 2d5a887562a217f4eb3909b724d2b066, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 82
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 3c29d69a4778b844b8cd50b9054bbaee, type: 3}
+  - sprite: {fileID: 21300000, guid: 3c29d69a4778b844b8cd50b9054bbaee, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 83
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b542f99d55a6f364d873a817f8166a8f, type: 3}
+  - sprite: {fileID: 21300000, guid: b542f99d55a6f364d873a817f8166a8f, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 84
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 99348a574630c6643b0cb0b978d98f4a, type: 3}
+  - sprite: {fileID: 21300000, guid: 99348a574630c6643b0cb0b978d98f4a, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 85
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 95f5c45dd6f536e49826a35f3c74da22, type: 3}
+  - sprite: {fileID: 21300000, guid: 95f5c45dd6f536e49826a35f3c74da22, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 86
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d193027967913f14cb4ddf13acabe0ff, type: 3}
+  - sprite: {fileID: 21300000, guid: d193027967913f14cb4ddf13acabe0ff, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 87
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 1267a04ddb1dab24f963bfa2dd8099f1, type: 3}
+  - sprite: {fileID: 21300000, guid: 1267a04ddb1dab24f963bfa2dd8099f1, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 88
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: f3398d79c1d11ed4c861f5a9a6c61f27, type: 3}
+  - sprite: {fileID: 21300000, guid: f3398d79c1d11ed4c861f5a9a6c61f27, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 89
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: cca003250e53c4e41b68e8a02bbf54d7, type: 3}
+  - sprite: {fileID: 21300000, guid: cca003250e53c4e41b68e8a02bbf54d7, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 90
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: e55f216d58b025f4496fd297d8d55d18, type: 3}
+  - sprite: {fileID: 21300000, guid: e55f216d58b025f4496fd297d8d55d18, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 91
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 419a859e6b897ad4c9364ec05cdbefad, type: 3}
+  - sprite: {fileID: 21300000, guid: 419a859e6b897ad4c9364ec05cdbefad, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 92
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 0d6f23e6ed1ad4640b8efd2bf87ae4f0, type: 3}
+  - sprite: {fileID: 21300000, guid: 0d6f23e6ed1ad4640b8efd2bf87ae4f0, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 93
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 8fef1dc94b034264091954cf91930bac, type: 3}
+  - sprite: {fileID: 21300000, guid: 8fef1dc94b034264091954cf91930bac, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 94
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 619841bb229feb34aab7ab5d04e76d0a, type: 3}
+  - sprite: {fileID: 21300000, guid: 619841bb229feb34aab7ab5d04e76d0a, type: 3}
+    isFace: 0
     inkKey: V7pose
-    inkValue: 95
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: f2c5d9a6cfc970d46bab4d1bd264808f, type: 3}
+  - sprite: {fileID: 21300000, guid: f2c5d9a6cfc970d46bab4d1bd264808f, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 96
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 28fe9a4d90182964f921007f94599999, type: 3}
+  - sprite: {fileID: 21300000, guid: 28fe9a4d90182964f921007f94599999, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 97
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 7e914a3b7c8f78848bb22cd74bd6ef58, type: 3}
+  - sprite: {fileID: 21300000, guid: 7e914a3b7c8f78848bb22cd74bd6ef58, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 98
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 95a6318ae2e016e4092b74de0fc5a9a0, type: 3}
+  - sprite: {fileID: 21300000, guid: 95a6318ae2e016e4092b74de0fc5a9a0, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 99
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: bad3f2fa6835cb249bca3e69be93e2a6, type: 3}
+  - sprite: {fileID: 21300000, guid: bad3f2fa6835cb249bca3e69be93e2a6, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 100
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 263ac3a8244cc4e40a97bc7146fae08a, type: 3}
+  - sprite: {fileID: 21300000, guid: 263ac3a8244cc4e40a97bc7146fae08a, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 101
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 85085b6665ebade42b51f4d5b5534466, type: 3}
+  - sprite: {fileID: 21300000, guid: 85085b6665ebade42b51f4d5b5534466, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 102
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 7204c78611a7b3745a28ccf56999944c, type: 3}
+  - sprite: {fileID: 21300000, guid: 7204c78611a7b3745a28ccf56999944c, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 103
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c3e3d48fe545c404d85eb31a1372f0e4, type: 3}
+  - sprite: {fileID: 21300000, guid: c3e3d48fe545c404d85eb31a1372f0e4, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 104
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: e7d20025f1acace46a8612e164328247, type: 3}
+  - sprite: {fileID: 21300000, guid: e7d20025f1acace46a8612e164328247, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 105
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: dcff348f62cf3fe42adce1f866e8c8f3, type: 3}
+  - sprite: {fileID: 21300000, guid: dcff348f62cf3fe42adce1f866e8c8f3, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 106
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c69b07e8ebba2c14bb37fe98c9e8a494, type: 3}
+  - sprite: {fileID: 21300000, guid: c69b07e8ebba2c14bb37fe98c9e8a494, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 107
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 94da1dec9ea05494bb5cdd2e8f1ee82f, type: 3}
+  - sprite: {fileID: 21300000, guid: 94da1dec9ea05494bb5cdd2e8f1ee82f, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 108
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 69b07b443dd8aca4eaedab8b003a9e79, type: 3}
+  - sprite: {fileID: 21300000, guid: 69b07b443dd8aca4eaedab8b003a9e79, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 109
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: a0ce4ec36561f264083e9d816bbcd6a7, type: 3}
+  - sprite: {fileID: 21300000, guid: a0ce4ec36561f264083e9d816bbcd6a7, type: 3}
+    isFace: 0
     inkKey: V8pose
-    inkValue: 110
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: b03e464ff43e31444be19f5d021e0536, type: 3}
+  - sprite: {fileID: 21300000, guid: b03e464ff43e31444be19f5d021e0536, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 111
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: d993406086c3b574499de1598350b417, type: 3}
+  - sprite: {fileID: 21300000, guid: d993406086c3b574499de1598350b417, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 112
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: dcab5f3ce396d7742877eeeb5a5d22ac, type: 3}
+  - sprite: {fileID: 21300000, guid: dcab5f3ce396d7742877eeeb5a5d22ac, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 113
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: f61d56ed360e7ac46b44872440909c0b, type: 3}
+  - sprite: {fileID: 21300000, guid: f61d56ed360e7ac46b44872440909c0b, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 114
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: fc50aa085423100479823af73f04c1f4, type: 3}
+  - sprite: {fileID: 21300000, guid: fc50aa085423100479823af73f04c1f4, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 115
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: c00352a4ae5630a47a12384ca0aae25f, type: 3}
+  - sprite: {fileID: 21300000, guid: c00352a4ae5630a47a12384ca0aae25f, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 116
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 095441885cddef6428789294704dfe59, type: 3}
+  - sprite: {fileID: 21300000, guid: 095441885cddef6428789294704dfe59, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 117
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 371d08b814b6b9c46a85f4469f16bda5, type: 3}
+  - sprite: {fileID: 21300000, guid: 371d08b814b6b9c46a85f4469f16bda5, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 118
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: addf6b01eb0a5fc4a82068e9d5326dc6, type: 3}
+  - sprite: {fileID: 21300000, guid: addf6b01eb0a5fc4a82068e9d5326dc6, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 119
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 2fe27a954d5b0b5459ef4c2e960c1595, type: 3}
+  - sprite: {fileID: 21300000, guid: 2fe27a954d5b0b5459ef4c2e960c1595, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 120
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 703e748674d8ca14a8cc8ff022780804, type: 3}
+  - sprite: {fileID: 21300000, guid: 703e748674d8ca14a8cc8ff022780804, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 121
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 98313735163cba14490d4a05cf5aa840, type: 3}
+  - sprite: {fileID: 21300000, guid: 98313735163cba14490d4a05cf5aa840, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 122
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: a07b30c734429c44a8be92b3382866d3, type: 3}
+  - sprite: {fileID: 21300000, guid: a07b30c734429c44a8be92b3382866d3, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 123
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: a721a12b09f054b4aa624f235ad4caa8, type: 3}
+  - sprite: {fileID: 21300000, guid: a721a12b09f054b4aa624f235ad4caa8, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 124
-  - unityTag: pose
-    sprite: {fileID: 21300000, guid: 15e880c99d8a0f347857a006977beb24, type: 3}
+  - sprite: {fileID: 21300000, guid: 15e880c99d8a0f347857a006977beb24, type: 3}
+    isFace: 0
     inkKey: V9pose
-    inkValue: 125
   dialoguePanel: {fileID: 2025610350}
   dialoguetext: {fileID: 598344994}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
@@ -3724,12 +3601,12 @@ MonoBehaviour:
   roomCycle2: {fileID: 1792381754}
   typingSpeed: 0.04
   objectToTurnOff: {fileID: 1349562230}
-  objectToTurnOff2: {fileID: 0}
+  objectToTurnOff2: {fileID: 1349562230}
   loadingScreen: {fileID: 1803327662}
   slider: {fileID: 610124458}
   pieceManagement: {fileID: 497484489}
-  levelLoader: {fileID: 0}
-  winCondition: {fileID: 0}
+  levelLoader: {fileID: 203318156}
+  winCondition: {fileID: 2033057209}
 --- !u!114 &360102613
 MonoBehaviour:
   m_ObjectHideFlags: 0

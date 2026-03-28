@@ -2,7 +2,7 @@
 {playedMinigameVale1:-> ValePuzzle1}
 
  #TurnOff #vale:blue
-GRAHHH! #pose:1 #face:4
+GRAHHH!  #Grumble #ArmsCrossed
 You have made a terrible mistake... #face:1
 You've entered the domain of the great and mighty...!
 The horrifying and terrible...!
