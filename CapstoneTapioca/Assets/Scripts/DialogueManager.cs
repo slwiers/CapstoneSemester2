@@ -12,19 +12,18 @@ public class DialogueManager : MonoBehaviour
 {
     [System.Serializable]
     public class TagSpritePair {
-        [Tooltip("Unity tag of GameObjects to update (this must be a valid Unity Tag)")]
-        public string unityTag;
 
         [Tooltip("Sprite to assign to GameObjects with the matching Unity tag")]
         public Sprite sprite;
+        public bool isFace;
 
         [Header("Ink tag matching (optional)")]
         [Tooltip("If empty, legacy behavior: the Ink tag must equal the Unity tag string. Otherwise, this is the 'key' part of an Ink tag in the form 'key:value' or 'key=value'.")]
         public string inkKey;
 
-        [Tooltip("If set, the Ink tag's value must equal this. Leave empty to match any value for the key.")]
-        public string inkValue;
     }
+    [SerializeField] private SpriteRenderer characterSpriteRenderer;
+    [SerializeField] private SpriteRenderer faceSpriteRenderer;
 
     [Header("Tag -> Sprite mapping (change GameObject sprites by tag)")]
     [Tooltip("List of mappings. You can use either the legacy mode (leave 'inkKey' empty and use the Unity tag as the Ink tag), or set 'inkKey' (and optionally 'inkValue') to match Ink tags like 'character:happy'.")]
@@ -47,10 +46,10 @@ public class DialogueManager : MonoBehaviour
     // You can call SetChoicesContainer(Transform) at runtime to change where buttons spawn.
     public void SetChoicesContainer(Transform t) { choicesContainer = t as RectTransform; }
 
-    private Story currentStory;
+    public Story currentStory;
     //private TextAsset currentInkJSON; // remember which ink file started the story
 
-    private bool dialogueIsPlaying;
+    public bool dialogueIsPlaying;
     
     
     private static DialogueManager instance;
@@ -62,9 +61,16 @@ public class DialogueManager : MonoBehaviour
     private Coroutine displyLineCororoutine;
 
     public GameObject objectToTurnOff;
+    public GameObject objectToTurnOff2;
 
     public GameObject loadingScreen;
     public Slider slider;
+
+    public ClayPieceManagement pieceManagement;
+
+    public LevelLoader levelLoader;
+
+    public WinCondition winCondition;
 
     private void Awake()
     {
@@ -129,7 +135,7 @@ public class DialogueManager : MonoBehaviour
         ShowNextLine();
     }
 
-    private void ExitDialogueMode()
+    public void ExitDialogueMode()
     {
         dialogueIsPlaying = false;
         dialoguePanel?.SetActive(false);
@@ -227,7 +233,6 @@ public class DialogueManager : MonoBehaviour
         foreach (var pair in tagSpritePairs)
         {
             if (pair == null) continue;
-            if (string.IsNullOrEmpty(pair.unityTag) || pair.sprite == null) continue;
 
             // Determine if this mapping matches any of the current Ink tags.
             bool mappingMatches = false;
@@ -235,140 +240,234 @@ public class DialogueManager : MonoBehaviour
             if (string.IsNullOrEmpty(pair.inkKey))
             {
                 // Legacy behavior: an Ink tag must exactly equal the unityTag string
-                if (tags.Contains(pair.unityTag)) mappingMatches = true;
+                mappingMatches = true;
             }
             else
             {
 
-                if (tags.Count > 0)
-                {
-                    if (tags[0] == "valepuzzle1")
-                    {
-                        LoadLevel(10);
-                        //SceneManager.LoadScene("WaterPuzzle1");
-                    }
-                    if (tags[0] == "valepuzzle2")
-                    {
-                        LoadLevel(11);
-                        //SceneManager.LoadScene("WaterPuzzle2");
-                    }
-                    if (tags[0] == "valepuzzle3")
-                    {
-                        LoadLevel(12);
-                        //SceneManager.LoadScene("WaterPuzzle3");
-                    }
-                    if (tags[0] == "horacepuzzle1")
-                    {
-                        LoadLevel(13);
-                        Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("ClockPuzzle1");
-                    }
-                    if (tags[0] == "horacepuzzle2")
-                    {
-                        LoadLevel(14);
-                        Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("ClockPuzzle2");
-                    }
-                    if (tags[0] == "horacepuzzle3")
-                    {
-                        LoadLevel(15);
-                        Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("ClockPuzzle3");
-                    }
-                    if (tags[0] == "introtrans")
-                    {
-                        LoadLevel(6);
-                        Debug.Log("Scene Loaded");
-                        //SceneManager.LoadScene("CafeteriaRoom6");
-                    }
-                    if (tags[0] == "TurnOff")
-                    {
-                        Debug.Log("ObjectOff");
-                        objectToTurnOff.SetActive(false);
-                    }
-                    if (tags[0] == "TurnOn")
-                    {
-                        Debug.Log("ObjectOn");
-                        objectToTurnOff.SetActive(true);
-                    }
-                }
-
-
-
                 // New behavior: look for tags of form "key:value" or "key=value"
                 foreach (var t in tags)
                 {
-                    if (string.IsNullOrEmpty(t)) continue;
-                    string[] parts = t.Split(new char[] { ':', '=' }, 2);
-                    if (parts.Length == 0) continue;
-                    if (parts[0] != pair.inkKey) continue;
-                    if (string.IsNullOrEmpty(pair.inkValue))
-                    {
-                        mappingMatches = true; // key matched, value wildcard
-                        break;
-                    }
-                    if (parts.Length == 2 && parts[1] == pair.inkValue)
-                    {
-                        mappingMatches = true;
-                        break;
-                    }
+                    if (t != pair.inkKey) continue;
+                    mappingMatches = true; // key matched, value wildcard
+                    break;
                 }
             }
 
             if (!mappingMatches) continue;
 
-            GameObject[] gos;
-            try
-            {
-                gos = GameObject.FindGameObjectsWithTag(pair.unityTag);
-            }
-            catch
-            {
-                // If the tag does not exist in Unity's tag manager, skip it
-                Debug.LogWarning($"DialogueManager: Unity tag '{pair.unityTag}' not found when applying sprite.");
-                continue;
-            }
-
-            foreach (var go in gos)
-            {
-                if (go == null) continue;
-                // 2D sprite renderer
-                var sr = go.GetComponent<SpriteRenderer>();
-                if (sr != null)
-                {
-                    sr.sprite = pair.sprite;
-                    continue;
-                }
-
-                // UI Image (for Canvas-based objects)
-                var img = go.GetComponent<UnityEngine.UI.Image>();
-                if (img != null)
-                {
-                    img.sprite = pair.sprite;
-                }
-            }
+            SpriteRenderer animatedSpriteRenderer = pair.isFace? faceSpriteRenderer:characterSpriteRenderer;
+            animatedSpriteRenderer.sprite = pair.sprite;
+            
         }
-    }
+        if (tags.Count > 0)
+                {
+                    if (tags[0] == "valepuzzle1")
+                    {
 
-         public void LoadLevel(int sceneIndex)
-            {
-                StartCoroutine(LoadAsynchronously(sceneIndex));
-            }
+                        levelLoader.LoadLevel(10);
 
-    IEnumerator LoadAsynchronously(int sceneIndex)
-    {
-        AsyncOperation operation = SceneManager.LoadSceneAsync(sceneIndex);
+                    }
+                    if (tags[0] == "valepuzzle2")
+                    {
+                        levelLoader.LoadLevel(11);
 
-        loadingScreen.SetActive(true);
+                    }
+                    if (tags[0] == "valepuzzle3")
+                    {
+                        levelLoader.LoadLevel(12);
 
-        while (!operation.isDone)
-        {
-            float progress = Mathf.Clamp01(operation.progress / .9f);
-            slider.value = progress;
-            yield return null;
+                    }
+                    if (tags[0] == "horacepuzzle1")
+                    {
+                        levelLoader.LoadLevel(13);
+                        Debug.Log("Scene Loaded");
 
-        }
-   
+                    }
+                    if (tags[0] == "horacepuzzle2")
+                    {
+                        levelLoader.LoadLevel(14);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if (tags[0] == "horacepuzzle3")
+                    {
+                        levelLoader.LoadLevel(15);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if (tags[0] == "introtrans")
+                    {
+                        levelLoader.LoadLevel(6);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if (tags[0] == "TurnOff")
+                    {
+
+                        objectToTurnOff.SetActive(false);
+                    }
+                    if (tags[0] == "TurnOn")
+                    {
+
+                        objectToTurnOff.SetActive(true);
+                    }
+                    if (tags[0] == "ClayPiece1")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece1 = true;
+
+                    }
+                    if (tags[0] == "ByeBye")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece1 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece2")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece2 = true;
+
+                    }
+                    if (tags[0] == "ByeBye2")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece2 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece3")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece3 = true;
+
+                    }
+                    if (tags[0] == "ByeBye3")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece3 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece4")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece4 = true;
+
+                    }
+                    if (tags[0] == "ByeBye4")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece4 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece5")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece5 = true;
+
+                    }
+                    if (tags[0] == "ByeBye5")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece5 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece6")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece6 = true;
+
+                    }
+                    if (tags[0] == "ByeBye6")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece6 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece7")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece7 = true;
+
+                    }
+                    if (tags[0] == "ByeBye7")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece7 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece8")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece8 = true;
+
+                    }
+                    if (tags[0] == "ByeBye8")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece8 = true;
+
+                    }
+                    if (tags[0] == "ClayPiece9")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerClayPiece9 = true;
+
+                    }
+                    if (tags[0] == "ByeBye9")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killClayPiece9 = true;
+
+                    }
+                    if (tags[0] == "DPlant")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.triggerDPlant = true;
+
+                    }
+                    if (tags[0] == "ByeByePlant")
+                    {
+                        ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
+                        instance.killDPlant = true;
+
+                    }
+                    if(tags[0] == "WakeyWakey")
+                    {
+                        objectToTurnOff2.SetActive(true);
+                    }
+                    if (tags[0] == "saved1")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC1 = true;
+                        Debug.Log("Saved Character 1");
+                    }
+                    if (tags[0] == "saved2")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC2 = true;
+                        Debug.Log("Saved Character 2");
+                    }
+                    if (tags[0] == "saved3")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC3 = true;
+                        Debug.Log("Saved Character 3");
+                    }
+                    if (tags[0] == "saved4")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC4 = true;
+                        Debug.Log("Saved Character 4");
+                    }
+                    if (tags[0] == "saved5")
+                    {
+                        WinCondition instance = FindAnyObjectByType<WinCondition>();
+                        instance.savedNPC5 = true;
+                        Debug.Log("Saved Character 5");
+                    }
+
+                }
     }
 
     // build and show choice buttons for current choices

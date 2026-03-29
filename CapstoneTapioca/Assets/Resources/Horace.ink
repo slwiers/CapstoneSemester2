@@ -1179,7 +1179,7 @@ I'm always open to letting the time pass with someone else.
 I'll be waiting.
 No time waited is too long for you.
 ~ savedHorace = true
-Goodbye, friend.
+Goodbye, friend. #saved3
 -> END
 
 

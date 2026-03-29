@@ -2,7 +2,7 @@
 {playedMinigameVale1:-> ValePuzzle1}
 
  #TurnOff #vale:blue
-GRAHHH! #pose:1 #face:4
+GRAHHH!  #Grumble #ArmsCrossed
 You have made a terrible mistake... #face:1
 You've entered the domain of the great and mighty...!
 The horrifying and terrible...!
@@ -1311,7 +1311,7 @@ For now though, I think we just need to relax and enjoy our victory.
 = Branch2_4_6
 Until next time, my friend. #TurnOff
 ~ savedVale = true
-GRAHHH!!!
+GRAHHH!!! #saved2
 -> END
 
 = Branch2_4_7

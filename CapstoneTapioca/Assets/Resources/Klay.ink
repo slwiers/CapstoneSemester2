@@ -1,6 +1,7 @@
 ===Klay===
-
-Oh...uh...hi! #TurnOff
+{playedMinigameKlay1:-> KlayPuzzle1}
+{varKlayWaiting1:-> KlayWaiting1}
+Oh...uh...hi! #TurnOff #NeutralV1
 Down here...!
 Sorry...I'm a bit...
 ...small.
@@ -272,7 +273,8 @@ Anyways...!
 -> Branch5_1_4
 
 = Branch5_1_4
-I'll...see you around...! #TurnOff
+~ varKlayWaiting1 = true
+I'll...see you around...! #ClayPiece1 #TurnOff
 ->END
 
 = Branch5_1_6
@@ -312,6 +314,8 @@ It's not like I can get any smaller...!
 
 
 === KlayPuzzle1 ===
+{playedMinigameKlay2:-> KlayPuzzle2}
+{varKlayWaiting2:-> KlayWaiting2}
 You actually found a piece?! #TurnOff
 I didn't think you'd even come back!
 This is...
@@ -393,7 +397,8 @@ Everything!
 
 = Branch5_2_3
 Thank you, human. Keep it up...! #TurnOff
-If you find any more pieces of me, please bring them back!
+~ varKlayWaiting2 = true
+If you find any more pieces of me, please bring them back! #ClayPiece2
 -> END
 
 = Branch5_2_4
@@ -503,6 +508,8 @@ Oh! This is great...!
 
 
 === KlayPuzzle2 ===
+{playedMinigameKlay3:-> KlayPuzzle3}
+{varKlayWaiting3:-> KlayWaiting3}
 Another piece...? #TurnOff
 You're pretty good at this...!
 Better than the last guy...
@@ -526,7 +533,8 @@ Obviously I've still got a long way to go, but it still feels great already...!
 = Branch5_3_2
 Well, I won't keep you here while I ramble... #TurnOff
 I'd rather you be keeping your eyes peeled for me...!
-See you soon...!
+~ varKlayWaiting3 = true
+See you soon...! #ClayPiece3
 -> END
 
 = Branch5_3_3
@@ -550,6 +558,8 @@ Hahaha...! that's not you though...!
 
 
 === KlayPuzzle3 ===
+{playedMinigameKlay4:-> KlayPuzzle4}
+{varKlayWaiting4:-> KlayWaiting4}
 You're back, which can only mean one thing...! #TurnOff
 Hey...I was just wondering...
 Why are you doing all of this...?
@@ -577,7 +587,8 @@ Hm. I feel...
 Ah...! Maybe I could use this for something...!
 A sculpture maybe...!
 Ah...! You better get out of here before I start burying you in ideas...!
-I'll be here if you need me...!
+~ varKlayWaiting4 = true
+I'll be here if you need me...! #ClayPiece4
 -> END
 
 = Branch5_4_3
@@ -602,6 +613,8 @@ Funnily enough I feel a bit inspired...maybe even...
 
 
 === KlayPuzzle4 ===
+{playedMinigameKlay5:-> KlayPuzzle5}
+{varKlayWaiting5:-> KlayWaiting5}
 Already...? #TurnOff
 That one was quicker than the last...!
 I didn't even finish writing down all of my ideas...!
@@ -628,7 +641,8 @@ Someone who has grown from rock to clay to clay old man...
 = Branch5_5_2
 Ah...! You're a genius...! #TurnOff
 Okay...! I've gotta get back to it...!
-These ideas aren't going to write themselves down...!
+~ varKlayWaiting5 = true
+These ideas aren't going to write themselves down...! #ClayPiece5
 ->END
 
 = Branch5_5_3
@@ -651,6 +665,8 @@ Clear rivers flowing through open fields...
 
 
 === KlayPuzzle5 ===
+{playedMinigameKlay6:-> KlayPuzzle6}
+{varKlayWaiting6:-> KlayWaiting6}
 Over halfway done, human...! #TurnOff
 You know, I was thinking a bit...
 I'm starting to remember making art before the machine.
@@ -737,7 +753,8 @@ Wow! Sorry...! #TurnOff
 I'm probably distracting you from whatever it is you're actually doing around here.
 I'll be here still if you need me...!
 Or if you have more pieces...!
-I'll...quit bothering you for now...!
+~ varKlayWaiting6 = true
+I'll...quit bothering you for now...! #ClayPiece6
 -> END
 
 = Branch5_6_4
@@ -898,6 +915,8 @@ Please...?
 
 
 === KlayPuzzle6 ===
+{playedMinigameKlay7:-> KlayPuzzle7}
+{varKlayWaiting7:-> KlayWaiting7}
 I'm doing some research, human... #TurnOff
 What do you think the meaning of life is...?
 
@@ -919,7 +938,8 @@ Maybe I'll try that out sometime...
 = Branch5_7_2
 I always thought the point of everything was to make art, but clearly there's a lot more out there... #TurnOff
 You've given me a lot to think about.
-Oh...and we're almost there, so keep finding those pieces of mine...!
+~ varKlayWaiting7 = true
+Oh...and we're almost there, so keep finding those pieces of mine...! #ClayPiece7
 -> END
 
 = Branch5_7_3
@@ -943,6 +963,8 @@ I can't tell if that's sad or hopeful that maybe you'll live life to the fullest
 
 
 === KlayPuzzle7 ===
+{playedMinigameKlay8:-> KlayPuzzle8}
+{varKlayWaiting8:-> KlayWaiting8}
 I'm...almost back... #TurnOff
 I feel like I could explode I have so much on my mind...!
 I guess I could start, but I don't want to fall apart before I can put myself back together again...
@@ -974,7 +996,8 @@ Something always has me coming back to the visual arts though.
 And now that a wave of ideas has been stifled thanks to you... #TurnOff
 I can get back to thinking about it again...!
 Or...word vomiting in my journal about everything I want to do...
-Either or...!
+~ varKlayWaiting8 = true
+Either or...! #ClayPiece8
 -> END
 
 = Branch5_8_3
@@ -1004,6 +1027,8 @@ I can't argue with that though...theater is definitely impressive...
 
 
 === KlayPuzzle8 ===
+{playedMinigameKlay9:-> KlayPuzzle9}
+{varKlayWaiting9:-> KlayWaiting9}
 I don't know how you did it, but... #TurnOff
 ...I only have one more piece missing...!
 It's funny because I stopped thinking about what I was going to make for a second...
@@ -1033,7 +1058,8 @@ Ah...! #TurnOff
 Now I'm not only gonna have art ideas, but I'm gonna have gallery ideas too...!
 This is quite the conundrum...!
 Ah...! I'd leave before I start to talk your ear off about this...!
-I'm so excited...!
+~ varKlayWaiting9 = true
+I'm so excited...! #ClayPiece9
 ->END
 
 = Branch5_9_4
@@ -1054,6 +1080,7 @@ How to make the best gallery with no other galleries around...hm...
 
 
 === KlayPuzzle9 ===
+{savedKlay:-> KlayEnd}
 You...you did it! #TurnOff
 I'm...an artist again...I'm me...
 I'm...
@@ -1129,7 +1156,8 @@ It's a thanks from me to you...
 It's hard to find people like you, but I'm glad I did...
 If you ever want more art, you know where to find me...!
 I'd make unlimited art just for you...!
-See you, friend!
+~ savedKlay = true
+See you, friend! #saved5
 -> END
 
 = Branch5_10_5
@@ -1214,6 +1242,56 @@ I'm glad I'm not a sad little blob anymore.
 
 
 
+=== KlayWaiting1 ===
+{playedMinigameKlay1:-> KlayPuzzle1}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting2 ===
+{playedMinigameKlay2:-> KlayPuzzle2}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting3 ===
+{playedMinigameKlay3:-> KlayPuzzle3}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting4 ===
+{playedMinigameKlay4:-> KlayPuzzle4}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting5 ===
+{playedMinigameKlay5:-> KlayPuzzle5}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting6 ===
+{playedMinigameKlay6:-> KlayPuzzle6}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting7 ===
+{playedMinigameKlay7:-> KlayPuzzle7}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting8 ===
+{playedMinigameKlay8:-> KlayPuzzle8}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayWaiting9 ===
+{playedMinigameKlay9:-> KlayPuzzle9}
+Those pieces are around here somewhere! Keep your eyes peeled!
+-> END
+
+=== KlayEnd ===
+Oh! Hi!
+Come back to me! Come back to me!
+I'm working on my next masterpiece!
+->END
 
 
 

@@ -19,6 +19,12 @@ public class ManagePipes : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(StartPipes());
+    }
+
+    IEnumerator StartPipes()
+    {
+        yield return new WaitForSeconds(1);
         totalPipes = PipesHolder.transform.childCount;
 
         Pipes = new GameObject[totalPipes];
