@@ -322,6 +322,7 @@ public class DialogueManager : MonoBehaviour
                     {
                         ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
                         instance.killClayPiece1 = true;
+                        Debug.Log("Worked");
 
                     }
                     if (tags[0] == "ClayPiece2")
@@ -352,12 +353,15 @@ public class DialogueManager : MonoBehaviour
                     {
                         ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
                         instance.triggerClayPiece4 = true;
+                        
 
                     }
                     if (tags[0] == "ByeBye4")
                     {
+                        Debug.Log("In");
                         ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
                         instance.killClayPiece4 = true;
+                        Debug.Log("True");
 
                     }
                     if (tags[0] == "ClayPiece5")
