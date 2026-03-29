@@ -64,8 +64,8 @@ public class Rotate : MonoBehaviour
         Debug.Log("transform.eulerAngles " + transform.eulerAngles);
         if (PossibleRots > 3)
         {
-            isPlaced = true;
-            managePipes.correctMove();
+            //isPlaced = true;
+            //managePipes.correctMove();
         }
         else if (PossibleRots > 1)
         {
