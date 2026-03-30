@@ -10136,7 +10136,7 @@ MonoBehaviour:
     inkKey: Grumble
   - sprite: {fileID: 21300000, guid: 71279ef229f61c9409c212ce51fd96ee, type: 3}
     isFace: 1
-    inkKey: Thinking
+    inkKey: Sad
   - sprite: {fileID: 21300000, guid: 029da9a63acc9344c90f3b60b3aac597, type: 3}
     isFace: 1
     inkKey: Angry
@@ -10151,7 +10151,7 @@ MonoBehaviour:
     inkKey: ArmsCrossed
   - sprite: {fileID: 21300000, guid: b9dbcca6a8d59154280e82389171a21c, type: 3}
     isFace: 0
-    inkKey: Scratching
+    inkKey: Scratch
   dialoguePanel: {fileID: 1534811974}
   dialoguetext: {fileID: 2024827566}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}

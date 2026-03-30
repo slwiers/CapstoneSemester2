@@ -3426,7 +3426,49 @@ MonoBehaviour:
   tagSpritePairs:
   - sprite: {fileID: 21300000, guid: 612829716900c734cb6b73a298fb0af8, type: 3}
     isFace: 0
-    inkKey: Neutral
+    inkKey: AngryMotion
+  - sprite: {fileID: 21300000, guid: 1ad21f3acce10d04caa58db71ca2872b, type: 3}
+    isFace: 0
+    inkKey: ThinkingMotion
+  - sprite: {fileID: 21300000, guid: d47b19c209c032f43a6f38d88c4ba427, type: 3}
+    isFace: 0
+    inkKey: HappyMotion
+  - sprite: {fileID: 21300000, guid: 10a0cf3a042c37a49a02cfe215d340bd, type: 3}
+    isFace: 0
+    inkKey: NeutralMotion
+  - sprite: {fileID: 21300000, guid: e9769b7b1349be44692e78e493dce6d0, type: 3}
+    isFace: 0
+    inkKey: WorriedMotion
+  - sprite: {fileID: 21300000, guid: 5f8e0c66f2646fd4abbeb3d228fb9c5f, type: 3}
+    isFace: 0
+    inkKey: AngryStand
+  - sprite: {fileID: 21300000, guid: f68d5ae2cab95934ba030bcca0882545, type: 3}
+    isFace: 0
+    inkKey: ThinkingStand
+  - sprite: {fileID: 21300000, guid: 18c1bb5cb13ebd1428ac394f48a90c7f, type: 3}
+    isFace: 0
+    inkKey: HappyStand
+  - sprite: {fileID: 21300000, guid: 16493312df20b444dbf0bbeef30e0413, type: 3}
+    isFace: 0
+    inkKey: NeutralStand
+  - sprite: {fileID: 21300000, guid: da376794bdf2de3478e84be13343eb9a, type: 3}
+    isFace: 0
+    inkKey: WorriedStand
+  - sprite: {fileID: 21300000, guid: 6d5fb3c4db6a49746b97ac420521a17d, type: 3}
+    isFace: 0
+    inkKey: AngryLean
+  - sprite: {fileID: 21300000, guid: f66f5a66ff3d77547b81d7d4bc39d2e9, type: 3}
+    isFace: 0
+    inkKey: ThinkingLean
+  - sprite: {fileID: 21300000, guid: f66f5a66ff3d77547b81d7d4bc39d2e9, type: 3}
+    isFace: 0
+    inkKey: HappyLean
+  - sprite: {fileID: 21300000, guid: 924793d972ef3744a91dd4af6f049659, type: 3}
+    isFace: 0
+    inkKey: NeutralLean
+  - sprite: {fileID: 21300000, guid: be83b70296615be419aef96641386f36, type: 3}
+    isFace: 0
+    inkKey: WorriedLean
   dialoguePanel: {fileID: 2025610350}
   dialoguetext: {fileID: 598344994}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
