@@ -13,7 +13,7 @@ public class ClayPieceGet : MonoBehaviour
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
 
-        if (instance.triggerClayPiece1 == true)
+        if (instance.triggerClayPiece1 == true && currentSceneIndex == 9)
         {
             GameObject parentObject = GameObject.Find("ClayTrigger1");
             Transform childTransform = parentObject.transform.Find("ClayPiece1");
@@ -21,7 +21,7 @@ public class ClayPieceGet : MonoBehaviour
 
         }
 
-        if (instance.triggerClayPiece2 == true)
+        if (instance.triggerClayPiece2 == true && currentSceneIndex == 6)
         {
             if (GameObject.Find("ClayTrigger2"))
             {
@@ -39,7 +39,7 @@ public class ClayPieceGet : MonoBehaviour
 
         }
 
-        if (instance.triggerClayPiece4 == true)
+        if (instance.triggerClayPiece4 == true && currentSceneIndex == 4)
         {
             if (GameObject.Find("ClayTrigger4"))
             {
@@ -48,7 +48,7 @@ public class ClayPieceGet : MonoBehaviour
             }
         }
 
-        if (instance.triggerClayPiece5 == true)
+        if (instance.triggerClayPiece5 == true && currentSceneIndex == 3)
         {
             if (GameObject.Find("ClayTrigger5"))
             {
@@ -58,7 +58,7 @@ public class ClayPieceGet : MonoBehaviour
 
         }
 
-        if (instance.triggerClayPiece6 == true)
+        if (instance.triggerClayPiece6 == true && currentSceneIndex == 5)
         {
             if (GameObject.Find("ClayTrigger6"))
             {
@@ -67,15 +67,14 @@ public class ClayPieceGet : MonoBehaviour
             }
         }
 
-        if (instance.triggerClayPiece7 == true)
+        if (instance.triggerClayPiece7 == true && currentSceneIndex == 2)
         {
-            if (GameObject.Find("ClayTrigger7"))
-            {
-                GameObject clayTrigger = transform.GetChild(0).gameObject;
-                clayTrigger.SetActive(true);
-            }
+            GameObject parentObject = GameObject.Find("ClayTrigger7");
+            Transform childTransform = parentObject.transform.Find("ClayPiece7");
+            childTransform.gameObject.SetActive(true);
         }
-        if (instance.triggerClayPiece8 == true)
+
+        if (instance.triggerClayPiece8 == true && currentSceneIndex == 1)
         {
             if (GameObject.Find("ClayTrigger8"))
             {

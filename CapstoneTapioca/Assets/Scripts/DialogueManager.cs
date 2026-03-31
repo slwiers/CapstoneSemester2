@@ -393,6 +393,7 @@ public class DialogueManager : MonoBehaviour
                         ClayPieceManagement instance = FindAnyObjectByType<ClayPieceManagement>();
                         instance.triggerClayPiece7 = true;
 
+
                     }
                     if (tags[0] == "ByeBye7")
                     {
