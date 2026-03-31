@@ -1141,7 +1141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 870828697227359770, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 270
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4781638843970891757, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: m_LocalScale.x
@@ -4268,7 +4268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 870828697227359770, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 180
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4781638843970891757, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: m_LocalScale.x
@@ -4763,11 +4763,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9071520608501567633, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 90
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9071520608501567633, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
       propertyPath: correctRotation.Array.data[1]
-      value: 270
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5001,7 +5001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 870828697227359770, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 90
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4781638843970891757, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: m_LocalScale.x
@@ -6020,11 +6020,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9071520608501567633, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 90
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9071520608501567633, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
       propertyPath: correctRotation.Array.data[1]
-      value: 270
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6513,7 +6513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2424557444596258037, guid: 63d94d1331c4f714cb0155d20f1046b5, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 180
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4050969351895562693, guid: 63d94d1331c4f714cb0155d20f1046b5, type: 3}
       propertyPath: m_Name
@@ -6845,11 +6845,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9071520608501567633, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 90
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9071520608501567633, guid: e3b6407b536577e47bebc10182cfc2cf, type: 3}
       propertyPath: correctRotation.Array.data[1]
-      value: 270
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7057,7 +7057,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 870828697227359770, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: correctRotation.Array.data[0]
-      value: 180
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4781638843970891757, guid: 9bbd7f8db7d31ba4a86da4c1e761d19f, type: 3}
       propertyPath: m_LocalScale.x
@@ -7911,15 +7911,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7202350355170021512, guid: 75606c506e693564db1fb3708fe7f544, type: 3}
       propertyPath: correctRotation.Array.data[1]
-      value: 90
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7202350355170021512, guid: 75606c506e693564db1fb3708fe7f544, type: 3}
       propertyPath: correctRotation.Array.data[2]
-      value: 180
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7202350355170021512, guid: 75606c506e693564db1fb3708fe7f544, type: 3}
       propertyPath: correctRotation.Array.data[3]
-      value: 270
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9947,15 +9947,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7202350355170021512, guid: 75606c506e693564db1fb3708fe7f544, type: 3}
       propertyPath: correctRotation.Array.data[1]
-      value: 90
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7202350355170021512, guid: 75606c506e693564db1fb3708fe7f544, type: 3}
       propertyPath: correctRotation.Array.data[2]
-      value: 180
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7202350355170021512, guid: 75606c506e693564db1fb3708fe7f544, type: 3}
       propertyPath: correctRotation.Array.data[3]
-      value: 270
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
