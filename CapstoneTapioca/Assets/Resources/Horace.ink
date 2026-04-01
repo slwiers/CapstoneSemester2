@@ -1,7 +1,7 @@
 ===Horace===
 {playedMinigameHorace1:-> HoracePuzzle1}
 
-One second. #TurnOff #pose:2n
+One second. #TurnOff #HappyHips
 ...
 Just a second.
 ...
@@ -16,15 +16,15 @@ Just one more...
 -> Branch3_1_36
 
 = Branch3_1_1
-Scrolling Blip Blop. #TurnOff #pose:3h
+Scrolling Blip Blop. #TurnOff #VeryHappyReady
 Watching blips.
 You know? #pose:1h
-You know what, just give me a second. #pose:1n
+You know what, just give me a second. #HappyNeutral
 ...
 ...
 ...
 Okay. 
-What do you want? #pose:2a
+What do you want? #FrustratedHips
 Make it quick though, I've got a tight schedule.
 *A tight schedule of watching...blips? #TurnOn
 -> Branch3_1_2
@@ -34,13 +34,13 @@ Make it quick though, I've got a tight schedule.
 -> Branch3_1_19
 
 = Branch3_1_23
-Wow! #TurnOff #pose:3a
+Wow! #TurnOff #FrustratedReady
 Rude.
-The world doesn't revolve around you, you know? #pose:2a
+The world doesn't revolve around you, you know? #FrustratedHips
 It revolves around Blip Blop! #pose:2sh
-And right now, you're getting in the way of my Blip Blop time. #pose:2a
+And right now, you're getting in the way of my Blip Blop time. #FrustratedNeutral
 I've got blips to watch!
-It's a little treat for working so hard. #pose:1n
+It's a little treat for working so hard. #HappyNeutral
 I stayed focused for so long and now I get to turn my brain off. 
 A few short videos for the road and then I'll get back to work and maybe talking to you too I guess.
 Just a few more and I'll get to it. I promise!
@@ -52,11 +52,11 @@ Just a few more and I'll get to it. I promise!
 -> Branch3_1_32
 
 = Branch3_1_24
-Oh! #TurnOff #pose:3n
+Oh! #TurnOff #HappyReady
 Right. #pose:3s
 I'm supposed to be waiting to tell people when it's time to go home from work here.
-I was just looking for ways to pass the time. #pose:1n
-Blip Blop just happened to be the perfect solution! #pose:1h
+I was just looking for ways to pass the time. #HappyNeutral
+Blip Blop just happened to be the perfect solution! #VeryHappyNeutral
 *So...how long have you been on Blip Blop for? #TurnOn
 -> Branch3_1_25
 *Sounds like you forgot what you were supposed to be doing for a second there. #TurnOn
@@ -65,14 +65,14 @@ Blip Blop just happened to be the perfect solution! #pose:1h
 -> Branch3_1_27
 
 = Branch3_1_25
-Oh, not that long. #TurnOff #pose:1n
+Oh, not that long. #TurnOff #HappyNeutral
 Or...wait...
-What day is it? #pose:1a
+What day is it? #FrutratedNeutral
 Nevermind actually.
 Not that long.
-Final answer! #pose:2h
+Final answer! #VeryHappyHips
 Look, people do timelapses of themselves without Blip Blop all the time.
-I bet I could do one right now! I'd last so long! #pose:3h
+I bet I could do one right now! I'd last so long! #VeryHappyReady
 And then everyone would tell me how good I am at it once I post it!
 Look, I'll show you an example!
 *Sounds like you have an attention problem. #TurnOn
@@ -83,16 +83,16 @@ Look, I'll show you an example!
 -> Branch3_1_14
 
 = Branch3_1_26
-No, no everything's fine! #TurnOff #pose:3a
+No, no everything's fine! #TurnOff #FrustratedReady
 I remember everything just fine!
-I just lose track of time sometimes when I'm on Blip Blop. #pose:2sh
-That's okay though. #pose:2n
+I just lose track of time sometimes when I'm on Blip Blop. #BlushingHips
+That's okay though. #HappyHips
 I always stop at those blips that say that they're a checkpoint to stop scrolling.
 People in the comments always do the same thing.
-I cheat the system though. #pose:2h
+I cheat the system though. #VeryHappyHips
 I stop scrolling...
-For one second! #pose:3h
-Here, I'll show you how I do it. #pose:2n
+For one second! #VeryHappyReady
+Here, I'll show you how I do it. #HappyHips
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -101,16 +101,16 @@ Here, I'll show you how I do it. #pose:2n
 -> Branch3_1_14
 
 = Branch3_1_27
-What?! #TurnOff #pose:3a
+What?! #TurnOff #FrustratedReady
 That's impossible.
-I'm always on time. #pose:2a
+I'm always on time. #FrustratedHips
 You're still here too, which means it's work time still!
-You know, when I work, if I'm not scrolling blips, I post about how patient and on time I am. #pose:1sh
-I'll have to show you sometime. #pose:2sh
-I could even show you some other examples of other people doing the same trend. #pose:2n
+You know, when I work, if I'm not scrolling blips, I post about how patient and on time I am. #BlushingNeutral
+I'll have to show you sometime. #BlushingHips
+I could even show you some other examples of other people doing the same trend. #HappyHips
 It'll reinforce my trustworthiness! 
 Because surly nobody would ever lie on the internet!
-Here, I'll just show you right now. #pose:2n
+Here, I'll just show you right now. #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -119,10 +119,10 @@ Here, I'll just show you right now. #pose:2n
 -> Branch3_1_14
 
 = Branch3_1_28
-This is actually the last time though! #TurnOff #pose:3a
-I promise! #pose:2s
+This is actually the last time though! #TurnOff #FrustratedReady
+I promise! #SadHips
 I have to watch all of these Blip Blops or I'll never catch up!
-How would I get to the end then?! #pose:3a
+How would I get to the end then?! #FrustratedReady
 Getting to the end is extremely important! 
 *Why's that? #TurnOn
 -> Branch3_1_29
@@ -132,15 +132,15 @@ Getting to the end is extremely important!
 -> Branch3_1_31
 
 = Branch3_1_29
-Because then you're the ultimate Blip Blopper! #TurnOff #pose:3h
+Because then you're the ultimate Blip Blopper! #TurnOff #VeryHappyReady
 Everyone aspires to be the ultimate Blip Blopper! 
-A few people have done it and I'll be the next! #pose:2n
+A few people have done it and I'll be the next! #HappyHips
 See, the Blip Bloppers that have scrolled to the end become superrr popular.
 Somehow, they're still humble all the way from their mansions too...
-What I'm interested in though is becoming the ultimate ultimate Blip Blopper! #pose:3h
+What I'm interested in though is becoming the ultimate ultimate Blip Blopper! #VeryHappyReady
 I'll be the most humble, the post popular, and the fastest scroller in the world! 
-That means that I've always gotta be scrolling. #pose:2n
-I have standards to uphold! Quotas! #pose:1n
+That means that I've always gotta be scrolling. #HappyHips
+I have standards to uphold! Quotas! #HappyNeutral
 Actually, now that I think about it, I've gotta get back to it!
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
@@ -150,15 +150,15 @@ Actually, now that I think about it, I've gotta get back to it!
 -> Branch3_1_14
 
 = Branch3_1_30
-Trust in the lovely people online! #TurnOff #pose:2sh
-They all say it's possible! #pose:3h
+Trust in the lovely people online! #TurnOff #BlushingHips
+They all say it's possible! #VeryHappyReady
 That means I can succeed! 
-Little old me! #pose:2sh
-Maybe you can succeed with me. #pose:1n
-We'll be at the top of Blip Blop together posting like those companies that pretend to be people! #pose:1h
+Little old me! #BlushingHips
+Maybe you can succeed with me. #HappyNeutral
+We'll be at the top of Blip Blop together posting like those companies that pretend to be people! #VeryHappyNeutral
 But we'll be real people and we'll still be scrolling! 
 We'd be committed to the craft like all of the Blip Bloppers I see on my feed!
-Here! We can even start now! #pose:1n
+Here! We can even start now! #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -167,15 +167,15 @@ Here! We can even start now! #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_31
-Fame! #TurnOff #pose:1n
-Fortune! #pose:2n
-Good things! #pose:1n
+Fame! #TurnOff #HappyNeutral
+Fortune! #HappyHips
+Good things! #HappyNeutral
 I think. 
-All the Blip Bloppers talk about it. #pose:3n
+All the Blip Bloppers talk about it. #HappyReady
 They all say it's the best thing that could happen to you.
-It's the best motivation to keep scrolling! #pose:3h
+It's the best motivation to keep scrolling! #VeryHappyReady
 Knowing that all the best things are coming once you reach the end!
-It's why I've always gotta be scrolling. #pose:1n
+It's why I've always gotta be scrolling. #HappyNeutral
 I've actually gotta do that now, if you don't mind...
 *Sounds like you have an attention problem. #TurnOn
 ->Branch3_1_4
@@ -185,11 +185,11 @@ I've actually gotta do that now, if you don't mind...
 ->Branch3_1_14
 
 = Branch3_1_32
-Oh it is! #TurnOff #pose:1n
-And the CEO even said that they definitely don't sell your data! #pose:2n
+Oh it is! #TurnOff #HappyNeutral
+And the CEO even said that they definitely don't sell your data! #HappyHips
 I trust that guy 100%!
-CEOs never lie or are untrustworthy! #pose:2sh
-But back to Blip Blop... #pose:1sh
+CEOs never lie or are untrustworthy! #BlushingHips
+But back to Blip Blop... #NeutralHips
 *That guy is definitely stealing your data. #TurnOn
 -> Branch3_1_33
 *What type of content is on Blip Blop? #TurnOn
@@ -198,15 +198,15 @@ But back to Blip Blop... #pose:1sh
 -> Branch3_1_35
 
 = Branch3_1_33
-He said he definitely isn't though! #TurnOff #pose:3a
+He said he definitely isn't though! #TurnOff #FrustratedReady
 What use does my data have anyways?!
-Everyone on Blip Blop says that the CEO can go ahead and take their data and that they don't care. #pose:3s
+Everyone on Blip Blop says that the CEO can go ahead and take their data and that they don't care. #SadReady
 I thought about it for a whole second after watching those videos and I decided... 
-I completely agree! I don't care! #pose:1h
+I completely agree! I don't care! #VeryHappyNeutral
 As long as I can keep scrolling life is good!
 I have just as my worries as other Blip Bloppers right about now.
 And that's none!
-So if you'll excuse me,I have to get back to scrolling... #pose:1n
+So if you'll excuse me,I have to get back to scrolling... #HappyNeutral
 ...and having my data stolen or something like that. 
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
@@ -216,15 +216,15 @@ So if you'll excuse me,I have to get back to scrolling... #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_34
-Anything you can imagine! #TurnOff #pose:3h
-Comedy! #pose:2h
-Travel! #pose:1h
-Clips from other...ugh longer videos. #pose:1sh
-Everyone is always happy all the time. #pose:1n
+Anything you can imagine! #TurnOff #VeryHappyReady
+Comedy! #VeryHappyHips
+Travel! #VeryHappyNeutral
+Clips from other...ugh longer videos. #BlushingNeutral
+Everyone is always happy all the time. #HappyNeutral
 And it makes me even happier.
-They always say joy is infectious! #pose:2h
+They always say joy is infectious! #VeryHappyHips
 The more I scroll, the more joy I'm filled with.
-That's why I can't stop! #pose:1h
+That's why I can't stop! #VeryHappyNeutral
 Like right now. I've gotta get back to it!
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
@@ -234,15 +234,15 @@ Like right now. I've gotta get back to it!
 -> Branch3_1_14
 
 = Branch3_1_35
-So much! #TurnOff #pose:3h
-My favorite is the store though! #pose:2h
+So much! #TurnOff #VeryHappyReady
+My favorite is the store though! #VeryHappyHips
 I watch these people do ads about the most marvelous things!
 The best part is that they link right to everything and I can buy it right away!
-I don't know where it's all getting shipped, but that's beside the point. #pose:2sh
-There are so many life-changing gizmos on Blip Blop! #pose:2h
+I don't know where it's all getting shipped, but that's beside the point. #pose:BlushingHips
+There are so many life-changing gizmos on Blip Blop! #VeryHappyHips
 I just can't help myself!
 I scroll until I see the next one and then I do it all over again!
-Here! You can try if you want! #pose:1h
+Here! You can try if you want! #VeryHappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -251,16 +251,16 @@ Here! You can try if you want! #pose:1h
 -> Branch3_1_14
 
 = Branch3_1_36
-A few more... #TurnOff #pose:1n
-Oh! Look! #pose:1h
+A few more... #TurnOff #HappyNeutral
+Oh! Look! #VeryHappyNeutral
 A storytime!
-Lets watch. #pose:1n
+Lets watch. #HappyNeutral
 It's eight minutes long and everyone is talking about it on Blip Blop.
 See, this person got cheated on the day of their wedding.
-By who you may ask? #pose:2n
-Their best friend! #pose:3a
+By who you may ask? #HappyHips
+Their best friend! #FrustratedReady
 People are torn though because this person is sooo obnoxious.
-People are fighting like crazy in the comments! #pose:2h
+People are fighting like crazy in the comments! #VeryHappyHips
 *Sounds...invasive. #TurnOn
 -> Branch3_1_37
 *Gasp! Tell me more! #TurnOn
@@ -269,11 +269,11 @@ People are fighting like crazy in the comments! #pose:2h
 -> Branch3_1_45
 
 = Branch3_1_37
-If it was invasive, then why would somebody post their entire life story on the internet?! #TurnOff #pose:2a
-Nobody told them to! #pose:1a
-Look, this person always has wild stories that make people fight in the comments. #pose:2n
+If it was invasive, then why would somebody post their entire life story on the internet?! #TurnOff #FrustratedHips
+Nobody told them to! #FrustratedNeutral
+Look, this person always has wild stories that make people fight in the comments. #HappyHips
 Younger generations are lazy...accidentally stole a can of beans...suing a child for insulting my crusty white dog.
-It's crazy! #pose:1n
+It's crazy! #HappyNeutral
 *There's no way that's all real. #TurnOn
 -> Branch3_1_38
 *Okay...surely that's not all that's on Blip Blop though. #TurnOn
@@ -282,16 +282,16 @@ It's crazy! #pose:1n
 -> Branch3_1_40
 
 = Branch3_1_38
-Of course it is! #TurnOff #pose:3a
+Of course it is! #TurnOff #FrustratedReady
 Everyone knows that everything online is true!
-That person just has a crazy life! #pose:2a
-A lot of people do actually. #pose:2s
+That person just has a crazy life! #FrustratedHips
+A lot of people do actually. #SadHips
 I kinda feel left out, but that's okay.
-I just keep scrolling until I see enough people to make me feel like I have a crazy life too. #pose:1n
+I just keep scrolling until I see enough people to make me feel like I have a crazy life too. #HappyNeutral
 And I'll tell you what.
-It totally works! #pose:3h
+It totally works! #VeryHappyReady
 It keeps me motivated to keep scrolling!
-Like this! #pose:1n
+Like this! #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -300,16 +300,16 @@ Like this! #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_39 
-You would be right! #TurnOff #pose:2h
-Every niche thing that you could think of is at your fingertips. #pose:1n
+You would be right! #TurnOff #VeryHappyHips
+Every niche thing that you could think of is at your fingertips. #HappyNeutral
 And there's always someone that is 100% reliable on the other end to tell you about it.
 It's like having a friend that you can't talk to!
-Doesn't that sound great?! #pose:3h
-I think it does. #pose:2sh
-That's why I've gotta keep scrolling. #pose:1n
-More stuff to learn, more friends to find! #pose:1h
+Doesn't that sound great?! #VeryHappyReady
+I think it does. #BlushingHips
+That's why I've gotta keep scrolling. #HappyNeutral
+More stuff to learn, more friends to find! #VeryHappyNeutral
 No time for anything beyond that!
-That's why I've gotta get back to it. #pose:1n
+That's why I've gotta get back to it. #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -318,15 +318,15 @@ That's why I've gotta get back to it. #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_40 
-Well I've got good news for you! #TurnOff #pose:3h
+Well I've got good news for you! #TurnOff #VeryHappyReady
 There's millions more where that came from!
-Millions of people and hours of content just like that! #pose:2h
+Millions of people and hours of content just like that! #VeryHappyHips
 I scroll through that sort of thing all the time.
-If I'm not, I can't stop thinking about it anyways! #pose:1n
-Don't worry, I'm never not on Blip Blop though. #pose:1sh
-I just think about that stuff during...slow unentertaining videos. #pose:1s
-Yuck.#pose:2s
-Lets hope I don't get any of those anytime soon. #pose:1n
+If I'm not, I can't stop thinking about it anyways! #HappyNeutral
+Don't worry, I'm never not on Blip Blop though. #BlushingNeutral
+I just think about that stuff during...slow unentertaining videos. #SadNeutral
+Yuck.#SadHips
+Lets hope I don't get any of those anytime soon. #HappyNeutral
 Especially because I've gotta start back up now.
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
@@ -336,11 +336,11 @@ Especially because I've gotta start back up now.
 -> Branch3_1_14
 
 = Branch3_1_41
-Turns out the person that posted it is... #TurnOff #pose:1n
+Turns out the person that posted it is... #TurnOff #HappyNeutral
 Self centered!
-It was always the plan of their best friend to run off on the day of the wedding! #pose:2h
+It was always the plan of their best friend to run off on the day of the wedding! #VeryHappyHips
 They said so in a response video, which also said that the first person...
-Doesn't recycle! #pose:3h
+Doesn't recycle! #VeryHappyReady
 *No way! That's definitely worth ruining a wedding over! #TurnOn
 -> Branch3_1_42
 *This seems a bit...fake. #TurnOn
@@ -349,16 +349,16 @@ Doesn't recycle! #pose:3h
 -> Branch3_1_44
 
 = Branch3_1_42
-I know right! #TurnOff #pose:2h
-I love getting swooped up in the drama. #pose:2sh
+I know right! #TurnOff #VeryHappyHips
+I love getting swooped up in the drama. #BlushingHips
 There's so much of it too.
-It's like having 100 seasons of your favorite show just ready for you at all times! #pose:1n
+It's like having 100 seasons of your favorite show just ready for you at all times! #HappyNeutral
 Once I get started, I don't stop!
-If I don't get to the end of Blip Blop, then I at least want to get to the end of all of the drama on there! #pose:1h
+If I don't get to the end of Blip Blop, then I at least want to get to the end of all of the drama on there! #VeryHappyNeutral
 If you liked all of that, I could even find you more!
-Here, let me get back to scrolling and I bet I could find something quick. #pose:1n
+Here, let me get back to scrolling and I bet I could find something quick. #HappyNeutral
 ...
-Bingo! Check this out! #pose:2h
+Bingo! Check this out! #VeryHappyHips
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -367,15 +367,15 @@ Bingo! Check this out! #pose:2h
 -> Branch3_1_14
 
 = Branch3_1_43
-What?! #TurnOff #pose:3a
-I can totally see it happening! #pose:2n
+What?! #TurnOff #FrustratedReady
+I can totally see it happening! #HappyHips
 It happened in that Blip Blop thread!
 You just haven't experienced the anticipation of waiting for a new part to come out! 
-You'll scroll and scroll and scroll. #pose:1n
-Then suddenly you're back in the trenches of the juiciest drama you could think of! #pose:1h
+You'll scroll and scroll and scroll. #HappyNeutral
+Then suddenly you're back in the trenches of the juiciest drama you could think of! #VeryHappyNeutral
 Now multiply that by twenty!
 Because there's always more than one to follow!
-Here, I'll just show you what I mean. #pose:1n
+Here, I'll just show you what I mean. #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -384,14 +384,14 @@ Here, I'll just show you what I mean. #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_44
-What?! #TurnOff #pose:3a
+What?! #TurnOff #FrustratedReady
 Are you kidding?! 
-You've just had a small taste! #pose:3h
+You've just had a small taste! #VeryHappyReady
 I could show you more!
 There's more drama!
-Or maybe you're more interested in people filming a day in their life? #pose:1n
-Animatics? #pose:2n
-Come on, we could scroll together! #pose:2h
+Or maybe you're more interested in people filming a day in their life? #HappyNeutral
+Animatics? #HappyHips
+Come on, we could scroll together! #VeryHappyHips
 I know I'm not gonna stop!
 Here! Join me!
 *Sounds like you have an attention problem. #TurnOn
@@ -402,11 +402,11 @@ Here! Join me!
 -> Branch3_1_14
 
 = Branch3_1_45
-Many things! #TurnOff #pose:2h
-Wanna learn how to cook? Blip Blop's got you. #pose:1h
-Want to find new music? Blip Blop's still got you! #pose:1n
-Looking for hot singles in your area? #pose:2n
-You'll never guess! #pose:2h
+Many things! #TurnOff #VeryHappyHips
+Wanna learn how to cook? Blip Blop's got you. #VeryHappyNeutral
+Want to find new music? Blip Blop's still got you! #HappyNeutral
+Looking for hot singles in your area? #HappyHips
+You'll never guess! #VeryHappyHips
 *Blip Blop's got me? #TurnOn
 -> Branch3_1_46
 *I truly can't! #TurnOn
@@ -415,15 +415,15 @@ You'll never guess! #pose:2h
 -> Branch3_1_48
 
 = Branch3_1_46
-No, actually. Blip Blop doesn't have dating app features. #TurnOff #pose:1s
-I'm sure they'll steal it from some other site eventually though. #pose:1n
+No, actually. Blip Blop doesn't have dating app features. #TurnOff #SadNeutral
+I'm sure they'll steal it from some other site eventually though. #HappyNeutral
 If you really wanna talk to someone though, there's tons of people in the comments. 
-Most of the time they say the most wild things! #pose:2n
-They make me so mad that I spend more time commenting than scrolling sometimes! #pose:3a
+Most of the time they say the most wild things! #HappyHips
+They make me so mad that I spend more time commenting than scrolling sometimes! #FrustratedReady
 And I can't do that!
-I've gotta always scroll so I don't miss anything! #pose:2a
+I've gotta always scroll so I don't miss anything! #FrustratedHips
 I mean, look at these comments on this video.
-Go ahead! Scroll yourself. #pose:1n
+Go ahead! Scroll yourself. #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -432,15 +432,15 @@ Go ahead! Scroll yourself. #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_47
-It doesn't have you there, but there's plenty else to do! #TurnOff #pose:1n
-Eventually I'm going to move on from scrolling to creating blips myself! #pose:2n
-I'll be Blip Blop famous and then I'll have horses and fancy cars like all the other Blip Bloppers! #pose:2h
+It doesn't have you there, but there's plenty else to do! #TurnOff #HappyNeutral
+Eventually I'm going to move on from scrolling to creating blips myself! #HappyHips
+I'll be Blip Blop famous and then I'll have horses and fancy cars like all the other Blip Bloppers! #VeryHappyHips
 I'll be ready to commune on both pavement AND cobblestone!
-For now though I've just gotta keep scrolling. #pose:1n
+For now though I've just gotta keep scrolling. #HappyNeutral
 Study the algorithm!
-I'll be ready! #pose:1sh
+I'll be ready! #BlushingNeutral
 That's why I'm gonna get back to watching Blip Blop.
-You could even watch with me now that you're here! #pose:1h
+You could even watch with me now that you're here! #VeryHappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -449,12 +449,12 @@ You could even watch with me now that you're here! #pose:1h
 -> Branch3_1_14
 
 = Branch3_1_48
-Sign you up you say?! #TurnOff #pose:1n
-I'm on it! #pose:1h
+Sign you up you say?! #TurnOff #HappyNeutral
+I'm on it! #VeryHappyNeutral
 We can make you a profile now!
-Unless you wanna use mine. #pose:1n
-There's a lot of people complaining about their neighbors on mine. #pose:2s
-I didn't know how many people had their neighbors chop trees down on the wrong property until Blip Blop! #pose:2n
+Unless you wanna use mine. #HappyNeutral
+There's a lot of people complaining about their neighbors on mine. #SadHips
+I didn't know how many people had their neighbors chop trees down on the wrong property until Blip Blop! #HappyHips
 Awful people! Thousands of them!
 Okay, okay, come here!
 I'll show you the wonders of Blip Blop!
@@ -466,11 +466,11 @@ I'll show you the wonders of Blip Blop!
 -> Branch3_1_14
 
 = Branch3_1_2
-Exactly! #TurnOff #pose:2n
-Sorry, but you aren't exactly the most entertaining, so I'm just going to get back to it. #pose:1n
+Exactly! #TurnOff #HappyHips
+Sorry, but you aren't exactly the most entertaining, so I'm just going to get back to it. #HappyNeutral
 I'm waiting for my buddy to come by to tell me when I should tell the workers to go home.
-I'm just trying to pass the time here. #pose:1sh
-And things start to get blurry when I'm not watching Blip Blop. #pose:1n
+I'm just trying to pass the time here. #BlushingNeutral
+And things start to get blurry when I'm not watching Blip Blop. #HappyNeutral
 *You've barely talked to me and I'm not entertaining enough? #TurnOn
 -> Branch3_1_3
 *Nobody works here anymore. #TurnOn
@@ -479,11 +479,11 @@ And things start to get blurry when I'm not watching Blip Blop. #pose:1n
 -> Branch3_1_13
 
 = Branch3_1_15
-Hi. #TurnOff #pose:1n
+Hi. #TurnOff #HappyNeutral
 Is that all?
 While we were standing here 1.5 million new Blips were posted. 
-And I need to watch them all before new ones are posted. #pose:1sh
-Speaking of which, it's 3.2 million now. #pose:1n
+And I need to watch them all before new ones are posted. #BlushingNeutral
+Speaking of which, it's 3.2 million now. #HappyNeutral
 *When do you have time to do anything else? #TurnOn
 -> Branch3_1_16
 *So...you're trying to get to the end of Blip Blop? #TurnOn
@@ -492,14 +492,14 @@ Speaking of which, it's 3.2 million now. #pose:1n
 -> Branch3_1_18
 
 = Branch3_1_16
-I don't. #TurnOff #pose:1n
-I don't even know what's been going on lately if I'm being honest. #pose:1sh
+I don't. #TurnOff #HappyNeutral
+I don't even know what's been going on lately if I'm being honest. #BlushingNeutral
 I just see people out of the corner of my eye every now and then.
-And then I get back to Blip Blop! #pose:2h
+And then I get back to Blip Blop! #VeryHappyHips
 I love watching those mystery box videos.
-It's like legal gambling! #pose:3h
+It's like legal gambling! #VeryHappyReady
 Not that it was illegal in the first place, but it feels like it should be!
-Here, look, I'll show you!#pose:1n
+Here, look, I'll show you!#HappyNeutral
 Oh, no wait, look at this! Now this is something!
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
@@ -509,16 +509,16 @@ Oh, no wait, look at this! Now this is something!
 -> Branch3_1_14
 
 = Branch3_1_17
-Exactly! #TurnOff #pose:1h
-I scroll at 10,000 blips per second. #pose:2sh
+Exactly! #TurnOff #VeryHappyNeutral
+I scroll at 10,000 blips per second. #BlushingHips
 That's 10,000 bps if you're on Blip Blop.
-Everyone says if you don't scroll at least 50 bps then you're not a true Blip Blopper! #pose:2h
-You're a loser who will never have any friends and will be sad forever at 1000 bps! That's what they say at least. #pose:2s
+Everyone says if you don't scroll at least 50 bps then you're not a true Blip Blopper! #VeryHappyHips
+You're a loser who will never have any friends and will be sad forever at 1000 bps! That's what they say at least. #SadHips
 It's hard to catch up with the numbers I'm at right now.
 I'm trying to get to 1 million blips per second by the end of the year though.
-I'll get to the end eventually! #pose:2h
-Watch, I'll show you! #pose:3h
-This will be perfect practice at my top speed! #pose:1n
+I'll get to the end eventually! #HappyHips
+Watch, I'll show you! #VeryHappyReady
+This will be perfect practice at my top speed! #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -527,15 +527,15 @@ This will be perfect practice at my top speed! #pose:1n
 -> Branch3_1_14
 
 =Branch3_1_18
-Easy! #TurnOff #pose:1n
-You don't! #pose:1h
+Easy! #TurnOff #HappyNeutral
+You don't! #VeryHappyNeutral
 That's part of the challenge!
 Everyone's trying to get to the end! There's even a few people that have.
-Now they're the most popular people on Blip Blop! #pose:2h
-I'm gonna be one of them someday! #pose:3h
-That's why I've gotta keep scrolling. #pose:2sh
+Now they're the most popular people on Blip Blop! #VeryHappyHips
+I'm gonna be one of them someday! #VeryHappyReady
+That's why I've gotta keep scrolling. #BlushingHips
 Oh yeah!
-I've gotta get back to it! #pose:1n
+I've gotta get back to it! #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -544,11 +544,11 @@ I've gotta get back to it! #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_19
-Just here to waste my precious Blip Blop time, huh? #TurnOff #pose:2a
-Well do it somewhere else! #pose:3a
-Unless that nothing means watching blips with me. #pose:2sh
-If that's the case, then we can sit together and send each other blips from a couple feet away. #pose:1n
-It's the ultimate form of bonding. #pose:1h
+Just here to waste my precious Blip Blop time, huh? #TurnOff #FrustratedHips
+Well do it somewhere else! #FrustratedReady
+Unless that nothing means watching blips with me. #BlushingHips
+If that's the case, then we can sit together and send each other blips from a couple feet away. #HappyNeutral
+It's the ultimate form of bonding. #VeryHappyNeutral
 *So we just sit here and don't talk to each other? #TurnOn
 -> Branch3_1_20
 *I'm not a big Blip Blop fan actually. #TurnOn
@@ -557,16 +557,16 @@ It's the ultimate form of bonding. #pose:1h
 -> Branch3_1_22
 
 = Branch3_1_20
-Exactly. #TurnOff #pose:1n
+Exactly. #TurnOff #HappyNeutral
 I've gotta keep up with all of the blips that get posted.
 What way to do it than with someone else?
-Kill two birds with one stone! #pose:2h
+Kill two birds with one stone! #VeryHappyHips
 You can say you were social and still have time for Blip Blop!
-That's a strategy that I learned in a blip. #pose:1n
+That's a strategy that I learned in a blip. #HappyNeutral
 Tons of people are doing it and are turning out great!
 They even have free time!
 Imagine that!
-I've got too many blips to watch for that. Like this one! Look at this! #pose:1h
+I've got too many blips to watch for that. Like this one! Look at this! #VeryHappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -575,15 +575,15 @@ I've got too many blips to watch for that. Like this one! Look at this! #pose:1h
 -> Branch3_1_14
 
 = Branch3_1_21
-WHAT?! #TurnOff #pose:2a
-How could you not be a fan of Blip Blop?! #pose:3a
-You can watch people do funny dances! #pose:2n
-There's arts and crafts content! #pose:1n
-How else do you know how to flavor your water until it's more sugar than liquid?! #pose:2a
-I watch Blip Blop all day, all the time! #pose:1n
+WHAT?! #TurnOff #FrustratedHips
+How could you not be a fan of Blip Blop?! #FrustratedReady
+You can watch people do funny dances! #HappyHips
+There's arts and crafts content! #pose:HappyNeutral
+How else do you know how to flavor your water until it's more sugar than liquid?! #FrustratedHips
+I watch Blip Blop all day, all the time! #HappyNeutral
 I know you'd love it!
 Here, you've just gotta give it a try!
-Look at all the blips at your fingertips! #pose:2n
+Look at all the blips at your fingertips! #HappyHips
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -592,17 +592,17 @@ Look at all the blips at your fingertips! #pose:2n
 -> Branch3_1_14
 
 = Branch3_1_22
-... #TurnOff #pose:1a
+... #TurnOff #FrustratedNeutral
 Hm. This guy's pretty stupid.
 ...
-Hahahaha!!! #pose:1h
+Hahahaha!!! #VeryHappyNeutral
 Great!
-... #pose:1n
+... #HappyNeutral
 Look at this dog. It's dancing.
 ...
 ...
-Oh, sorry. #pose:1s
-Do you want more commentary or...? #pose:1n
+Oh, sorry. #SadNeutral
+Do you want more commentary or...? #HappyNeutral
 You know what, I think we need more Blip Blop.
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
@@ -612,14 +612,14 @@ You know what, I think we need more Blip Blop.
 -> Branch3_1_14
 
 = Branch3_1_3
-I don't know what to tell you. #TurnOff #pose:1n
+I don't know what to tell you. #TurnOff #HappyNeutral
 It's like they say on Blip Blop:
-If you don't catch the audiences attention in less than three seconds, they don't care! #pose:1h
-Plus, there's important stuff I'm scrolling here. #pose:2n
+If you don't catch the audiences attention in less than three seconds, they don't care! #VeryHappyNeutral
+Plus, there's important stuff I'm scrolling here. #HappyHips
 There's so much news, drama, people living in these perfect little houses!
-Ever heard of 'van life'? #pose:2h
+Ever heard of 'van life'? #VeryHappyHips
 Everything's perfect on Blip Blop.
-I'm studying it so that I can be also. #pose:2n
+I'm studying it so that I can be also. #HappyHips
 I just need to keep going.
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
@@ -629,16 +629,16 @@ I just need to keep going.
 -> Branch3_1_14
 
 = Branch3_1_11
-What?! #TurnOff #pose:2a
-That can't be true. #pose:2s
+What?! #TurnOff #FrustratedHips
+That can't be true. #SadHips
 I mean, you're here.
 And humans live forever.
-Surely it hasn't been that long... #pose:1s
+Surely it hasn't been that long... #SadNeutral
 Yeah.
-It hasn't been that long. People on Blip Blop are still posting! #pose:2h
+It hasn't been that long. People on Blip Blop are still posting! #VeryHappyHips
 The sky is perfect, the grass is green, everything growing great!
-Look! Just today this person posted themselves gardening. #pose:1h
-Oh! Look at this one! #pose:1n
+Look! Just today this person posted themselves gardening. #VeryHappyNeutral
+Oh! Look at this one! #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -647,15 +647,15 @@ Oh! Look at this one! #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_13
-Surely! #TurnOff #pose:1n
+Surely! #TurnOff #HappyNeutral
 Well, not just one, but that's not the point. 
-Everything's the best on Blip Blop. #pose:1h
+Everything's the best on Blip Blop. #VeryHappyNeutral
 One day maybe I can be Blip Blop famous...
-Make a name for myself! #pose:2h
-For now though I've gotta keep watching. #pose:1n
-I need to be inspired first! #pose:3h
+Make a name for myself! #VeryHappyHips
+For now though I've gotta keep watching. #HappyNeutral
+I need to be inspired first! #VeryHappyReady
 Creatively and to do something other than watch Blip Blop!
-Just one more and I'll be motivated. #pose:1n
+Just one more and I'll be motivated. #HappyNeutral
 *Sounds like you have an attention problem. #TurnOn
 -> Branch3_1_4
 *You need to appreciate things that are actually real. All of that Blip Blop stuff is performative! #TurnOn
@@ -664,70 +664,70 @@ Just one more and I'll be motivated. #pose:1n
 -> Branch3_1_14
 
 = Branch3_1_4
-Problem?! #TurnOff #pose:3a
-I don't have a problem! #pose:2a
+Problem?! #TurnOff #FrustratedReady
+I don't have a problem! #FrustratedHips
 I can pay attention just fine!
-Watch! #pose:1a
+Watch! #FrustratedNeutral
 I can last so long without Blip Blop!
-... #pose:1n
+... #HappyNeutral
 ...
 ...
-I CAN'T TAKE IT! #pose:3a
-... #pose:1a
-... #pose:1s
-Oh... #pose:2s
+I CAN'T TAKE IT! #FrustratedReady
+... #FrustratedNeutral
+... #SadNeutral
+Oh... #SadHips
 -> Branch3_1_5
 
 = Branch3_1_12
-Performative? #TurnOff #pose:2a
-Nobody's performing anything. #pose:1a
-It's all AI generated! #pose:1n
+Performative? #TurnOff #FrustratedHips
+Nobody's performing anything. #FrustratedNeutral
+It's all AI generated! #HappyNeutral
 AI influencers!
-And I do appreciate real things! #pose:3a
-Look! #pose:1n
+And I do appreciate real things! #FrustratedReady
+Look! #HappyNeutral
 I'm appreciating this conversation right now!
-This is the longest conversation I've had in... #pose:2s
+This is the longest conversation I've had in... #SadHips
 ...
-Since Blip Blop! #pose:1n
-... #pose:1s
+Since Blip Blop! #HappyNeutral
+... #SadNeutral
 -> Branch3_1_5
 
 = Branch3_1_14
-Jeez. Okay. #TurnOff #pose:1s
-I don't know what you want from me, but it's getting in the way of my scrolling time! #pose:1a
-Which is all of the time! #pose:2a
+Jeez. Okay. #TurnOff #SadNeutral
+I don't know what you want from me, but it's getting in the way of my scrolling time! #FrustratedNeutral
+Which is all of the time! #FrustratedHips
 Look!
-I'm getting jittery just thinking about it! #pose:3a
-That's called dedication! #pose:1a
-It's not like I have a problem or anything. Hahaha... #pose:1h
-Ha... #pose:1s
-... #pose:2s
+I'm getting jittery just thinking about it! #FrustratedReady
+That's called dedication! #FrustratedNeutral
+It's not like I have a problem or anything. Hahaha... #VeryHappyNeutral
+Ha... #SadNeutral
+... #SadHips
 ...
 ...
 -> Branch3_1_5
 
 = Branch3_1_5
-Okay, okay. #TurnOff #pose:2s
-Maybe I shouldn't spend as much time on Blip Blop but it's not like it's that bad, right? #pose:1n
+Okay, okay. #TurnOff #SadHips
+Maybe I shouldn't spend as much time on Blip Blop but it's not like it's that bad, right? #HappyNeutral
 Right?
-Ha... #pose:1s
+Ha... #SadNeutral
 ...
-Okay. #pose:1n
+Okay. #HappyNeutral
 I'll be honest.
-I need to get off Blip Blop. #pose:1s
-It's the only thing that makes me happy nowadays. #pose:2s
-Now I can't even be off of it without going crazy! #pose:1a
-I used to be patient, you know. #pose:1s
+I need to get off Blip Blop. #SadNeutral
+It's the only thing that makes me happy nowadays. #SadHips
+Now I can't even be off of it without going crazy! #FrustratedNeutral
+I used to be patient, you know. #SadNeutral
 People would sit around with me for hours.
-I used to be the chillest guy around! #pose:2a
-I...kinda miss it. #pose:2s
-But I don't really know what to do about it. #pose:1s
+I used to be the chillest guy around! #FrustratedHips
+I...kinda miss it. #SadHips
+But I don't really know what to do about it. #SadNeutral
 Hm...
-Hey, now that you're here maybe you could help? #pose:1n
+Hey, now that you're here maybe you could help? #HappyNeutral
 I saw this idea in a blip.
-Turns out, I think we have all of the materials to do it together. #pose:2n
+Turns out, I think we have all of the materials to do it together. #HappyHips
 All you have to do is work together with me to solve some riddles.
-Apparently it's a kind of workout for your brain. #pose:2h
+Apparently it's a kind of workout for your brain. #VeryHappyHips
 ~ playedMinigameHorace1 = true
 If you'd want to make our brains buff together...
  #horacepuzzle1
@@ -737,26 +737,13 @@ If you'd want to make our brains buff together...
 
 
 
-// === HoracePuzzle1Solved ===
-// Wow!
-// You're good at this!
-// And I haven't even looked at Blip Blop once!
-// I think I need a bit of a break for now, but come back and we'll do another round!
-// I'll only watch a few blips...
-// I promise!
-// -> END
-
-
-
-
-
 === HoracePuzzle1 ===
 {playedMinigameHorace2:-> HoracePuzzle2}
-Hey there! #TurnOff
-Let me just say, I had a lot of fun with you and those riddles.
+Hey there! #TurnOff #HappyReady
+Let me just say, I had a lot of fun with you and those riddles. #VeryHappyHips
 I've never been off of Blip Blop for that long before.
 And look!
-I'm having a conversation with you without watching blips!
+I'm having a conversation with you without watching blips! #BlushingHips
 
 *So what have you been doing while I was gone? #TurnOn
 -> Branch3_2_2
@@ -766,11 +753,11 @@ I'm having a conversation with you without watching blips!
 -> Branch3_2_19
 
 = Branch3_2_2
-Oh...uh... #TurnOff
+Oh...uh... #TurnOff #SadNeutral
 You know, I was thinking...
 If I never get to watch Blip Blop again after this...
-I may as well get in a few blips while I can, you know?
-Just some for the road and then I'll be done!
+I may as well get in a few blips while I can, you know? #SadReady
+Just some for the road and then I'll be done! #HappyReady
 
 *No more Blip Blop! No excuses! #TurnOn
 -> Branch3_2_3
@@ -780,11 +767,11 @@ Just some for the road and then I'll be done!
 -> Branch3_2_14
 
 = Branch3_2_15
-Well... #TurnOff
+Well... #TurnOff #SadNeutral
 I did watch a few blips in between...
 And by a few I may mean a few million blips...
-Wait! Before you say anything!
-It is working, I swear!
+Wait! Before you say anything! #VeryHappyReady
+It is working, I swear! #HappyHips
 I took a wistful look around earlier!
 
 *I guess we just have to keep going then. We'll turn that few million into a zero! #TurnOn
@@ -795,13 +782,13 @@ I took a wistful look around earlier!
 -> Branch3_2_18
 
 = Branch3_2_19
-No! No! It won't! #TurnOff
+No! No! It won't! #TurnOff #VeryHappyReady
 I promise!
-I may have took one or two looks at Blip Blop while you were gone, but that's less than every second of my day.
+I may have took one or two looks at Blip Blop while you were gone, but that's less than every second of my day. #HappyNeutral
 Listen, all good things take time.
 I actually came up with that phrase, you know?
 Back in the olden days.
-But that's just like right now!
+But that's just like right now! #HappyHips
 
 *Okay...I'll take your word for it. #TurnOn
 -> Branch3_2_20
@@ -811,20 +798,20 @@ But that's just like right now!
 -> Branch3_2_22
 
 = Branch3_2_3
-Calm down! Calm down! #TurnOff
+Calm down! Calm down! #TurnOff #VeryHappyReady
 I'm working on it!
 I thought that's what the point of all of this was!
-I used to be patient.
-Now, I'm being patient with myself while big things are changing.
+I used to be patient. #HappyHips
+Now, I'm being patient with myself while big things are changing. #SadHips
 I saw that in a self help blip.
 I'll try my best though.
-Don't worry though, it is working.
+Don't worry though, it is working. #HappyNeutral
 -> Branch3_2_4
 
 = Branch3_2_4
-I feel my old self returning again... #TurnOff
+I feel my old self returning again... #TurnOff #VeryHappyReady
 Calm, aware, good posture!
-We have to keep going.
+We have to keep going. #HappyHips
 
 *What happens if you just go back to Blip Blop again after when I leave? #TurnOn
 -> Branch3_2_5
@@ -834,124 +821,113 @@ We have to keep going.
 -> Branch3_2_12
 
 = Branch3_2_13
-That is still the goal! #TurnOff
+That is still the goal! #TurnOff #VeryHappyReady
 Goals aren't just solved in one swing.
 They take time!
-That's why we're setting small goals to work up to big ones.
+That's why we're setting small goals to work up to big ones. #HappyHips
 It's less daunting that way.
-I learned that from a productivity blip.
+I learned that from a productivity blip. #BlushingNeutral
 We're still a few posts away from the big one.
-But I swear we're making it there!
-You may not see it, but I do!
+But I swear we're making it there! #HappyNeutral
+You may not see it, but I do! #VeryHappyNeutral
 -> Branch3_2_4
 
 = Branch3_2_14
-Right? #TurnOff
+Right? #TurnOff #HappyNeutral
 I'll remember these last few the most.
 That's why they matter so much.
-Blip Blop has been by my side through some rough moments.
+Blip Blop has been by my side through some rough moments. #SadHips
 Like that one time that somebody bumped into me and I dropped my phone.
-I lost Blip Blop for seven seconds!
-It was horrible...
+I lost Blip Blop for seven seconds! #FrustratedHips
+It was horrible... #SadNeutral
 But that's in the past now.
-No more being overly attached to Blip Blop!
+No more being overly attached to Blip Blop! #VeryHappyReady
 -> Branch3_2_4
 
 = Branch3_2_16
-That's the spirit! #TurnOff
-You know...I've never had anyone believe in me like this before.
+That's the spirit! #TurnOff #VeryHappyReady
+You know...I've never had anyone believe in me like this before. #BlushingNeutral
 Nobody really even talked to me because I was always on Blip Blop.
-Then I would wonder why I was so lonely...
-Thank you for just coming back.
+Then I would wonder why I was so lonely... #SadNeutral
+Thank you for just coming back. #HappyHips
 Sometimes you just need someone like that.
 Or at least that what this person said in their how to make friends blip.
 Anyways...
 -> Branch3_2_4
 
 = Branch3_2_17
-That I'm not on Blip Blop as much! #TurnOff
+That I'm not on Blip Blop as much! #TurnOff #VeryHappyReady
 I don't think you understand.
-Blip Blop has been my whole life for...
+Blip Blop has been my whole life for... #SadHips
 ...what day is it?
-Oh nevermind.
-A while. I've haven't taken a look around in that long also.
+Oh nevermind. #FrustratedHips
+A while. I've haven't taken a look around in that long also. #HappyNeutral
 It may not mean much to you, but it does to me.
 -> Branch3_2_4
 
 = Branch3_2_18
-You're overdoing it a bit. #TurnOff
+You're overdoing it a bit. #TurnOff #HappyHips
 But it is something to celebrate.
-Just not...that much.
+Just not...that much. #SadHips
 Unless you were being sarcastic.
-Were you being sarcastic?
-Oh! Nevermind!
+Were you being sarcastic? #FrustratedReady
+Oh! Nevermind! #HappyHips
 That's besides the point.
 -> Branch3_2_4
 
 = Branch3_2_20
-You can use it if you want, just give me credit. #TurnOff
-Anyways, point is, I'll get there.
+You can use it if you want, just give me credit. #TurnOff #BlushingNeutral
+Anyways, point is, I'll get there. #HappyHips
 You don't have to be there the whole time.
-But you being here definitely helps if you've got time to spare!
-My brain feels stronger, full of muscles and wrinkles! I hope yours does too!
+But you being here definitely helps if you've got time to spare! #VeryHappyHips
+My brain feels stronger, full of muscles and wrinkles! I hope yours does too! #VeryHappyReady
 Better yet...
 -> Branch3_2_4
 
 = Branch3_2_21
-I mean, hey we weren't talking numbers or anything, but... #TurnOff
+I mean, hey we weren't talking numbers or anything, but... #TurnOff #SadNeutral
 Uh...maybe a few million?
-That's fine though because that's a few million less than before!
+That's fine though because that's a few million less than before! #VeryHappyReady
 Because before I didn't even stop!
-I am getting better though, if you're worried about that.
+I am getting better though, if you're worried about that. #HappyNeutral
 I don't know if you were, but if it means anything...
 -> Branch3_2_4
 
 = Branch3_2_22
-No! #TurnOff
+No! #TurnOff #FrustratedReady
 I'm not a lost cause!
-If you're trying to motivate me, this is a great way to do it.
-I'm gonna prove you wrong.
-Just you wait.
+If you're trying to motivate me, this is a great way to do it. #VeryHappyReady
+I'm gonna prove you wrong. #FrustratedHips
+Just you wait. #HappyHips
 In fact...
 -> Branch3_2_4
 
 = Branch3_2_5
 I won't. #TurnOff
-If I do you can laugh in my face and tell me 'I told you so!' if I do.
-Deal?
+If I do you can laugh in my face and tell me 'I told you so!' if I do. #BlushingHips
+Deal? #HappyNeutral
 -> Branch3_2_5_2
 
 = Branch3_2_5_2
 So. #TurnOff
 Should we continue?
 ~ playedMinigameHorace2 = true
-I have the next round of riddles ready just for us!
+I have the next round of riddles ready just for us! #VeryHappyReady
  #horacepuzzle2
 ->HoracePuzzle2
 
 = Branch3_2_11
-Ouch, but also...thanks? #TurnOff
+Ouch, but also...thanks? #TurnOff #SadHips
 I'll keep trying.
-I know I'll be happier if I do!
+I know I'll be happier if I do! #VeryHappyReady
 -> Branch3_2_5_2
 
 = Branch3_2_12
-Yes! #TurnOff
+Yes! #TurnOff #VeryHappyReady
 It's life and death!
-Well, maybe not that serious, but still.
+Well, maybe not that serious, but still. #HappyHips
 -> Branch3_2_5_2
 
-// === HoracePuzzle2Solved ===
-// Woah...
-// I feel...different.
-// I still have the itch to go back to Blip Blop.
-// But I have more of an itch to just...sit around.
-// Be bored, you know?
-// I'm more...relaxed.
-// One more time should do the trick for sure.
-// Come back in a bit and I'll be ready again.
-// I need some time to explore this...
-// -> END
 
 
 
@@ -959,12 +935,12 @@ Well, maybe not that serious, but still.
 
 === HoracePuzzle2 ===
 {playedMinigameHorace3:-> HoracePuzzle3Solved}
-... #TurnOff
+... #TurnOff #BlushingHips
 ...
 ...
 Oh!
 Sorry!
-I was just doing a bit of reflecting.
+I was just doing a bit of reflecting. #HappyNeutral
 
 *Reflecting? #TurnOn
 -> Branch3_3_1
@@ -974,13 +950,13 @@ I was just doing a bit of reflecting.
 -> Branch3_3_19
 
 = Branch3_3_1
-I figured I'd take a step away from Blip Blop for a bit. #TurnOff
+I figured I'd take a step away from Blip Blop for a bit. #TurnOff #BlushingNeutral
 I've still done a bit of scrolling, but I just think of scrolling all day and...
-What a waste of time!
-There's so much to do.
+What a waste of time! #VeryHappyNeutral
+There's so much to do. #HappyHips
 So much that I missed.
 Sure, I still need to cut out that few hours before bed that I'm watching blips, but...
-The rest of my day feels...
+The rest of my day feels... #BlushingHips
 ...free.
 
 *So no more riddles? #TurnOn
@@ -991,14 +967,14 @@ The rest of my day feels...
 -> Branch3_3_14
 
 = Branch3_3_15
-Well... #TurnOff
+Well... #TurnOff #HappyHips
 A bit, but a million seems like...a lot now.
 I've watched a tasteful few every now and then.
 It's only when I feel a little bit bored, but otherwise...
-I feel like I have so much time now!
+I feel like I have so much time now! #VeryHappyReady
 I can't believe I would spend all day scrolling!
 Everything around here is so...beautiful.
-How could I miss all of this?
+How could I miss all of this? #HappyNeutral
 
 *Beautiful? It's an abandoned datacenter. It's actually kinda gross. #TurnOn
 -> Branch3_3_16
@@ -1008,14 +984,14 @@ How could I miss all of this?
 -> Branch3_3_18
 
 = Branch3_3_19
-Oh, they are working. #TurnOff
-A few more would do the trick for good.
+Oh, they are working. #TurnOff #BlushingHips
+A few more would do the trick for good. #HappyHips
 I'll go from thinking about Blip Blop every now and then to not at all.
 Since you left, I've thought about it...
 Scrolled a bit...
 Watched a few blips...
-But it doesn't entertain me anymore.
-To be honest, I didn't think this would work so fast.
+But it doesn't entertain me anymore. #BlushingReady
+To be honest, I didn't think this would work so fast. #HappyNeutral
 
 *Why's that? #TurnOn
 -> Branch3_3_20
@@ -1025,16 +1001,16 @@ To be honest, I didn't think this would work so fast.
 -> Branch3_3_22
 
 = Branch3_3_2
-Not exactly... #TurnOff
+Not exactly... #TurnOff #HappyHips
 One more round would do the trick for good.
-Who knows, I may even forget about Blip Blop altogether.
-I hope so.
-Not that I want to forget that it's bad, that is.
+Who knows, I may even forget about Blip Blop altogether. #VeryHappyReady
+I hope so. #BlushingReady
+Not that I want to forget that it's bad, that is. #HappyNeutral
 I just don't want any reason to go back.
 -> Branch3_3_3
 
 = Branch3_3_3
-I enjoyed my life like this before. #TurnOff
+I enjoyed my life like this before. #TurnOff #SadHips
 Now I don't know why I even left.
 
 *Did it have anything to do with the people that worked here? #TurnOn
@@ -1045,91 +1021,91 @@ Now I don't know why I even left.
 -> Branch3_3_12
 
 = Branch3_3_13
-It really is. #TurnOff
+It really is. #TurnOff #HappyHips
 I'm like a new person.
-I mean, I remember what I used to be like, but...
+I mean, I remember what I used to be like, but... #BlushingReady
 I forgot how good it feels to just take a breath from all of that information.
 You lose track of so much time.
-It's been years and I never even realized!
+It's been years and I never even realized! #HappyReady
 I don't remember how I even got into this stuff at this point.
 -> Branch3_3_3
 
 = Branch3_3_14
-Well, if it's means anything to you... #TurnOff
-Letting you down kept me motivated to do this.
+Well, if it's means anything to you... #TurnOff #BlushingReady
+Letting you down kept me motivated to do this. #HappyNeutral
 You've spent so much time with me for nothing in return.
 It felt...wrong to fail you after all of this.
 I don't regret it though.
-I feel great!
-It also got me thinking...
+I feel great! #VeryHappyReady
+It also got me thinking... #HappyNeutral
 -> Branch3_3_3
 
 = Branch3_3_16
-There's beauty in the little things. #TurnOff
+There's beauty in the little things. #TurnOff #BlushingNeutral
 The way the light hits the glass.
 The things people left behind.
 The things that still live here still surviving.
-I used to notice stuff like that all the time.
+I used to notice stuff like that all the time. #HappyHips
 I just can't help but think...
 -> Branch3_3_3
 
 = Branch3_3_17
-That's the next step. #TurnOff
+That's the next step. #TurnOff #BlushingHips
 One more push and it will all be over.
 I lost a few years in the process, but at least it'll be over.
-It's exciting, you know.
+It's exciting, you know. #HappyReady
 Feeling like normal.
-But it's also sad.
+But it's also sad. #SadNeutral
 -> Branch3_3_3
 
 = Branch3_3_18
-I hope I do. #TurnOff
-That means it's working.
+I hope I do. #TurnOff #BlushingNeutral
+That means it's working. #HappyNeutral
 All of the work that you and me have done.
 This is the old me...and I guess the new me too.
 Or at least I hope it will be.
-It's weird...
+It's weird... #BlushingHips
 -> Branch3_3_3
 
 = Branch3_3_20
-I don't know. #TurnOff
-I think it's because it takes everyone else so long.
+I don't know. #TurnOff #BlushingHips
+I think it's because it takes everyone else so long. #HappyNeutral
 But I'm the time that needs to keep on ticking.
 I guess I have to be flexible.
-I've gotta keep going or else everything just passes you by.
+I've gotta keep going or else everything just passes you by. #HappyHips
 You know, funnily enough...
 -> Branch3_3_3
 
 = Branch3_3_21
-I'd say you are. #TurnOff
+I'd say you are. #TurnOff #VeryHappyHips
 I couldn't stop thinking about you whenever I thought about Blip Blop.
-I didn't want to let you down.
+I didn't want to let you down. #HappyHips
 I also thought about my old self.
-They'd be upset with me too.
+They'd be upset with me too. #SadNeutral
 You know...
 -> Branch3_3_3
 
 = Branch3_3_22
-That wouldn't be a good idea. #TurnOff
+That wouldn't be a good idea. #TurnOff #SadHips
 Trust me, I know.
 That thing does nothing but steal your time.
 I wouldn't want the same thing to happen to you.
-Especially with how much you've helped me.
+Especially with how much you've helped me. #HappyNeutral
 For me...
 -> Branch3_3_3
 
 = Branch3_3_4
-Maybe... #TurnOff
+Maybe... #TurnOff #SadNeutral
 They were the reason I got ahold of this phone in the first place.
 Someone must've mentioned Blip Blop or it might've already been installed...
-Who knows.
+Who knows. #SadHips
 It's a bit of a mystery.
 -> Branch3_3_5
 
 =  Branch3_3_5
 ... #TurnOff
-Okay.
-I think it's time.
+Okay. #HappyHips
+I think it's time. #VeryHappyReady
 This is the last one.
 ~ playedMinigameHorace3 = true
 Are you ready?
@@ -1138,19 +1114,19 @@ Are you ready?
 -> HoracePuzzle3Solved
 
 = Branch3_3_11
-Yeah. #TurnOff
+Yeah. #TurnOff #SadHips
 I won't ever forget it.
 I don't think I'll ever truly forget Blip Blop either.
-I lost so much time...
+I lost so much time... #SadReady
 I'll never go back after this.
 -> Branch3_3_5
 
 = Branch3_3_12
-I don't think I will. #TurnOff
+I don't think I will. #TurnOff #SadHips
 Blip Blop was great while it lasted.
 But I value time more.
-Blip Blop stole my time and I'll never get it back.
-So I don't think I'll ever wonder why I left Blip Blop. I already know just fine.
+Blip Blop stole my time and I'll never get it back.#FrustratedHips
+So I don't think I'll ever wonder why I left Blip Blop. I already know just fine. #HappyReady
 -> Branch3_3_5
 
 
@@ -1159,24 +1135,24 @@ So I don't think I'll ever wonder why I left Blip Blop. I already know just fine
 
 === HoracePuzzle3Solved ===
 {savedHorace:-> HoracePuzzleSaved}
-... #TurnOff
+... #TurnOff #BlushingReady
 ...
 ...
-I can't believe it.
+I can't believe it. #VeryHappyReady
 You did it.
 We did it.
-I feel like myself again.
+I feel like myself again. #VeryHappyHips
 No interest in Blip Blop.
-Calm.
-Most of all, I just want to take things slow.
-I don't know how to thank you.
+Calm. #HappyHips
+Most of all, I just want to take things slow. #BlushingHips
+I don't know how to thank you. #HappyNeutral
 Nobody's ever stuck around like this for me.
 I don't blame them, but it means a lot.
 I don't even know what to say in a way that'll mean anything.
-I guess I'll just leave it at thank you.
+I guess I'll just leave it at thank you. #HappyReady
 If you ever want to come back, feel free.
 I'm always open to letting the time pass with someone else.
-I'll be waiting.
+I'll be waiting. #VeryHappyReady
 No time waited is too long for you.
 ~ savedHorace = true
 Goodbye, friend. #saved3
@@ -1187,13 +1163,13 @@ Goodbye, friend. #saved3
 
 
 === HoracePuzzleSaved ===
-... #TurnOff
+... #TurnOff #BlushingReady
 ...
 ...
-You've returned.
+You've returned. #VeryHappyReady
 Good.
-Sit with me for a while.
-...
+Sit with me for a while.#HappyHips
+... #BlushingNeutral
 ...
 ...
 -> END
