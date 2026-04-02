@@ -2,9 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MineGame : MonoBehaviour
 {
+    public float delayTime = 5f; //amount of time the timer is going to wait (change this in engine if you need to change it)
+    public GameObject YouWin; //the text to appear upon winning
+    public GameObject YouLose; //the text to appear upon losing
+
     public int width = 16;
     public int height = 16;
     public int mineCount = 32;
@@ -138,7 +143,7 @@ public class MineGame : MonoBehaviour
     private void Flag()
     {
         Vector3 worldPos = Input.mousePosition;
-        worldPos.z = 10; // -Camera.main.transform.position.z;
+        worldPos.z = width; // -Camera.main.transform.position.z;
 
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(worldPos);
         Vector3Int cellPosition = minesweeper.tilemap.WorldToCell(worldPosition);
@@ -158,7 +163,7 @@ public class MineGame : MonoBehaviour
     private void Revealed()
     {
         Vector3 worldPos = Input.mousePosition;
-        worldPos.z = 10; // -Camera.main.transform.position.z;
+        worldPos.z = width; // -Camera.main.transform.position.z;
 
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(worldPos);
         Vector3Int cellPosition = minesweeper.tilemap.WorldToCell(worldPosition);
@@ -225,6 +230,8 @@ public class MineGame : MonoBehaviour
                 }
             }
         }
+        YouLose.SetActive(true);
+        StartCoroutine(waitForLevelReset());
     }
 
     private void CheckWinCondition()
@@ -254,6 +261,8 @@ public class MineGame : MonoBehaviour
                 }
             }
         }
+        YouWin.SetActive(true); //sets the text active
+        StartCoroutine(waitForSceneChange()); //calls the timer function and waits to change the scene for a few seconds
     }
 
     private Cells GetCell(int x, int y)
@@ -270,5 +279,22 @@ public class MineGame : MonoBehaviour
     private bool IsValid(int x, int y)
     {
         return x >= 0 && x < width && y >= 0 && y < height;
+    }
+    private IEnumerator waitForSceneChange() //function for the timer to be called as
+    {
+        yield return new WaitForSeconds(delayTime); //starts the timer
+        {
+            SceneManager.LoadScene("ServerRoom2"); //loads the next scene
+        }
+    }
+
+    private IEnumerator waitForLevelReset()
+    {
+        yield return new WaitForSeconds(delayTime); //starts the timer
+        {
+            NewGame(); //loads the next scene
+        }
+        YouLose.SetActive(false);
+        gameover = false;
     }
 }
