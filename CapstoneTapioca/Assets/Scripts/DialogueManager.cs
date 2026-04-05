@@ -56,6 +56,7 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject roomCycle1;
     public GameObject roomCycle2;
+    public GameObject gameDirections;
 
     [SerializeField] private float typingSpeed = 0.04f;
     private Coroutine displyLineCororoutine;
@@ -130,6 +131,7 @@ public class DialogueManager : MonoBehaviour
 
         roomCycle1.SetActive(false);
         roomCycle2.SetActive(false);
+        gameDirections.SetActive(false);
 
         // show the first line (require a click to advance to each subsequent line)
         ShowNextLine();
@@ -146,6 +148,7 @@ public class DialogueManager : MonoBehaviour
 
         roomCycle1.SetActive(true);
         roomCycle2.SetActive(true);
+        gameDirections.SetActive(true);
     }
 
     // made public so other classes (e.g. triggers) can advance the story
@@ -471,8 +474,26 @@ public class DialogueManager : MonoBehaviour
                         instance.savedNPC5 = true;
                         Debug.Log("Saved Character 5");
                     }
+                    if (tags[0] == "FoxesPuzzle1")
+                    {
+                        levelLoader.LoadLevel(18);
+                        Debug.Log("Scene Loaded");
 
-                }
+                    }
+                    if (tags[0] == "FoxesPuzzle2")
+                    {
+                        levelLoader.LoadLevel(19);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if (tags[0] == "FoxesPuzzle3")
+                    {
+                        levelLoader.LoadLevel(20);
+                        Debug.Log("Scene Loaded");
+
+                    }
+
+        }
     }
 
     // build and show choice buttons for current choices

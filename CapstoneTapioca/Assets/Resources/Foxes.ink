@@ -1,4 +1,5 @@
 ===Foxes===
+{playedMinigameFoxes1:-> FoxesPuzzle1}
 (Yankee) Halt! #TurnOff #YSadBackRHappyWorking
 (Rawl) Stop right there!
 (Yankee) This is private property!
@@ -324,17 +325,19 @@
 (Rawl) We don't care! #TurnOff #YEyesHoldRAngryHold
 (Yankee) You're not here to judge us.
 (Rawl) You're here to mine!
+~ playedMinigameFoxes1 = true
 (Yankee) Now get to work.
 -> Branch4_1_9
 
 = Branch4_1_9
-
+#FoxesPuzzle1
 ->END
 
 = Branch4_1_10
 (Yankee) Were you not paying attention? #TurnOff #YEyesHoldRAngryHold
 (Rawl) You mine!
 (Yankee) You got that?
+~ playedMinigameFoxes1 = true
 (Yankee) Nevermind. I don't care, get to work!
 -> Branch4_1_9
 
@@ -342,6 +345,7 @@
 (Rawl) Hey! #TurnOff #YEyesHoldRAngryHold
 (Yankee) Where do you think you're going?
 (Rawl) You aren't going anywhere!
+~ playedMinigameFoxes1 = true
 (Rawl) Except the mines!
 -> Branch4_1_9
 
@@ -349,6 +353,7 @@
 (Rawl) Cryptocurrency! #TurnOff #YSadBackRHappyHold
 (Yankee) The most valuable form of money.
 (Yankee) More than gold and diamonds.
+~ playedMinigameFoxes1 = true
 (Rawl) It's easy! Here, look! #YNeutralWorkingRHappyJumping
 -> Branch4_1_9
 
@@ -356,6 +361,7 @@
 (Rawl) Having money! #TurnOff #YBlushHoldRVeryHappyJump
 (Yankee) Money makes the world go round.
 (Yankee) We're nobody if we don't have money.
+~ playedMinigameFoxes1 = true
 (Rawl) And we're not gonna be nobody anymore! #YNeutralHoldRHappyHold
 (Rawl) Now get to work!
 -> Branch4_1_9
@@ -364,6 +370,7 @@
 (Yankee) We have. #TurnOff #YSadBackRHappyJump
 (Yankee) Now that we have you though, we don't need to do it ourselves.
 (Rawl) Yeah!
+~ playedMinigameFoxes1 = true
 (Rawl) You're gonna do all the work right now!
 -> Branch4_1_9
 
@@ -374,6 +381,7 @@
 (Yankee) (Definitely not. I think people used to do this all the time.)
 (Yankee) Ahem!
 (Yankee) We've agreed. #YEyesHoldRAngryHold
+~ playedMinigameFoxes1 = true
 (Rawl) That it's time for you to hit the mines! Go on!
 -> Branch4_1_9
 
@@ -384,6 +392,7 @@
 (Yankee) I know right.
 (Yankee) I guess if you don't follow we'll just have to show you.
 (Rawl) If you can even follow that! #YSadBackRHappyHold
+~ playedMinigameFoxes1 = true
 (Rawl) Come on!
 -> Branch4_1_9
 
@@ -394,6 +403,7 @@
 (Yankee) This world knows how much you mine for us.
 (Yankee) You'll never escape until you get those numbers up.
 (Rawl) Yeah! Make our fortune back! #YEyesHoldRAngryHold
+~ playedMinigameFoxes1 = true
 (Rawl) Get to it!
 -> Branch4_1_9
 
@@ -404,6 +414,7 @@
 (Rawl) Yeah! Like cowboys! #YNeutralHoldRHappyJump
 (Yankee) Except we're miners.
 (Rawl) Yeah! Enough chit chat!
+~ playedMinigameFoxes1 = true
 (Rawl) Get to receiving justice!
 -> Branch4_1_9
 
@@ -414,6 +425,7 @@
 (Yankee) That's what it's for isn't it?
 (Rawl) Don't answer that!
 (Rawl) You don't get to ask anymore questions.
+~ playedMinigameFoxes1 = true
 (Rawl) It's work time pal! #YEyesHoldRAngryHold
 -> Branch4_1_9
 
@@ -423,6 +435,7 @@
 (Yankee) And we wouldn't want that, would we.
 (Rawl) No!
 (Rawl) Lets teach them a lesson! #YNeutralWorkingRHappyJump
+~ playedMinigameFoxes1 = true
 (Rawl) You won't do any more crime when you work for us!
 -> Branch4_1_9
 
@@ -433,6 +446,7 @@
 (Yankee) The CEO of this place took it all and nobody would stop talking about him.
 (Rawl) We're gonna be like him! #YEyesHoldRAngryHold
 (Rawl) We gotta get started first though.
+~ playedMinigameFoxes1 = true
 (Yankee) Get a move on, bud!
 -> Branch4_1_9
 
@@ -443,6 +457,7 @@
 (Yankee) We don't even have any money.
 (Yankee) How could you take us seriously? #YSadBackRHappyHold
 (Rawl) They can't! Make them work!
+~ playedMinigameFoxes1 = true
 (Rawl) Start mining!
 -> Branch4_1_9
 
@@ -452,6 +467,7 @@
 (Yankee) I thought you humans were the ones who made money in the first place.
 (Rawl) You don't even get it! #YVeryBlushWorkingRBlushWorking
 (Yankee) I think we need to remind you what you made money for.
+~ playedMinigameFoxes1 = true
 (Rawl) Yeah! Start mining! #YEyesHoldRAngryHold
 -> Branch4_1_9
 
@@ -461,6 +477,7 @@
 (Rawl) You tried to steal from us!
 (Yankee) It would be morally wrong to let you go.
 (Rawl) Yeah! So now you've gotta work!
+~ playedMinigameFoxes1 = true
 (Rawl) Mine for us!
 -> Branch4_1_9
 
@@ -470,6 +487,7 @@
 (Rawl) That's the most valuable kind of win!
 (Yankee) Aside from money of course.
 (Rawl) Yeah! You'll see! #YNeutralWorkingRHappyWorking
+~ playedMinigameFoxes1 = true
 (Rawl) Come on!
 -> Branch4_1_9
 
@@ -480,6 +498,7 @@
 (Yankee) You're getting paid in experience. #YNeutralHoldRHappyJump
 (Rawl) Experience!
 (Yankee) Speaking of which, lets get this experience started, Rawl.
+~ playedMinigameFoxes1 = true
 (Rawl) Yes! Yes! Yes!
 -> Branch4_1_9
 
@@ -490,6 +509,7 @@
 (Yankee) You need to get to work before we tell you that.
 (Yankee) Maybe.
 (Rawl) Yeah! We won't tell you that either!
+~ playedMinigameFoxes1 = true
 (Rawl) So I guess you've got nothing left to do now but work!
 -> Branch4_1_9
 
@@ -499,6 +519,7 @@
 (Yankee) You made it.
 (Rawl) You can't lie to us! #YEyesHoldRAngryHold
 (Yankee) Here, we'll show you how.
+~ playedMinigameFoxes1 = true
 (Rawl) But we know you're lying!
 -> Branch4_1_9
 
@@ -509,6 +530,7 @@
 (Yankee) I was told that humans have a magic touch.
 (Rawl) Yeah! A magic touch that'll make us money!
 (Rawl) Show us!
+~ playedMinigameFoxes1 = true
 (Rawl) Mine for us!
 -> Branch4_1_9
 
@@ -522,6 +544,7 @@
 (Rawl) We're gonna be rich someday! #YNeutralHoldRHappyJump
 (Rawl) That's why you've gotta mine for us!
 (Yankee) Speaking of which, you've gotta get on that, human.
+~ playedMinigameFoxes1 = true
 (Rawl) Start mining, pal!
 -> Branch4_1_9
 
@@ -533,6 +556,7 @@
 (Rawl) Never!
 (Rawl) You know, you've gotta hurry it up! #YEyesHoldRAngryHold
 (Rawl) You'll be less worried when you're actually with real rich people.
+~ playedMinigameFoxes1 = true
 (Yankee) Get to it, bud.
 -> Branch4_1_9
 
@@ -543,6 +567,7 @@
 (Rawl) You'll mine until you're rich with your fresh eyes!
 (Rawl) We'll be the riches foxes out there! #YNeutralWorkingRHappyJump
 (Yankee) Exactly. Now get to it, bud.
+~ playedMinigameFoxes1 = true
 (Yankee) We've got a fortune to make.
 -> Branch4_1_9
 
@@ -553,6 +578,7 @@
 (Yankee) You may not care about being awesome, but we do.
 (Rawl) And that's all that matters! #YEyesHoldRAngryHold
 (Yankee) Rawl gets it.
+~ playedMinigameFoxes1 = true
 (Yankee) Now get to work.
 -> Branch4_1_9
 
@@ -563,6 +589,7 @@
 (Yankee) It's just as good as money, like we said.
 (Yankee) You won't ever get there until you start working though.
 (Rawl) Yeah! Get to work! #YNeutralWorkingRHappyWorking
+~ playedMinigameFoxes1 = true
 (Rawl) We've got money to make!
 -> Branch4_1_9
 
@@ -574,6 +601,7 @@
 (Yankee) Someone told me that once and I thought it was quite wise.
 (Rawl) Yeah! Experience!#YBlushHoldRVeryHappyJump
 (Rawl) Now get to it!
+~ playedMinigameFoxes1 = true
 (Rawl) Experience and money doesn't make itself!
 -> Branch4_1_9
 
@@ -582,6 +610,7 @@
 
 
 === FoxesPuzzle1 ===
+{playedMinigameFoxes2:-> FoxesPuzzle2}
 (Rawl) Yes! Yes! Yes! #TurnOff #YNeutralHoldRHappyHold
 (Rawl) Look at the numbers go up, Yankee!
 (Yankee) We're getting richer and richer.
@@ -651,7 +680,9 @@
 = Branch4_2_4
 (Rawl) Hey! Human! #TurnOff  #YEyesHoldRAngryHold
 (Rawl) What are you still standing here for?
+~ playedMinigameFoxes2 = true
 (Rawl) Get back to work!
+#FoxesPuzzle2
 -> END
 
 = Branch4_2_5
@@ -794,6 +825,7 @@
 
 
 === FoxesPuzzle2 ===
+{playedMinigameFoxes3:-> FoxesPuzzle3}
 (Yankee) Uh... #TurnOff #YEyesHoldRBlushWorking
 (Yankee) Rawl?
 (Yankee) The number still isn't going up.
@@ -819,11 +851,12 @@
 (Rawl) Yeah! It's all going to plan!
 (Yankee) You just have to finish mining.
 (Rawl) The whole thing! #YEyesWorkingRVeryHappyWorking
+~ playedMinigameFoxes3 = true
 (Yankee) Get to it.
 -> Branch4_3_3
 
 = Branch4_3_3
-
+#FoxesPuzzle3
 -> END
 
 = Branch4_3_4
@@ -833,6 +866,7 @@
 (Rawl) Our ears only!
 (Yankee) Yeah.
 (Yankee) Just finish mining. #YEyesWorkingRVeryHappyWorking
+~ playedMinigameFoxes3 = true
 (Rawl) The entire thing!
 -> Branch4_3_3
 
@@ -843,6 +877,7 @@
 (Yankee) I guess it doesn't matter.
 (Rawl) Yeah! You're just going to mine more anyways! #YEyesHoldRAngryHold
 (Yankee) And once we get to the end we'll be rich. #YEyesWorkingRVeryHappyWorking
+~ playedMinigameFoxes3 = true
 (Rawl) Get to the end!
 -> Branch4_3_3
 
@@ -851,6 +886,7 @@
 
 
 === FoxesPuzzle3 ===
+{savedFoxes:-> FoxesPuzzleSaved}
 (Yankee) I can't believe it... #TurnOff #YEyesHoldRCryHold
 (Yankee) We still have nothing...
 (Rawl) How is this possible?! #YEyesBackRCryJump
@@ -960,6 +996,7 @@
 
 = Branch4_4_4
 (Yankee) Well...we'll see you around, bud. #TurnOff #YNeutralWorkingRHappyJump
+~ savedFoxes = true
 (Rawl) Bye! #saved4
 -> END
 
