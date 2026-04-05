@@ -74,7 +74,6 @@ public class DialogueManager : MonoBehaviour
     public WinCondition winCondition;
 
     public RoomStateManager roomStateManager;
-    public KlayStateChange klayStateChange;
 
     private void Awake()
     {

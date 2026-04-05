@@ -4357,6 +4357,7 @@ MonoBehaviour:
   dialogueIsPlaying: 0
   roomCycle1: {fileID: 1880666866}
   roomCycle2: {fileID: 595941752}
+  gameDirections: {fileID: 1880666866}
   typingSpeed: 0.04
   objectToTurnOff: {fileID: 506092485}
   objectToTurnOff2: {fileID: 2025882974}
@@ -4365,6 +4366,8 @@ MonoBehaviour:
   pieceManagement: {fileID: 0}
   levelLoader: {fileID: 1546052577}
   winCondition: {fileID: 0}
+  roomStateManager: {fileID: 0}
+  klayStateChange: {fileID: 0}
 --- !u!114 &1390195490
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7352,7 +7352,7 @@ MonoBehaviour:
   pieceManagement: {fileID: 377252394}
   levelLoader: {fileID: 1488914746}
   winCondition: {fileID: 98417695}
-  roomStateManager: {fileID: 0}
+  roomStateManager: {fileID: 1751129125}
   klayStateChange: {fileID: 0}
 --- !u!114 &1812616735
 MonoBehaviour:

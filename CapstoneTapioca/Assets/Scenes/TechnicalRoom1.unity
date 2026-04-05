@@ -11642,8 +11642,7 @@ MonoBehaviour:
   pieceManagement: {fileID: 291670665}
   levelLoader: {fileID: 1548807509}
   winCondition: {fileID: 1174335449}
-  roomStateManager: {fileID: 0}
-  klayStateChange: {fileID: 0}
+  roomStateManager: {fileID: 1889655269}
 --- !u!114 &1661459156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13029,7 +13028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   valeDamDown: 0
-  valeDam: {fileID: 1141383517}
+  matrixUp: 0
 --- !u!4 &1889655270
 Transform:
   m_ObjectHideFlags: 0

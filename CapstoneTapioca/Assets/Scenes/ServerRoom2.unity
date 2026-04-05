@@ -33151,7 +33151,7 @@ MonoBehaviour:
   pieceManagement: {fileID: 388651989}
   levelLoader: {fileID: 2096278118}
   winCondition: {fileID: 1169970697}
-  roomStateManager: {fileID: 0}
+  roomStateManager: {fileID: 2085815353}
   klayStateChange: {fileID: 0}
 --- !u!114 &2056075538
 MonoBehaviour:
@@ -34062,8 +34062,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9bca9152103fbc4e839e720b22860ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 0}
-  slider: {fileID: 0}
+  loadingScreen: {fileID: 1881217580}
+  slider: {fileID: 1986481561}
 --- !u!224 &2096278119
 RectTransform:
   m_ObjectHideFlags: 0

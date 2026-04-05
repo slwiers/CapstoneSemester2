@@ -414,6 +414,7 @@ RectTransform:
   m_Children:
   - {fileID: 394773196}
   - {fileID: 500161371}
+  - {fileID: 2130333747}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -5082,12 +5083,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130333746}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -399.99997, y: -224.99998, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 0.41666663, z: 0.41666663}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 208660595}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2141628659
 GameObject:
@@ -5177,6 +5178,7 @@ MonoBehaviour:
   dialogueIsPlaying: 0
   roomCycle1: {fileID: 2130333746}
   roomCycle2: {fileID: 2130333746}
+  gameDirections: {fileID: 2130333746}
   typingSpeed: 0.04
   objectToTurnOff: {fileID: 138924641}
   objectToTurnOff2: {fileID: 1724609591}
@@ -5185,6 +5187,7 @@ MonoBehaviour:
   pieceManagement: {fileID: 1394369954}
   levelLoader: {fileID: 1773065002}
   winCondition: {fileID: 1716081342}
+  roomStateManager: {fileID: 0}
 --- !u!114 &2141628661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5268,4 +5271,3 @@ SceneRoots:
   - {fileID: 1038333922}
   - {fileID: 1394369955}
   - {fileID: 1716081343}
-  - {fileID: 2130333747}
