@@ -61,7 +61,7 @@
 -> Branch4_1_5
 
 = Branch4_1_5
-(Yankee) Welcome to your new home. #TurnOff #YNeutralWorkingRHappyHold
+(Yankee) Welcome to your new home. #MatrixUp #TurnOff #YNeutralWorkingRHappyHold
 (Rawl) We call it...
 (Rawl) The Matrix!
 (Yankee) The Matrix!
@@ -995,7 +995,7 @@
 -> Branch4_4_4
 
 = Branch4_4_4
-(Yankee) Well...we'll see you around, bud. #TurnOff #YNeutralWorkingRHappyJump
+(Yankee) Well...we'll see you around, bud. #MatrixDown #TurnOff #YNeutralWorkingRHappyJump
 ~ savedFoxes = true
 (Rawl) Bye! #saved4
 -> END

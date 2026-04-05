@@ -7782,6 +7782,8 @@ MonoBehaviour:
   pieceManagement: {fileID: 985300419}
   levelLoader: {fileID: 290564029}
   winCondition: {fileID: 320766203}
+  roomStateManager: {fileID: 0}
+  klayStateChange: {fileID: 0}
 --- !u!114 &1184751974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11536,6 +11538,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 175029984}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1797324604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1797324606}
+  - component: {fileID: 1797324605}
+  m_Layer: 0
+  m_Name: GameStateManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1797324605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797324604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c1a4407cd023e499b371fe3814c61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  valeDamDown: 0
+  matrixUp: 0
+--- !u!4 &1797324606
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797324604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 189.09998, y: 316.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1808792222
 GameObject:
   m_ObjectHideFlags: 0
@@ -14786,3 +14834,4 @@ SceneRoots:
   - {fileID: 320766204}
   - {fileID: 1093240015}
   - {fileID: 1875908684}
+  - {fileID: 1797324606}

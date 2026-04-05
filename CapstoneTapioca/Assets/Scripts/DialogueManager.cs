@@ -73,6 +73,9 @@ public class DialogueManager : MonoBehaviour
 
     public WinCondition winCondition;
 
+    public RoomStateManager roomStateManager;
+    public KlayStateChange klayStateChange;
+
     private void Awake()
     {
         if (instance != null)
@@ -491,6 +494,21 @@ public class DialogueManager : MonoBehaviour
                         levelLoader.LoadLevel(20);
                         Debug.Log("Scene Loaded");
 
+                    }
+                    if(tags[0] == "DamDestroy")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.valeDamDown = true;
+                    }
+                    if (tags[0] == "MatrixUp")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.matrixUp = true;
+                    }
+                    if (tags[0] == "MatrixDown")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.matrixUp = false;
                     }
 
         }
