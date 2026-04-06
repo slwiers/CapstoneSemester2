@@ -13,11 +13,6 @@ public class WalkieTalkie : MonoBehaviour
 
     private void Start()
     {
-        if (dialBox == null)
-        {
-            dialBox = this.gameObject;
-        }
-
         StartCoroutine(StartTimer());
     }
     IEnumerator StartTimer()
