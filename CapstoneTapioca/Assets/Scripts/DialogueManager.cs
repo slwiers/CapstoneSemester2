@@ -303,6 +303,7 @@ public class DialogueManager : MonoBehaviour
                     }
                     if (tags[0] == "introtrans")
                     {
+                        loadingScreen.SetActive(true);
                         levelLoader.LoadLevel(6);
                         Debug.Log("Scene Loaded");
 
