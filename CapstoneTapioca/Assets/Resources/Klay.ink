@@ -316,7 +316,7 @@ It's not like I can get any smaller...! #HappyV1
 === KlayPuzzle1 ===
 {playedMinigameKlay2:-> KlayPuzzle2}
 {varKlayWaiting2:-> KlayWaiting2}
-You actually found a piece?! #TurnOff #SurprisedHandsV2
+You actually found a piece?! #ChangeToKlay2 #TurnOff #SurprisedHandsV2
 I didn't think you'd even come back!
 This is... #WorriedScratchV2
 ...thank you. #HappyHandsV2
@@ -510,7 +510,7 @@ Oh! This is great...! #HappyHandsV2
 === KlayPuzzle2 ===
 {playedMinigameKlay3:-> KlayPuzzle3}
 {varKlayWaiting3:-> KlayWaiting3}
-Another piece...? #TurnOff #SurprisedHipsV3
+Another piece...? #ChangeToKlay3 #TurnOff #SurprisedHipsV3
 You're pretty good at this...! #HappyHipsV3
 Better than the last guy... #WorriedHandsV3
 He just talked to me and then walked away...never to be seen again...
@@ -560,7 +560,7 @@ Hahaha...! that's not you though...! #HappyHandsV3
 === KlayPuzzle3 ===
 {playedMinigameKlay4:-> KlayPuzzle4}
 {varKlayWaiting4:-> KlayWaiting4}
-You're back, which can only mean one thing...! #TurnOff #SurprisedGaspV4
+You're back, which can only mean one thing...! #ChangeToKlay4 #TurnOff #SurprisedGaspV4
 Hey...I was just wondering... #ThinkingHandsV4
 Why are you doing all of this...?
 You don't need to... #WorriedShrugV4
@@ -615,7 +615,7 @@ Funnily enough I feel a bit inspired...maybe even... #HappyHandsV4
 === KlayPuzzle4 ===
 {playedMinigameKlay5:-> KlayPuzzle5}
 {varKlayWaiting5:-> KlayWaiting5}
-Already...? #TurnOff #SurprisedGaspV5
+Already...? #ChangeToKlay5 #TurnOff #SurprisedGaspV5
 That one was quicker than the last...! #HappyHandsV5
 I didn't even finish writing down all of my ideas...!
 Oh...! While you're here maybe you can listen to them...! #HappyGaspV5
@@ -667,7 +667,7 @@ Clear rivers flowing through open fields...
 === KlayPuzzle5 ===
 {playedMinigameKlay6:-> KlayPuzzle6}
 {varKlayWaiting6:-> KlayWaiting6}
-Over halfway done, human...! #TurnOff #SurprisedShrugV6
+Over halfway done, human...! #ChangeToKlay6 #TurnOff #SurprisedShrugV6
 You know, I was thinking a bit... #ThinkingHandsV6
 I'm starting to remember making art before the machine.
 Before the machine, I would just regrow parts of myself when I'd make art... #WorriedHandsV6
@@ -917,7 +917,7 @@ Please...?
 === KlayPuzzle6 ===
 {playedMinigameKlay7:-> KlayPuzzle7}
 {varKlayWaiting7:-> KlayWaiting7}
-I'm doing some research, human... #TurnOff #HappyHipsV7
+I'm doing some research, human... #ChangeToKlay7 #TurnOff #HappyHipsV7
 What do you think the meaning of life is...?
 
 *To do things you enjoy and be around people you love. #TurnOn
@@ -965,7 +965,7 @@ I can't tell if that's sad or hopeful that maybe you'll live life to the fullest
 === KlayPuzzle7 ===
 {playedMinigameKlay8:-> KlayPuzzle8}
 {varKlayWaiting8:-> KlayWaiting8}
-I'm...almost back... #TurnOff #SurprisedShrugV8
+I'm...almost back... #ChangeToKlay8 #TurnOff #SurprisedShrugV8
 I feel like I could explode I have so much on my mind...!
 I guess I could start, but I don't want to fall apart before I can put myself back together again... #ThinkingHandsV8
 I'll just have to wait for now.
@@ -1029,7 +1029,7 @@ I can't argue with that though...theater is definitely impressive... #ThinkingHi
 === KlayPuzzle8 ===
 {playedMinigameKlay9:-> KlayPuzzle9}
 {varKlayWaiting9:-> KlayWaiting9}
-I don't know how you did it, but... #TurnOff #SurprisedShrugV9
+I don't know how you did it, but... #ChangeToKlay9 #TurnOff #SurprisedShrugV9
 ...I only have one more piece missing...! #HappyHipsV9
 It's funny because I stopped thinking about what I was going to make for a second... #ThinkingHipsV9
 And then I got this idea...
@@ -1081,7 +1081,7 @@ How to make the best gallery with no other galleries around...hm... #HappyHandsV
 
 === KlayPuzzle9 ===
 {savedKlay:-> KlayEnd}
-You...you did it! #TurnOff #SurprisedHipsV9
+You...you did it! #ChangeToKlay9 #TurnOff #SurprisedHipsV9
 I'm...an artist again...I'm me...
 I'm...
 Klay...! #HappyShrugV9

@@ -544,7 +544,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_TargetDisplay: 0
 --- !u!224 &115214870
 RectTransform:
@@ -7944,6 +7944,7 @@ MonoBehaviour:
   levelLoader: {fileID: 290564029}
   winCondition: {fileID: 320766203}
   roomStateManager: {fileID: 1797324605}
+  klaySpriteChange: {fileID: 0}
 --- !u!114 &1184751974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11729,6 +11730,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   valeDamDown: 0
   matrixUp: 0
+  changeKlayV2: 0
+  changeKlayV3: 0
+  changeKlayV4: 0
+  changeKlayV5: 0
+  changeKlayV6: 0
+  changeKlayV7: 0
+  changeKlayV8: 0
+  changeKlayV9: 0
 --- !u!4 &1797324606
 Transform:
   m_ObjectHideFlags: 0

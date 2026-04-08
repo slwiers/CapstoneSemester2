@@ -12,6 +12,14 @@ public class RoomStateManager : MonoBehaviour
 
     public bool matrixUp = false;
 
+    public bool changeKlayV2;
+    public bool changeKlayV3;
+    public bool changeKlayV4;
+    public bool changeKlayV5;
+    public bool changeKlayV6;
+    public bool changeKlayV7;
+    public bool changeKlayV8;
+    public bool changeKlayV9;
     private void Awake()
     {
         if (Instance == null)

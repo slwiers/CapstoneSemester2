@@ -75,6 +75,7 @@ public class DialogueManager : MonoBehaviour
 
     public RoomStateManager roomStateManager;
 
+    public KlaySpriteChange klaySpriteChange;
     private void Awake()
     {
         if (instance != null)
@@ -510,7 +511,54 @@ public class DialogueManager : MonoBehaviour
                         RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
                         instance.matrixUp = false;
                     }
-
+                    if (tags[0] == "ChangeToKlay2")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV2 = true;
+                        Debug.Log("Tis True");
+                    }
+                    if (tags[0] == "ChangeToKlay3")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV3 = true;
+                        instance.changeKlayV2 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay4")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV4 = true;
+                        instance.changeKlayV3 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay5")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV5 = true;
+                        instance.changeKlayV4 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay6")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV6 = true;
+                        instance.changeKlayV5 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay7")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV7 = true;
+                        instance.changeKlayV6 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay8")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV8 = true;
+                        instance.changeKlayV7 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay9")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV9 = true;
+                        instance.changeKlayV8 = false;
+                    }
         }
     }
 
