@@ -6,6 +6,7 @@ using Ink.Runtime;
 using UnityEngine.EventSystems;
 using UnityEngine.UI; // added for Button/Text
 using UnityEngine.SceneManagement;
+using static Unity.VisualScripting.Member;
 
 
 public class DialogueManager : MonoBehaviour
@@ -76,6 +77,13 @@ public class DialogueManager : MonoBehaviour
     public RoomStateManager roomStateManager;
 
     public KlaySpriteChange klaySpriteChange;
+
+    public AudioClip[] voicesArray;
+    public AudioSource audioSource;
+
+    private bool playedsound1 = true;
+    private bool playedsound2 = true;
+    private bool playedsound3 = true;
     private void Awake()
     {
         if (instance != null)
@@ -558,6 +566,39 @@ public class DialogueManager : MonoBehaviour
                         RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
                         instance.changeKlayV9 = true;
                         instance.changeKlayV8 = false;
+                    }
+                    if (tags[0] == "PlaySound1")
+                    {
+                        playedsound1 = false;
+                        if (!playedsound1)
+                        {
+                            audioSource.clip = voicesArray[0];
+                            audioSource.PlayOneShot(audioSource.clip);
+                            audioSource.Play();
+                            playedsound1 = true;
+                        }
+                    }
+                    if (tags[0] == "PlaySound2")
+                    {
+                        playedsound2 = false;
+                        if (!playedsound2)
+                        {
+                            audioSource.clip = voicesArray[1];
+                            audioSource.PlayOneShot(audioSource.clip);
+                            audioSource.Play();
+                            playedsound2 = true;
+                        }
+                    }
+                    if (tags[0] == "PlaySound3")
+                    {
+                        playedsound3 = false;
+                        if (!playedsound3)
+                        {
+                            audioSource.clip = voicesArray[2];
+                            audioSource.PlayOneShot(audioSource.clip);
+                            audioSource.Play();
+                            playedsound3 = true;
+                        }
                     }
         }
     }
