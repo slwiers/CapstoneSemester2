@@ -30,7 +30,10 @@ VAR varKlayWaiting9 = false
 VAR savedKlay = false
 
 
-VAR playedMinigameFoxes = false
+VAR playedMinigameFoxes1 = false
+VAR playedMinigameFoxes2 = false
+VAR playedMinigameFoxes3 = false
+VAR savedFoxes = false
 
 VAR playedMinigameDavey1 = false
 VAR varDaveyWaiting = false

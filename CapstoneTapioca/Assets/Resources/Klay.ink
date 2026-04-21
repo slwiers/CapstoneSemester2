@@ -2,7 +2,7 @@
 {playedMinigameKlay1:-> KlayPuzzle1}
 {varKlayWaiting1:-> KlayWaiting1}
 Oh...uh...hi! #TurnOff #NeutralV1
-Down here...!
+Down here...! #PlaySound2
 Sorry...I'm a bit...
 ...small. #ThinkingV1
 At least nowadays I am.
@@ -19,12 +19,12 @@ You might as well spare yourself the pain and head out now.
 = Branch5_1_1
 Me? #TurnOff #ThinkingV1
 Oh...uh...
-I'm Klay...! #HappyV1
+I'm Klay...! #PlaySound1 #HappyV1
 ... #ThinkingV1
 That's me...so...
 You're...staying...um...
 Ah! You're a human! #HappyV1
-You must want a sculpture!
+You must want a sculpture! #PlaySound3
 
 *A sculpture? What for? #TurnOn
 -> Branch5_1_2
@@ -39,7 +39,7 @@ Oh...uh... #TurnOff #ThinkingV1
 Uh...I guess you can talk to me if you want...
 I probably won't be too fun though...
 I'm afraid those days are behind me. #WorriedV1
-You should've come a little sooner hahaha...
+You should've come a little sooner hahaha... #PlaySound3
 Back when I used to be bigger...
 I mean I can try...you're welcome to stick around! I'm just saying... #HappyV1
 
@@ -56,7 +56,7 @@ Or...? Not sorry...?
 I don't know anymore...
 Trust me, I used to be a lot more fun than this. #HappyV1
 At least the humans thought so. #SadV1
-They were just like you, you know.
+They were just like you, you know. #PlaySound2
 Only chatting with me when they want something.
 I mean...not that I won't...give you...something? #ThinkingV1
 What did you want exactly?
@@ -70,11 +70,11 @@ What did you want exactly?
 
 = Branch5_1_2
 Your machine...! #TurnOff #HappyV1
-All of the humans used to want sculptures and stuff like that from me.
+All of the humans used to want sculptures and stuff like that from me. #PlaySound3
 Then they'd put it into their machine and it would make more...!
 More art! Without me...
 ...
-But...! It would eventually run out!
+But...! It would eventually run out! #PlaySound2
 You know...it would spit out the same stuff and they didn't like that... #ThinkingV1
 So they'd come back to me for more...! #HappyV1
 I would use myself to make stuff for them, pictures, sculptures...
@@ -110,7 +110,7 @@ Darn...! #SadV1
 I'm sorry...
 There's just not enough of me...
 And when there's not enough of me...I don't have any ideas.
-I used to be able to come up with art like that! #HappyV1
+I used to be able to come up with art like that! #PlaySound2 #HappyV1
 But after the humans kept stuffing parts of me into their machine... #ThinkingV1
 ...there wasn't enough left of me to keep creating. #SadV1
 I was all of their ideas...the food for their machine to make more copies of me...
@@ -121,13 +121,13 @@ I was all of their ideas...the food for their machine to make more copies of me.
 Oh... #TurnOff #SadV1
 I thought that's what you humans liked.
 You know...for your machine...?
-To make more art...?
+To make more art...? #PlaySound2
 Well...I guess I wouldn't be that helpful now anyways. #ThinkingV1
 Even if you did want a sculpture, I don't think there's enough of me to make one...
 I'm too small and too small means not enough of me and no ideas. #SadV1
 Luckily you don't want that though...
 Oh! But you don't have to go though! #HappyV1
-I can do other things...! #ThinkingV1
+I can do other things...! #PlaySound3 #ThinkingV1
 Like...uh...
 Darn...!
 I can't even come up with anything else...! #SadV1
@@ -140,7 +140,7 @@ I'm useless.
 
 = Branch5_1_10
 Yeah...! #TurnOff #Happy
-I know I'm just a blob of clay now, but I used to be taller that you...!
+I know I'm just a blob of clay now, but I used to be taller that you...! #PlaySound3
 Back when I had ideas!
 Then that machine came along... #ThinkingV1
 They thought they could make more of me.
@@ -151,7 +151,7 @@ And smaller me means less ideas for them so i guess they kinda screwed that up a
 And me too I guess...
 I've tried to lighten this place up before...like restore it and all...
 I wanted a new purpose.
-But there's not enough of me to go around anymore.
+But there's not enough of me to go around anymore. #PlaySound2
 I couldn't even figure out where to start let alone come up with a way to redecorate...
 I miss when I used to be able to do that...
 Maybe if I hadn't taken this job...
@@ -161,7 +161,7 @@ I wouldn't be so useless now...
 = Branch5_1_11
 No... #TurnOff #SadV1
 It was...slow...
-I would come up with an idea...
+I would come up with an idea... #PlaySound2
 Make a sculpture out of it...out of me...
 Then the humans would take it. #ThinkingV1
 They'd put it in their machine and it would make copies... #SadV1
@@ -186,7 +186,7 @@ I wish I wasn't so boring.
 I used to be the most creative one here. #ThinkingV1
 People would praise me for it all day long...! #HappyV1
 Until they got their machine... #SadV1
-Then it was the most creative...
+Then it was the most creative... #PlaySound2
 I'm not usually competitive, but...
 They would just take my sculptures and give it to the machine...
 It would just give them a smudged version of what I'd already made.
@@ -201,11 +201,11 @@ Useless... #SadV1
 = Branch5_1_14
 Oh...um...hi...? #TurnOff #ThinkingV1
 ...
-You really are like them, huh...? #SurprisedV1
+You really are like them, huh...? #PlaySound1 #SurprisedV1
 You know, I haven't seen a human around since their machine was still on. #ThinkingV1
 Are you here to turn it back on or something...?
 No...then why would you be talking with me?
-I gave them the pictures and pieces of myself that actually made it run.
+I gave them the pictures and pieces of myself that actually made it run. #PlaySound2
 Sure, you could turn it back on, but without me you won't get anything out of it.
 Unless...you just stuff the rest of me in there... #SadV1
 ...
@@ -221,7 +221,7 @@ I'm useless.
 Yeah... #TurnOff #SadV1
 Can't say I'm too big of a fan...no offense...
 The ones that worked here at least are the reason I'm like this...
-Small...no more ideas...an uncreative blob...
+Small...no more ideas...an uncreative blob... #PlaySound2
 All because of that machine. #ThinkingV1
 They would tell me it was the future and that they wouldn't need people like me when it was done... #SadV1
 That I wouldn't need to make art...
@@ -241,12 +241,12 @@ Oh... #TurnOff #SadV1
 Again...I may not really be that fun... #ThinkingV1
 I used to be able to act, you know.
 I could've at least acted believably if you wanted to prank me...
-I could've a long time ago I mean.
+I could've a long time ago I mean. #PlaySound2
 I'm sure if you find that machine that the humans made though... #SadV1
 ...there may still be recordings of me acting and art and music.
 I used to make tons of art for them.
 I would give them the chunk of myself that the idea came from and they'd give it to their machine.
-And it would make more...! #HappyV1
+And it would make more...! #PlaySound3 #HappyV1
 Without me... #SadV1
 I...don't have any more chunks to give away is what I'm saying...
 I'm not as big as I used to be...
@@ -262,11 +262,11 @@ A way to make me bigger and get some ideas for my art again...! #HappyV1
 There are probably chunks of me laying around here... #ThinkingV1
 If you find any...bring them back to me...
 And I can see if it'll get me back to my old self! #HappyV1
-I'll even make you something...!
+I'll even make you something...! #PlaySound1
 That is...if you can find 9 pieces of me laying around...
 Ah...! You don't need too though...!
 I mean...it would help...but I won't be mad if... #ThinkingV1
-Um...it would just be nice to be myself again...!
+Um...it would just be nice to be myself again...! #PlaySound3
 So if you do find any clay around here...I'll gladly take it back... #HappyV1
 Or don't...! I don't want to be a bother! #ThinkingV1
 Anyways...! #HappyV1
@@ -286,10 +286,10 @@ There should be pieces of me laying around here... #ThinkingV1
 9 exactly...
 If you could find them, then maybe I could put myself back together again...
 And I could make art again...! #HappyV1
-I could even make you something!
+I could even make you something! #PlaySound1
 Only...if you want to do that... #ThinkingV1
 I'd be...very thankful if you did...
-Either way though...thanks for stopping by...
+Either way though...thanks for stopping by... #PlaySound3
 It's been a while since someone actually talked with me. #HappyV1
 -> Branch5_1_4
 
@@ -301,11 +301,11 @@ Hey...
 They're...always too high up for me...
 But there's 9 pieces...
 If you find them I'll be bigger again...! #HappyV1
-And less useless...!
+And less useless...! #PlaySound1
 If you want me to be less useless that is... #ThinkingV1
 You don't have to do anything I guess... #SadV1
 Maybe I'll make you some art for your trouble. #ThinkingV1
-Until then though, I'll just be hanging around here.
+Until then though, I'll just be hanging around here. #PlaySound2
 It's not like I can get any smaller...! #HappyV1
 -> Branch5_1_4
 
@@ -316,8 +316,8 @@ It's not like I can get any smaller...! #HappyV1
 === KlayPuzzle1 ===
 {playedMinigameKlay2:-> KlayPuzzle2}
 {varKlayWaiting2:-> KlayWaiting2}
-You actually found a piece?! #TurnOff #SurprisedHandsV2
-I didn't think you'd even come back!
+You actually found a piece?! #ChangeToKlay2 #TurnOff #SurprisedHandsV2
+I didn't think you'd even come back! #PlaySound1
 This is... #WorriedScratchV2
 ...thank you. #HappyHandsV2
 
@@ -334,10 +334,10 @@ Hm...lets find out...! #TurnOff #HappyHipsV2
 ...
 ...
 Woah...! #HappyHandsV2
-I feel...different!
+I feel...different! #PlaySound1
 Like I could fill in the page of a sketchbook! #ThinkingHipsV2
 Or start learning an instrument!
-I bet I'll be back to having a head full of ideas in no time if we keep this up...!
+I bet I'll be back to having a head full of ideas in no time if we keep this up...! #PlaySound2
 This is so exciting...! #HappyHipsV2
 
 *Well...what are you waiting for? What are you thinking about? #TurnOn
@@ -354,7 +354,7 @@ There...! #ThinkingHipsV2
 ...
 ...
 Amazing...! #SurprisedHipsV2
-It actually worked...!
+It actually worked...! #PlaySound3
 I feel...different! #HappyHipsV2
 I haven't felt like this in so long...
 
@@ -374,7 +374,7 @@ I think I might need glasses to be honest with you...
 Anyways... #ThinkingHandsV2
 Let me just...
 ...
-There! #HappyHipsV2
+There! #PlaySound2 #HappyHipsV2
 
 *Did it work? #TurnOn
 -> Branch5_2_11
@@ -387,10 +387,10 @@ There! #HappyHipsV2
 Hm... #TurnOff #WorriedHandsV2
 Birds.
 Colorful ones... #ThinkingScratchV2
-Or...black ones against a colorful sky.
+Or...black ones against a colorful sky. #PlaySound2
 Either way, their song is nice. Echoing...
 Ha! This is great! #HappyHipsV2
-I need to start writing this down!
+I need to start writing this down! #PlaySound1
 Drawing! Singing! Anything!
 Everything!
 -> Branch5_2_3
@@ -408,20 +408,20 @@ Maybe you don't know the feeling to be fair... #SadHandsV2
 I didn't think I'd ever know how it felt to lose myself, but here I am...
 It won't be like that for long with you around though.
 You give me the sense that you just...see people... #WorriedHandsV2
-Or rather lumps of clay in need...
+Or rather lumps of clay in need... #PlaySound2
 I like that about you. #ThinkingHipsV2
 I hope I'm right...
 -> Branch5_2_3
 
 = Branch5_2_5
 I won't! #TurnOff #SurprisedHipsV2
-I'll never be giving myself away again!
+I'll never be giving myself away again! #PlaySound3
 At least I won't on purpose. #WorriedHandsV2
 Those humans...they promised me a lot...
 I'm starting to remember why I even gave myself and my ideas away to begin with... #SadScratchV2
 But that's a story for another day.
 You have my word! #HappyHandsV2
-I will not be letting any more Klay go missing!
+I will not be letting any more Klay go missing! #PlaySound2
 That's...my word... #ThinkingHandsV2
 -> Branch5_2_3
 
@@ -433,7 +433,7 @@ Not chores, but...fun things... #ThinkingHandsV2
 It's still a bit fuzzy, but I'm starting to see it...
 Ideas beginning to form...! #HappyHipsV2
 Pictures of plants, the sound of instruments, the essence of a good joke...
-At this rate, I'll be good as new in no time!
+At this rate, I'll be good as new in no time! #PlaySound1
 I'll be...
 ...an artist again. #HappyHandsV2
 -> Branch5_2_3
@@ -444,22 +444,22 @@ It was a bit of an experiment, but I was pretty sure it would work.
 If your guts were spun in a laundry machine and then given back to you... #SadScratchV2
 ...you'd be pretty hesitant to if they would be working or not too.
 Am I wrong...? #WorriedScratchV2
-Luckily I'm not one of you squishy humans...
+Luckily I'm not one of you squishy humans... #PlaySound2
 Because you'd definitely be all scrambled in that case...! #HappyHipsV2
 What matters most is...
-...it worked...!
+...it worked...! #PlaySound1
 I'll be able to do art again soon...!
 -> Branch5_2_3
 
 = Branch5_2_9
 ...! #TurnOff #SurprisedHandsV2
 Oh...! #HappyHipsV2
-You're joking...right?
+You're joking...right? #PlaySound2
 Right...?
 Hahaha... #ThinkingHipsV2
 I hope I get the chunk of me that understands comedy back soon...
 Okay...well... #WorriedHandsV2
-It worked if you were wondering.
+It worked if you were wondering. #PlaySound3
 I'm one step closer to getting my creativity back! #HappyHandsV2
 And...I wouldn't be able to do this without you...
 -> Branch5_2_3
@@ -467,12 +467,12 @@ And...I wouldn't be able to do this without you...
 = Branch5_2_11
 ...! #TurnOff #SurprisedHandsV2
 It...
-It worked...!
+It worked...! #PlaySound1
 Woah...! #HappyHipsV2
 It feels like my brain just started working again...!
 I think I have a brain at least... #ThinkingScratchV2
 Well, brain or not, it worked...! #HappyHandsV2
-My hands are itching to do...something!
+My hands are itching to do...something! #PlaySound3
 Anything!
 Draw, write, sculpt...!
 -> Branch5_2_3
@@ -497,7 +497,7 @@ Why did I ever give this up to anyone...? #HappyHandsV2
 You know when you get into a routine?
 A routine so routine that you can tell that it's a routine...?
 It feels like I was stuck in something like that for the longest time. #ThinkingHandsV2
-And now I'm just starting something different.
+And now I'm just starting something different. #PlaySound2
 Maybe I should try poetry...or make a recipe...or just draw the food I would burn if I made it... #ThinkingScratchV2
 Oh! This is great...! #HappyHandsV2
 -> Branch5_2_3
@@ -510,7 +510,7 @@ Oh! This is great...! #HappyHandsV2
 === KlayPuzzle2 ===
 {playedMinigameKlay3:-> KlayPuzzle3}
 {varKlayWaiting3:-> KlayWaiting3}
-Another piece...? #TurnOff #SurprisedHipsV3
+Another piece...? #ChangeToKlay3 #TurnOff #SurprisedHipsV3
 You're pretty good at this...! #HappyHipsV3
 Better than the last guy... #WorriedHandsV3
 He just talked to me and then walked away...never to be seen again...
@@ -527,7 +527,7 @@ What an odd fellow... #HappyHandsV3
 It feels like... #TurnOff #ThinkingScratchV3
 I'm remembering techniques... #WorriedHandsV3
 How to mix colors...muscle memory...stuff like that...
-Obviously I've still got a long way to go, but it still feels great already...! #HappyHandsV3
+Obviously I've still got a long way to go, but it still feels great already...! #PlaySound3 #HappyHandsV3
 -> Branch5_3_2
 
 = Branch5_3_2
@@ -540,7 +540,7 @@ See you soon...! #ClayPiece3
 = Branch5_3_3
 Aw...you're so nice... #TurnOff #ThinkingScratchV3
 I haven't met anyone like you in a while...
-Anyone who cares...I mean...
+Anyone who cares...I mean... #PlaySound2
 I appreciate it... #WorriedHandsV3
 And I hope you know I'm feeling even better now... #HappyHandsV3
 -> Branch5_3_2
@@ -548,7 +548,7 @@ And I hope you know I'm feeling even better now... #HappyHandsV3
 = Branch5_3_4
 Glad to hear it...! #TurnOff #HappyHipsV3
 Wait a minute... #WorriedHandsV3
-Ah...! As long as you're helping out a bit, I don't care what you do...! #HappyHipsV3
+Ah...! As long as you're helping out a bit, I don't care what you do...! #PlaySound1 #HappyHipsV3
 Unless it's being tearing stuff down, being rude to people, or making everything generally worse.
 Hahaha...! that's not you though...! #HappyHandsV3
 -> Branch5_3_2
@@ -560,7 +560,7 @@ Hahaha...! that's not you though...! #HappyHandsV3
 === KlayPuzzle3 ===
 {playedMinigameKlay4:-> KlayPuzzle4}
 {varKlayWaiting4:-> KlayWaiting4}
-You're back, which can only mean one thing...! #TurnOff #SurprisedGaspV4
+You're back, which can only mean one thing...! #ChangeToKlay4 #TurnOff #SurprisedGaspV4
 Hey...I was just wondering... #ThinkingHandsV4
 Why are you doing all of this...?
 You don't need to... #WorriedShrugV4
@@ -576,7 +576,7 @@ But you still are, so I was just curious... #WorriedHandsV4
 = Branch5_4_1
 Huh... #TurnOff #ThinkingHandsV4
 Really...? #HappyGaspV4
-That's great...!
+That's great...! #PlaySound1
 You didn't do any of this, but it still is nice... #WorriedGaspV4
 Nice that you enjoy trying to make up for it somehow...
 Hm. I feel... #ThinkingHandsV4
@@ -585,7 +585,7 @@ Hm. I feel... #ThinkingHandsV4
 = Branch5_4_2
 ...hopeful...? #TurnOff #WorriedShrugV4
 Ah...! Maybe I could use this for something...! #HappyGaspV4
-A sculpture maybe...!
+A sculpture maybe...! #PlaySound3
 Ah...! You better get out of here before I start burying you in ideas...! #HappyHandsV4
 ~ varKlayWaiting4 = true
 I'll be here if you need me...! #ClayPiece4
@@ -596,13 +596,13 @@ My art...? #TurnOff #WorriedHandsV4
 You're doing this for me...just because...? #ThinkingHandsV4
 Huh, you are quite odd, human...
 I love that... #HappyGaspV4
-You're enjoyment of others and their skills makes me feel...
+You're enjoyment of others and their skills makes me feel... #PlaySound2
 -> Branch5_4_2
 
 = Branch5_4_4
 Have to? #TurnOff #WorriedShrugV4
 Are you on a secret mission or something...? #ThinkingGaspV4
-Is it your duty or something...?
+Is it your duty or something...? #PlaySound2
 Hm...how odd...very mysterious...
 Funnily enough I feel a bit inspired...maybe even... #HappyHandsV4
 -> Branch5_4_2
@@ -615,9 +615,9 @@ Funnily enough I feel a bit inspired...maybe even... #HappyHandsV4
 === KlayPuzzle4 ===
 {playedMinigameKlay5:-> KlayPuzzle5}
 {varKlayWaiting5:-> KlayWaiting5}
-Already...? #TurnOff #SurprisedGaspV5
+Already...? #ChangeToKlay5 #TurnOff #SurprisedGaspV5
 That one was quicker than the last...! #HappyHandsV5
-I didn't even finish writing down all of my ideas...!
+I didn't even finish writing down all of my ideas...! #PlaySound3
 Oh...! While you're here maybe you can listen to them...! #HappyGaspV5
 Okay...! Tell me which one you like best...!
 A portrait of an old man, highlighting what he's seen in such a long life... #ThinkingHandsV5
@@ -650,14 +650,14 @@ I like how you think...! #TurnOff #HappyHandsV5
 Now to decide what kind of hat... #ThinkingGaspV5
 A top hat...
 A jester hat...
-A strawberry shaped hat...
+A strawberry shaped hat... #PlaySound2
 -> Branch5_5_2
 
 = Branch5_5_4
 Ah...yes...! #TurnOff #SurprisedShrugV5
 Wildflowers... #WorriedHandsV5
 Oak trees with deer resting under them...
-Clear rivers flowing through open fields...
+Clear rivers flowing through open fields... #PlaySound2
 -> Branch5_5_2
 
 
@@ -667,9 +667,9 @@ Clear rivers flowing through open fields...
 === KlayPuzzle5 ===
 {playedMinigameKlay6:-> KlayPuzzle6}
 {varKlayWaiting6:-> KlayWaiting6}
-Over halfway done, human...! #TurnOff #SurprisedShrugV6
+Over halfway done, human...! #ChangeToKlay6 #TurnOff #SurprisedShrugV6
 You know, I was thinking a bit... #ThinkingHandsV6
-I'm starting to remember making art before the machine.
+I'm starting to remember making art before the machine. #PlaySound2
 Before the machine, I would just regrow parts of myself when I'd make art... #WorriedHandsV6
 I would draw until my hand was no more, but it would always be back the next day.
 But when I started making art for the machine...I just got smaller and smaller... #SadGaspV6
@@ -685,7 +685,7 @@ Why do you think that is...? #SadShrugV6
 = Branch5_6_1
 For myself... #TurnOff #WorriedHandsV6
 I did have a lot more fun when it wasn't a job... #SadShrugV6
-It wasn't just for me though...
+It wasn't just for me though... #PlaySound2
 I made stuff for other people to enjoy. #ThinkingHandsV6
 I wanted to see them happy. #HappyHandsV6
 Which...I guess is also for me... #SadGaspV6
@@ -700,7 +700,7 @@ Hm...
 
 = Branch5_6_6
 I was pretty conscious of that honestly... #TurnOff #WorriedGaspV6
-But maybe you're right.
+But maybe you're right. #PlaySound2
 Maybe it was just me hitting a brick wall. #SadHandsV6
 No clay pun intended. #SadShrugV6
 I don't know if you're a creative person, human... #WorriedHandsV6
@@ -718,7 +718,7 @@ At least until they can do something with it...? #SadHandsV6
 Maybe not.... #TurnOff #SadGaspV6
 I don't know...
 Maybe I'm not special around here for this, but I just keep asking myself why... #ThinkingShrugV6
-This place feels like it just...
+This place feels like it just... #PlaySound2
 ...takes. #SadHandsV6
 I'd heard from rumors others here before, but I realized they were true too late...
 Before I knew it, it had taken from me... #SadShrugV6
@@ -735,14 +735,14 @@ I used to just regularly make art for the company. #TurnOff #SadShrugV6
 Graphic design. #WorriedHandsV6
 I actually have a degree in graphic design. #ThinkingHandsV6
 I would make them advertisements and graphics for their website.
-I was an intern before they hired me fully.
+I was an intern before they hired me fully. #PlaySound2
 One day, one of the big boss guys... #SadGaspV6
 ...I don't even remember which one...
 ...he caught me sketching in the hall before my shift.
 He was really into it...
 So I guess I got...promoted...? #SadHandsV6
 Promoted to making things for the machine.
-He told me it was the future for artists like me....
+He told me it was the future for artists like me... #PlaySound2
 Whatever that's supposed to mean... #WorriedHandsV6
 I was the only artist ever involved.
 You know the rest from there, but it's embarrassing to think about now... #SadGaspV6
@@ -751,7 +751,7 @@ You know the rest from there, but it's embarrassing to think about now... #SadGa
 = Branch5_6_3
 Wow! Sorry...! #TurnOff #SurprisedGaspV6
 I'm probably distracting you from whatever it is you're actually doing around here. #WorriedHandsV6
-I'll be here still if you need me...! #HappyShrugV6
+I'll be here still if you need me...! #PlaySound1
 Or if you have more pieces...! #HappyHandsV6
 ~ varKlayWaiting6 = true
 I'll...quit bothering you for now...! #ClayPiece6
@@ -760,7 +760,7 @@ I'll...quit bothering you for now...! #ClayPiece6
 = Branch5_6_4
 Yeah I guess. #TurnOff #ThinkingShrugV6
 I should've seen it coming though. #WorriedHandsV6
-I got so used to putting myself into my art.
+I got so used to putting myself into my art. #PlaySound2
 I was happy to make stuff for other people.
 I never thought it was a possibility that they'd just want to take from me.
 A big corporation would never do that...! #SurprisedGaspV6
@@ -782,16 +782,16 @@ Can't I just admit that I want to know...?
 I know I might never, but still... #WorriedHandsV6
 I want to know so it doesn't happen again...
 Like...what if I can't give art to evil people...? #SurprisedGaspV6
-How will I know who's evil and who isn't!
+How will I know who's evil and who isn't! #PlaySound3
 And what if they just walk off with a piece of me forever...!
 I'd never get it back then...!
 I guess I'm overthinking things a bit... #ThinkingShrugV6
-You wouldn't happen to be evil...would you...?
+You wouldn't happen to be evil...would you...? #PlaySound2
 ... #WorriedHandsV6
 Hahaha...! #HappyHandsV6
 Joking...!
 If you were evil, I probably would've been squashed out when I was a blob...! #HappyShrugV6
-I think...I think I trust you...!
+I think...I think I trust you...! #PlaySound1
 ... #ThinkingHandsV6
 -> Branch5_6_3
 
@@ -800,7 +800,7 @@ Phew! #TurnOff #SurprisedShrugV6
 So you get it then...? #WorriedHandsV6
 Maybe even just in general...?
 I feel like they made everyone around here feel like that. #SadHandsV6
-I see people passing by but nobody ever interacts with each other around here...
+I see people passing by but nobody ever interacts with each other around here... #PlaySound2
 I feel like everyone thinks that anyone they talk to is gonna ask for something.
 Something selfish...#SadShrugV6
 I don't get that from you though...
@@ -810,7 +810,7 @@ When it comes down to it, everyone's either lonely, suspicious, or both... #Thin
 It's good that you can show people that not all humans are cause to feel like that... #ThinkingHandsV6
 People always did say that humans were supposed to take care of things...
 Supposed to...
-Maybe it's time to actually prove it...! #HappyHandsV6
+Maybe it's time to actually prove it...! #PlaySound3 #HappyHandsV6
 I'm not a human though, so I guess that's up to you then, huh...? #ThinkingHandsV6
 -> Branch5_6_3
 
@@ -820,12 +820,12 @@ Well at least we know the cause, huh...?
 And that means you're not a greedy human, right...? #WorriedShrugV6
 I mean, it would be kinda pointless to do all of this just to turn me into a blob again.
 Plus, I can make infinite pictures and art already...! #SurprisedGaspV6
-Why did they ever need a machine for that when I'm right here...!
+Why did they ever need a machine for that when I'm right here...! #PlaySound3
 I'm not greedy...! #ThinkingShrugV6
 I would've made whatever they wanted...!
 ...
 I guess that doesn't really matter anymore. #SadHandsV6
-Or...maybe it does I don't know...
+Or...maybe it does I don't know... #PlaySound2
 You'd think that the end of the world would teach people a lesson, but...
 ...I guess greed always exists. #SadGaspV6
 I don't think I'm greedy but maybe I am...?
@@ -842,7 +842,7 @@ Everyone always used to tell me...
 "So what's your backup option?"
 "What are you going to do once you're living in a box on the street?"
 ... #SadHandsV6
-You never asked me why I do art...
+You never asked me why I do art... #PlaySound2
 You just helped put me back together so I could do it again.
 If you were trying to be clever, I'll just say this... #ThinkingHandsV6
 I'll give you my art when I'm back together again...
@@ -858,23 +858,23 @@ You know the funny thing about things that only take...?
 They're doomed to crumble apart just like this old building. #SadShrugV6
 We're lucky that a few people like us are still around. #HappyHandsV6
 They tend to take that too.
-The good thing is, though, we can put it all back together.
+The good thing is, though, we can put it all back together. #PlaySound1
 I've been thinking... #ThinkingGaspV6
 You know, about what I'm gonna do when I'm fully myself again...?
 I think I'm gonna decorate this place. #HappyHandsV6
-I'll see who's around and what they can do.
+I'll see who's around and what they can do. #PlaySound3
 We can get everything looking nice again...
 In a way that gives back too. #HappyGaspV6
 I can picture it already...
 A museum... #ThinkingHandsV6
 A museum for the people out there that are like me.
-Like us...
+Like us... #PlaySound2
 -> Branch5_6_3
 
 = Branch5_6_12
 I don't know. #TurnOff #WorriedHandsV6
 It's easier to say after the fact.
-You have more clarity.
+You have more clarity. #PlaySound2
 But I understand... #ThinkingHandsV6
 You probably feel that way all the time right...? #SadHandsV6
 Humans are supposed to be really complicated.
@@ -885,7 +885,7 @@ You have motivations like me. #ThinkingHandsV6
 I make art...
 You make...weird robots to do everything for you...
 Because you want the future...
-...whenever or whatever the future is.
+...whenever or whatever the future is. #PlaySound2
 I guess your motivations usually just take in the end though, huh...? #WorriedShrugV6
 Or not...? I don't know...
 -> Branch5_6_3
@@ -895,17 +895,17 @@ I know. #TurnOff #WorriedHandsV6
 I get too excited when people are interested sometimes...
 I've tried to tone it down, but...art just makes me happy. #HappyShrugV6
 I guess I've had nobody to be excited about this stuff around... #ThinkingGaspV6
-I hope I can with you...
+I hope I can with you... #PlaySound3
 Or maybe that's stupid too. #ThinkingHandsV6
 I'm trying to learn my lesson...
-I can't be so trusting...
+I can't be so trusting... #PlaySound2
 But it's so hard when people do stuff like this for me...! #HappyGaspV6
 How will I ever be able to tell who I can actually trust with my sculptures again...? #SadGaspV6
 ...
 I guess I'll have to risk it again... #ThinkingShrugV6
 What else am I gonna do...right human...?
 You'll respect my art, won't you...? #ThinkingHandsV6
-Please...?
+Please...? #PlaySound2
 ...
 -> Branch5_6_3
 
@@ -917,7 +917,7 @@ Please...?
 === KlayPuzzle6 ===
 {playedMinigameKlay7:-> KlayPuzzle7}
 {varKlayWaiting7:-> KlayWaiting7}
-I'm doing some research, human... #TurnOff #HappyHipsV7
+I'm doing some research, human... #ChangeToKlay7 #TurnOff #HappyHipsV7
 What do you think the meaning of life is...?
 
 *To do things you enjoy and be around people you love. #TurnOn
@@ -930,14 +930,14 @@ What do you think the meaning of life is...?
 = Branch5_7_1
 Oh...! #TurnOff #SurprisedShrugV7
 What a nice answer...! #HappyHandsV7
-I thought you were gonna say to eventually die or something like that...!
+I thought you were gonna say to eventually die or something like that...! #PlaySound1
 Well, you've been here long enough so you must have fulfilled some of that, right...? #HappyShrugV7
 Maybe I'll try that out sometime...
 -> Branch5_7_2
 
 = Branch5_7_2
 I always thought the point of everything was to make art, but clearly there's a lot more out there... #TurnOff #ThinkingHipsV7
-You've given me a lot to think about.
+You've given me a lot to think about. #PlaySound3
 ~ varKlayWaiting7 = true
 Oh...and we're almost there, so keep finding those pieces of mine...! #ClayPiece7
 -> END
@@ -945,7 +945,7 @@ Oh...and we're almost there, so keep finding those pieces of mine...! #ClayPiece
 = Branch5_7_3
 Hm... #TurnOff #ThinkingHandsV7
 I do that a bit, don't I...? #WorriedHipsV7
-Maybe we have a lot more in common than I thought...
+Maybe we have a lot more in common than I thought... #PlaySound2
 Maybe making is also more than just something physical though...
 Maybe it's anything memorable...making experiences...making a legacy... #WorriedHandsV7
 -> Branch5_7_2
@@ -953,7 +953,7 @@ Maybe it's anything memorable...making experiences...making a legacy... #Worried
 = Branch5_7_4
 Interesting... #TurnOff #ThinkingHandsV7
 How morbid... #ThinkingShrugV7
-You must live like nothing matters...
+You must live like nothing matters... #PlaySound2
 Or like everything matters... #WorriedShurgV7
 I can't tell if that's sad or hopeful that maybe you'll live life to the fullest... #ThinkingHandsV7
 -> Branch5_7_2
@@ -965,11 +965,11 @@ I can't tell if that's sad or hopeful that maybe you'll live life to the fullest
 === KlayPuzzle7 ===
 {playedMinigameKlay8:-> KlayPuzzle8}
 {varKlayWaiting8:-> KlayWaiting8}
-I'm...almost back... #TurnOff #SurprisedShrugV8
-I feel like I could explode I have so much on my mind...!
+I'm...almost back... #ChangeToKlay8 #TurnOff #SurprisedShrugV8
+I feel like I could explode I have so much on my mind...! #PlaySound1
 I guess I could start, but I don't want to fall apart before I can put myself back together again... #ThinkingHandsV8
 I'll just have to wait for now.
-Talking might help ease the excitement though...
+Talking might help ease the excitement though... #PlaySound3
 It always does...! #HappyHandsV8
 Tell me...
 ...what is you favorite kind of art...? #ThinkingHandsV8
@@ -984,41 +984,41 @@ Tell me...
 = Branch5_8_1
 Hey...! #TurnOff #TurnOff #HappyHipsV8
 Are you trying to get on my good side or what...! #HappyShrugV8
-There's so much to do with the visual arts...!
+There's so much to do with the visual arts...! #PlaySound1
 Sculpture, drawing, graphic design, glassblowing...! #HappyShrugV8
 I love it...!
 To be honest though, I'm a bit...disloyal sometimes... #WorriedHandsV8
-I dabble in other arts too.
+I dabble in other arts too. #PlaySound3
 Something always has me coming back to the visual arts though. #HappyHandsV8
 -> Branch5_8_2
 
 = Branch5_8_2
 And now that a wave of ideas has been stifled thanks to you... #TurnOff #SurprisedHandsV8
 I can get back to thinking about it again...! #HappyHandsV8
-Or...word vomiting in my journal about everything I want to do...
+Or...word vomiting in my journal about everything I want to do... #PlaySound2
 ~ varKlayWaiting8 = true
 Either or...! #ClayPiece8
 -> END
 
 = Branch5_8_3
 Oh yeah...! #TurnOff #HappyShrugV8
-I'm not a big musician, but I dabble...!
+I'm not a big musician, but I dabble...! #PlaySound3
 It's so fun to create something that sounds pretty... #WorriedHandsV8
 There's something so magical about it...
 You should see an orchestra sometime...
 Or a metal concert... #SurprisedHipsV8
 Or...! #HappyHipsV8
-Ah...! Nevermind...! I just love music...!
+Ah...! Nevermind...! I just love music...! #PlaySound1
 -> Branch5_8_2
 
 = Branch5_8_4
 Oh...! Of course...! #TurnOff #SurprisedHipsV8
-Acting...!
+Acting...! #PlaySound1
 Props...!
 Set design...!
 There's so much that happens it's a wonder how anyone pulls it off...! #HappyShrugV8
 It's impressive...! #HappyHipsV8
-I'd do more of it if I had time...or if it wasn't the apocalypse...
+I'd do more of it if I had time...or if it wasn't the apocalypse... #PlaySound2
 I can't argue with that though...theater is definitely impressive... #ThinkingHipsV8
 -> Branch5_8_2
 
@@ -1029,11 +1029,11 @@ I can't argue with that though...theater is definitely impressive... #ThinkingHi
 === KlayPuzzle8 ===
 {playedMinigameKlay9:-> KlayPuzzle9}
 {varKlayWaiting9:-> KlayWaiting9}
-I don't know how you did it, but... #TurnOff #SurprisedShrugV9
+I don't know how you did it, but... #ChangeToKlay9 #TurnOff #SurprisedShrugV9
 ...I only have one more piece missing...! #HappyHipsV9
 It's funny because I stopped thinking about what I was going to make for a second... #ThinkingHipsV9
 And then I got this idea...
-What if I turned this place into a gallery...?
+What if I turned this place into a gallery...? #PlaySound3
 A museum even...? Just for art...? #ThinkingHandsV9
 
 *That sounds awesome! #TurnOn
@@ -1055,22 +1055,22 @@ I thought you were going to think it was stupid... #TurnOff
 
 = Branch5_9_3
 Ah...! #TurnOff #SurprisedHandsV9
-Now I'm not only gonna have art ideas, but I'm gonna have gallery ideas too...!
+Now I'm not only gonna have art ideas, but I'm gonna have gallery ideas too...! #PlaySound3
 This is quite the conundrum...! #HappyHipsV9
-Ah...! I'd leave before I start to talk your ear off about this...!
+Ah...! I'd leave before I start to talk your ear off about this...! #PlaySound2
 ~ varKlayWaiting9 = true
 I'm so excited...! #ClayPiece9
 ->END
 
 = Branch5_9_4
 I'll come up with something for that...! #TurnOff #SurprisedHipsV9
-Whatever it is, I'm going to make sure everything around here looks amazing...!
+Whatever it is, I'm going to make sure everything around here looks amazing...! #PlaySound1
 And I'm glad you believe in me... #ThinkingHandsV9
 -> Branch5_9_2
 
 = Branch5_9_5
 I'll just have to make the best gallery then...! #TurnOff #SurprisedHandsV9
-It's not like there's any competition anymore anyways...
+It's not like there's any competition anymore anyways... #PlaySound2
 I have a lot to think about I guess...! #HappyShrugV9
 How to make the best gallery with no other galleries around...hm... #HappyHandsV9
 -> Branch5_9_3
@@ -1081,8 +1081,8 @@ How to make the best gallery with no other galleries around...hm... #HappyHandsV
 
 === KlayPuzzle9 ===
 {savedKlay:-> KlayEnd}
-You...you did it! #TurnOff #SurprisedHipsV9
-I'm...an artist again...I'm me...
+You...you did it! #ChangeToKlay9 #TurnOff #SurprisedHipsV9
+I'm...an artist again...I'm me... #PlaySound1
 I'm...
 Klay...! #HappyShrugV9
 Nice to finally meet you... #HappyHandsV9
@@ -1098,7 +1098,7 @@ Nice to finally meet you... #HappyHandsV9
 Aw...! #TurnOff #ThinkingHandsV9
 I don't even know what to say...! #SurprisedHandsV9
 Oh...!
-I know...!
+I know...! #PlaySound3
 What would you like me to draw...? #HappyShrugV9
 
 *A picture of you and I together! #TurnOn
@@ -1111,7 +1111,7 @@ What would you like me to draw...? #HappyShrugV9
 = Branch5_10_8
 Oh...! So much...! #TurnOff #SurprisedHandsV9
 I can see this right here as the entryway... #HappyHipsV9
-The cafeteria would be a great grand hall...
+The cafeteria would be a great grand hall... #PlaySound2
 Those gardens are going to be perfect for a reflection area...
 Oh! And we'll tear down those long hallways and hang up paintings from everyone who visits...! #SurprisedShrugV9
 
@@ -1124,10 +1124,10 @@ Oh! And we'll tear down those long hallways and hang up paintings from everyone 
 
 = Branch5_10_13
 Oh...! Come on...! #TurnOff #HappyShrugV9
-I haven't had fun like this in a long while...!
+I haven't had fun like this in a long while...! #PlaySound3
 Let me have my moment...! #HappyHandsV9
 After all, I can't take too long here...
-I've got art to get back to...!
+I've got art to get back to...! #PlaySound1
 
 *What are you going to make first? #TurnOn
 -> Branch5_10_14
@@ -1138,7 +1138,7 @@ I've got art to get back to...!
 
 = Branch5_10_2
 What a great idea...! #TurnOff #SurprisedHipsV9
-Alright here I go...
+Alright here I go... #PlaySound2
 Stay still... #ThinkingHandsV9
 Okay now tilt your head a bit...
 Let me get a closer look...
@@ -1153,8 +1153,8 @@ Done...! #HappyHipsV9
 I hope you like it...! #TurnOff #HappyShrugV9
 You can keep it...
 It's a thanks from me to you... #HappyHipsV9
-It's hard to find people like you, but I'm glad I did...
-If you ever want more art, you know where to find me...!
+It's hard to find people like you, but I'm glad I did... #PlaySound2
+If you ever want more art, you know where to find me...! #PlaySound3
 I'd make unlimited art just for you...! #HappyShrugV9
 ~ savedKlay = true
 See you, friend! #saved5
@@ -1163,14 +1163,14 @@ See you, friend! #saved5
 = Branch5_10_5
 You know exactly what I like...! #TurnOff #SurprisedHipsV9
 Alright here I go... #ThinkingHandsV9
-Hm...more orange or more yellow...?
+Hm...more orange or more yellow...? #PlaySound2
 I think I'm going to go with crows...crows are cool...
 Just a few more...
 -> Branch5_10_3
 
 = Branch5_10_6
 Really?! #TurnOff #SurprisedHipsV9
-Okay...! I won't let you down...! #HappyHipsV9
+Okay...! I won't let you down...! #PlaySound3 #HappyHipsV9
 Alright here I go... #ThinkingHandsV9
 Yeah...some of these...
 A bit of green...
@@ -1182,15 +1182,15 @@ Done...! #HappyHandsV9
 = Branch5_10_7
 It's this building...before it started to get dull... #TurnOff #ThinkingHipsV9
 What we can make it again...! #HappyHipsV9
-At least we'll make something better...!
+At least we'll make something better...! #PlaySound1
 -> Branch5_10_4
 
 = Branch5_10_9
 Exactly...! #TurnOff #HappyShrugV9
-I'll have to get to know everyone around here!
+I'll have to get to know everyone around here! #PlaySound3
 Maybe there are some fellow artists... #ThinkingHandsV9
 ...or aspiring ones even...! #HappyHandsV9
-Then maybe when people hear about how we're cleaning everything up...more will come...!
+Then maybe when people hear about how we're cleaning everything up...more will come...! #PlaySound2
 Oh..! That would be lovely, wouldn't it...? #HappyHipsV9
 -> Branch5_10_10
 
@@ -1201,10 +1201,10 @@ I made something for you...! #SurprisedHipsV9
 
 = Branch5_10_11
 No...! A museum...! A gallery...! #TurnOff #SurprisedHipsV9
-Made up of everyone's art...not just mine...!
+Made up of everyone's art...not just mine...! #PlaySound3
 It would really liven everything up, wouldn't it...? #ThinkingHandsV9
 It would make a great community gathering place...! I can see it already...! #HappyHandsV9
-Maybe you'll be around to see it someday...
+Maybe you'll be around to see it someday... #PlaySound2
 We could even put something of yours up...! #HappyShrugV9
 -> Branch5_10_10
 
@@ -1213,14 +1213,14 @@ You'd be surprised who comes around once the word spreads far enough...! #TurnOf
 Did you really think you were the first human to visit...? #ThinkingHandsV9
 That's not the point though...
 The point is...this place could be a gallery...! #HappyHipsV9
-No more gray walls and collapsing roof beams...!
+No more gray walls and collapsing roof beams...! #PlaySound3
 It'll be covered in art from all over..! Maybe you could even put something up...! #SurprisedHipsV9
 -> Branch5_10_10
 
 = Branch5_10_14
 I figured you may want to start your own gallery...! #TurnOff #SurprisedHandsV9
 I think I have a few ideas... #ThinkingHipsV9
-That's thanks to you of course....
+That's thanks to you of course... #PlaySound2
 Actually, I did have something already made for you...
 You know, since I didn't know if you'd be sticking around for me to turn this place into one... #HappyHipsV9
 -> Branch5_10_7
@@ -1228,7 +1228,7 @@ You know, since I didn't know if you'd be sticking around for me to turn this pl
 = Branch5_10_15
 Trust me, I'll remember this forever...especially when I'm making my very own gallery here...! #TurnOff #HappyHandsV9
 Of course I am...! #HappyShrugV9
-I can do what I enjoy again...!
+I can do what I enjoy again...! #PlaySound1
 That's just as priceless as a friend like you... #HappyHandsV9
 -> Branch5_10_10
 
@@ -1236,7 +1236,7 @@ That's just as priceless as a friend like you... #HappyHandsV9
 I'm completely happy with that too... #TurnOff #HappyHandsV9
 I don't think I could've done that forever... #ThinkingHipsV9
 ...
-If not before, then definitely it is now...! #HappyShrugV9
+If not before, then definitely it is now...! #PlaySound2 #HappyShrugV9
 I'm glad I'm not a sad little blob anymore. #HappyHandsV9
 -> Branch5_10_10
 
@@ -1289,7 +1289,7 @@ Those pieces are around here somewhere! Keep your eyes peeled! #HappyHandsV9
 
 === KlayEnd ===
 Oh! Hi! #HappyHipsV9
-Come back to me! Come back to me! #SurprisedShrugV9
+Come back to me! Come back to me! #PlaySound2 #SurprisedShrugV9
 I'm working on my next masterpiece! #HappyHandsV9
 ->END
 

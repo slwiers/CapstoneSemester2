@@ -6,6 +6,7 @@ using Ink.Runtime;
 using UnityEngine.EventSystems;
 using UnityEngine.UI; // added for Button/Text
 using UnityEngine.SceneManagement;
+using static Unity.VisualScripting.Member;
 
 
 public class DialogueManager : MonoBehaviour
@@ -56,6 +57,7 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject roomCycle1;
     public GameObject roomCycle2;
+    public GameObject gameDirections;
 
     [SerializeField] private float typingSpeed = 0.04f;
     private Coroutine displyLineCororoutine;
@@ -72,6 +74,16 @@ public class DialogueManager : MonoBehaviour
 
     public WinCondition winCondition;
 
+    public RoomStateManager roomStateManager;
+
+    public KlaySpriteChange klaySpriteChange;
+
+    public AudioClip[] voicesArray;
+    public AudioSource audioSource;
+
+    private bool playedsound1 = true;
+    private bool playedsound2 = true;
+    private bool playedsound3 = true;
     private void Awake()
     {
         if (instance != null)
@@ -130,6 +142,7 @@ public class DialogueManager : MonoBehaviour
 
         roomCycle1.SetActive(false);
         roomCycle2.SetActive(false);
+        gameDirections.SetActive(false);
 
         // show the first line (require a click to advance to each subsequent line)
         ShowNextLine();
@@ -146,6 +159,7 @@ public class DialogueManager : MonoBehaviour
 
         roomCycle1.SetActive(true);
         roomCycle2.SetActive(true);
+        gameDirections.SetActive(true);
     }
 
     // made public so other classes (e.g. triggers) can advance the story
@@ -298,6 +312,7 @@ public class DialogueManager : MonoBehaviour
                     }
                     if (tags[0] == "introtrans")
                     {
+                        loadingScreen.SetActive(true);
                         levelLoader.LoadLevel(6);
                         Debug.Log("Scene Loaded");
 
@@ -471,8 +486,121 @@ public class DialogueManager : MonoBehaviour
                         instance.savedNPC5 = true;
                         Debug.Log("Saved Character 5");
                     }
+                    if (tags[0] == "FoxesPuzzle1")
+                    {
+                        levelLoader.LoadLevel(18);
+                        Debug.Log("Scene Loaded");
 
-                }
+                    }
+                    if (tags[0] == "FoxesPuzzle2")
+                    {
+                        levelLoader.LoadLevel(19);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if (tags[0] == "FoxesPuzzle3")
+                    {
+                        levelLoader.LoadLevel(20);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if(tags[0] == "DamDestroy")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.valeDamDown = true;
+                    }
+                    if (tags[0] == "MatrixUp")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.matrixUp = true;
+                    }
+                    if (tags[0] == "MatrixDown")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.matrixUp = false;
+                    }
+                    if (tags[0] == "ChangeToKlay2")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV2 = true;
+                        Debug.Log("Tis True");
+                    }
+                    if (tags[0] == "ChangeToKlay3")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV3 = true;
+                        instance.changeKlayV2 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay4")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV4 = true;
+                        instance.changeKlayV3 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay5")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV5 = true;
+                        instance.changeKlayV4 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay6")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV6 = true;
+                        instance.changeKlayV5 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay7")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV7 = true;
+                        instance.changeKlayV6 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay8")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV8 = true;
+                        instance.changeKlayV7 = false;
+                    }
+                    if (tags[0] == "ChangeToKlay9")
+                    {
+                        RoomStateManager instance = FindAnyObjectByType<RoomStateManager>();
+                        instance.changeKlayV9 = true;
+                        instance.changeKlayV8 = false;
+                    }
+                    if (tags[0] == "PlaySound1")
+                    {
+                        playedsound1 = false;
+                        if (!playedsound1)
+                        {
+                            audioSource.clip = voicesArray[0];
+                            audioSource.PlayOneShot(audioSource.clip);
+                            audioSource.Play();
+                            playedsound1 = true;
+                        }
+                    }
+                    if (tags[0] == "PlaySound2")
+                    {
+                        playedsound2 = false;
+                        if (!playedsound2)
+                        {
+                            audioSource.clip = voicesArray[1];
+                            audioSource.PlayOneShot(audioSource.clip);
+                            audioSource.Play();
+                            playedsound2 = true;
+                        }
+                    }
+                    if (tags[0] == "PlaySound3")
+                    {
+                        playedsound3 = false;
+                        if (!playedsound3)
+                        {
+                            audioSource.clip = voicesArray[2];
+                            audioSource.PlayOneShot(audioSource.clip);
+                            audioSource.Play();
+                            playedsound3 = true;
+                        }
+                    }
+        }
     }
 
     // build and show choice buttons for current choices
