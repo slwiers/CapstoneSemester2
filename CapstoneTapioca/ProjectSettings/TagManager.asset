@@ -16,6 +16,7 @@ TagManager:
   - Clay
   - Matrix
   - Dam
+  - lastpiece
   layers:
   - Default
   - TransparentFX
