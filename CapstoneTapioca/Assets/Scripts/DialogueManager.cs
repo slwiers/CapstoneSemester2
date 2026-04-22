@@ -84,6 +84,8 @@ public class DialogueManager : MonoBehaviour
     private bool playedsound1 = true;
     private bool playedsound2 = true;
     private bool playedsound3 = true;
+
+    public GameObject loadingObject;
     private void Awake()
     {
         if (instance != null)
@@ -312,7 +314,7 @@ public class DialogueManager : MonoBehaviour
                     }
                     if (tags[0] == "introtrans")
                     {
-                        loadingScreen.SetActive(true);
+                        loadingObject.SetActive(true);
                         levelLoader.LoadLevel(6);
                         Debug.Log("Scene Loaded");
 
