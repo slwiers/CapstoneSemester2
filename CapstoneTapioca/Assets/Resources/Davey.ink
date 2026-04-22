@@ -907,7 +907,8 @@ What do you say? #PlaySound3
 I'll be around if you manage to figure it out.
 I'm just really excited that you found this and need to sit with it for a bit.
 ~playedMinigameDavey2 = true
-Thank you, human. #WorriedStand
+Thank you, human.
+#PlantPuzzle1
 -> END
 
 
@@ -998,7 +999,8 @@ I think it still needs a bit more sun. #PlaySound3
 You did a great job before though, so I trust you again! #HappyStand
 And thank you for talking things through with me...
 ~playedMinigameDavey3 = true
-It is helping...I promise. #WorriedLean
+It is helping...I promise.
+#PlantPuzzle2
 -> END
 
 = Branch1_3_4
@@ -1122,7 +1124,8 @@ You showed me that we're not really right for each other. #WorriedLean
 I think I need some space for now too.
 I'll let you know how it goes. ##PlaySound2 WorriedStand
 ~playedMinigameDavey4 = true
-I'll see you real soon. #saved1
+I'll see you real soon.
+#PlantPuzzle3
 -> END
 
 = Branch1_4_4
@@ -1165,7 +1168,7 @@ I'll just be photosynthesizing for a bit.
 I think I've needed a break like this for a while. #HappyStand
 The sadness might be heavy, but giving it some air makes it so much lighter. #PlaySound2
 ~savedDavey = true
-Goodbye, human.
+Goodbye, human. #saved1
 -> END
 
 === DaveyWaiting ===

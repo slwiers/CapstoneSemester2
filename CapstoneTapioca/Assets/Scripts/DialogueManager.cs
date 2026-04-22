@@ -600,6 +600,24 @@ public class DialogueManager : MonoBehaviour
                             playedsound3 = true;
                         }
                     }
+                    if (tags[0] == "PlantPuzzle1")
+                    {
+                        levelLoader.LoadLevel(21);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if (tags[0] == "PlantPuzzle2")
+                    {
+                        levelLoader.LoadLevel(22);
+                        Debug.Log("Scene Loaded");
+
+                    }
+                    if (tags[0] == "PlantPuzzle3")
+                    {
+                        levelLoader.LoadLevel(23);
+                        Debug.Log("Scene Loaded");
+
+                    }
         }
     }
 

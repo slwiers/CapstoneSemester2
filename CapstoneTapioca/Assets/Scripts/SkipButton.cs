@@ -29,6 +29,11 @@ public class SkipButton : MonoBehaviour
         YouWin.SetActive(true); //sets the text active
         StartCoroutine(waitForSceneChangePipes()); //calls the timer function and waits to change the scene for a few seconds
     }
+    public void PlantWin()
+    {
+        YouWin.SetActive(true); //sets the text active
+        StartCoroutine(waitForSceneChangePlant()); //calls the timer function and waits to change the scene for a few seconds
+    }
 
     private IEnumerator waitForSceneChangeClock() //function for the timer to be called as
     {
@@ -51,6 +56,13 @@ public class SkipButton : MonoBehaviour
         yield return new WaitForSeconds(delayTime); //starts the timer
         {
             SceneManager.LoadScene("DamBeachRoom3"); //loads the next scene
+        }
+    }
+    private IEnumerator waitForSceneChangePlant() //function for the timer to be called as
+    {
+        yield return new WaitForSeconds(delayTime); //starts the timer
+        {
+            SceneManager.LoadScene("CourtyardRoom4"); //loads the next scene
         }
     }
 }

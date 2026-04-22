@@ -13,7 +13,6 @@ public class LightManager : MonoBehaviour
     private List<Transform> pieces;
     private int emptyLocation;
     public int size;
-    private bool shuffling = false;
 
     public float delayTime = 5f; //amount of time the timer is going to wait (change this in engine if you need to change it)
     public GameObject YouWin; //the text to appear upon winning
@@ -140,13 +139,6 @@ public class LightManager : MonoBehaviour
             }
         }
         return true;
-    }
-
-    private IEnumerator WaitShuffle(float duration)
-    {
-        yield return new WaitForSeconds(duration);
-        Shuffle();
-        shuffling = false;
     }
 
     // Brute force shuffling.

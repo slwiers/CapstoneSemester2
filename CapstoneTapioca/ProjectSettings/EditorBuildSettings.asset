@@ -68,6 +68,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MinePuzzle3.unity
     guid: f50ef37ff77829b46a116197dfdaa1dc
+  - enabled: 1
+    path: Assets/Scenes/LightPuzzle1.unity
+    guid: 9ec6180d140825442a83bfebf107ce67
+  - enabled: 1
+    path: Assets/Scenes/LightPuzzle2.unity
+    guid: c6a6986e837747243820176ae66f24f7
+  - enabled: 1
+    path: Assets/Scenes/LightPuzzle3.unity
+    guid: d36603802ae89d74ebec8ecf822cafc8
   - enabled: 0
     path: Assets/Scenes/WaterPuzzleZ.unity
     guid: 2ee62e406c6d5cd41b6534373ee6d95c
