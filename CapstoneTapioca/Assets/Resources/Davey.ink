@@ -763,6 +763,7 @@ If I'll be able to get that... #DPlant
 
 
 === DaveyPuzzle1 ===
+{playedMinigameDavey2:-> DaveyPuzzle2}
 ... #TurnOff
 You found it...! #HappyMotion
 I haven't seen it in so long... #PlaySound2
@@ -905,6 +906,7 @@ And sun means helping this little guy out! #HappyMotion
 What do you say? #PlaySound3
 I'll be around if you manage to figure it out.
 I'm just really excited that you found this and need to sit with it for a bit.
+~playedMinigameDavey2 = true
 Thank you, human. #WorriedStand
 -> END
 
@@ -913,6 +915,7 @@ Thank you, human. #WorriedStand
 
 
 === DaveyPuzzle2 ===
+{playedMinigameDavey3:-> DaveyPuzzle3}
 It's working! #TurnOff #HappyMotion
 Look how much better it looks!
 I can't believe it...! #PlaySound2
@@ -994,6 +997,7 @@ If you'll still stick around that is.
 I think it still needs a bit more sun. #PlaySound3
 You did a great job before though, so I trust you again! #HappyStand
 And thank you for talking things through with me...
+~playedMinigameDavey3 = true
 It is helping...I promise. #WorriedLean
 -> END
 
@@ -1078,6 +1082,7 @@ For Clove...
 
 
 === DaveyPuzzle3 ===
+{playedMinigameDavey4:-> DaveyPuzzle3Solved}
 When Clove and I were together, our favorite thing to do was go to the beach. #TurnOff  #WorriedStand
 We'd walk down a path that used to be behind me.
 Just picture it without the walls... #PlaySound2 #ThinkingStand
@@ -1116,6 +1121,7 @@ I'm breaking up with L0V3. #NeutralLean
 You showed me that we're not really right for each other. #WorriedLean
 I think I need some space for now too.
 I'll let you know how it goes. ##PlaySound2 WorriedStand
+~playedMinigameDavey4 = true
 I'll see you real soon. #saved1
 -> END
 
@@ -1136,6 +1142,7 @@ In fact, I think I'll splash him first thing when I die...! #HappyStand
 
 
 === DaveyPuzzle3Solved ===
+{savedDavey:-> DaveySaved}
 Human! #TurnOff #HappyLean
 I did it! #PlaySound2
 You did it!
@@ -1157,6 +1164,7 @@ I'll be around here if you ever want to stop by again.
 I'll just be photosynthesizing for a bit.
 I think I've needed a break like this for a while. #HappyStand
 The sadness might be heavy, but giving it some air makes it so much lighter. #PlaySound2
+~savedDavey = true
 Goodbye, human.
 -> END
 
@@ -1165,6 +1173,11 @@ Goodbye, human.
 I wonder what the plant will look like now... #ThinkingMotion
 ->END
 
+=== DaveySaved ===
+Hey there! #TurnOff #HappyLean
+Come! Come!
+I was just photosynthesizing! #HappyStand
+ -> END
 
 
 

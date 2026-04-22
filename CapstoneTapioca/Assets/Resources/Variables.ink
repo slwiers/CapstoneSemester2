@@ -36,4 +36,8 @@ VAR playedMinigameFoxes3 = false
 VAR savedFoxes = false
 
 VAR playedMinigameDavey1 = false
+VAR playedMinigameDavey2 = false
+VAR playedMinigameDavey3 = false
+VAR playedMinigameDavey4 = false
+VAR savedDavey = false
 VAR varDaveyWaiting = false
