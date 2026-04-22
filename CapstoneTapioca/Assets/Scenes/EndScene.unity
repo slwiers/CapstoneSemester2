@@ -4674,6 +4674,10 @@ MonoBehaviour:
   winCondition: {fileID: 0}
   roomStateManager: {fileID: 0}
   klaySpriteChange: {fileID: 0}
+  voicesArray: []
+  audioSource: {fileID: 0}
+  loadingObject: {fileID: 0}
+  forceClose: {fileID: 848928267}
 --- !u!114 &1390195490
 MonoBehaviour:
   m_ObjectHideFlags: 0

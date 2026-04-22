@@ -86,6 +86,7 @@ public class DialogueManager : MonoBehaviour
     private bool playedsound3 = true;
 
     public GameObject loadingObject;
+    public GameObject forceClose;
     private void Awake()
     {
         if (instance != null)

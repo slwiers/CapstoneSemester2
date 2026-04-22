@@ -9,9 +9,8 @@ Maybe I can help them too.
 I can't change what happened here, but...
 I'll do what I can now to make things right.
 
-* [Exit the datacenter.]
-->Exit
+* [Exit the datacenter.]#WakeyWakey
+->End
 
-=Exit
-#WakeyWakey
-->END
+=End
+-> END
